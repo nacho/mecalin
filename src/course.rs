@@ -5,7 +5,6 @@ pub struct LessonStep {
     pub id: u32,
     pub text: String,
     pub description: Option<String>,
-    pub target_keys: Vec<String>,
     #[serde(default = "default_repetitions")]
     pub repetitions: u32,
     #[serde(default)]
@@ -22,7 +21,6 @@ pub struct Lesson {
     pub id: u32,
     pub title: String,
     pub description: String,
-    pub target_keys: Vec<String>,
     pub steps: Vec<LessonStep>,
     #[serde(default)]
     pub introduction: bool,

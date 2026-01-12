@@ -4,7 +4,6 @@
       "id": 0,
       "title": "Bienvenido a Mecalin",
       "description": "Bienvenido a Mecalin, ¡tu tutor para aprender a teclear! This course will teach you touch typing step by step. You'll start with the home row keys and gradually learn all the keys on the keyboard. Este cursor te enseñará a teclear paso a paso. Empezarás por la fila principal de teclas e irás aprendendiendo todas las teclas del teclado gradualmente. Toma tu tiempo, practica regularmente y te convertirás rápidamente en un experto tecleando",
-      "target_keys": [],
       "steps": [],
       "introduction": true
     },
@@ -12,146 +11,125 @@
       "id": 1,
       "title": "Primera parte de la fila base",
       "description": "Aprende parte de la fila base: A, S, D, K, L, Ñ",
-      "target_keys": ["a", "s", "d", "k", "l", "ñ"],
       "steps": [
         {
           "id": 0,
           "text": "",
           "description": "Aquí empieza la primera lección. Fíjese en los errores para no repetirlos. En esta lección aprenderá las teclas a, s, d, k, l, ñ",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "introduction": true
         },
         {
           "id": 1,
           "text": "a",
           "description": "Pulse la tecla 'a' con el dedo meñique de la mano izquierda",
-          "target_keys": ["a"],
           "repetitions": 1
         },
         {
           "id": 2,
           "text": "ñ",
           "description": "No olvide colocar los dedos sobre la línea base y los pulgares sobre la barra espaciadora. Debe acostumbrarse a adoptar la posición correcta en todas las sesiones. Pulse la tecla 'ñ' con el dedo meñique de la mano derecha",
-          "target_keys": ["ñ"],
           "repetitions": 1
         },
         {
           "id": 3,
           "text": "sl",
           "description": "Mire la pantalla y no el teclado. Pulse la tecla 's' con el dedo anular de la mano izquierda y la tecla 'l' con el de la mano derecha",
-          "target_keys": ["s", "l"],
           "repetitions": 1
         },
         {
           "id": 4,
           "text": "aaa ñññ aña ñañ",
           "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
-          "target_keys": ["a", "ñ"],
           "repetitions": 1
         },
         {
           "id": 5,
           "text": "sss lll sls lsl",
           "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
-          "target_keys": ["s", "l"],
           "repetitions": 1
         },
         {
           "id": 6,
           "text": "añsl ñals",
           "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
-          "target_keys": ["a", "s", "l", "ñ"],
           "repetitions": 1
         },
         {
           "id": 7,
           "text": "slña lsañ",
           "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
-          "target_keys": ["a", "s", "l", "ñ"],
           "repetitions": 1
         },
         {
           "id": 8,
           "text": "dk",
           "description": "Ahora vamos a añadir dos teclas para los dedos corazón; con la mano izquierda la tecla 'd' y con la derecha la 'k'",
-          "target_keys": ["d", "k"],
           "repetitions": 1
         },
         {
           "id": 9,
           "text": "ddd kkk dkd kdk",
           "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
-          "target_keys": ["d", "k"],
           "repetitions": 1
         },
         {
           "id": 10,
           "text": "asd dsa klñ ñlk",
           "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 1
         },
         {
           "id": 11,
           "text": "adkñ sdkl",
           "description": "Los dedos deben volver a su posición después de pulsar cada tecla",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 1
         },
         {
           "id": 12,
           "text": "dañk dslk",
           "description": "Los dedos deben volver a su posición después de pulsar cada tecla",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 1
         },
         {
           "id": 13,
           "text": "adñk dakñ",
           "description": "Los dedos deben volver a su posición después de pulsar cada tecla",
-          "target_keys": ["a", "d", "k", "ñ"],
           "repetitions": 1
         },
         {
           "id": 14,
           "text": "lksd klds",
           "description": "Pulse las teclas con los dedos correctos, aunque ahora le parezca que es más lento",
-          "target_keys": ["s", "d", "k", "l"],
           "repetitions": 1
         },
         {
           "id": 15,
           "text": "añsldk ñalskd",
           "description": "Pulse las teclas con los dedos correctos, aunque ahora le parezca que es más lento",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 1
         },
         {
           "id": 16,
           "text": "asdklñ ñlkdsa",
           "description": "Ahora los ejercicios hay que repetirlos 2 veces sin errores para poder pasar al siguiente",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 17,
           "text": "añsldk kdlsña",
           "description": "Ahora los ejercicios hay que repetirlos 2 veces sin errores para poder pasar al siguiente",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 18,
           "text": "dkslañ ñalskd",
           "description": "No se impaciente. No corra",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 19,
           "text": "",
           "description": "Ya ha terminado la primera lección y ha hecho los primeros ejercicios",
-          "target_keys": [],
           "introduction": true
         }
       ]
@@ -160,209 +138,179 @@
       "id": 2,
       "title": "Fila base",
       "description": "Aprende las teclas de la fila base: A, S, D, F, G, H, J, K, L, Ñ",
-      "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ"],
       "steps": [
         {
           "id": 0,
           "text": "",
           "description": "Aquí empieza la segunda lección. Vamos a aprender el resto de la línea base y hacer una serie de ejercicios con ella. Recuerde que no debe mirar el teclado, sino la pantalla de su ordenador",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ"],
           "introduction": true
         },
         {
           "id": 1,
           "text": "f",
           "description": "Pulse la tecla 'f' con el dedo índice de la mano izquierda",
-          "target_keys": ["f"],
           "repetitions": 1
         },
         {
           "id": 2,
           "text": "fj",
           "description": "Pulse la tecla 'f' con el dedo índice de la mano izquierda y la tecla 'j' con el de la mano derecha",
-          "target_keys": ["f", "j"],
           "repetitions": 1
         },
         {
           "id": 3,
           "text": "fff jjj fjf jfj",
           "description": "Debe realizar cada ejercicio dos veces sin errores para poder pasar al siguiente ejercicio",
-          "target_keys": ["f", "j"],
           "repetitions": 2
         },
         {
           "id": 4,
           "text": "asdf ñlkj",
           "description": "Debe realizar cada ejercicio dos veces sin errores para poder pasar al siguiente ejercicio",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 5,
           "text": "fdsa jklñ",
           "description": "Vigile la posición de los dedos al terminar cada pulsación",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 6,
           "text": "afjñ ljsf fdjk",
           "description": "Vigile la posición de los dedos al terminar cada pulsación",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 7,
           "text": "fñja djkf jslf",
           "description": "¿Está pulsando la barra espaciadora con el pulgar adecuado?",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 8,
           "text": "añsldkfj ñalskdjf",
           "description": "¿Está pulsando la barra espaciadora con el pulgar adecuado?",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 9,
           "text": "jfkdlsña fjdkslañ",
           "description": "No mire el teclado, sólo la pantalla de su ordenador",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 10,
           "text": "gh",
           "description": "Dos teclas más para los mismos dedos. Con el índice de la mano izquierda la tecla 'g' y con el de la mano derecha la 'h'",
-          "target_keys": ["g", "h"],
           "repetitions": 1
         },
         {
           "id": 11,
           "text": "ggg hhh ghg hgh",
           "description": "Recuerde que debe mantener la postura correcta. La espalda recta, las manos sobre la línea base y los pulgares sobre la barra espaciadora. Continúe con más ejercicios...",
-          "target_keys": ["g", "h"],
           "repetitions": 2
         },
         {
           "id": 12,
           "text": "gjfh hfjg gkhd dhkg",
           "description": "Recuerde que debe mantener la postura correcta. La espalda recta, las manos sobre la línea base y los pulgares sobre la barra espaciadora. Continúe con más ejercicios...",
-          "target_keys": ["d", "f", "g", "h", "j", "k"],
           "repetitions": 2
         },
         {
           "id": 13,
           "text": "añsldkfjgh hgjfkdlsña",
           "description": "Desplace sólo los dedos índices, no toda la mano",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 14,
           "text": "ghfjdkslañ ñalskdjfhg",
           "description": "Desplace sólo los dedos índices, no toda la mano",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 15,
           "text": "´",
           "description": "Otra tecla de esta línea '´'. Se pulsa con el dedo meñique de la mano derecha, igual que la tecla 'ñ', pero recuerde que no debe desplazar la mano, sólo el dedo",
-          "target_keys": ["´"],
           "repetitions": 1
         },
         {
           "id": 16,
           "text": "añ´ sl´ dk´ fj´ gh´",
           "description": "Otra tecla de esta línea '´'. Se pulsa con el dedo meñique de la mano derecha, igual que la tecla 'ñ', pero recuerde que no debe desplazar la mano, sólo el dedo",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´"],
           "repetitions": 1
         },
         {
           "id": 17,
           "text": "ña´ ls´ kd´ jf´ hg´",
           "description": "Otra tecla de esta línea '´'. Se pulsa con el dedo meñique de la mano derecha, igual que la tecla 'ñ', pero recuerde que no debe desplazar la mano, sólo el dedo",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´"],
           "repetitions": 1
         },
         {
           "id": 18,
           "text": "çÇ",
           "description": "Otra tecla de esta línea base sería 'ç'. Se pulsa con el dedo meñique de la mano derecha, debiendo tener pulsada la tecla SHIFT si quiere pulsarla en mayúsculas 'Ç'",
-          "target_keys": ["ç"],
           "repetitions": 1
         },
         {
           "id": 19,
           "text": "´ña ´lsç ´kd ´jf ´hg",
           "description": "Los dedos deben volver a la línea base después de pulsar cada tecla",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´", "ç"],
           "repetitions": 1
         },
         {
           "id": 20,
           "text": "'añ 'sl 'dk 'fj 'ghç",
           "description": "Los dedos deben volver a la línea base después de pulsar cada tecla",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´", "ç"],
           "repetitions": 1
         },
         {
           "id": 21,
           "text": "as ñl lñ sa",
           "description": "Y ahora unos ejercicios de repaso de las dos primeras lecciones",
-          "target_keys": ["a", "s", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 22,
           "text": "adgjl´ ñkhfs",
           "description": "Y ahora unos ejercicios de repaso de las dos primeras lecciones",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´"],
           "repetitions": 2
         },
         {
           "id": 23,
           "text": "sfhkñ ´ljgda",
           "description": "No olvide todas las indicaciones que le damos a lo largo de la lección",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´"],
           "repetitions": 2
         },
         {
           "id": 24,
           "text": "slañ ñasl aghñ",
           "description": "No olvide todas las indicaciones que le damos a lo largo de la lección",
-          "target_keys": ["a", "s", "g", "h", "l", "ñ"],
           "repetitions": 2
         },
         {
           "id": 25,
           "text": "fñjaç ajñfç gjhf",
           "description": "¿Estás los pulgares en su posición?",
-          "target_keys": ["a", "f", "g", "h", "j", "ñ", "ç"],
           "repetitions": 2
         },
         {
           "id": 26,
           "text": "asdfghjklñ´ç ´ñlkjhgfdsaç",
           "description": "Recuerde tener las manos en una posición relajada",
-          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´", "ç"],
           "repetitions": 2
         },
         {
           "id": 27,
           "text": "asdsa ´ñlklñ´",
           "description": "Recuerde tener las manos en una posición relajada",
-          "target_keys": ["a", "s", "d", "k", "l", "ñ", "´"],
           "repetitions": 2
         },
         {
           "id": 28,
           "text": "",
           "description": "¡Enhorabuena! Ha acabado la segunda lección",
-          "target_keys": [],
           "introduction": true
         }
       ]
@@ -371,160 +319,137 @@
       "id": 3,
       "title": "Primera parte fila dominante",
       "description": "Aprende las teclas de la fila dominante: Q, W, E, I, O, P",
-      "target_keys": [],
       "steps": [
         {
           "id": 0,
           "text": "",
           "description": "Aquí empieza la tercera lección. Vamos a empezar con la línea dominante, que es como se llama a la que está sobre la línea base",
-          "target_keys": [],
           "introduction": true
         },
         {
           "id": 1,
           "text": "qp",
           "description": "Pulse la tecla 'q' con el dedo meñique de la mano izquierda y la 'p' con el de la mano derecha",
-          "target_keys": ["q", "p"],
           "repetitions": 1
         },
         {
           "id": 2,
           "text": "qqq ppp qpq pqp",
           "description": "Teclee dos veces correctamente",
-          "target_keys": ["q", "p"],
           "repetitions": 2
         },
         {
           "id": 3,
           "text": "wo",
           "description": "Ahora pulse la tecla 'w' con el dedo anular de la mano izquierda y la 'o' con el de la mano derecha",
-          "target_keys": ["w", "o"],
           "repetitions": 1
         },
         {
           "id": 4,
           "text": "www ooo wow owo",
           "description": "Ahora pulse la tecla 'w' con el dedo anular de la mano izquierda y la 'o' con el de la mano derecha",
-          "target_keys": ["w", "o"],
           "repetitions": 1
         },
         {
           "id": 5,
           "text": "qwop powq",
           "description": "Y ahora unos ejercicios con las cuatro primeras teclas de esta línea",
-          "target_keys": ["q", "w", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 6,
           "text": "qpwo pqow",
           "description": "Y ahora unos ejercicios con las cuatro primeras teclas de esta línea",
-          "target_keys": ["q", "w", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 7,
           "text": "wopq qpow",
           "description": "Ya debe adoptar automáticamente la postura correcta",
-          "target_keys": ["q", "w", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 8,
           "text": "owqp pqwo",
           "description": "Ya debe adoptar automáticamente la postura correcta",
-          "target_keys": ["q", "w", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 9,
           "text": "ei",
           "description": "Dos teclas más para los dedos corazón. Con la izquierda la tecla 'e' y con la derecha la tecla 'i'",
-          "target_keys": ["e", "i"],
           "repetitions": 1
         },
         {
           "id": 10,
           "text": "eee iii eie iei",
           "description": "Dos teclas más para los dedos corazón. Con la izquierda la tecla 'e' y con la derecha la tecla 'i'",
-          "target_keys": ["e", "i"],
           "repetitions": 1
         },
         {
           "id": 11,
           "text": "qwe ewq iop poi",
           "description": "No olvide la posición de los pulgares sobre la barra espaciadora y el resto de los dedos sobre la línea base",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 12,
           "text": "qpwoei ieowpq",
           "description": "No olvide la posición de los pulgares sobre la barra espaciadora y el resto de los dedos sobre la línea base",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 13,
           "text": "qiepow wopeiq",
           "description": "No desplace toda la mano, sólo los dedos que van a pulsar",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 14,
           "text": "eiwoqp pqowie",
           "description": "No desplace toda la mano, sólo los dedos que van a pulsar",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 15,
           "text": "qw ew io po pq ow ie",
           "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 16,
           "text": "ei wo qp op oi we wq",
           "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 17,
           "text": "qiwoep epwoqi",
           "description": "No mire al teclado. Sólo debe mirar la pantalla",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 18,
           "text": "peowiq iqowpe",
           "description": "No mire al teclado. Sólo debe mirar la pantalla",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 19,
           "text": "qweiop poiewq",
           "description": "No se precipite. No corra. Ya alcanzará velocidad a su debido tiempo. Ahora concéntrese en hacer los ejercicios bien",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 20,
           "text": "pq wo ie wo pq",
           "description": "No se precipite. No corra. Ya alcanzará velocidad a su debido tiempo. Ahora concéntrese en hacer los ejercicios bien",
-          "target_keys": ["q", "w", "e", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 21,
           "text": "",
           "description": "¡Enhorabuena! Ha acabado la tercera lección",
-          "target_keys": [],
           "introduction": true
         }
       ]
@@ -533,391 +458,335 @@
       "id": 4,
       "title": "Fila dominante",
       "description": "Aprende las teclas de la fila dominante: Q, W, E, R, T, Y, I, O, P",
-      "target_keys": [],
       "steps": [
         {
           "id": 0,
           "text": "",
           "description": "En esta lección vamos a aprender el resto de la línea dominante y haremos ejercicios con las dos líneas que ya conocemos",
-          "target_keys": [],
           "introduction": true
         },
         {
           "id": 1,
           "text": "ru",
           "description": "Pulse la tecla 'r' con el dedo índice de la mano izquierda y la tecla 'u' con el de la mano derecha",
-          "target_keys": ["r", "u"],
           "repetitions": 1
         },
         {
           "id": 2,
           "text": "rrr uuu rur uru",
           "description": "Pulse la tecla 'r' con el dedo índice de la mano izquierda y la tecla 'u' con el de la mano derecha",
-          "target_keys": ["r", "u"],
           "repetitions": 2
         },
         {
           "id": 3,
           "text": "qpwoeiru",
           "description": "Y ahora con las demás teclas que ya conocemos en esta línea",
-          "target_keys": ["q", "w", "e", "r", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 4,
           "text": "pqowieur",
           "description": "Y ahora con las demás teclas que ya conocemos en esta línea",
-          "target_keys": ["q", "w", "e", "r", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 5,
           "text": "rq up rw uo re ui",
           "description": "Y ahora con las demás teclas que ya conocemos en esta línea",
-          "target_keys": ["q", "w", "e", "r", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 6,
           "text": "iu er ou wr pu qr",
           "description": "Asegúrese de que está pulsando con los dedos correctos",
-          "target_keys": ["q", "w", "e", "r", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 7,
           "text": "t",
           "description": "Con el dedo índice de la mano izquierda pulse la tecla 't'",
-          "target_keys": ["t"],
           "repetitions": 1
         },
         {
           "id": 8,
           "text": "y",
           "description": "Con el dedo índice de la mano derecga pulse la tecla 'y'",
-          "target_keys": ["y"],
           "repetitions": 1
         },
         {
           "id": 9,
           "text": "qwertyuiop poiuytrewq",
           "description": "Ahora unos ejercicios",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 10,
           "text": "qpwo eiru tyru",
           "description": "Asegúrese de pulsar las teclas con los dedos correctos",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 11,
           "text": "ytur ieow pqow",
           "description": "No olvide no desplazar las manos sino los dedos",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 12,
           "text": "ptqy orwu ieei",
           "description": "Después de cada pulsación los dedos deben volver a su posición correcta",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 13,
           "text": "`",
           "description": "Con el dedo meñique de la mano derecha pulse la tecla '`' que se indica y después la barra espaciadora para que aparezca la tilde, ya que se trata de una tecla muerta ya que necesita otra tecla para aparecer",
-          "target_keys": ["`"],
           "repetitions": 1
         },
         {
           "id": 14,
           "text": "+",
           "description": "Con el mismo dedo pulse la tecla '+'",
-          "target_keys": ["+"],
           "repetitions": 1
         },
         {
           "id": 15,
           "text": "*",
           "description": "Ahora vamos a utilizar la tecla SHIFT o mayúsculas. Pulse SHIFT con el dedo meñique izquierdo y la tecla '*' con el dedo meñique derecho",
-          "target_keys": ["+"],
           "repetitions": 1
         },
         {
           "id": 16,
           "text": "^",
           "description": "Recuerde que la tecla SHIFT se pulsa con la mano contraria a la que va a pulsar la tecla principal y con los dedos meñiques. Con los mismos dedos y manos ahora pulse la tecla '^' y la barra espaciadora",
-          "target_keys": ["`"],
           "repetitions": 1
         },
         {
           "id": 17,
           "text": "`^+`*`+^^ `+*``",
           "description": "Siguiendo las instrucciones anteriores haga los ejercicios siguientes",
-          "target_keys": ["`", "+"],
           "repetitions": 1
         },
         {
           "id": 18,
           "text": "qp+` wo+` ei+`+ ru` ty`",
           "description": "No se impaciente. Este ejercicio es complicado si se intenta hacer deprisa y sencillo si se hace relajadamente",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "`", "+"],
           "repetitions": 1
         },
         {
           "id": 19,
           "text": "^* *^ p*p p^p",
           "description": "No se impaciente. Este ejercicio es complicado si se intenta hacer deprisa y sencillo si se hace relajadamente",
-          "target_keys": ["p", "`", "+"],
           "repetitions": 1
         },
         {
           "id": 20,
           "text": "qpqñ ñqpa q*^a",
           "description": "Ahora ya conoce dos líneas completas. Los siguientes ejercicios deben considerarse como un repaso de las cuatro lecciones que lleva hasta el momento. Empezaremos con los meñiques",
-          "target_keys": ["a", "ñ", "q", "p", "`", "+"],
           "repetitions": 2
         },
         {
           "id": 21,
           "text": "ñapq^ *ç aç qp^",
           "description": "Ahora ya conoce dos líneas completas. Los siguientes ejercicios deben considerarse como un repaso de las cuatro lecciones que lleva hasta el momento. Empezaremos con los meñiques",
-          "target_keys": ["a", "ñ", "ç", "q", "p", "`", "+"],
           "repetitions": 2
         },
         {
           "id": 22,
           "text": "slwo owls swol",
           "description": "Con los anulares",
-          "target_keys": ["s", "l", "w", "o"],
           "repetitions": 2
         },
         {
           "id": 23,
           "text": "deki edik eidk",
           "description": "Con los dedos corazón",
-          "target_keys": ["d", "k", "e", "i"],
           "repetitions": 2
         },
         {
           "id": 24,
           "text": "frju rfuj rufj",
           "description": "Con los dedos índice",
-          "target_keys": ["f", "j", "r", "u"],
           "repetitions": 1
         },
         {
           "id": 25,
           "text": "frjugthy hgjfuryt",
           "description": "Con los dedos índice",
-          "target_keys": ["f", "g", "h", "j", "r", "t", "y", "u"],
           "repetitions": 2
         },
         {
           "id": 26,
           "text": "jfhguryt fjghruty",
           "description": "Con los dedos índice",
-          "target_keys": ["f", "g", "h", "j", "r", "t", "y", "u"],
           "repetitions": 3
         },
         {
           "id": 27,
           "text": "qwert poiuy",
           "description": "Y con todos...",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 28,
           "text": "trewq yuiop",
           "description": "Y con todos...",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 29,
           "text": "aqwedsa",
           "description": "Pulse con los dedos correctos cada tecla",
-          "target_keys": ["a", "s", "d", "q", "w", "e"],
           "repetitions": 3
         },
         {
           "id": 30,
           "text": "ñ^`poiklñ",
           "description": "Pulse con los dedos correctos cada tecla",
-          "target_keys": ["k", "l", "ñ", "i", "o", "p", "`"],
           "repetitions": 3
         },
         {
           "id": 31,
           "text": "asdewqa",
           "description": "Después de cada pulsación deben volver los dedos a su posición en la línea base",
-          "target_keys": ["a", "s", "d", "q", "w", "e"],
           "repetitions": 3
         },
         {
           "id": 32,
           "text": "ñlkiop´`^ñ",
           "description": "Después de cada pulsación deben volver los dedos a su posición en la línea base",
-          "target_keys": ["k", "l", "ñ", "´", "i", "o", "p", "`"],
           "repetitions": 3
         },
         {
           "id": 33,
           "text": "ñlkiopñ",
           "description": "Los pulgares deben estar sobre la barra espaciadora",
-          "target_keys": ["k", "l", "ñ", "i", "o", "p"],
           "repetitions": 3
         },
         {
           "id": 34,
           "text": "frtgf jhyuj",
           "description": "Los pulgares deben estar sobre la barra espaciadora",
-          "target_keys": ["f", "g", "h", "j", "r", "t", "y", "u"],
           "repetitions": 3
         },
         {
           "id": 35,
           "text": "fgtrf juyhj",
           "description": "Los pulgares deben estar sobre la barra espaciadora",
-          "target_keys": ["f", "g", "h", "j", "r", "t", "y", "u"],
           "repetitions": 3
         },
         {
           "id": 36,
           "text": "aqwertgfdsa",
           "description": "No mire el teclado",
-          "target_keys": ["a", "s", "d", "f", "g", "q", "w", "e", "r", "t"],
           "repetitions": 3
         },
         {
           "id": 37,
           "text": "`´poiuyhjklñ`",
           "description": "No tenga prisa",
-          "target_keys": ["h", "j", "k", "l", "ñ", "´", "y", "u", "i", "o", "p", "`"],
           "repetitions": 3
         },
         {
           "id": 38,
           "text": "asdfgtrewqa",
           "description": "No tenga prisa",
-          "target_keys": ["a", "s", "d", "f", "g", "t", "r", "e", "w", "q"],
           "repetitions": 3
         },
         {
           "id": 39,
           "text": "+ñlkjhyuiop`",
           "description": "Coloque el cuerpo en la posición correcta",
-          "target_keys": ["h", "j", "k", "l", "ñ", "y", "u", "i", "o", "p", "`", "+"],
           "repetitions": 2
         },
         {
           "id": 40,
           "text": "aqñp swlo deki frik",
           "description": "Coloque el cuerpo en la posición correcta",
-          "target_keys": ["a", "s", "d", "f", "k", "l", "ñ", "q", "w", "e", "r", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 41,
           "text": "jtuyth aqñp",
           "description": "Las palmas de las manos no deben apoyarse sobre la mesa o el teclado",
-          "target_keys": ["a", "h", "j", "ñ", "q", "t", "y", "u", "p"],
           "repetitions": 2
         },
         {
           "id": 42,
           "text": "heigwoñ frt",
           "description": "Las palmas de las manos no deben apoyarse sobre la mesa o el teclado",
-          "target_keys": ["f", "g", "h", "ñ", "w", "e", "r", "t", "i", "o"],
           "repetitions": 2
         },
         {
           "id": 43,
           "text": "huij dert",
           "description": "No cruce las piernas; evitará entumecimiento de los miembros",
-          "target_keys": ["d", "h", "j", "e", "r", "t", "u", "i"],
           "repetitions": 2
         },
         {
           "id": 44,
           "text": "parque parada",
           "description": "Ahora vamos a formar palabras",
-          "target_keys": ["a", "d", "q", "e", "r", "u", "p"],
           "repetitions": 2
         },
         {
           "id": 45,
           "text": "golpea porque",
           "description": "Ahora vamos a formar palabras",
-          "target_keys": ["a", "g", "l", "q", "e", "r", "u", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 46,
           "text": "perito joyero",
           "description": "Recuerde que la posición de las manos es curvada y rozando levemente las teclas de la línea base",
-          "target_keys": ["j", "e", "r", "t", "y", "i", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 47,
           "text": "pleura dedo",
           "description": "Recuerde que la posición de las manos es curvada y rozando levemente las teclas de la línea base",
-          "target_keys": ["a", "d", "l", "e", "r", "u", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 48,
           "text": "pelota tres",
           "description": "Los pulgares deben estar sobre la barra espaciadora",
-          "target_keys": ["a", "s", "l", "e", "r", "t", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 49,
           "text": "aquelarre",
           "description": "Los pulgares deben estar sobre la barra espaciadora",
-          "target_keys": ["a", "l", "q", "e", "r", "u"],
           "repetitions": 2
         },
         {
           "id": 50,
           "text": "deseado supuesto",
           "description": "No mire el teclado",
-          "target_keys": ["a", "s", "d", "e", "t", "u", "o", "p"],
           "repetitions": 2
         },
         {
           "id": 51,
           "text": "aislado huido",
           "description": "No mire el teclado",
-          "target_keys": ["a", "s", "d", "h", "l", "u", "i", "o"],
           "repetitions": 2
         },
         {
           "id": 52,
           "text": "fragua seguir",
           "description": "A estas alturas del curso ya debe tener los hábitos correctos. Si no es así sería aconsejable repasar la lección para principiantes",
-          "target_keys": ["a", "s", "f", "g", "e", "r", "u", "i"],
           "repetitions": 2
         },
         {
           "id": 53,
           "text": "fresa querido",
           "description": "A estas alturas del curso ya debe tener los hábitos correctos. Si no es así sería aconsejable repasar la lección para principiantes",
-          "target_keys": ["a", "s", "d", "f", "q", "e", "u", "i", "o"],
           "repetitions": 2
         },
         {
           "id": 54,
           "text": "",
           "description": "¡Enhorabuena! Ha acabado la cuarta lección",
-          "target_keys": [],
           "introduction": true
         }
       ]
