@@ -3,7 +3,7 @@
   "rows": [
     ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "="],
     ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "[", "]"],
-    ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
+    ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "\\"],
     ["z", "x", "c", "v", "b", "n", "m", ",", ".", "/"]
   ],
   "finger_map": {
@@ -12,7 +12,7 @@
     "q": "left_pinky", "w": "left_ring", "e": "left_middle", "r": "left_index", "t": "left_index",
     "y": "right_index", "u": "right_index", "i": "right_middle", "o": "right_ring", "p": "right_pinky", "[": "right_pinky", "]": "right_pinky",
     "a": "left_pinky", "s": "left_ring", "d": "left_middle", "f": "left_index", "g": "left_index",
-    "h": "right_index", "j": "right_index", "k": "right_middle", "l": "right_ring", ";": "right_pinky", "'": "right_pinky",
+    "h": "right_index", "j": "right_index", "k": "right_middle", "l": "right_ring", ";": "right_pinky", "'": "right_pinky", "\\": "right_pinky",
     "z": "left_pinky", "x": "left_ring", "c": "left_middle", "v": "left_index", "b": "left_index",
     "n": "right_index", "m": "right_index", ",": "right_middle", ".": "right_ring", "/": "right_pinky",
     " ": "both_thumbs"
