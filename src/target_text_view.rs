@@ -71,7 +71,9 @@ impl imp::TargetTextView {
         let final_y = allocation.y() + y;
 
         // Get caret color from style context
+        #[allow(deprecated)]
         let style_ctx = self.obj().style_context();
+        #[allow(deprecated)]
         let color = style_ctx.color();
 
         let cursor_rect =
