@@ -2,7 +2,6 @@
 .flatpak-builder/
 build-dir/
 builddir/
-src/config.rs
 Cargo.lock
 .builddir/
 build/
