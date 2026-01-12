@@ -369,21 +369,163 @@
     },
     {
       "id": 3,
-      "title": "Bottom Row Keys",
-      "description": "Learn the bottom row keys: Z, X, C, V, B, N, M",
-      "target_keys": ["z", "x", "c", "v", "b", "n", "m"],
+      "title": "Primera parte fila dominante",
+      "description": "Aprende las teclas de la fila dominante: Q, W, E, I, O, P",
+      "target_keys": [],
       "steps": [
         {
+          "id": 0,
+          "text": "",
+          "description": "Aquí empieza la tercera lección. Vamos a empezar con la línea dominante, que es como se llama a la que está sobre la línea base",
+          "target_keys": [],
+          "introduction": true
+        },
+        {
           "id": 1,
-          "text": "zxcv bnm",
-          "description": "Type the bottom row keys in sequence",
-          "target_keys": ["z", "x", "c", "v", "b", "n", "m"]
+          "text": "qp",
+          "description": "Pulse la tecla 'q' con el dedo meñique de la mano izquierda y la 'p' con el de la mano derecha",
+          "target_keys": ["q", "p"],
+          "repetitions": 1
         },
         {
           "id": 2,
-          "text": "zoom box cave move",
-          "description": "Type words using bottom row keys",
-          "target_keys": ["z", "x", "c", "v", "b", "n", "m"]
+          "text": "qqq ppp qpq pqp",
+          "description": "Teclee dos veces correctamente",
+          "target_keys": ["q", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "wo",
+          "description": "Ahora pulse la tecla 'w' con el dedo anular de la mano izquierda y la 'o' con el de la mano derecha",
+          "target_keys": ["w", "o"],
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "www ooo wow owo",
+          "description": "Ahora pulse la tecla 'w' con el dedo anular de la mano izquierda y la 'o' con el de la mano derecha",
+          "target_keys": ["w", "o"],
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "qwop powq",
+          "description": "Y ahora unos ejercicios con las cuatro primeras teclas de esta línea",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "qpwo pqow",
+          "description": "Y ahora unos ejercicios con las cuatro primeras teclas de esta línea",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "wopq qpow",
+          "description": "Ya debe adoptar automáticamente la postura correcta",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "owqp pqwo",
+          "description": "Ya debe adoptar automáticamente la postura correcta",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "ei",
+          "description": "Dos teclas más para los dedos corazón. Con la izquierda la tecla 'e' y con la derecha la tecla 'i'",
+          "target_keys": ["e", "i"],
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "eee iii eie iei",
+          "description": "Dos teclas más para los dedos corazón. Con la izquierda la tecla 'e' y con la derecha la tecla 'i'",
+          "target_keys": ["e", "i"],
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "qwe ewq iop poi",
+          "description": "No olvide la posición de los pulgares sobre la barra espaciadora y el resto de los dedos sobre la línea base",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "qpwoei ieowpq",
+          "description": "No olvide la posición de los pulgares sobre la barra espaciadora y el resto de los dedos sobre la línea base",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "qiepow wopeiq",
+          "description": "No desplace toda la mano, sólo los dedos que van a pulsar",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "eiwoqp pqowie",
+          "description": "No desplace toda la mano, sólo los dedos que van a pulsar",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "qw ew io po pq ow ie",
+          "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "ei wo qp op oi we wq",
+          "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "qiwoep epwoqi",
+          "description": "No mire al teclado. Sólo debe mirar la pantalla",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "peowiq iqowpe",
+          "description": "No mire al teclado. Sólo debe mirar la pantalla",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "qweiop poiewq",
+          "description": "No se precipite. No corra. Ya alcanzará velocidad a su debido tiempo. Ahora concéntrese en hacer los ejercicios bien",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "pq wo ie wo pq",
+          "description": "No se precipite. No corra. Ya alcanzará velocidad a su debido tiempo. Ahora concéntrese en hacer los ejercicios bien",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "",
+          "description": "¡Enhorabuena! Ha acabado la tercera lección",
+          "target_keys": [],
+          "introduction": true
         }
       ]
     }
