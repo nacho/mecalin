@@ -70,7 +70,6 @@ impl Default for KeyboardLayout {
 pub struct KeyboardWidget {
     drawing_area: DrawingArea,
     current_key: Rc<RefCell<Option<char>>>,
-    layout: Rc<RefCell<KeyboardLayout>>,
     visible_keys: Rc<RefCell<Option<std::collections::HashSet<char>>>>,
 }
 
@@ -103,7 +102,6 @@ impl KeyboardWidget {
         Self {
             drawing_area,
             current_key,
-            layout,
             visible_keys,
         }
     }
@@ -156,7 +154,7 @@ impl KeyboardWidget {
                 let x = start_x + row_offset + key_idx as f64 * (key_width + key_spacing);
                 let y = start_y + row_idx as f64 * (key_height + row_spacing);
 
-                let is_current = current.map_or(false, |c| {
+                let is_current = current.is_some_and(|c| {
                     c.to_lowercase().next() == Some(key_char.to_lowercase().next().unwrap())
                 });
 
@@ -175,7 +173,7 @@ impl KeyboardWidget {
                 cr.stroke().unwrap();
 
                 // Only show text if visible_keys is None or contains this key
-                let should_show_text = visible_keys_borrowed.as_ref().map_or(true, |visible| {
+                let should_show_text = visible_keys_borrowed.as_ref().is_none_or(|visible| {
                     visible.contains(&key_char.to_lowercase().next().unwrap())
                 });
 
@@ -204,7 +202,7 @@ impl KeyboardWidget {
         let space_y = start_y + 4.0 * (key_height + row_spacing);
         let space_width = key_width * 6.0;
 
-        let is_space_current = current.map_or(false, |c| c == ' ');
+        let is_space_current = current.is_some_and(|c| c == ' ');
 
         if is_space_current {
             cr.set_source_rgb(0.29, 0.565, 0.886);
@@ -223,7 +221,7 @@ impl KeyboardWidget {
         // Only show SPACE text if visible_keys is None or contains space
         let should_show_space_text = visible_keys_borrowed
             .as_ref()
-            .map_or(true, |visible| visible.contains(&' '));
+            .is_none_or(|visible| visible.contains(&' '));
 
         if should_show_space_text {
             cr.set_source_rgb(0.0, 0.0, 0.0);

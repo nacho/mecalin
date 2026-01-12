@@ -229,7 +229,7 @@ impl LessonView {
                 if first_step.introduction {
                     imp.step_description.set_visible(true);
                     imp.step_description.set_text(
-                        &first_step
+                        first_step
                             .description
                             .as_deref()
                             .unwrap_or(&first_step.text),
@@ -277,7 +277,7 @@ impl LessonView {
                         // Introduction step - show description and continue button, hide text views
                         imp.step_description.set_visible(true);
                         imp.step_description
-                            .set_text(&step.description.as_deref().unwrap_or(&step.text));
+                            .set_text(step.description.as_deref().unwrap_or(&step.text));
                         imp.continue_button.set_visible(true);
                         imp.text_container.set_visible(false);
                     } else {

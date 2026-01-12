@@ -86,24 +86,21 @@ impl MecalinWindow {
         let imp = self.imp();
         let current_page = imp.main_stack.visible_child_name();
 
-        match current_page.as_deref() {
-            Some("study_room") => {
-                // Check if we're in a lesson view within the study room
-                if let Some(study_room) = imp.main_stack.visible_child() {
-                    if let Ok(study_room) = study_room.downcast::<StudyRoom>() {
-                        if study_room.can_go_back() {
-                            study_room.go_back();
-                            return;
-                        }
+        if let Some("study_room") = current_page.as_deref() {
+            // Check if we're in a lesson view within the study room
+            if let Some(study_room) = imp.main_stack.visible_child() {
+                if let Ok(study_room) = study_room.downcast::<StudyRoom>() {
+                    if study_room.can_go_back() {
+                        study_room.go_back();
+                        return;
                     }
                 }
-                // If we can't go back within study room, go to main menu
-                imp.main_stack.set_visible_child_name("main_menu");
-                imp.back_button.set_visible(false);
-                imp.window_title.set_title("Mecalin");
-                imp.window_title.set_subtitle("");
             }
-            _ => {}
+            // If we can't go back within study room, go to main menu
+            imp.main_stack.set_visible_child_name("main_menu");
+            imp.back_button.set_visible(false);
+            imp.window_title.set_title("Mecalin");
+            imp.window_title.set_subtitle("");
         }
     }
 
@@ -201,7 +198,7 @@ impl MecalinWindow {
             let settings = gio::Settings::new("org.gnome.mecalin.state.window");
             if !window.is_maximized() {
                 let size = (window.default_width(), window.default_height());
-                settings.set("size", &size).unwrap();
+                settings.set("size", size).unwrap();
             }
         });
 
@@ -209,7 +206,7 @@ impl MecalinWindow {
             let settings = gio::Settings::new("org.gnome.mecalin.state.window");
             if !window.is_maximized() {
                 let size = (window.default_width(), window.default_height());
-                settings.set("size", &size).unwrap();
+                settings.set("size", size).unwrap();
             }
         });
     }
