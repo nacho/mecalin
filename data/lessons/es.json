@@ -1,43 +1,198 @@
 {
   "lessons": [
     {
+      "id": 0,
+      "title": "Bienvenido a Mecalin",
+      "description": "Bienvenido a Mecalin, ¡tu tutor para aprender a teclear! This course will teach you touch typing step by step. You'll start with the home row keys and gradually learn all the keys on the keyboard. Este cursor te enseñará a teclear paso a paso. Empezarás por la fila principal de teclas e irás aprendendiendo todas las teclas del teclado gradualmente. Toma tu tiempo, practica regularmente y te convertirás rápidamente en un experto tecleando",
+      "target_keys": [],
+      "steps": [],
+      "introduction": true
+    },
+    {
       "id": 1,
-      "title": "Teclas de la fila central",
-      "description": "Aprende las teclas básicas de la fila central: A, S, D, F, J, K, L",
-      "target_keys": ["a", "s", "d", "f", "j", "k", "l"],
+      "title": "Primera parte de la fila base",
+      "description": "Aprende parte de la fila base: A, S, D, K, L, Ñ",
+      "target_keys": ["a", "s", "d", "k", "l", "ñ"],
       "steps": [
         {
+          "id": 0,
+          "text": "",
+          "description": "Aquí empieza la primera lección. Fíjese en los errores para no repetirlos. En esta lección aprenderá las teclas a, s, d, k, l, ñ",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "introduction": true
+        },
+        {
           "id": 1,
-          "text": "asdf jkl;",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"]
+          "text": "a",
+          "description": "Pulse la tecla 'a' con el dedo meñique de la mano izquierda",
+          "target_keys": ["a"],
+          "repetitions": 1
         },
         {
           "id": 2,
-          "text": "aaa sss ddd fff jjj kkk lll",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"]
+          "text": "ñ",
+          "description": "No olvide colocar los dedos sobre la línea base y los pulgares sobre la barra espaciadora. Debe acostumbrarse a adoptar la posición correcta en todas las sesiones. Pulse la tecla 'ñ' con el dedo meñique de la mano derecha",
+          "target_keys": ["ñ"],
+          "repetitions": 1
         },
         {
           "id": 3,
-          "text": "las dos faldas",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"]
+          "text": "sl",
+          "description": "Mire la pantalla y no el teclado. Pulse la tecla 's' con el dedo anular de la mano izquierda y la tecla 'l' con el de la mano derecha",
+          "target_keys": ["s", "l"],
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "aaa ñññ aña ñañ",
+          "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
+          "target_keys": ["a", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "sss lll sls lsl",
+          "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
+          "target_keys": ["s", "l"],
+          "repetitions": 1
+        },
+        {
+          "id": 6,
+          "text": "añsl ñals",
+          "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
+          "target_keys": ["a", "s", "l", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "slña lsañ",
+          "description": "Ahora vamos a hacer unos ejercicios con estas 4 letras en el order correcto. Si hay algún error en la línea habrá que repetirla. No se impaciente si no sale bien a la primera. Recuerde pulsar la barra espaciadora entre palabras",
+          "target_keys": ["a", "s", "l", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "dk",
+          "description": "Ahora vamos a añadir dos teclas para los dedos corazón; con la mano izquierda la tecla 'd' y con la derecha la 'k'",
+          "target_keys": ["d", "k"],
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "ddd kkk dkd kdk",
+          "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
+          "target_keys": ["d", "k"],
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "asd dsa klñ ñlk",
+          "description": "No olvide que la barra espaciadora se pulsa con el dedo pulgar de la mano contraria a la última tecla pulsada",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "adkñ sdkl",
+          "description": "Los dedos deben volver a su posición después de pulsar cada tecla",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "dañk dslk",
+          "description": "Los dedos deben volver a su posición después de pulsar cada tecla",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "adñk dakñ",
+          "description": "Los dedos deben volver a su posición después de pulsar cada tecla",
+          "target_keys": ["a", "d", "k", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "lksd klds",
+          "description": "Pulse las teclas con los dedos correctos, aunque ahora le parezca que es más lento",
+          "target_keys": ["s", "d", "k", "l"],
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "añsldk ñalskd",
+          "description": "Pulse las teclas con los dedos correctos, aunque ahora le parezca que es más lento",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "asdklñ ñlkdsa",
+          "description": "Ahora los ejercicios hay que repetirlos 2 veces sin errores para poder pasar al siguiente",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "añsldk kdlsña",
+          "description": "Ahora los ejercicios hay que repetirlos 2 veces sin errores para poder pasar al siguiente",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "dkslañ ñalskd",
+          "description": "No se impaciente. No corra",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "",
+          "description": "Ya ha terminado la primera lección y ha hecho los primeros ejercicios",
+          "target_keys": ["a", "s", "d", "k", "l", "ñ"],
+          "introduction": true
         }
       ]
     },
     {
       "id": 2,
-      "title": "Teclas de la fila superior",
-      "description": "Aprende las teclas de la fila superior: Q, W, E, R, T, Y, U, I, O, P",
+      "title": "Top Row Keys",
+      "description": "Learn the top row keys: Q, W, E, R, T, Y, U, I, O, P",
       "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
       "steps": [
         {
           "id": 1,
           "text": "qwer tyui op",
+          "description": "Type the top row keys in sequence",
           "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"]
         },
         {
           "id": 2,
-          "text": "que tipo puerto",
+          "text": "quit work type port",
+          "description": "Type words using top row keys",
           "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bottom Row Keys",
+      "description": "Learn the bottom row keys: Z, X, C, V, B, N, M",
+      "target_keys": ["z", "x", "c", "v", "b", "n", "m"],
+      "steps": [
+        {
+          "id": 1,
+          "text": "zxcv bnm",
+          "description": "Type the bottom row keys in sequence",
+          "target_keys": ["z", "x", "c", "v", "b", "n", "m"]
+        },
+        {
+          "id": 2,
+          "text": "zoom box cave move",
+          "description": "Type words using bottom row keys",
+          "target_keys": ["z", "x", "c", "v", "b", "n", "m"]
         }
       ]
     }
