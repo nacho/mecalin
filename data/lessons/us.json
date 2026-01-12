@@ -10,77 +10,360 @@
     },
     {
       "id": 1,
-      "title": "Home Row Keys",
-      "description": "Learn the basic home row keys: A, S, D, F, J, K, L",
-      "target_keys": ["a", "s", "d", "f", "j", "k", "l"],
+      "title": "First part of the home row",
+      "description": "Learn part of the home row: A, S, D, K, L, ;",
+      "target_keys": ["a", "s", "d", "k", "l", ";"],
       "steps": [
         {
           "id": 0,
           "text": "",
-          "description": "Welcome to the Home Row Keys lesson! In this lesson, you'll learn the foundation of touch typing by mastering the home row keys: A, S, D, F, J, K, L, and semicolon. Place your fingers on these keys and get ready to start your typing journey.",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"],
+          "description": "Here begins the first lesson. Pay attention to errors to avoid repeating them. In this lesson you will learn the keys a, s, d, k, l, ;",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
           "introduction": true
         },
         {
           "id": 1,
-          "text": "asdf jkl;",
-          "description": "Type the home row keys in sequence",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"],
-          "repetitions": 3
+          "text": "a",
+          "description": "Press the 'a' key with the pinky finger of your left hand",
+          "target_keys": ["a"],
+          "repetitions": 1
         },
         {
           "id": 2,
-          "text": "aaa sss ddd fff jjj kkk lll",
-          "description": "Practice repeating each home row key",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"],
-          "repetitions": 2
+          "text": ";",
+          "description": "Don't forget to place your fingers on the home row and your thumbs on the spacebar. You should get used to adopting the correct position in all sessions. Press the ';' key with the pinky finger of your right hand",
+          "target_keys": [";"],
+          "repetitions": 1
         },
         {
           "id": 3,
-          "text": "ask dad fall jak",
-          "description": "Type simple words using home row keys",
-          "target_keys": ["a", "s", "d", "f", "j", "k", "l"],
+          "text": "sl",
+          "description": "Look at the screen and not at the keyboard. Press the 's' key with the ring finger of your left hand and the 'l' key with the right hand",
+          "target_keys": ["s", "l"],
           "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "aaa ;;; a;a ;a;",
+          "description": "Now let's do some exercises with these 4 letters in the correct order. If there's any error in the line, it will have to be repeated. Don't be impatient if it doesn't work well the first time. Remember to press the spacebar between words",
+          "target_keys": ["a", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "sss lll sls lsl",
+          "description": "Now let's do some exercises with these 4 letters in the correct order. If there's any error in the line, it will have to be repeated. Don't be impatient if it doesn't work well the first time. Remember to press the spacebar between words",
+          "target_keys": ["s", "l"],
+          "repetitions": 1
+        },
+        {
+          "id": 6,
+          "text": "a;sl ;als",
+          "description": "Now let's do some exercises with these 4 letters in the correct order. If there's any error in the line, it will have to be repeated. Don't be impatient if it doesn't work well the first time. Remember to press the spacebar between words",
+          "target_keys": ["a", "s", "l", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "sl;a lsa;",
+          "description": "Now let's do some exercises with these 4 letters in the correct order. If there's any error in the line, it will have to be repeated. Don't be impatient if it doesn't work well the first time. Remember to press the spacebar between words",
+          "target_keys": ["a", "s", "l", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "dk",
+          "description": "Now let's add two keys for the middle fingers; with the left hand the 'd' key and with the right the 'k'",
+          "target_keys": ["d", "k"],
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "ddd kkk dkd kdk",
+          "description": "Don't forget that the spacebar is pressed with the thumb of the hand opposite to the last key pressed",
+          "target_keys": ["d", "k"],
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "asd dsa kl; ;lk",
+          "description": "Don't forget that the spacebar is pressed with the thumb of the hand opposite to the last key pressed",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "adk; sdkl",
+          "description": "Fingers should return to their position after pressing each key",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "da;k dslk",
+          "description": "Fingers should return to their position after pressing each key",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "ad;k dak;",
+          "description": "Fingers should return to their position after pressing each key",
+          "target_keys": ["a", "d", "k", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "lksd klds",
+          "description": "Press the keys with the correct fingers, even if it seems slower now",
+          "target_keys": ["s", "d", "k", "l"],
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "a;sldk ;alskd",
+          "description": "Press the keys with the correct fingers, even if it seems slower now",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "asdk;l ;lkdsa",
+          "description": "Now the exercises must be repeated 2 times without errors to move to the next one",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "a;sldk kdls;a",
+          "description": "Now the exercises must be repeated 2 times without errors to move to the next one",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "dksla; ;alskd",
+          "description": "Don't be impatient. Don't rush",
+          "target_keys": ["a", "s", "d", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "",
+          "description": "You have finished the first lesson and done the first exercises",
+          "target_keys": [],
+          "introduction": true
         }
       ]
     },
     {
       "id": 2,
-      "title": "Top Row Keys",
-      "description": "Learn the top row keys: Q, W, E, R, T, Y, U, I, O, P",
-      "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
+      "title": "Home row",
+      "description": "Learn the home row keys: A, S, D, F, G, H, J, K, L, ;",
+      "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"],
       "steps": [
         {
+          "id": 0,
+          "text": "",
+          "description": "Here begins the second lesson. We're going to learn the rest of the home row and do a series of exercises with it. Remember not to look at the keyboard, but at your computer screen",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"],
+          "introduction": true
+        },
+        {
           "id": 1,
-          "text": "qwer tyui op",
-          "description": "Type the top row keys in sequence",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"]
+          "text": "f",
+          "description": "Press the 'f' key with the index finger of your left hand",
+          "target_keys": ["f"],
+          "repetitions": 1
         },
         {
           "id": 2,
-          "text": "quit work type port",
-          "description": "Type words using top row keys",
-          "target_keys": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Bottom Row Keys",
-      "description": "Learn the bottom row keys: Z, X, C, V, B, N, M",
-      "target_keys": ["z", "x", "c", "v", "b", "n", "m"],
-      "steps": [
-        {
-          "id": 1,
-          "text": "zxcv bnm",
-          "description": "Type the bottom row keys in sequence",
-          "target_keys": ["z", "x", "c", "v", "b", "n", "m"]
+          "text": "fj",
+          "description": "Press the 'f' key with the index finger of your left hand and the 'j' key with your right hand",
+          "target_keys": ["f", "j"],
+          "repetitions": 1
         },
         {
-          "id": 2,
-          "text": "zoom box cave move",
-          "description": "Type words using bottom row keys",
-          "target_keys": ["z", "x", "c", "v", "b", "n", "m"]
+          "id": 3,
+          "text": "fff jjj fjf jfj",
+          "description": "You must perform each exercise twice without errors to move to the next exercise",
+          "target_keys": ["f", "j"],
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "asdf ;lkj",
+          "description": "You must perform each exercise twice without errors to move to the next exercise",
+          "target_keys": ["a", "s", "d", "f", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "fdsa jkl;",
+          "description": "Watch the position of your fingers when finishing each keystroke",
+          "target_keys": ["a", "s", "d", "f", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "afj; ljsf fdjk",
+          "description": "Watch the position of your fingers when finishing each keystroke",
+          "target_keys": ["a", "s", "d", "f", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "f;ja djkf jslf",
+          "description": "Are you pressing the spacebar with the appropriate thumb?",
+          "target_keys": ["a", "s", "d", "f", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "a;sldkfj ;alskdjf",
+          "description": "Are you pressing the spacebar with the appropriate thumb?",
+          "target_keys": ["a", "s", "d", "f", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "jfkdls;a fjdksla;",
+          "description": "Don't look at the keyboard, only at your computer screen",
+          "target_keys": ["a", "s", "d", "f", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "gh",
+          "description": "Two more keys for the same fingers. With the index finger of your left hand the 'g' key and with your right hand the 'h'",
+          "target_keys": ["g", "h"],
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "ggg hhh ghg hgh",
+          "description": "Remember to maintain correct posture. Straight back, hands on the home row and thumbs on the spacebar. Continue with more exercises...",
+          "target_keys": ["g", "h"],
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "gjfh hfjg gkhd dhkg",
+          "description": "Remember to maintain correct posture. Straight back, hands on the home row and thumbs on the spacebar. Continue with more exercises...",
+          "target_keys": ["d", "f", "g", "h", "j", "k"],
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "a;sldkfjgh hgjfkdls;a",
+          "description": "Move only the index fingers, not the whole hand",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "ghfjdksla; ;alskdjfhg",
+          "description": "Move only the index fingers, not the whole hand",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "'",
+          "description": "Another key from this row \"'\". It's pressed with the pinky finger of your right hand, same as the ';' key, but remember not to move your hand, only the finger",
+          "target_keys": ["'"],
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "a;' sl' dk' fj' gh'",
+          "description": "Another key from this row \"'\". It's pressed with the pinky finger of your right hand, same as the ';' key, but remember not to move your hand, only the finger",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": ";a' ls' kd' jf' hg'",
+          "description": "Another key from this row \"'\". It's pressed with the pinky finger of your right hand, same as the ';' key, but remember not to move your hand, only the finger",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "\\",
+          "description": "Another key from this home row would be '\\'. It's pressed with the pinky finger of your right hand, you should press SHIFT if you want to type it as '|'",
+          "target_keys": ["\\"],
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "';a 'ls\\ 'kd 'jf 'hg",
+          "description": "Fingers should return to the home row after pressing each key",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "\\"],
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "'a; 'sl 'dk 'fj 'gh\\",
+          "description": "Fingers should return to the home row after pressing each key",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "\\"],
+          "repetitions": 1
+        },
+        {
+          "id": 21,
+          "text": "as ;l l; sa",
+          "description": "And now some review exercises from the first two lessons",
+          "target_keys": ["a", "s", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "adgjl' ;khfs",
+          "description": "And now some review exercises from the first two lessons",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "sfhk; 'ljgda",
+          "description": "Don't forget all the instructions we give you throughout the lesson",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "sla; ;asl agh;",
+          "description": "Don't forget all the instructions we give you throughout the lesson",
+          "target_keys": ["a", "s", "g", "h", "l", ";"],
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "f;ja' aj;f' gjhf",
+          "description": "Are your thumbs in position?",
+          "target_keys": ["a", "f", "g", "h", "j", ";", "'"],
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "asdfghjkl;'\\ ';lkjhgfdsa\\",
+          "description": "Remember to keep your hands in a relaxed position",
+          "target_keys": ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "\\"],
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "asdsa ';lkl;'",
+          "description": "Remember to keep your hands in a relaxed position",
+          "target_keys": ["a", "s", "d", "k", "l", ";", "'"],
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "",
+          "description": "Congratulations! You have finished the second lesson",
+          "target_keys": [],
+          "introduction": true
         }
       ]
     }
