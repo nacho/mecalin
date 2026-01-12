@@ -39,6 +39,8 @@ mod imp {
 impl imp::TextView {
     fn setup_text_view(&self) {
         self.text_view.set_monospace(true);
+        // Ensure dead keys (like acute accent ´) work properly without double presses
+        self.text_view.set_input_hints(gtk::InputHints::NONE);
     }
 }
 
