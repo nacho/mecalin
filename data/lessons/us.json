@@ -366,6 +366,168 @@
           "introduction": true
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "First part of top row",
+      "description": "Learn the top row keys: Q, W, E, I, O, P",
+      "target_keys": [],
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Here begins the third lesson. We're going to start with the top row, which is what we call the row above the home row",
+          "target_keys": [],
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "qp",
+          "description": "Press the 'q' key with the pinky finger of your left hand and the 'p' key with your right hand",
+          "target_keys": ["q", "p"],
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "qqq ppp qpq pqp",
+          "description": "Type correctly twice",
+          "target_keys": ["q", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "wo",
+          "description": "Now press the 'w' key with the ring finger of your left hand and the 'o' key with your right hand",
+          "target_keys": ["w", "o"],
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "www ooo wow owo",
+          "description": "Now press the 'w' key with the ring finger of your left hand and the 'o' key with your right hand",
+          "target_keys": ["w", "o"],
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "qwop powq",
+          "description": "And now some exercises with the first four keys of this row",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "qpwo pqow",
+          "description": "And now some exercises with the first four keys of this row",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "wopq qpow",
+          "description": "You should automatically adopt the correct posture by now",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "owqp pqwo",
+          "description": "You should automatically adopt the correct posture by now",
+          "target_keys": ["q", "w", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "ei",
+          "description": "Two more keys for the middle fingers. With the left the 'e' key and with the right the 'i' key",
+          "target_keys": ["e", "i"],
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "eee iii eie iei",
+          "description": "Two more keys for the middle fingers. With the left the 'e' key and with the right the 'i' key",
+          "target_keys": ["e", "i"],
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "qwe ewq iop poi",
+          "description": "Don't forget the position of your thumbs on the spacebar and the rest of your fingers on the home row",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "qpwoei ieowpq",
+          "description": "Don't forget the position of your thumbs on the spacebar and the rest of your fingers on the home row",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "qiepow wopeiq",
+          "description": "Don't move your whole hand, only the fingers that are going to press",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "eiwoqp pqowie",
+          "description": "Don't move your whole hand, only the fingers that are going to press",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "qw ew io po pq ow ie",
+          "description": "Don't forget that the spacebar is pressed with the thumb of the hand opposite to the last key pressed",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "ei wo qp op oi we wq",
+          "description": "Don't forget that the spacebar is pressed with the thumb of the hand opposite to the last key pressed",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "qiwoep epwoqi",
+          "description": "Don't look at the keyboard. You should only look at the screen",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "peowiq iqowpe",
+          "description": "Don't look at the keyboard. You should only look at the screen",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "qweiop poiewq",
+          "description": "Don't rush. Don't hurry. You'll achieve speed in due time. Now focus on doing the exercises well",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "pq wo ie wo pq",
+          "description": "Don't rush. Don't hurry. You'll achieve speed in due time. Now focus on doing the exercises well",
+          "target_keys": ["q", "w", "e", "i", "o", "p"],
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "",
+          "description": "Congratulations! You have finished the third lesson",
+          "target_keys": [],
+          "introduction": true
+        }
+      ]
     }
   ]
 }
