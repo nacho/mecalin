@@ -25,6 +25,7 @@ impl KeyboardLayout {
         let json_data = match layout_code {
             "us" => include_str!("../data/keyboard_layouts/us.json"),
             "es" => include_str!("../data/keyboard_layouts/es.json"),
+            "it" => include_str!("../data/keyboard_layouts/it.json"),
             _ => return Err(format!("Unsupported layout: {}", layout_code).into()),
         };
         Ok(serde_json::from_str(json_data)?)

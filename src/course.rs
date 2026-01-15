@@ -41,6 +41,7 @@ impl Course {
     pub fn new_with_language(language: &str) -> Result<Self, Box<dyn std::error::Error>> {
         let lessons_json = match language {
             "es" => include_str!("../data/lessons/es.json"),
+            "it" => include_str!("../data/lessons/it.json"),
             _ => include_str!("../data/lessons/us.json"),
         };
         let lessons_data: LessonsData = serde_json::from_str(lessons_json)?;
