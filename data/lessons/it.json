@@ -1,0 +1,910 @@
+{
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Benvenuto in Mecalin",
+      "description": "Benvenuto in Mecalin, il tuo tutor per imparare a digitare! Questo corso ti insegnerà a digitare passo dopo passo. Inizierai con la riga base dei tasti e imparerai gradualmente tutti i tasti della tastiera. Prenditi il tuo tempo, pratica regolarmente e diventerai rapidamente un esperto di dattilografia!",
+      "steps": [],
+      "introduction": true
+    },
+    {
+      "id": 1,
+      "title": "Prima parte della riga base",
+      "description": "Impara parte della riga base: A, S, D, K, L, Ò",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Qui inizia la prima lezione. Fai attenzione agli errori per non ripeterli. In questa lezione imparerai i tasti a, s, d, k, l, ò",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "a",
+          "description": "Premi il tasto 'a' con il dito mignolo della mano sinistra",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "ò",
+          "description": "Non dimenticare di posizionare le dita sulla riga base e i pollici sulla barra spaziatrice. Devi abituarti ad adottare la posizione corretta in tutte le sessioni. Premi il tasto 'ò' con il dito mignolo della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "sl",
+          "description": "Guarda lo schermo e non la tastiera. Premi il tasto 's' con il dito anulare della mano sinistra e il tasto 'l' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "aaa òòò aòa òaò",
+          "description": "Ora faremo alcuni esercizi con queste 4 lettere nell'ordine corretto. Se c'è un errore nella riga, dovrà essere ripetuta. Non essere impaziente se non va bene al primo tentativo. Ricorda di premere la barra spaziatrice tra le parole",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "sss lll sls lsl",
+          "description": "Ora faremo alcuni esercizi con queste 4 lettere nell'ordine corretto. Se c'è un errore nella riga, dovrà essere ripetuta. Non essere impaziente se non va bene al primo tentativo. Ricorda di premere la barra spaziatrice tra le parole",
+          "repetitions": 1
+        },
+        {
+          "id": 6,
+          "text": "aòsl òals",
+          "description": "Ora faremo alcuni esercizi con queste 4 lettere nell'ordine corretto. Se c'è un errore nella riga, dovrà essere ripetuta. Non essere impaziente se non va bene al primo tentativo. Ricorda di premere la barra spaziatrice tra le parole",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "slòa lsaò",
+          "description": "Ora faremo alcuni esercizi con queste 4 lettere nell'ordine corretto. Se c'è un errore nella riga, dovrà essere ripetuta. Non essere impaziente se non va bene al primo tentativo. Ricorda di premere la barra spaziatrice tra le parole",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "dk",
+          "description": "Ora aggiungeremo due tasti per le dita medie; con la mano sinistra il tasto 'd' e con la destra il 'k'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "ddd kkk dkd kdk",
+          "description": "Non dimenticare che la barra spaziatrice si preme con il dito pollice della mano opposta all'ultimo tasto premuto",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "asd dsa klò òlk",
+          "description": "Non dimenticare che la barra spaziatrice si preme con il dito pollice della mano opposta all'ultimo tasto premuto",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "adkò sdkl",
+          "description": "Le dita devono tornare alla loro posizione dopo aver premuto ogni tasto",
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "daòk dslk",
+          "description": "Le dita devono tornare alla loro posizione dopo aver premuto ogni tasto",
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "adòk dakò",
+          "description": "Le dita devono tornare alla loro posizione dopo aver premuto ogni tasto",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "lksd klds",
+          "description": "Premi i tasti con le dita corrette, anche se ora ti sembra più lento",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "aòsldk òalskd",
+          "description": "Premi i tasti con le dita corrette, anche se ora ti sembra più lento",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "asdklò òlkdsa",
+          "description": "Ora gli esercizi devono essere ripetuti 2 volte senza errori per poter passare al successivo",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "aòsldk kdlsòa",
+          "description": "Ora gli esercizi devono essere ripetuti 2 volte senza errori per poter passare al successivo",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "dkslaò òalskd",
+          "description": "Non essere impaziente. Non correre",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "",
+          "description": "Hai terminato la prima lezione e hai fatto i primi esercizi",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Riga base",
+      "description": "Impara i tasti della riga base: A, S, D, F, G, H, J, K, L, Ò",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Qui inizia la seconda lezione. Impareremo il resto della riga base e faremo una serie di esercizi con essa. Ricorda che non devi guardare la tastiera, ma lo schermo del tuo computer",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "f",
+          "description": "Premi il tasto 'f' con il dito indice della mano sinistra",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "fj",
+          "description": "Premi il tasto 'f' con il dito indice della mano sinistra e il tasto 'j' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "fff jjj fjf jfj",
+          "description": "Devi eseguire ogni esercizio due volte senza errori per poter passare all'esercizio successivo",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "asdf òlkj",
+          "description": "Devi eseguire ogni esercizio due volte senza errori per poter passare all'esercizio successivo",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "fdsa jklò",
+          "description": "Controlla la posizione delle dita al termine di ogni pressione",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "afjò ljsf fdjk",
+          "description": "Controlla la posizione delle dita al termine di ogni pressione",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "fòja djkf jslf",
+          "description": "Stai premendo la barra spaziatrice con il pollice corretto?",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "aòsldkfj òalskdjf",
+          "description": "Stai premendo la barra spaziatrice con il pollice corretto?",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "jfkdlsòa fjdkslaò",
+          "description": "Non guardare la tastiera, solo lo schermo del tuo computer",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "gh",
+          "description": "Altri due tasti per le stesse dita. Con l'indice della mano sinistra il tasto 'g' e con quello della mano destra il 'h'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "ggg hhh ghg hgh",
+          "description": "Ricorda che devi mantenere la postura corretta. La schiena dritta, le mani sulla riga base e i pollici sulla barra spaziatrice. Continua con altri esercizi...",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "gjfh hfjg gkhd dhkg",
+          "description": "Ricorda che devi mantenere la postura corretta. La schiena dritta, le mani sulla riga base e i pollici sulla barra spaziatrice. Continua con altri esercizi...",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "aòsldkfjgh hgjfkdlsòa",
+          "description": "Sposta solo le dita indice, non tutta la mano",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "ghfjdkslaò òalskdjfhg",
+          "description": "Sposta solo le dita indice, non tutta la mano",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "à",
+          "description": "Un altro tasto di questa riga 'à'. Si preme con il dito mignolo della mano destra, come il tasto 'ò', ma ricorda che non devi spostare la mano, solo il dito",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "aòà slà dkà fjà ghà",
+          "description": "Un altro tasto di questa riga 'à'. Si preme con il dito mignolo della mano destra, come il tasto 'ò', ma ricorda che non devi spostare la mano, solo il dito",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "òaà lsà kdà jfà hgà",
+          "description": "Un altro tasto di questa riga 'à'. Si preme con il dito mignolo della mano destra, come il tasto 'ò', ma ricorda che non devi spostare la mano, solo il dito",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "ùÙ",
+          "description": "Un altro tasto di questa riga base sarebbe 'ù'. Si preme con il dito mignolo della mano destra, dovendo tenere premuto il tasto SHIFT se vuoi premerlo in maiuscolo 'Ù'",
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "àòa àlsù àkd àjf àhg",
+          "description": "Le dita devono tornare alla riga base dopo aver premuto ogni tasto",
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "'aò 'sl 'dk 'fj 'ghù",
+          "description": "Le dita devono tornare alla riga base dopo aver premuto ogni tasto",
+          "repetitions": 1
+        },
+        {
+          "id": 21,
+          "text": "as òl lò sa",
+          "description": "E ora alcuni esercizi di ripasso delle prime due lezioni",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "adgjlà òkhfs",
+          "description": "E ora alcuni esercizi di ripasso delle prime due lezioni",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "sfhkò àljgda",
+          "description": "Non dimenticare tutte le indicazioni che ti diamo durante la lezione",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "slaò òasl aghò",
+          "description": "Non dimenticare tutte le indicazioni che ti diamo durante la lezione",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "fòjaù ajòfù gjhf",
+          "description": "I pollici sono nella loro posizione?",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "asdfghjklòàù àòlkjhgfdsaù",
+          "description": "Ricorda di tenere le mani in una posizione rilassata",
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "asdsa àòlklòà",
+          "description": "Ricorda di tenere le mani in una posizione rilassata",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "",
+          "description": "Congratulazioni! Hai completato la seconda lezione",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prima parte riga superiore",
+      "description": "Impara i tasti della riga superiore: Q, W, E, I, O, P",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Qui inizia la terza lezione. Inizieremo con la riga superiore, che è quella sopra la riga base",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "qp",
+          "description": "Premi il tasto 'q' con il dito mignolo della mano sinistra e il 'p' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "qqq ppp qpq pqp",
+          "description": "Digita correttamente due volte",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "wo",
+          "description": "Ora premi il tasto 'w' con il dito anulare della mano sinistra e il 'o' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "www ooo wow owo",
+          "description": "Ora premi il tasto 'w' con il dito anulare della mano sinistra e il 'o' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "qwop powq",
+          "description": "E ora alcuni esercizi con i primi quattro tasti di questa riga",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "qpwo pqow",
+          "description": "E ora alcuni esercizi con i primi quattro tasti di questa riga",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "wopq qpow",
+          "description": "Dovresti già adottare automaticamente la postura corretta",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "owqp pqwo",
+          "description": "Dovresti già adottare automaticamente la postura corretta",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "ei",
+          "description": "Altri due tasti per le dita medie. Con la sinistra il tasto 'e' e con la destra il tasto 'i'",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "eee iii eie iei",
+          "description": "Altri due tasti per le dita medie. Con la sinistra il tasto 'e' e con la destra il tasto 'i'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "qwe ewq iop poi",
+          "description": "Non dimenticare la posizione dei pollici sulla barra spaziatrice e il resto delle dita sulla riga base",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "qpwoei ieowpq",
+          "description": "Non dimenticare la posizione dei pollici sulla barra spaziatrice e il resto delle dita sulla riga base",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "qiepow wopeiq",
+          "description": "Non spostare tutta la mano, solo le dita che devono premere",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "eiwoqp pqowie",
+          "description": "Non spostare tutta la mano, solo le dita che devono premere",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "qw ew io po pq ow ie",
+          "description": "Non dimenticare che la barra spaziatrice si preme con il dito pollice della mano opposta all'ultimo tasto premuto",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "ei wo qp op oi we wq",
+          "description": "Non dimenticare che la barra spaziatrice si preme con il dito pollice della mano opposta all'ultimo tasto premuto",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "qiwoep epwoqi",
+          "description": "Non guardare la tastiera. Devi guardare solo lo schermo",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "peowiq iqowpe",
+          "description": "Non guardare la tastiera. Devi guardare solo lo schermo",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "qweiop poiewq",
+          "description": "Non avere fretta. Non correre. Raggiungerai la velocità a tempo debito. Ora concentrati sul fare bene gli esercizi",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "pq wo ie wo pq",
+          "description": "Non avere fretta. Non correre. Raggiungerai la velocità a tempo debito. Ora concentrati sul fare bene gli esercizi",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "",
+          "description": "Congratulazioni! Hai completato la terza lezione",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Riga superiore",
+      "description": "Impara i tasti della riga superiore: Q, W, E, R, T, Y, U, I, O, P",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "In questa lezione impareremo il resto della riga superiore e faremo esercizi con le due righe che già conosciamo",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "ru",
+          "description": "Premi il tasto 'r' con il dito indice della mano sinistra e il tasto 'u' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "rrr uuu rur uru",
+          "description": "Premi il tasto 'r' con il dito indice della mano sinistra e il tasto 'u' con quello della mano destra",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "qpwoeiru",
+          "description": "E ora con gli altri tasti che già conosciamo in questa riga",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "pqowieur",
+          "description": "E ora con gli altri tasti che già conosciamo in questa riga",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "rq up rw uo re ui",
+          "description": "E ora con gli altri tasti che già conosciamo in questa riga",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "iu er ou wr pu qr",
+          "description": "Assicurati di premere con le dita corrette",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "t",
+          "description": "Con il dito indice della mano sinistra premi il tasto 't'",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "y",
+          "description": "Con il dito indice della mano destra premi il tasto 'y'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "qwertyuiop poiuytrewq",
+          "description": "Ora alcuni esercizi",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "qpwo eiru tyru",
+          "description": "Assicurati di premere i tasti con le dita corrette",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "ytur ieow pqow",
+          "description": "Non dimenticare di non spostare le mani ma le dita",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "ptqy orwu ieei",
+          "description": "Dopo ogni pressione le dita devono tornare alla loro posizione corretta",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "è",
+          "description": "Con il dito mignolo della mano destra premi il tasto 'è'",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "+",
+          "description": "Con lo stesso dito premi il tasto '+'",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "*",
+          "description": "Ora useremo il tasto SHIFT o maiuscole. Premi SHIFT con il dito mignolo sinistro e il tasto '*' con il dito mignolo destro",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "é",
+          "description": "Ricorda che il tasto SHIFT si preme con la mano opposta a quella che premerà il tasto principale e con le dita mignolo. Con le stesse dita e mani ora premi il tasto 'é'",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "èé+è*è+éé è+*èè",
+          "description": "Seguendo le istruzioni precedenti fai i seguenti esercizi",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "qp+è wo+è ei+è+ ruè tyè",
+          "description": "Non essere impaziente. Questo esercizio è complicato se si cerca di farlo velocemente e semplice se si fa con calma",
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "é* *é p*p péP",
+          "description": "Non essere impaziente. Questo esercizio è complicato se si cerca di farlo velocemente e semplice se si fa con calma",
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "qpqò òqpa q*éa",
+          "description": "Ora conosci già due righe complete. I seguenti esercizi devono essere considerati come un ripasso delle quattro lezioni che hai fatto finora. Inizieremo con i mignoli",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "òapqé *ù aù qpé",
+          "description": "Ora conosci già due righe complete. I seguenti esercizi devono essere considerati come un ripasso delle quattro lezioni che hai fatto finora. Inizieremo con i mignoli",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "slwo owls swol",
+          "description": "Con gli anulari",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "deki edik eidk",
+          "description": "Con le dita medie",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "frju rfuj rufj",
+          "description": "Con le dita indice",
+          "repetitions": 1
+        },
+        {
+          "id": 25,
+          "text": "frjugthy hgjfuryt",
+          "description": "Con le dita indice",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "jfhguryt fjghruty",
+          "description": "Con le dita indice",
+          "repetitions": 3
+        },
+        {
+          "id": 27,
+          "text": "qwert poiuy",
+          "description": "E con tutte...",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "trewq yuiop",
+          "description": "E con tutte...",
+          "repetitions": 2
+        },
+        {
+          "id": 29,
+          "text": "aqwedsa",
+          "description": "Premi ogni tasto con le dita corrette",
+          "repetitions": 3
+        },
+        {
+          "id": 30,
+          "text": "òéèpoiklò",
+          "description": "Premi ogni tasto con le dita corrette",
+          "repetitions": 3
+        },
+        {
+          "id": 31,
+          "text": "asdewqa",
+          "description": "Dopo ogni pressione le dita devono tornare alla loro posizione sulla riga base",
+          "repetitions": 3
+        },
+        {
+          "id": 32,
+          "text": "òlkiopàèéò",
+          "description": "Dopo ogni pressione le dita devono tornare alla loro posizione sulla riga base",
+          "repetitions": 3
+        },
+        {
+          "id": 33,
+          "text": "òlkiopò",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 3
+        },
+        {
+          "id": 34,
+          "text": "frtgf jhyuj",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 3
+        },
+        {
+          "id": 35,
+          "text": "fgtrf juyhj",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 3
+        },
+        {
+          "id": 36,
+          "text": "aqwertgfdsa",
+          "description": "Non guardare la tastiera",
+          "repetitions": 3
+        },
+        {
+          "id": 37,
+          "text": "èàpoiuyhjklòè",
+          "description": "Non avere fretta",
+          "repetitions": 3
+        },
+        {
+          "id": 38,
+          "text": "asdfgtrewqa",
+          "description": "Non avere fretta",
+          "repetitions": 3
+        },
+        {
+          "id": 39,
+          "text": "+òlkjhyuiopè",
+          "description": "Posiziona il corpo nella posizione corretta",
+          "repetitions": 2
+        },
+        {
+          "id": 40,
+          "text": "aqòp swlo deki frik",
+          "description": "Posiziona il corpo nella posizione corretta",
+          "repetitions": 2
+        },
+        {
+          "id": 41,
+          "text": "jtuyth aqòp",
+          "description": "I palmi delle mani non devono appoggiarsi sul tavolo o sulla tastiera",
+          "repetitions": 2
+        },
+        {
+          "id": 42,
+          "text": "heigwoò frt",
+          "description": "I palmi delle mani non devono appoggiarsi sul tavolo o sulla tastiera",
+          "repetitions": 2
+        },
+        {
+          "id": 43,
+          "text": "huij dert",
+          "description": "Non incrociare le gambe; eviterai l'intorpidimento degli arti",
+          "repetitions": 2
+        },
+        {
+          "id": 44,
+          "text": "parola parata",
+          "description": "Ora formeremo delle parole",
+          "repetitions": 2
+        },
+        {
+          "id": 45,
+          "text": "goloso perso",
+          "description": "Ora formeremo delle parole",
+          "repetitions": 2
+        },
+        {
+          "id": 46,
+          "text": "perito gioia",
+          "description": "Ricorda che la posizione delle mani è curva e sfiorando leggermente i tasti della riga base",
+          "repetitions": 2
+        },
+        {
+          "id": 47,
+          "text": "pleura dito",
+          "description": "Ricorda che la posizione delle mani è curva e sfiorando leggermente i tasti della riga base",
+          "repetitions": 2
+        },
+        {
+          "id": 48,
+          "text": "pelota tre",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 2
+        },
+        {
+          "id": 49,
+          "text": "aquilone",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 2
+        },
+        {
+          "id": 50,
+          "text": "desiderato supposto",
+          "description": "Non guardare la tastiera",
+          "repetitions": 2
+        },
+        {
+          "id": 51,
+          "text": "isolato fuggito",
+          "description": "Non guardare la tastiera",
+          "repetitions": 2
+        },
+        {
+          "id": 52,
+          "text": "fragola seguire",
+          "description": "A questo punto del corso dovresti già avere le abitudini corrette. Se non è così sarebbe consigliabile ripassare la lezione per principianti",
+          "repetitions": 2
+        },
+        {
+          "id": 53,
+          "text": "fresa querido",
+          "description": "A questo punto del corso dovresti già avere le abitudini corrette. Se non è così sarebbe consigliabile ripassare la lezione per principianti",
+          "repetitions": 2
+        },
+        {
+          "id": 54,
+          "text": "",
+          "description": "Congratulazioni! Hai completato la quarta lezione",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Prima parte della riga inferiore",
+      "description": "Impara parte della riga inferiore: Z, -, X, ., C, ,",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Inizieremo con la riga inferiore. Conosci già il metodo e questa quinta lezione ti sarà molto facile.",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "z-",
+          "description": "Premi 'z' con il dito mignolo della mano sinistra e il tasto '-' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "zzz --- z-z -z-",
+          "description": "Premi 'z' con il dito mignolo della mano sinistra e il tasto '-' con quello della mano destra",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "x.",
+          "description": "Premi il tasto 'x' con il dito anulare della mano sinistra e il tasto '.' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "xxx ... x.x .x.",
+          "description": "Premi il tasto 'x' con il dito anulare della mano sinistra e il tasto '.' con quello della mano destra",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "zx.- -.xz",
+          "description": "Dopo ogni pressione nella riga inferiore le dita devono tornare al loro tasto della riga base",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "c,",
+          "description": "Premi il tasto 'c' con il dito medio della mano sinistra e il tasto ',' con quello della mano destra",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "ccc ,,, c,c ,c,",
+          "description": "Premi il tasto 'c' con il dito medio della mano sinistra e il tasto ',' con quello della mano destra",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "zxc cxz -., ,.-",
+          "description": "Le dita sono quelle che si spostano, non le mani",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "z-x.c, ,c.x-z",
+          "description": "Le dita sono quelle che si spostano, non le mani",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "zzxxcc ,,..--",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "--..,, ccxxzz",
+          "description": "I pollici devono essere sulla barra spaziatrice",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "z, .x c-",
+          "description": "Non dimenticare che la barra spaziatrice si preme con il dito pollice della mano opposta all'ultimo tasto premuto",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": ",z x. -c",
+          "description": "Non dimenticare che la barra spaziatrice si preme con il dito pollice della mano opposta all'ultimo tasto premuto",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "cc,, -- zz",
+          "description": "Stai posizionando le dita al loro posto dopo ogni pressione?",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "z x c , . -",
+          "description": "Stai posizionando le dita al loro posto dopo ogni pressione?",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "- . , c x z",
+          "description": "Leggi tutte le spiegazioni e i consigli che appaiono nelle lezioni",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "",
+          "description": "Congratulazioni! Hai completato la quinta lezione",
+          "introduction": true
+        }
+      ]
+    }
+  ]
+}
