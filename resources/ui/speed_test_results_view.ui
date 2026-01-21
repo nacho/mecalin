@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- results_view.ui
+  
+  SPDX-FileCopyrightText: © 2024 Brage Fuglseth <bragefuglseth@gnome.org>
+  SPDX-License-Identifier: GPL-3.0-or-later
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<interface>
+  <template class="SpeedTestResultsView" parent="GtkWidget">
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">36</property>
+        <property name="halign">center</property>
+        <child>
+          <object class="GtkBox" id="wpm_accuracy_box">
+            <property name="orientation">horizontal</property>
+            <property name="spacing">12</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <property name="width-request">200</property>
+                <child>
+                  <object class="GtkBox">
+                    <property name="spacing">6</property>
+                    <property name="halign">center</property>
+                    <child>
+                      <object class="GtkImage" id="personal_best_balancer">
+                        <binding name="visible">
+                          <lookup name="show-personal-best" type="SpeedTestResultsView">
+                            <lookup name="root">personal_best_balancer</lookup>
+                          </lookup>
+                        </binding>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="wpm_label">
+                        <style>
+                          <class name="key-number"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImage" id="personal_best">
+                        <property name="tooltip-text" translatable="yes">New Personal Best for Configuration</property>
+                        <property name="icon-name">arrow3-up-symbolic</property>
+                        <binding name="visible">
+                          <lookup name="show-personal-best" type="SpeedTestResultsView">
+                            <lookup name="root">personal_best</lookup>
+                          </lookup>
+                        </binding>
+                        <style>
+                          <class name="accent"/>
+                        </style>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label" translatable="yes">Words per Minute</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkSeparator" id="separator"/>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <property name="width-request">200</property>
+                <child>
+                  <object class="GtkLabel" id="accuracy_label">
+                    <style>
+                      <class name="key-number"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label" translatable="yes">Accuracy</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="test_info_box">
+            <property name="halign">center</property>
+            <property name="homogeneous">1</property>
+            <child>
+              <object class="GtkBox">
+                <property name="halign">center</property>
+                <property name="spacing">6</property>
+                <property name="tooltip-text" translatable="yes">Test Type</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="icon-name">quotation-symbolic</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="test_type_label"/>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="halign">center</property>
+                <property name="spacing">6</property>
+                <property name="tooltip-text" translatable="yes">Test Duration</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="icon-name">timer-symbolic</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="duration_label"/>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox" id="language_box">
+                <property name="halign">center</property>
+                <property name="spacing">6</property>
+                <property name="tooltip-text" translatable="yes">Text Language</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="icon-name">language-symbolic</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="language_label"/>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

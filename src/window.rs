@@ -11,6 +11,7 @@ use crate::course::Lesson;
 use crate::falling_keys_game::FallingKeysGame;
 use crate::lesson_view::LessonView;
 use crate::scrolling_lanes_game::ScrollingLanesGame;
+use crate::speed_test_view::SpeedTestView;
 use crate::typing_row::TypingRow;
 
 mod imp {
@@ -29,6 +30,8 @@ mod imp {
         pub main_stack: TemplateChild<gtk::Stack>,
         #[template_child]
         pub lessons_row: TemplateChild<adw::ActionRow>,
+        #[template_child]
+        pub speed_test_row: TemplateChild<adw::ActionRow>,
         #[template_child]
         pub falling_keys_row: TemplateChild<adw::ActionRow>,
         #[template_child]
@@ -125,11 +128,27 @@ impl MecalinWindow {
         }
     }
 
+    pub fn show_speed_test(&self) {
+        let imp = self.imp();
+
+        // Create speed test view if it doesn't exist
+        if imp.main_stack.child_by_name("speed_test").is_none() {
+            let speed_test = SpeedTestView::new();
+            imp.main_stack
+                .add_named(speed_test.widget(), Some("speed_test"));
+        }
+
+        imp.main_stack.set_visible_child_name("speed_test");
+        imp.back_button.set_visible(true);
+        imp.window_title.set_title(&gettext("Speed Test"));
+        imp.window_title.set_subtitle("");
+    }
+
     pub fn go_back(&self) {
         let imp = self.imp();
         let current_page = imp.main_stack.visible_child_name();
 
-        if let Some("lessons" | "game" | "lanes_game") = current_page.as_deref() {
+        if let Some("lessons" | "game" | "lanes_game" | "speed_test") = current_page.as_deref() {
             imp.main_stack.set_visible_child_name("main_menu");
             imp.back_button.set_visible(false);
             imp.window_title.set_title("Mecalin");
@@ -145,9 +164,35 @@ impl MecalinWindow {
             .version(config::VERSION)
             .website("https://github.com/nacho/mecalin")
             .issue_url("https://github.com/nacho/mecalin/issues")
-            .copyright("© 2026 Ignacio Casal Quinteiro")
+            .copyright("© 2026 Ignacio Casal Quinteiro\n© 2024–2025 Brage Fuglseth")
             .license_type(gtk::License::Gpl30)
             .build();
+
+        about.add_credit_section(
+            Some("Code by"),
+            &[
+                "Ignacio Casal Quinteiro",
+                "Brage Fuglseth https://bragefuglseth.dev",
+            ],
+        );
+
+        about.add_credit_section(
+            Some("Speed Test Orthography"),
+            &[
+                "Angelo Verlain Shema https://www.vixalien.com/",
+                "Arnob Goswami",
+                "Daniel Uhrinyi",
+                "Fabio Lovato https://loviuz.it/",
+                "Gregor Niehl https://gregorni.gitlab.io/",
+                "Hadi Azarnasab https://hadi7546.ir/",
+                "Ibrahim Muhammad",
+                "Kim Jimin https://developomp.com",
+                "Shellheim",
+                "Tamazight teachers of Tizi Ouzou",
+                "Urtsi Santsi",
+                "Yevhen Popok",
+            ],
+        );
 
         about.present(Some(self));
     }
@@ -263,6 +308,13 @@ impl imp::MecalinWindow {
         self.scrolling_lanes_row.connect_activated(move |_| {
             if let Some(window) = window.upgrade() {
                 window.show_lanes_game();
+            }
+        });
+
+        let window = self.obj().downgrade();
+        self.speed_test_row.connect_activated(move |_| {
+            if let Some(window) = window.upgrade() {
+                window.show_speed_test();
             }
         });
 

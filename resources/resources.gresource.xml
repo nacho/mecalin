@@ -6,6 +6,8 @@
     <file preprocess="xml-stripblanks">ui/typing_row.ui</file>
     <file preprocess="xml-stripblanks">ui/falling_keys_game.ui</file>
     <file preprocess="xml-stripblanks">ui/scrolling_lanes_game.ui</file>
+    <file preprocess="xml-stripblanks">ui/speed_test_text_view.ui</file>
+    <file preprocess="xml-stripblanks">ui/speed_test_results_view.ui</file>
     <file>style.css</file>
   </gresource>
 </gresources>

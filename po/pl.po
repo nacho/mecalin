@@ -90,3 +90,9 @@ msgstr "Lekcja {}"
 #: src/window.rs:198
 msgid "Lesson {}: Step {}/{}"
 msgstr "Lekcja {}: Krok {}/{}"
+
+msgid "Speed Test"
+msgstr "Test prędkości"
+
+msgid "Test your typing speed"
+msgstr "Przetestuj swoją prędkość pisania"

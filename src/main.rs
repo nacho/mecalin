@@ -4,7 +4,13 @@ mod falling_keys_game;
 mod keyboard_widget;
 mod lesson_view;
 mod scrolling_lanes_game;
+mod speed_test_results_view;
+mod speed_test_text_view;
+mod speed_test_view;
+mod text_generation;
+mod text_utils;
 mod typing_row;
+mod typing_test_utils;
 
 mod config {
     include!(concat!(env!("OUT_DIR"), "/config.rs"));

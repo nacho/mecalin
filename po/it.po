@@ -3,90 +3,84 @@
 # This file is distributed under the same license as the mecalin package.
 # ALBANO BATTISTELLA <ALBANOBATTISTELLA@GMAIL.COM>, 2026.
 #  
-msgid ""
-msgstr ""
-"Project-Id-Version: mecalin\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 17:54+0100\n"
-"PO-Revision-Date: 2026-01-14 21:31+0200\n"
-"Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
-"Language-Team: Italian <LL@li.org>\n"
-"Language: it\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+msgid ""  
+msgstr ""  
+"Project-Id-Version: mecalin\n"  
+"Report-Msgid-Bugs-To: \n"  
+"POT-Creation-Date: 2026-01-14 15:32+0100\n"  
+"PO-Revision-Date: 2026-01-14 21:31+0200\n"  
+"Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"  
+"Language-Team: Italian <LL@li.org>\n"  
+"Language: it\n"  
+"MIME-Version: 1.0\n"  
+"Content-Type: text/plain; charset=UTF-8\n"  
+"Content-Transfer-Encoding: 8bit\n"  
+  
+#: data/io.github.nacho.mecalin.desktop.in:3  
+msgid "Mecalin"  
+msgstr "Mecalin"  
+  
+#: data/io.github.nacho.mecalin.desktop.in:4  
+msgid "Learn how to type"  
+msgstr "Impara a digitare"  
+  
+#: resources/ui/lesson_view.ui:87  
+msgid "Continue"  
+msgstr "Continua"  
+  
+#: src/falling_keys_game.rs:252 src/falling_keys_game.rs:274  
+#: src/falling_keys_game.rs:388 src/scrolling_lanes_game.rs:309  
+#: src/scrolling_lanes_game.rs:323 src/scrolling_lanes_game.rs:422  
+msgid "Score: {}"  
+msgstr "Punteggio: {}"  
+  
+#: src/falling_keys_game.rs:259 src/falling_keys_game.rs:390  
+#: src/scrolling_lanes_game.rs:315 src/scrolling_lanes_game.rs:424  
+msgid "Level: {}"  
+msgstr "Livello: {}"  
+  
+#: src/main_action_list.rs:60  
+msgid "Lessons"  
+msgstr "Lezioni"  
+  
+#: src/main_action_list.rs:60  
+msgid "Learn typing fundamentals"  
+msgstr "Impara le basi della digitazione"  
+  
+#: src/main_action_list.rs:62 src/window.rs:100  
+msgid "Falling Keys"  
+msgstr "Tasti che cadono"  
+  
+#: src/main_action_list.rs:63  
+msgid "Practice with a fun game"  
+msgstr "Esercitati con un gioco divertente"  
+  
+#: src/main_action_list.rs:66 src/window.rs:115  
+msgid "Scrolling Lanes"  
+msgstr "Corsie a scorrimento"  
+  
+#: src/main_action_list.rs:67  
+msgid "Type fast in multiple lanes"  
+msgstr "Digita velocemente su più corsie"  
+  
+#: src/main_action_list.rs:69  
+msgid "About"  
+msgstr "Informazioni"  
+  
+#: src/main_action_list.rs:69  
+msgid "Application information"  
+msgstr "Informazioni sull'applicazione"  
+  
+#: src/window.rs:193  
+msgid "Lesson {}"  
+msgstr "Lezione {}"  
+  
+#: src/window.rs:198  
+msgid "Lesson {}: Step {}/{}"  
+msgstr "Lezione {}: Passo {}/{}"  
 
-#: data/io.github.nacho.mecalin.desktop.in:3
-msgid "Mecalin"
-msgstr "Mecalin"
+msgid "Speed Test"
+msgstr "Test di velocità"
 
-#: data/io.github.nacho.mecalin.desktop.in:4
-msgid "Learn how to type"
-msgstr "Impara a digitare"
-
-#: resources/ui/falling_keys_game.ui:56 resources/ui/scrolling_lanes_game.ui:57
-msgid "Score"
-msgstr "Punteggio"
-
-#: resources/ui/falling_keys_game.ui:82 resources/ui/scrolling_lanes_game.ui:83
-msgid "Level Reached"
-msgstr "Livello Raggiunto"
-
-#: resources/ui/falling_keys_game.ui:94 resources/ui/scrolling_lanes_game.ui:95
-msgid "Play Again"
-msgstr "Gioca Ancora"
-
-#: resources/ui/lesson_view.ui:87
-msgid "Continue"
-msgstr "Continua"
-
-#: src/falling_keys_game.rs:307 src/falling_keys_game.rs:329
-#: src/falling_keys_game.rs:381 src/scrolling_lanes_game.rs:426
-#: src/scrolling_lanes_game.rs:440 src/scrolling_lanes_game.rs:487
-msgid "Score: {}"
-msgstr "Punteggio: {}"
-
-#: src/falling_keys_game.rs:314 src/falling_keys_game.rs:383
-#: src/scrolling_lanes_game.rs:432 src/scrolling_lanes_game.rs:489
-msgid "Level: {}"
-msgstr "Livello: {}"
-
-#: src/main_action_list.rs:60
-msgid "Lessons"
-msgstr "Lezioni"
-
-#: src/main_action_list.rs:60
-msgid "Learn typing fundamentals"
-msgstr "Impara le basi della digitazione"
-
-#: src/main_action_list.rs:62 src/window.rs:100
-msgid "Falling Keys"
-msgstr "Tasti che cadono"
-
-#: src/main_action_list.rs:63
-msgid "Practice with a fun game"
-msgstr "Esercitati con un gioco divertente"
-
-#: src/main_action_list.rs:66 src/window.rs:115
-msgid "Scrolling Lanes"
-msgstr "Corsie a scorrimento"
-
-#: src/main_action_list.rs:67
-msgid "Type fast in multiple lanes"
-msgstr "Digita velocemente su più corsie"
-
-#: src/main_action_list.rs:69
-msgid "About"
-msgstr "Informazioni"
-
-#: src/main_action_list.rs:69
-msgid "Application information"
-msgstr "Informazioni sull'applicazione"
-
-#: src/window.rs:193
-msgid "Lesson {}"
-msgstr "Lezione {}"
-
-#: src/window.rs:198
-msgid "Lesson {}: Step {}/{}"
-msgstr "Lezione {}: Passo {}/{}"
+msgid "Test your typing speed"
+msgstr "Testa la tua velocità di digitazione"

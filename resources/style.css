@@ -47,3 +47,25 @@
 .falling-key-text {
   color: @view_fg_color;
 }
+
+/* Speed test text view styles (from Keypunch) */
+
+SpeedTestTextView {
+  transition: filter 200ms;
+}
+
+SpeedTestTextView.unfocused {
+  filter: blur(3px);
+}
+
+SpeedTestTextView > textview {
+  font-size: 1.5rem;
+  line-height: 50px;
+  background: none;
+  font-variant-ligatures: none;
+}
+
+SpeedTestResultsView .key-number {
+  font-size: 3.5rem;
+  font-weight: 700;
+}

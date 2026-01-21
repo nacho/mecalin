@@ -42,6 +42,13 @@
                           </object>
                         </child>
                         <child>
+                          <object class="AdwActionRow" id="speed_test_row">
+                            <property name="title" translatable="yes">Speed Test</property>
+                            <property name="subtitle" translatable="yes">Test your typing speed</property>
+                            <property name="activatable">true</property>
+                          </object>
+                        </child>
+                        <child>
                           <object class="AdwActionRow" id="falling_keys_row">
                             <property name="title" translatable="yes">Falling Keys</property>
                             <property name="subtitle" translatable="yes">Practice with a fun game</property>
