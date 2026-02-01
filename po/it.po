@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-28 13:17+0100\n"
-"PO-Revision-Date: 2026-01-14 21:31+0200\n"
+"PO-Revision-Date: 2026-02-01 21:31+0200\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
 "Language: it\n"
@@ -25,17 +25,16 @@ msgid "Learn how to type"
 msgstr "Impara a digitare"
 
 #: resources/ui/falling_keys_game.ui:56 resources/ui/scrolling_lanes_game.ui:57
-#, fuzzy
 msgid "Score"
-msgstr "Punteggio: {}"
+msgstr "Punteggio"
 
 #: resources/ui/falling_keys_game.ui:82 resources/ui/scrolling_lanes_game.ui:83
 msgid "Level Reached"
-msgstr ""
+msgstr "Livello raggiunto"
 
 #: resources/ui/falling_keys_game.ui:94 resources/ui/scrolling_lanes_game.ui:95
 msgid "Play Again"
-msgstr ""
+msgstr "Gioca di nuovo"
 
 #: resources/ui/lesson_view.ui:71
 msgid "Continue"
