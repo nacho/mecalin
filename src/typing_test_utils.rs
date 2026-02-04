@@ -73,8 +73,9 @@ pub enum TestDuration {
     Sec15,
     Sec30,
     Min1,
-    Min5,
-    Min10,
+    Min2,
+//  Min5,
+//  Min10,
 }
 
 impl TestDuration {
@@ -83,8 +84,9 @@ impl TestDuration {
             TestDuration::Sec15 => gettext("15 seconds"),
             TestDuration::Sec30 => gettext("30 seconds"),
             TestDuration::Min1 => gettext("1 minute"),
-            TestDuration::Min5 => gettext("5 minutes"),
-            TestDuration::Min10 => gettext("10 minutes"),
+            TestDuration::Min2 => gettext("2 minutes"),
+//          TestDuration::Min5 => gettext("5 minutes"),
+//          TestDuration::Min10 => gettext("10 minutes"),
         }
     }
 
@@ -93,8 +95,9 @@ impl TestDuration {
             TestDuration::Sec15 => "15 seconds",
             TestDuration::Sec30 => "30 seconds",
             TestDuration::Min1 => "1 minute",
-            TestDuration::Min5 => "5 minutes",
-            TestDuration::Min10 => "10 minutes",
+            TestDuration::Min2 => "2 minutes",
+//          TestDuration::Min5 => "5 minutes",
+//          TestDuration::Min10 => "10 minutes",
         }
     }
 
@@ -103,8 +106,9 @@ impl TestDuration {
             TestDuration::Sec15 => 15,
             TestDuration::Sec30 => 30,
             TestDuration::Min1 => 60,
-            TestDuration::Min5 => 300,
-            TestDuration::Min10 => 600,
+            TestDuration::Min2 => 120,
+//          TestDuration::Min5 => 300,
+//          TestDuration::Min10 => 600,
         }
     }
 }
