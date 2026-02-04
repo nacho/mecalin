@@ -106,7 +106,8 @@ impl SpeedTestView {
             0 => TestDuration::Sec15,
             1 => TestDuration::Sec30,
             2 => TestDuration::Min1,
-            3 => TestDuration::Min5,
+            3 => TestDuration::Min2,
+//          3 => TestDuration::Min5,
             _ => TestDuration::Min1,
         }
     }
