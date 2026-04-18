@@ -28,7 +28,8 @@
       {"base": "o", "shift": "O", "altgr": "ó", "finger": "right_ring"},
       {"base": "p", "shift": "P", "altgr": "ö", "finger": "right_pinky"},
       {"base": "[", "shift": "{", "altgr": "«", "finger": "right_pinky"},
-      {"base": "]", "shift": "}", "altgr": "»", "finger": "right_pinky"}
+      {"base": "]", "shift": "}", "altgr": "»", "finger": "right_pinky"},
+      {"base": "\\", "shift": "|", "altgr": "¬", "finger": "right_pinky"}
     ],
     [
       {"base": "a", "shift": "A", "altgr": "á", "finger": "left_pinky"},
@@ -41,11 +42,9 @@
       {"base": "k", "shift": "K", "altgr": "ĸ", "finger": "right_middle"},
       {"base": "l", "shift": "L", "altgr": "ł", "finger": "right_ring"},
       {"base": ";", "shift": ":", "altgr": "¶", "finger": "right_pinky"},
-      {"base": "'", "shift": "\"", "altgr": "´", "finger": "right_pinky"},
-      {"base": "\\", "shift": "|", "altgr": "¬", "finger": "right_pinky"}
+      {"base": "'", "shift": "\"", "altgr": "´", "finger": "right_pinky"}
     ],
     [
-      {"base": "<", "shift": ">", "altgr": "", "finger": "left_pinky"},
       {"base": "z", "shift": "Z", "altgr": "æ", "finger": "left_pinky"},
       {"base": "x", "shift": "X", "altgr": "×", "finger": "left_ring"},
       {"base": "c", "shift": "C", "altgr": "©", "finger": "left_middle"},
