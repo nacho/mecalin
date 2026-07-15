@@ -6,4 +6,5 @@ Icon=io.github.nacho.mecalin
 Terminal=false
 Type=Application
 Categories=Education;
+Keywords=keyboard;touch type;touch typing;typing;typing tutor;
 StartupNotify=true
