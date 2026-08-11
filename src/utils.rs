@@ -3,17 +3,20 @@ use gtk::glib::Unichar;
 
 pub fn language_from_locale() -> &'static str {
     let locale = std::env::var("LANG").unwrap_or_else(|_| "en_US".to_string());
-    if locale.starts_with("es") {
+    let locale_lower = locale.to_lowercase();
+    if locale_lower.starts_with("es") {
         "es"
-    } else if locale.starts_with("fr") {
+    } else if locale_lower.starts_with("fr") {
         "fr"
-    } else if locale.starts_with("gl") {
+    } else if locale_lower.starts_with("gl") {
         "gl"
-    } else if locale.starts_with("it") {
+    } else if locale_lower.starts_with("it") {
         "it"
-    } else if locale.starts_with("pl") {
+    } else if locale_lower.starts_with("pl") {
         "pl"
-    } else if locale.starts_with("pt") {
+    } else if locale_lower.starts_with("pt_br") {
+        "pt_br"
+    } else if locale_lower.starts_with("pt") {
         "pt"
     } else {
         "us"
@@ -178,6 +181,20 @@ mod tests {
         let _lock = TEST_MUTEX.lock().unwrap();
         unsafe { std::env::set_var("LANG", "pt_PT.UTF-8") };
         assert_eq!(language_from_locale(), "pt");
+    }
+
+    #[test]
+    fn test_language_from_locale_brazilian_portuguese() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "pt_BR.UTF-8") };
+        assert_eq!(language_from_locale(), "pt_br");
+    }
+
+    #[test]
+    fn test_language_from_locale_brazilian_portuguese_lowercase() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "pt_br.UTF-8") };
+        assert_eq!(language_from_locale(), "pt_br");
     }
 
     #[test]

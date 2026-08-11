@@ -181,6 +181,7 @@ impl KeyboardLayout {
             "it" => include_str!("../data/keyboard_layouts/it.json"),
             "pl" => include_str!("../data/keyboard_layouts/pl.json"),
             "pt" => include_str!("../data/keyboard_layouts/pt.json"),
+            "pt_br" => include_str!("../data/keyboard_layouts/pt_br.json"),
             _ => return Err(format!("Unsupported layout: {}", layout_code).into()),
         };
         Ok(serde_json::from_str(json_data)?)

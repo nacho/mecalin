@@ -1,0 +1,247 @@
+# Brazilian Portuguese translations for mecalin package.
+# Copyright (C) 2026 THE mecalin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mecalin package.
+# Douglas Silvestrini, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mecalin 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-13 10:44+0100\n"
+"PO-Revision-Date: 2026-08-11 11:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: Brazilian Portuguese\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.nacho.mecalin.desktop.in:3
+msgid "Mecalin"
+msgstr "Mecalin"
+
+#: data/io.github.nacho.mecalin.desktop.in:4
+msgid "Learn how to type"
+msgstr "Aprenda a digitar"
+
+#: resources/ui/about_view.ui:5 resources/ui/window.ui:65
+msgid "About"
+msgstr "Sobre"
+
+#: resources/ui/about_view.ui:32
+msgid "About Mecalin"
+msgstr "Sobre o Mecalin"
+
+#: resources/ui/about_view.ui:40
+msgid "Developer"
+msgstr "Desenvolvedor"
+
+#: resources/ui/about_view.ui:46
+msgid "Website"
+msgstr "Site"
+
+#: resources/ui/about_view.ui:54
+msgid "Report an Issue"
+msgstr "Reportar um problema"
+
+#: resources/ui/about_view.ui:64
+msgid "Code by"
+msgstr "Código por"
+
+#: resources/ui/about_view.ui:82
+msgid "Speed Test Orthography"
+msgstr "Ortografia do teste de velocidade"
+
+#: resources/ui/about_view.ui:162
+msgid "Legal"
+msgstr "Legal"
+
+#: resources/ui/about_view.ui:165
+msgid "Copyright"
+msgstr "Direitos autorais"
+
+#: resources/ui/about_view.ui:172
+msgid "License"
+msgstr "Licença"
+
+#: resources/ui/course_completion_view.ui:4
+msgid "Course Completed"
+msgstr "Curso concluído"
+
+#: resources/ui/course_completion_view.ui:13
+msgid "Congratulations!"
+msgstr "Parabéns!"
+
+#: resources/ui/course_completion_view.ui:14
+msgid ""
+"You've completed all lessons! Keep practicing with the speed test to improve "
+"your typing skills."
+msgstr ""
+"Você concluiu todas as lições! Continue praticando com o teste de velocidade "
+"para melhorar suas habilidades de digitação."
+
+#: resources/ui/falling_keys_game.ui:5 resources/ui/window.ui:44
+msgid "Falling Keys"
+msgstr "Teclas Caindo"
+
+#: resources/ui/falling_keys_game.ui:65 resources/ui/scrolling_lanes_game.ui:66
+msgid "Score"
+msgstr "Pontuação"
+
+#: resources/ui/falling_keys_game.ui:91 resources/ui/scrolling_lanes_game.ui:92
+msgid "Level Reached"
+msgstr "Nível Alcançado"
+
+#: resources/ui/falling_keys_game.ui:103
+#: resources/ui/scrolling_lanes_game.ui:104
+msgid "Play Again"
+msgstr "Jogar Novamente"
+
+#: resources/ui/lesson_view.ui:96
+msgid "Continue"
+msgstr "Continuar"
+
+#: resources/ui/preferences_view.ui:5 resources/ui/window.ui:58
+msgid "Preferences"
+msgstr "Preferências"
+
+#: resources/ui/preferences_view.ui:15
+msgid "Display"
+msgstr "Exibição"
+
+#: resources/ui/preferences_view.ui:18
+msgid "Show Hand Widget"
+msgstr "Mostrar widget de mãos"
+
+#: resources/ui/preferences_view.ui:19
+msgid "Display finger position guide"
+msgstr "Mostrar guia de posição dos dedos"
+
+#: resources/ui/preferences_view.ui:24
+msgid "Show Keyboard Widget"
+msgstr "Mostrar widget do teclado"
+
+#: resources/ui/preferences_view.ui:25
+msgid "Display keyboard layout"
+msgstr "Mostrar layout do teclado"
+
+#: resources/ui/preferences_view.ui:30
+msgid "Use Finger Colors"
+msgstr "Usar cores dos dedos"
+
+#: resources/ui/preferences_view.ui:31
+msgid "Color keyboard keys and hand by finger assignment"
+msgstr ""
+"Colorir as teclas do teclado e a mão de acordo com a atribuição dos dedos"
+
+#: resources/ui/preferences_view.ui:38
+msgid "Lesson Progress"
+msgstr "Progresso das lições"
+
+#: resources/ui/preferences_view.ui:41
+msgid "Current Lesson"
+msgstr "Lição atual"
+
+#: resources/ui/preferences_view.ui:42
+msgid "Select active lesson (resets step to beginning)"
+msgstr "Selecionar lição ativa (reinicia o passo ao início)"
+
+#: resources/ui/scrolling_lanes_game.ui:5 resources/ui/window.ui:51
+msgid "Scrolling Lanes"
+msgstr "Faixas Deslizantes"
+
+#: resources/ui/speed_test_results_view.ui:57
+msgid "New Personal Best for Configuration"
+msgstr "Novo recorde pessoal para esta configuração"
+
+#: resources/ui/speed_test_results_view.ui:73
+msgid "Words per Minute"
+msgstr "Palavras por minuto"
+
+#: resources/ui/speed_test_results_view.ui:97
+msgid "Accuracy"
+msgstr "Precisão"
+
+#: resources/ui/speed_test_results_view.ui:115
+msgid "Test Type"
+msgstr "Tipo de teste"
+
+#: resources/ui/speed_test_results_view.ui:130
+msgid "Test Duration"
+msgstr "Duração do teste"
+
+#: resources/ui/speed_test_results_view.ui:145
+msgid "Text Language"
+msgstr "Idioma do texto"
+
+#: resources/ui/speed_test_results_view.ui:160
+msgid "Retry"
+msgstr "Tentar novamente"
+
+#: resources/ui/speed_test_text_view.ui:27
+msgid "Text View"
+msgstr "Visualização de texto"
+
+#: resources/ui/speed_test_view.ui:5 resources/ui/window.ui:37
+msgid "Speed Test"
+msgstr "Teste de Velocidade"
+
+#: resources/ui/speed_test_view.ui:17
+msgid "Speed Test:"
+msgstr "Teste de Velocidade:"
+
+#: resources/ui/speed_test_view.ui:32
+msgid "Simple"
+msgstr "Simples"
+
+#: resources/ui/speed_test_view.ui:33
+msgid "Advanced"
+msgstr "Avançado"
+
+#: resources/ui/speed_test_view.ui:45
+msgid "15 seconds"
+msgstr "15 segundos"
+
+#: resources/ui/speed_test_view.ui:46
+msgid "30 seconds"
+msgstr "30 segundos"
+
+#: resources/ui/speed_test_view.ui:47
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: resources/ui/speed_test_view.ui:48
+msgid "5 minutes"
+msgstr "5 minutos"
+
+#: resources/ui/speed_test_view.ui:49
+msgid "10 minutes"
+msgstr "10 minutos"
+
+#: resources/ui/window.ui:30
+msgid "Lessons"
+msgstr "Lições"
+
+#: resources/ui/window.ui:31
+msgid "Learn typing fundamentals"
+msgstr "Aprenda os fundamentos da digitação"
+
+#: resources/ui/window.ui:38
+msgid "Test your typing speed"
+msgstr "Teste sua velocidade de digitação"
+
+#: resources/ui/window.ui:45
+msgid "Practice with a fun game"
+msgstr "Pratique com um jogo divertido"
+
+#: resources/ui/window.ui:52
+msgid "Type fast in multiple lanes"
+msgstr "Digite rápido em múltiplas faixas"
+
+#: resources/ui/window.ui:59
+msgid "Configure application settings"
+msgstr "Configurar as definições do aplicativo"
+
+#: resources/ui/window.ui:66
+msgid "Application information"
+msgstr "Informações do aplicativo"

@@ -46,6 +46,7 @@ impl Course {
             "it" => include_str!("../data/lessons/it.json"),
             "pl" => include_str!("../data/lessons/pl.json"),
             "pt" => include_str!("../data/lessons/pt.json"),
+            "pt_br" => include_str!("../data/lessons/pt_br.json"),
             _ => include_str!("../data/lessons/us.json"),
         };
         let lessons_data: LessonsData = serde_json::from_str(lessons_json)?;

@@ -1,0 +1,2321 @@
+{
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Bem-vindo ao Mecalin",
+      "description": "Bem-vindo ao Mecalin, o seu tutor para aprender a digitar! Este curso vai ensiná-lo a digitar passo a passo. Você começará pela fila principal de teclas e irá aprendendo todas as teclas do teclado gradualmente. Tome o seu tempo, pratique regularmente e rapidamente se tornará um especialista em digitação",
+      "steps": [],
+      "introduction": true
+    },
+    {
+      "id": 1,
+      "title": "Primeira parte da fila base",
+      "description": "Aprende parte da fila base: A, S, D, K, L, Ç",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Aqui começa a primeira lição. Repare nos erros para não os repetir. Nesta lição aprenderá as teclas a, s, d, k, l, ç",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "a",
+          "description": "Pressione a tecla 'a' com o dedo mindinho da mão esquerda",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "ç",
+          "description": "Não se esqueça de colocar os dedos sobre a linha base e os polegares sobre a barra de espaço. Deve habituar-se a adotar a posição correta em todas as sessões. Pressione a tecla 'ç' com o dedo mindinho da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "sl",
+          "description": "Olhe para o tela e não para o teclado. Pressione a tecla 's' com o dedo anelar da mão esquerda e a tecla 'l' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "aaa ççç aça çaç",
+          "description": "Agora vamos fazer uns exercícios com estas 4 letras na ordem correta. Se houver algum erro na linha terá que a repetir. Não se impaciente se não sair bem à primeira. Lembre-se de pressionar a barra de espaço entre palavras",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "sss lll sls lsl",
+          "description": "Agora vamos fazer uns exercícios com estas 4 letras na ordem correta. Se houver algum erro na linha terá que a repetir. Não se impaciente se não sair bem à primeira. Lembre-se de pressionar a barra de espaço entre palavras",
+          "repetitions": 1
+        },
+        {
+          "id": 6,
+          "text": "açsl çals",
+          "description": "Agora vamos fazer uns exercícios com estas 4 letras na ordem correta. Se houver algum erro na linha terá que a repetir. Não se impaciente se não sair bem à primeira. Lembre-se de pressionar a barra de espaço entre palavras",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "slça lsaç",
+          "description": "Agora vamos fazer uns exercícios com estas 4 letras na ordem correta. Se houver algum erro na linha terá que a repetir. Não se impaciente se não sair bem à primeira. Lembre-se de pressionar a barra de espaço entre palavras",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "dk",
+          "description": "Agora vamos adicionar duas teclas para os dedos médios; com a mão esquerda a tecla 'd' e com a direita a 'k'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "ddd kkk dkd kdk",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contrária à última tecla pressionada",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "asd dsa klç çlk",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contrária à última tecla pressionada",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "adkç sdkl",
+          "description": "Os dedos devem voltar à sua posição depois de pressionar cada tecla",
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "daçk dslk",
+          "description": "Os dedos devem voltar à sua posição depois de pressionar cada tecla",
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "adçk dakç",
+          "description": "Os dedos devem voltar à sua posição depois de pressionar cada tecla",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "lksd klds",
+          "description": "Pressione as teclas com os dedos corretos, embora agora lhe pareça que é mais lento",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "açsldk çalskd",
+          "description": "Pressione as teclas com os dedos corretos, embora agora lhe pareça que é mais lento",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "asdklç çlkdsa",
+          "description": "Agora os exercícios têm que ser repetidos 2 vezes sem erros para poder passar ao seguinte",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "açsldk kdlsça",
+          "description": "Agora os exercícios têm que ser repetidos 2 vezes sem erros para poder passar ao seguinte",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "dkslaç çalskd",
+          "description": "Não se impaciente. Não corra",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "",
+          "description": "Já terminou a primeira lição e fez os primeiros exercícios",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Linha base",
+      "description": "Aprende as teclas da fila base: A, S, D, F, G, H, J, K, L, Ç",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Aqui começa a segunda lição. Vamos aprender o resto da linha base e fazer uma série de exercícios com as teclas. Lembre-se que não deve olhar o teclado, mas sim o tela do seu computador",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "f",
+          "description": "Pressione a tecla 'f' com o dedo indicador da mão esquerda",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "fj",
+          "description": "Pressione a tecla 'f' com o dedo indicador da mão esquerda e a tecla 'j' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "fff jjj fjf jfj",
+          "description": "Deve realizar cada exercício duas vezes sem erros para poder passar ao seguinte exercício",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "asdf çlkj",
+          "description": "Deve realizar cada exercício duas vezes sem erros para poder passar ao seguinte exercício",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "fdsa jklç",
+          "description": "Vigie a posição dos dedos ao terminar cada pressionamento",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "afjç ljsf fdjk",
+          "description": "Vigie a posição dos dedos ao terminar cada pressionamento",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "fçja djkf jslf",
+          "description": "Você está pressionando a barra de espaço com o polegar adequado?",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "açsldkfj çalskdjf",
+          "description": "Você está pressionando a barra de espaço com o polegar adequado?",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "jfkdlsça fjdkslaç",
+          "description": "Não olhe para o teclado, somente o tela do seu computador",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "gh",
+          "description": "Duas teclas mais para os mesmos dedos. Com o indicador da mão esquerda a tecla 'g' e com o da mão direita a 'h'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "ggg hhh ghg hgh",
+          "description": "Lembre-se que deve manter a postura correta. As costas retas, as mãos sobre a linha base e os polegares sobre a barra de espaço. Continue com mais exercícios...",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "gjfh hfjg gkhd dhkg",
+          "description": "Lembre-se que deve manter a postura correta. As costas retas, as mãos sobre a linha base e os polegares sobre a barra de espaço. Continue com mais exercícios...",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "açsldkfjgh hgjfkdlsça",
+          "description": "Desloque somente os dedos indicadores, não toda a mão",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "ghfjdkslaç çalskdjfhg",
+          "description": "Desloque somente os dedos indicadores, não toda a mão",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "´",
+          "description": "Outra tecla desta linha '´'. Pressiona-se com o dedo mindinho da mão direita, igual à tecla 'ç', mas lembre-se que não deve deslocar a mão, somente o dedo",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "aç´ sl´ dk´ fj´ gh´",
+          "description": "Outra tecla desta linha '´'. Pressiona-se com o dedo mindinho da mão direita, igual à tecla 'ç', mas lembre-se que não deve deslocar a mão, somente o dedo",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "ça´ ls´ kd´ jf´ hg´",
+          "description": "Outra tecla desta linha '´'. Pressiona-se com o dedo mindinho da mão direita, igual à tecla 'ç', mas lembre-se que não deve deslocar a mão, somente o dedo",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "çÇ",
+          "description": "Outra tecla desta linha base seria 'ç'. Pressiona-se com o dedo mindinho da mão direita, devendo ter pressionada a tecla SHIFT se quiser pressioná-la em maiúsculas 'Ç'",
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "´ça ´lsç ´kd ´jf ´hg",
+          "description": "Os dedos devem voltar à linha base depois de pressionar cada tecla",
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "´aç ´sl ´dk ´fj ´ghç",
+          "description": "Os dedos devem voltar à linha base depois de pressionar cada tecla",
+          "repetitions": 1
+        },
+        {
+          "id": 21,
+          "text": "as çl lç sa",
+          "description": "E agora uns exercícios de revisão das duas primeiras lições",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "adgjl´ çkhfs",
+          "description": "E agora uns exercícios de revisão das duas primeiras lições",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "sfhkç ´ljgda",
+          "description": "Não se esqueça todas as indicações que lhe damos ao longo da lição",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "slaç çasl aghç",
+          "description": "Não se esqueça todas as indicações que lhe damos ao longo da lição",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "fçjaç ajçfç gjhf",
+          "description": "Estão os polegares na sua posição?",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "asdfghjklç´ç ´çlkjhgfdsaç",
+          "description": "Lembre-se ter as mãos numa posição relaxada",
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "asdsa ´çlklç´",
+          "description": "Lembre-se ter as mãos numa posição relaxada",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "",
+          "description": "Parabéns! Terminou a segunda lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Primeira parte fila dominante",
+      "description": "Aprende as teclas da fila dominante: Q, W, E, I, O, P",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Aqui começa a terceira lição. Vamos começar com a linha dominante, que é como se chama à que está sobre a linha base",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "qp",
+          "description": "Pressione a tecla 'q' com o dedo mindinho da mão esquerda e a 'p' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "qqq ppp qpq pqp",
+          "description": "Teclee duas vezes corretamente",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "wo",
+          "description": "Agora pressione a tecla 'w' com o dedo anelar da mão esquerda e a 'o' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "www ooo wow owo",
+          "description": "Agora pressione a tecla 'w' com o dedo anelar da mão esquerda e a 'o' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "qwop powq",
+          "description": "E agora uns exercícios com as quatro primeiras teclas desta linha",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "qpwo pqow",
+          "description": "E agora uns exercícios com as quatro primeiras teclas desta linha",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "wopq qpow",
+          "description": "Já deve adoptar automaticamente a postura correta",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "owqp pqwo",
+          "description": "Já deve adoptar automaticamente a postura correta",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "ei",
+          "description": "Duas teclas mais para os dedos médio. Com a esquerda a tecla 'e' e com a direita a tecla 'i'",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "eee iii eie iei",
+          "description": "Duas teclas mais para os dedos médio. Com a esquerda a tecla 'e' e com a direita a tecla 'i'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "qwe ewq iop poi",
+          "description": "Não se esqueça da posição dos polegares sobre a barra de espaço e o resto dos dedos sobre a linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "qpwoei ieowpq",
+          "description": "Não se esqueça da posição dos polegares sobre a barra de espaço e o resto dos dedos sobre a linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "qiepow wopeiq",
+          "description": "Não desloque toda a mão, somente os dedos que vão pressionar",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "eiwoqp pqowie",
+          "description": "Não desloque toda a mão, somente os dedos que vão pressionar",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "qw ew io po pq ow ie",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contraria à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "ei wo qp op oi we wq",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contraria à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "qiwoep epwoqi",
+          "description": "Não olhe para o teclado. Só deve olhar o tela",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "peowiq iqowpe",
+          "description": "Não olhe para o teclado. Só deve olhar o tela",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "qweiop poiewq",
+          "description": "Não se precipite. Não corra. Já alcançará velocidade no seu devido tempo. Agora concentre-se em fazer os exercícios bem",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "pq wo ie wo pq",
+          "description": "Não se precipite. Não corra. Já alcançará velocidade no seu devido tempo. Agora concentre-se em fazer os exercícios bem",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "",
+          "description": "Parabéns! Terminou a terceira lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Linha dominante",
+      "description": "Aprende as teclas da fila dominante: Q, W, E, R, T, Y, I, O, P",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Nesta lição vamos a aprender o resto da linha dominante e faremos exercícios com as duas linhas que já conhecemos",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "ru",
+          "description": "Pressione a tecla 'r' com o dedo indicador da mão esquerda e a tecla 'u' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "rrr uuu rur uru",
+          "description": "Pressione a tecla 'r' com o dedo indicador da mão esquerda e a tecla 'u' com o da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "qpwoeiru",
+          "description": "E agora com as demais teclas que já conhecemos nesta linha",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "pqowieur",
+          "description": "E agora com as demais teclas que já conhecemos nesta linha",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "rq up rw uo re ui",
+          "description": "E agora com as demais teclas que já conhecemos nesta linha",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "iu er ou wr pu qr",
+          "description": "Assegure-se de que está pressionando com os dedos corretos",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "t",
+          "description": "Com o dedo indicador da mão esquerda pressione a tecla 't'",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "y",
+          "description": "Com o dedo indicador da mão direita pressione a tecla 'y'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "qwertyuiop poiuytrewq",
+          "description": "Agora uns exercícios",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "qpwo eiru tyru",
+          "description": "Assegure-se de pressionar as teclas com os dedos corretos",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "ytur ieow pqow",
+          "description": "Não se esqueça de não deslocar as mãos mas sim os dedos",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "ptqy orwu ieei",
+          "description": "Depois de cada pressionamento os dedos devem voltar à sua posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "`",
+          "description": "Com o dedo mindinho da mão direita pressione a tecla '`' que se indica e depois a barra de espaço para que apareça o til, já que se trata de uma tecla morta já que necessita outra tecla para aparecer",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "+",
+          "description": "Com o mesmo dedo pressione a tecla '+'",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "*",
+          "description": "Agora vamos utilizar a tecla SHIFT ou maiúsculas. Pressione SHIFT com o dedo mindinho esquerdo e a tecla '*' com o dedo mindinho direito",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "^",
+          "description": "Lembre-se que a tecla SHIFT se pressiona com a mão contraria à que vai pressionar a tecla principal e com os dedos mindinhos. Com os mesmos dedos e mãos agora pressione a tecla '^' e a barra de espaço",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "`^+`*`+^^ `+*``",
+          "description": "Seguindo as instruções anteriores faça os exercícios seguintes",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "qp+` wo+` ei+`+ ru` ty`",
+          "description": "Não se impaciente. Este exercício é complicado se tentar fazer depressa e simples se o fizer relaxadamente",
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "^* *^ p*p p^p",
+          "description": "Não se impaciente. Este exercício é complicado se tentar fazer depressa e simples se o fizer relaxadamente",
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "qpqç çqpa q*^a",
+          "description": "Agora já conhece duas linhas completas. Os seguintes exercícios devem considerar-se como uma revisão das quatro lições que leva até o momento. Começaremos com os mindinhos",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "çapq^ *ç aç qp^",
+          "description": "Agora já conhece duas linhas completas. Os seguintes exercícios devem considerar-se como uma revisão das quatro lições que leva até o momento. Começaremos com os mindinhos",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "slwo owls swol",
+          "description": "Com os anelares",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "deki edik eidk",
+          "description": "Com os dedos médio",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "frju rfuj rufj",
+          "description": "Com os dedos indicador",
+          "repetitions": 1
+        },
+        {
+          "id": 25,
+          "text": "frjugthy hgjfuryt",
+          "description": "Com os dedos indicador",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "jfhguryt fjghruty",
+          "description": "Com os dedos indicador",
+          "repetitions": 3
+        },
+        {
+          "id": 27,
+          "text": "qwert poiuy",
+          "description": "E com todos...",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "trewq yuiop",
+          "description": "E com todos...",
+          "repetitions": 2
+        },
+        {
+          "id": 29,
+          "text": "aqwedsa",
+          "description": "Pressione com os dedos corretos cada tecla",
+          "repetitions": 3
+        },
+        {
+          "id": 30,
+          "text": "ç^`poiklç",
+          "description": "Pressione com os dedos corretos cada tecla",
+          "repetitions": 3
+        },
+        {
+          "id": 31,
+          "text": "asdewqa",
+          "description": "Depois de cada pressionamento devem voltar os dedos à sua posição na linha base",
+          "repetitions": 3
+        },
+        {
+          "id": 32,
+          "text": "çlkiop´`^ç",
+          "description": "Depois de cada pressionamento devem voltar os dedos à sua posição na linha base",
+          "repetitions": 3
+        },
+        {
+          "id": 33,
+          "text": "çlkiopç",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 3
+        },
+        {
+          "id": 34,
+          "text": "frtgf jhyuj",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 3
+        },
+        {
+          "id": 35,
+          "text": "fgtrf juyhj",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 3
+        },
+        {
+          "id": 36,
+          "text": "aqwertgfdsa",
+          "description": "Não olhe para o teclado",
+          "repetitions": 3
+        },
+        {
+          "id": 37,
+          "text": "`´poiuyhjklç`",
+          "description": "Não tenha pressa",
+          "repetitions": 3
+        },
+        {
+          "id": 38,
+          "text": "asdfgtrewqa",
+          "description": "Não tenha pressa",
+          "repetitions": 3
+        },
+        {
+          "id": 39,
+          "text": "+çlkjhyuiop`",
+          "description": "Coloque o corpo na posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 40,
+          "text": "aqçp swlo deki frik",
+          "description": "Coloque o corpo na posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 41,
+          "text": "jtuyth aqçp",
+          "description": "As palmas das mãos não devem apoiar-se sobre a mesa ou o teclado",
+          "repetitions": 2
+        },
+        {
+          "id": 42,
+          "text": "heigwoç frt",
+          "description": "As palmas das mãos não devem apoiar-se sobre a mesa ou o teclado",
+          "repetitions": 2
+        },
+        {
+          "id": 43,
+          "text": "huij dert",
+          "description": "Não cruze as pernas; evitará entorpecimento dos membros",
+          "repetitions": 2
+        },
+        {
+          "id": 44,
+          "text": "parque paragem",
+          "description": "Agora vamos a formar palavras",
+          "repetitions": 2
+        },
+        {
+          "id": 45,
+          "text": "golpeia porque",
+          "description": "Agora vamos a formar palavras",
+          "repetitions": 2
+        },
+        {
+          "id": 46,
+          "text": "perito joalheiro",
+          "description": "Lembre-se que a posição das mãos é curvada e roçando levemente as teclas da linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 47,
+          "text": "pleura dedo",
+          "description": "Lembre-se que a posição das mãos é curvada e roçando levemente as teclas da linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 48,
+          "text": "bola três",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 49,
+          "text": "reunião",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 50,
+          "text": "desejado suposto",
+          "description": "Não olhe para o teclado",
+          "repetitions": 2
+        },
+        {
+          "id": 51,
+          "text": "isolado fugido",
+          "description": "Não olhe para o teclado",
+          "repetitions": 2
+        },
+        {
+          "id": 52,
+          "text": "forja seguir",
+          "description": "A estas alturas do curso já deve ter os hábitos corretos. Se não for assim seria aconselhável rever a lição para principiantes",
+          "repetitions": 2
+        },
+        {
+          "id": 53,
+          "text": "morango querido",
+          "description": "A estas alturas do curso já deve ter os hábitos corretos. Se não for assim seria aconselhável rever a lição para principiantes",
+          "repetitions": 2
+        },
+        {
+          "id": 54,
+          "text": "",
+          "description": "Parabéns! Terminou a quarta lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Primeira parte da fila inferior",
+      "description": "Aprende parte da fila inferior: Z, ;, X, ., C, ,",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Vamos começar com a linha inferior. Já conhece o método e será muito fácil esta quinta lição.",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "z;",
+          "description": "Pressione 'z' com o dedo mindinho da mão esquerda e a tecla ';' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "zzz ;;; z;z ;z;",
+          "description": "Pressione 'z' com o dedo mindinho da mão esquerda e a tecla ';' com o da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "x.",
+          "description": "Pressione a tecla 'x' com o dedo anelar da mão esquerda e a tecla '.' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "xxx ... x.x .x.",
+          "description": "Pressione a tecla 'x' com o dedo anelar da mão esquerda e a tecla '.' com o da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "zx.; ;.xz",
+          "description": "Depois de cada pressionamento na fila inferior os dedos devem voltar a sua tecla da linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "c,",
+          "description": "Pressione a tecla 'c' com o dedo médio da mão esquerda e a tecla ',' com o da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "ccc ,,, c,c ,c,",
+          "description": "Pressione a tecla 'c' com o dedo médio da mão esquerda e a tecla ',' com o da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "zxc cxz ;., ,.;",
+          "description": "Os dedos são os que se deslocam não as mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "z;x.c, ,c.x;z",
+          "description": "Os dedos são os que se deslocam não as mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "zzxxcc ,,..;;",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": ";;..,, ccxxzz",
+          "description": "Os polegares devem estar sobre a barra de espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "z, .x c;",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contraria à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": ",z x. ;c",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contraria à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "cc,, ;; zz",
+          "description": "Está a colocar os dedos no seu lugar depois de cada pressionamento?",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "z x c , . ;",
+          "description": "Está a colocar os dedos no seu lugar depois de cada pressionamento?",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "; . , c x z",
+          "description": "Leia todas as explicações e conselhos que aparecem nas lições",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "",
+          "description": "Parabéns! Terminou a quinta lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Fila inferior",
+      "description": "Aprende toda a fila inferior: Z, ;, X, ., C, ,, V, M, B, N",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Com esta lição completaremos a linha inferior. Depois deverá fazer uns exercícios com todas as teclas que conhece",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "v",
+          "description": "Pressione a tecla 'v' com o dedo indicador da mão esquerda",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "m",
+          "description": "Em seguida a tecla 'm' com o dedo indicador da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "vvv mmm vmv mvm",
+          "description": "Em seguida a tecla 'm' com o dedo indicador da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "bn",
+          "description": "Agora com os mesmos dedos pressione com a esquerda a tecla 'b' e com a direita a tecla 'n'",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "bbb nnn bnb nbn",
+          "description": "Agora com os mesmos dedos pressione com a esquerda a tecla 'b' e com a direita a tecla 'n'",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "zxcvbnm,.;",
+          "description": "Uns exercícios com toda a linha",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": ";.,mnbvcxz",
+          "description": "Uns exercícios com toda a linha",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "z; x. c, vm bn",
+          "description": "Não se esqueça todos os hábitos que deve ter adquirido nas lições anteriores. De qualquer maneira se os iremos recordando nesta lição",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": ";z .x ,c mv nb",
+          "description": "Não se esqueça todos os hábitos que deve ter adquirido nas lições anteriores. De qualquer maneira se os iremos recordando nesta lição",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "bn vm c, x. z;",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contraria à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "nb mv ,c .x ;z",
+          "description": "Não se esqueça que a barra de espaço se pressiona com o dedo polegar da mão contraria à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "znxmc,v.b;",
+          "description": "As costas devem estar retas e as pernas sem cruzar",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": ";b.v,cmxnz",
+          "description": "As costas devem estar retas e as pernas sem cruzar",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": ":",
+          "description": "Faltam somente algumas teclas desta linha, para as quais é preciso pressionar a tecla SHIFT (maiúsculas) com o dedo mindinho do lado oposto. Pressione a tecla ':' (Shift + ;) com o dedo mindinho da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "<>",
+          "description": "Sem soltar a tecla SHIFT pressione a tecla '<' com o dedo médio e a tecla '>' com o dedo anelar da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": ":< >: <>:: ><",
+          "description": "Sem soltar a tecla SHIFT pressione a tecla '<' com o dedo médio e a tecla '>' com o dedo anelar da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "zxcvb ;.,mn",
+          "description": "Agora uns exercícios de revisão com as três linhas completas",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "bvcxz nm,.;",
+          "description": "Agora uns exercícios de revisão com as três linhas completas",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "azxcvbv",
+          "description": "O pressionamento na linha inferior se faz deslocando o dedo correspondente e voltando-o à sua posição na linha base",
+          "repetitions": 3
+        },
+        {
+          "id": 20,
+          "text": "ç;.,mnm",
+          "description": "O pressionamento na linha inferior se faz deslocando o dedo correspondente e voltando-o à sua posição na linha base",
+          "repetitions": 3
+        },
+        {
+          "id": 21,
+          "text": "asdcxza",
+          "description": "Mantenha os polegares sobre a barra de espaço",
+          "repetitions": 3
+        },
+        {
+          "id": 22,
+          "text": "çlk,.;ç",
+          "description": "Mantenha os polegares sobre a barra de espaço",
+          "repetitions": 3
+        },
+        {
+          "id": 23,
+          "text": "azxcvbv ç;.,mnm",
+          "description": "As mãos devem roçar levemente as teclas da linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "asdcxza çlk,.;ç",
+          "description": "As mãos devem roçar levemente as teclas da linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "bvcxza",
+          "description": "Não se impaciente. Não importa que o faça devagar. O importante é que o faça bem e corretamente. A velocidade já virá sozinha",
+          "repetitions": 3
+        },
+        {
+          "id": 26,
+          "text": "nm,.;ç",
+          "description": "Não se impaciente. Não importa que o faça devagar. O importante é que o faça bem e corretamente. A velocidade já virá sozinha",
+          "repetitions": 3
+        },
+        {
+          "id": 27,
+          "text": "azxcvbgfdsa",
+          "description": "Não se impaciente. Não importa que o faça devagar. O importante é que o faça bem e corretamente. A velocidade já virá sozinha",
+          "repetitions": 3
+        },
+        {
+          "id": 28,
+          "text": ";;.,mnhjklç;",
+          "description": "Não se impaciente. Não importa que o faça devagar. O importante é que o faça bem e corretamente. A velocidade já virá sozinha",
+          "repetitions": 3
+        },
+        {
+          "id": 29,
+          "text": "azxcvbgfdsa ;;.,mnhjklç;",
+          "description": "Lembre-se que cada pressionamento se faz com o dedo correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 30,
+          "text": "azqhny sxwjmu dcek,i fvrl.o gbtç;p ;`",
+          "description": "Lembre-se que cada pressionamento se faz com o dedo correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 31,
+          "text": "qazwsx edcrfv tgbyhn ujmik, ol.pç;;`",
+          "description": "Lembre-se que cada pressionamento se faz com o dedo correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 32,
+          "text": "bravo povo",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 33,
+          "text": "fazenda começar",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 34,
+          "text": "ultrapassa empresa",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 35,
+          "text": "velocidade novos",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 36,
+          "text": "juncos magros",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 37,
+          "text": "espécie modelo",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 38,
+          "text": "quadrado círculo",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 39,
+          "text": "sempre fatura",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 40,
+          "text": "frente parcela",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 41,
+          "text": "teclado nosso",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 42,
+          "text": "cantor assinala",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 43,
+          "text": "tanto gentil",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 44,
+          "text": "vantagem acordo",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 45,
+          "text": "notário amigo",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 46,
+          "text": "aprender infeliz",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 47,
+          "text": "sonoras muito",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 48,
+          "text": "computador simples",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 49,
+          "text": "inclinada homem",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 50,
+          "text": "passa;montanhas",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 51,
+          "text": "antónio bosque",
+          "description": "Agora algumas palavras com as três linhas",
+          "repetitions": 2
+        },
+        {
+          "id": 52,
+          "text": "depois varanda",
+          "description": "Algumas palavras com til. Pressione o til e depois a letra correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 53,
+          "text": "será esdrúxula",
+          "description": "Algumas palavras com til. Pressione o til e depois a letra correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 54,
+          "text": "senhoria aguilhão",
+          "description": "Algumas palavras com til. Pressione o til e depois a letra correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 55,
+          "text": "lição mais",
+          "description": "Algumas palavras com til. Pressione o til e depois a letra correspondente",
+          "repetitions": 2
+        },
+        {
+          "id": 56,
+          "text": "",
+          "description": "Parabéns! Terminou a sexta lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Linha de números",
+      "description": "Aprenda fila de números",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Nesta lição vamos utilizar a linha de números.",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "12",
+          "description": "Com a mão esquerda vamos pressionar os dois primeiros número '1' e '2', pressionando com o dedo mindinho o '1' e com o dedo anelar o '2'",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "345",
+          "description": "Com o dedo médio se pressiona o '3', e com o dedo indicador o '4' e o '5'",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "12345",
+          "description": "Com o dedo médio se pressiona o '3', e com o dedo indicador o '4' e o '5'",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "54321",
+          "description": "Com o dedo médio se pressiona o '3', e com o dedo indicador o '4' e o '5'",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "12345 54321",
+          "description": "Com o dedo médio se pressiona o '3', e com o dedo indicador o '4' e o '5'",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "09",
+          "description": "Agora vamos praticar com os dedos da mão direita, vamos pressionar o '0' e o '9' com os dedos mindinho e anelar respectivamente",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "876",
+          "description": "Com o dedo médio pressionaremos o '8' e com o indicador o '7' e o '6'",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "09876",
+          "description": "Com o dedo médio pressionaremos o '8' e com o indicador o '7' e o '6'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "67890",
+          "description": "Com o dedo médio pressionaremos o '8' e com o indicador o '7' e o '6'",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "09876 67890",
+          "description": "Com o dedo médio pressionaremos o '8' e com o indicador o '7' e o '6'",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "1234567890",
+          "description": "Agora utilizaremos ambas mãos, recordando que cada dedo indicador serve para dois números",
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "0987654321",
+          "description": "Agora utilizaremos ambas mãos, recordando que cada dedo indicador serve para dois números",
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "1234567890",
+          "description": "Agora utilizaremos ambas mãos, recordando que cada dedo indicador serve para dois números",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "0987654321",
+          "description": "Agora utilizaremos ambas mãos, recordando que cada dedo indicador serve para dois números",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "135 680",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "24 79",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "135680",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "103856",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "258017",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "5647382910",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "0192837465",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "6574839201",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "1029384756",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "35689247",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "74298653",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "1092387456",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "6547832901",
+          "description": "Lembre-se que a posição dos dedos deve ser na linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "a1s2d3f4g5",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 29,
+          "text": "ç0l9k8j7h6",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 30,
+          "text": "as123df45g çl098kj76h",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 31,
+          "text": "aç10sl29",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 32,
+          "text": "dk38 83kd",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 33,
+          "text": "jf47 hg65",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 34,
+          "text": "56gh 74fj",
+          "description": "Vamos misturar letras com números",
+          "repetitions": 2
+        },
+        {
+          "id": 35,
+          "text": "1qaz 0pç-",
+          "description": "Agora pressionaremos somente com os dedos mindinhos",
+          "repetitions": 2
+        },
+        {
+          "id": 36,
+          "text": "zaq1 -çp0",
+          "description": "Agora pressionaremos somente com os dedos mindinhos",
+          "repetitions": 2
+        },
+        {
+          "id": 37,
+          "text": "-zçapq01 01pqça-z",
+          "description": "Agora pressionaremos somente com os dedos mindinhos",
+          "repetitions": 2
+        },
+        {
+          "id": 38,
+          "text": "0zpaçq-1 -1çqpa0z",
+          "description": "Agora pressionaremos somente com os dedos mindinhos",
+          "repetitions": 2
+        },
+        {
+          "id": 39,
+          "text": "2wsx 9ol.",
+          "description": "Agora com os dedos anelares de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 40,
+          "text": ".lo9 xsw2",
+          "description": "Agora com os dedos anelares de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 41,
+          "text": "9xoslw.2 2.wlsox9",
+          "description": "Agora com os dedos anelares de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 42,
+          "text": ".xlsow92 29woslx.",
+          "description": "Agora com os dedos anelares de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 43,
+          "text": "3edc 8ik,",
+          "description": "Agora pressionaremos com os dedos médio de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 44,
+          "text": ",ki8 cde3",
+          "description": "Agora pressionaremos com os dedos médio de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 45,
+          "text": "8cidke,3 3,ekdic8",
+          "description": "Agora pressionaremos com os dedos médio de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 46,
+          "text": ",ckdie83 38eidkc,",
+          "description": "Agora pressionaremos com os dedos médio de ambas mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 47,
+          "text": "4rfv 7ujm",
+          "description": "Os indicadores são os que agora entram em jogo",
+          "repetitions": 2
+        },
+        {
+          "id": 48,
+          "text": "5tgb 6yhn",
+          "description": "Os indicadores são os que agora entram em jogo",
+          "repetitions": 2
+        },
+        {
+          "id": 49,
+          "text": "mju7 vfr4",
+          "description": "Os indicadores são os que agora entram em jogo",
+          "repetitions": 2
+        },
+        {
+          "id": 50,
+          "text": "nhy6 bgt5",
+          "description": "Os indicadores são os que agora entram em jogo",
+          "repetitions": 2
+        },
+        {
+          "id": 51,
+          "text": "7vufjrm4 m4jruf7v",
+          "description": "Não olhe para o teclado e mantenha-se na posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 52,
+          "text": "mvjfur74 74urjfmv",
+          "description": "Não olhe para o teclado e mantenha-se na posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 53,
+          "text": "6byghtn5 n5htyg6b",
+          "description": "Não olhe para o teclado e mantenha-se na posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 54,
+          "text": "nbhgyt65 56tyghbn",
+          "description": "Não olhe para o teclado e mantenha-se na posição correta",
+          "repetitions": 2
+        },
+        {
+          "id": 55,
+          "text": "",
+          "description": "Parabéns! Terminou a sétima lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Caracteres na linha superior",
+      "description": "Aprenda os caracteres da linha superior",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Agora vamos conhecer os caracteres da linha superior",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "!@ !@ !@",
+          "description": "Pressionando com o dedo mínimo da mão direita SHIFT pressione com o da esquerda '!' e com o dedo anelar '@'",
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "@! @! @!",
+          "description": "Pressionando com o dedo mínimo da mão direita SHIFT pressione com o da esquerda '!' e com o dedo anelar '@'",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "#( #( #(",
+          "description": "Continue pressionando com o dedo mínimo correspondente a tecla SHIFT e com o dedo médio da mão esquerda a tecla '#' e com o dedo anelar da mão direita '('",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "((((",
+          "description": "A seguir pressione com o dedo anelar da mão direita '(' (Shift+9). Não esqueça de pressionar a tecla SHIFT com a mão esquerda",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "@#)(",
+          "description": "A seguir pressione com o dedo anelar da mão direita '(' (Shift+9). Não esqueça de pressionar a tecla SHIFT com a mão esquerda",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "!$% &*()",
+          "description": "Agora praticaremos o resto dos caracteres; pressione com o dedo indicador da mão esquerda '$' e '%', e com o dedo indicador da mão direita '&', dedo médio '*', anelar '(' e mindinho ')'",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "!)(*&%$",
+          "description": "Agora praticaremos o resto dos caracteres; pressione com o dedo indicador da mão esquerda '$' e '%', e com o dedo indicador da mão direita '&', dedo médio '*', anelar '(' e mindinho ')'",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "!% &)",
+          "description": "Agora praticaremos o resto dos caracteres",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "!&$(*%)",
+          "description": "Lembre-se de que deve pressionar as teclas SHIFT com o dedo mínimo correspondente a cada mão",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": ")!(*$&%",
+          "description": "Lembre-se de que deve pressionar as teclas SHIFT com o dedo mínimo correspondente a cada mão",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "%&$()!",
+          "description": "Lembre-se de que deve pressionar as teclas SHIFT com o dedo mínimo correspondente a cada mão",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "!&$(*%)",
+          "description": "Os dedos sempre devem voltar à linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": ")%(*$&!",
+          "description": "Os dedos sempre devem voltar à linha base",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "#",
+          "description": "Para poder utilizar '#' devemos pressionar a tecla '3' com o dedo médio da mão esquerda e pressionar SHIFT com o dedo mínimo da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": ")(*%$@!",
+          "description": "Não esqueça de pressionar SHIFT quando corresponder",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "asd#f$g% h&j*kl(ç)",
+          "description": "Agora vamos praticar também com letras",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "%w$ #rt",
+          "description": "Agora vamos praticar também com letras",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "y)u(i*o&p#",
+          "description": "Agora vamos praticar também com letras",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "z)x(c*v&b# nm@.$%",
+          "description": "Agora vamos praticar também com letras",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "q&a*z( w)sx e#$c%",
+          "description": "Lembre-se de que para pressionar os caracteres da linha de números deve manter pressionada a tecla SHIFT ao mesmo tempo",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "pç#@ o$l%&* i%k$,(",
+          "description": "Lembre-se de que para pressionar os caracteres da linha de números deve manter pressionada a tecla SHIFT ao mesmo tempo",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "r)f(v* ujm# t$g%b&",
+          "description": "Lembre-se de que para pressionar os caracteres da linha de números deve manter pressionada a tecla SHIFT ao mesmo tempo",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "y&h*n(m)",
+          "description": "Lembre-se de que para pressionar os caracteres da linha de números deve manter pressionada a tecla SHIFT ao mesmo tempo",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "1)2(3@4&5* 098#7$6%",
+          "description": "A seguir vamos praticar todos os caracteres da linha superior",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "09#8$7%6 )1(2@3&4*5",
+          "description": "A seguir vamos praticar todos os caracteres da linha superior",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "6)7(8@9&0* 543#2$1%",
+          "description": "A seguir vamos praticar todos os caracteres da linha superior",
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "zx#c )´(.*, $v%b&n*m",
+          "description": "Não se impaciente. A velocidade já a adquirirá através da prática. O importante é saber em todo momento que dedo corresponde a cada tecla",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "as# )ç(l@k $f%g&h*j",
+          "description": "Não se impaciente. A velocidade já a adquirirá através da prática. O importante é saber em todo momento que dedo corresponde a cada tecla",
+          "repetitions": 2
+        },
+        {
+          "id": 29,
+          "text": "qw#e )p(o@i $r%t&y*u",
+          "description": "Não se impaciente. A velocidade já a adquirirá através da prática. O importante é saber em todo momento que dedo corresponde a cada tecla",
+          "repetitions": 2
+        },
+        {
+          "id": 30,
+          "text": "",
+          "description": "Parabéns! Você terminou a oitava lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Caracteres Especiais",
+      "description": "Aprende alguns dos caracteres especiais",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Nesta lição vamos conhecer mais teclas especiais do teclado ABNT2",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "' \" ' \" ' \" \" \" ' ' \"",
+          "description": "Pressione a tecla ' (apóstrofo) com o dedo mindinho da mão esquerda e \" (aspas) com Shift + ' (apóstrofo)",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "''' \"\"\" '\"' \"'\"",
+          "description": "Pressione a tecla ' (apóstrofo) com o dedo mindinho da mão esquerda e \" (aspas) com Shift + ' (apóstrofo)",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "[ ] [ ] [[ ]] [] ][",
+          "description": "Pressione as teclas '[' e ']' com o dedo mindinho da mão direita. '[' está na fila superior e ']' na fila base",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "{ } { } {{ }} {} }{",
+          "description": "Pressione '{' com Shift + '[' e '}' com Shift + ']'. Use o dedo mindinho da mão direita",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "[{]} [{]} []{}",
+          "description": "Pratique alternando entre as teclas '[' ']' '{' '}'",
+          "repetitions": 1
+        },
+        {
+          "id": 6,
+          "text": "= + = + == ++ =+ +=",
+          "description": "Pressione a tecla '=' com o dedo mindinho da mão direita e '+' com Shift + '='",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "- _ - _ -- __ -_ _-",
+          "description": "Pressione a tecla '-' com o dedo mindinho da mão direita e '_' com Shift + '-'",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "-=_+ +=_- -_=+",
+          "description": "Pratique alternando entre '-' '_' '=' '+'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "\\ | \\ | \\\\ || \\| |\\",
+          "description": "Pressione a tecla '\\' com o dedo mindinho da mão esquerda (na fila inferior) e '|' com Shift + '\\'",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "/ ? / ? // ?? /? ?/",
+          "description": "Pressione a tecla '/' com o dedo mindinho da mão direita (na fila inferior) e '?' com Shift + '/'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "\\/ |? /\\ ?|",
+          "description": "Pratique alternando entre '\\' '|' '/' '?'",
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "'\"[]{}-_=+\\/|?",
+          "description": "Pratique todos os caracteres especiais aprendidos nesta lição",
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "?/|\\+=-_}{][\"'",
+          "description": "Pratique todos os caracteres especiais aprendidos nesta lição",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "\"olá\" [teste] {valor}",
+          "description": "Agora vamos praticar com contexto. Estes caracteres são usados em programação e textos",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "a+b=c x/y-z [i]",
+          "description": "Agora vamos praticar com contexto. Estes caracteres são usados em programação e textos",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "if (x == y) { return z; }",
+          "description": "Agora vamos praticar com contexto. Estes caracteres são usados em programação e textos",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "\"nome\": \"valor\"",
+          "description": "Agora vamos praticar com contexto. Estes caracteres são usados em programação e textos",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "",
+          "description": "Parabéns! Você terminou a nona lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Revisão geral",
+      "description": "Revisão geral de palavras",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Nesta lição vamos rever a maioria dos caracteres",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "café ação português está até José também",
+          "description": "Digite as seguintes palavras com acento",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "água pública música prática",
+          "description": "Digite as seguintes palavras com acento",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "ônibus âmbito ângulo pêssego",
+          "description": "Digite as seguintes palavras com acento",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "lição emoção canção nação",
+          "description": "Lembre-se que o acento se digita com o dedo mindinho da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "José María avô avó",
+          "description": "Lembre-se que o acento se digita com o dedo mindinho da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "português inglês francês país",
+          "description": "Lembre-se que o acento se digita com o dedo mindinho da mão direita",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "também além porém parabéns",
+          "description": "Não esqueça que a barra de espaço se pressiona com o polegar da mão contrária",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "está será após através",
+          "description": "Não esqueça que a barra de espaço se pressiona com o polegar da mão contrária",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "público prático básico único",
+          "description": "Não esqueça que a barra de espaço se pressiona com o polegar da mão contrária",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "café, ação, português, está",
+          "description": "Agora também vamos pressionar a vírgula entre cada palavra, sem esquecer que depois da vírgula há um espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "José, María, também, além",
+          "description": "Agora também vamos pressionar a vírgula entre cada palavra, sem esquecer que depois da vírgula há um espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "lição, emoção, canção, nação",
+          "description": "Agora também vamos pressionar a vírgula entre cada palavra, sem esquecer que depois da vírgula há um espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "público, prático, básico, único",
+          "description": "Agora também vamos pressionar a vírgula entre cada palavra, sem esquecer que depois da vírgula há um espaço",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "estudante, escola. sistema; \"lição\".",
+          "description": "Pratiquemos mais palavras com acento, separando-as com o ponto, o ponto e vírgula e as aspas",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "português; público, prático, \"básico\".",
+          "description": "Pratiquemos mais palavras com acento, separando-as com o ponto, o ponto e vírgula e as aspas",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "café. ação; \"também\", português;",
+          "description": "Pratiquemos mais palavras com acento, separando-as com o ponto, o ponto e vírgula e as aspas",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "",
+          "description": "Parabéns! Acabou a décima lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Letras maiúsculas",
+      "description": "Aprender letras maiúsculas",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Nesta lição vamos praticar as letras maiúsculas",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "JoRNaL RéFéM SêMoLa TíMPaNo",
+          "description": "Escreva as seguintes palavras com letras maiúsculas",
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "VeSíCuLa VeRSáTiL TâMiSa SúBiTo",
+          "description": "Escreva as seguintes palavras com letras maiúsculas",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "TáTiCa RáFaGa PoDeR PoESia",
+          "description": "Escreva as seguintes palavras com letras maiúsculas",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "PaRTiCiPaNTe PáGiNa MóRMoN MíNiMo",
+          "description": "Lembre-se de pressionar as teclas SHIFT para escrever em maiúsculas",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "MioPia CHaVeiRo LyoN CHuVa LuZ",
+          "description": "Lembre-se de pressionar as teclas SHIFT para escrever em maiúsculas",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "HeRói, GóTiCo; \"éTiCo\". ExPReSso;",
+          "description": "Agora também vamos pressionar a tecla da vírgula, ponto e vírgula, aspas e ponto",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "HíBRiDo. éTeR; EsPíRiTo, \"QueSTão\".",
+          "description": "Agora também vamos pressionar a tecla da vírgula, ponto e vírgula, aspas e ponto",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "CoLiBRi, \"CáDiZ\". áUReO; AnéCDoTa.",
+          "description": "Agora também vamos pressionar a tecla da vírgula, ponto e vírgula, aspas e ponto",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "aCaDéMiCo, ACúSTiCo; CíTaRa. \"AuToNoMia\".",
+          "description": "Não se esqueça que a barra de espaço é pressionada com o polegar da mão oposta à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "CaBeLo; CiRuRGia, DiSTRaíDo. FLuiR;",
+          "description": "Não se esqueça que a barra de espaço é pressionada com o polegar da mão oposta à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "INeQuíVoCo. \"LéXiCo\"; LuA, CaRTa.",
+          "description": "Não se esqueça que a barra de espaço é pressionada com o polegar da mão oposta à última tecla pressionada",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "Porto, LISBOA e Coimbra, SÃO cidades de PORTUGAL",
+          "description": "Agora vamos escrever pequenas frases misturando maiúsculas e minúsculas. Lembre-se que para escrever em maiúsculas deve sempre pressionar as teclas SHIFT",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "João FEZ o SeGuiNTe: Lavou-se, CoMeU e FOI embora.",
+          "description": "Agora vamos escrever pequenas frases misturando maiúsculas e minúsculas. Lembre-se que para escrever em maiúsculas deve sempre pressionar as teclas SHIFT",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "LISBOA é A Capital de PORTUGAL.",
+          "description": "Agora vamos escrever pequenas frases misturando maiúsculas e minúsculas. Lembre-se que para escrever em maiúsculas deve sempre pressionar as teclas SHIFT",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "Olá! Como está? (Bem) [Obrigado] {Adeus}",
+          "description": "Também vamos incluir alguns caracteres e números, além de continuar a escrever palavras em maiúsculas.",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "Preço: 100€ + 23% IVA = 123€ total.",
+          "description": "Também vamos incluir alguns caracteres e números, além de continuar a escrever palavras em maiúsculas.",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "Email: Ana@Correio.pt; Web: www.Exemplo.pt",
+          "description": "Também vamos incluir alguns caracteres e números, além de continuar a escrever palavras em maiúsculas.",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "",
+          "description": "Parabéns! Acabou a décima primeira lição",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Revisão geral",
+      "description": "Lição de revisão geral",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "A seguir faremos uma lição de revisão geral",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "Como a pobreza? -perguntou Dom Quixote-",
+          "description": "Digite as seguintes frases usando corretamente todos os sinais",
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "Senhor hospedeiro, há pousada? Vem aí o macaco -",
+          "description": "Digite as seguintes frases usando corretamente todos os sinais",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "- adivinho e o retábulo da liberdade de Melisendra.",
+          "description": "Digite as seguintes frases usando corretamente todos os sinais",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "4 - 2 = 2; (8 - 6) x 7 = 14;",
+          "description": "Agora vamos experimentar com os sinais e números. O sinal de menos escreve-se com o hífen",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "1$ = 70pts. 2$ = 140 pts.",
+          "description": "Agora vamos experimentar com os sinais e números. O sinal de menos escreve-se com o hífen",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "6 x (3+2-1) = 24. (6-4+1) x 10 = 30.",
+          "description": "Agora vamos experimentar com os sinais e números. O sinal de menos escreve-se com o hífen",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "abcdefghijklmnopqrstuvwxyz':.,;",
+          "description": "Lembre-se da posição correta das mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ\";!?",
+          "description": "Lembre-se da posição correta das mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "zyxwvutsrqponMLKJIHGFEDCBA *%",
+          "description": "Lembre-se da posição correta das mãos",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "Fê-lo assim Sancho; o que visto pelo eclesiástico...",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "Quem vai lá? Que gente? É por acaso?",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "Bravo marco!, respondeu o do Bosque.",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "ki, muj, decrvf. FVRCED; JUM. IK,",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "Fale com menos tom -disse o comissário-,",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "n6umy t4vrb (r. n/kumy* t$vrbf)",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "1/5; 3/6; 12 de fevereiro de 2026.",
+          "description": "Lembre-se de não olhar para o teclado. Preste atenção às teclas",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "\"10.725.845,97; > 8.945.432,56;\"",
+          "description": "Não se esqueça de pressionar as teclas SHIFT para as maiúsculas e sinais que o exigem",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "\"Não há livro tão mau que não tenha algo de bom.\"",
+          "description": "Não se esqueça de pressionar as teclas SHIFT para as maiúsculas e sinais que o exigem",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "SeNhOr GoVeRnAdOr, De MuItO BoA VoNtAdE.",
+          "description": "Não se esqueça de pressionar as teclas SHIFT para as maiúsculas e sinais que o exigem",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "OMUNDIKJH WRBDFG",
+          "description": "Continuemos a praticar maiúsculas e símbolos",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "TeM rAzÃo? O qUe AcOnTeCeU? CoMo ElE dIsSe!",
+          "description": "Continuemos a praticar maiúsculas e símbolos",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "100% = 100; #3.567#, 1/6; 4 (3+5) = 32",
+          "description": "Continuemos a praticar maiúsculas e símbolos",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "\"As LeIs CaEm AbAiXo Do QuE sÃo.\"",
+          "description": "Continuemos a praticar maiúsculas e símbolos",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "ReSpoNdEu ClArAmEnTe?; QuE fÁcIl!",
+          "description": "Continuemos a praticar maiúsculas e símbolos",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "ECASWX i, nlo. (EcAs)',;.",
+          "description": "Continuemos a praticar maiúsculas e símbolos",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "",
+          "description": "Parabéns! Terminou a décima segunda lição. A partir de agora recomendo que pratique com o teste de velocidade",
+          "introduction": true
+        }
+      ]
+    }
+  ]
+}
