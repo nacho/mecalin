@@ -1,0 +1,2369 @@
+{
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Willkommen bei Mecalin",
+      "description": "Willkommen bei Mecalin, deinem Schreibtrainer! Dieser Kurs bringt dir das Zehnfingerschreiben Schritt für Schritt bei. Du beginnst mit den Tasten der Grundreihe und lernst nach und nach alle Tasten der Tastatur. Lass dir Zeit, übe regelmäßig, und du wirst im Handumdrehen flüssig tippen können!",
+      "steps": [],
+      "introduction": true
+    },
+    {
+      "id": 1,
+      "title": "Erster Teil der Grundreihe",
+      "description": "Lerne einen Teil der Grundreihe: A, S, D, K, L, Ö",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Hier beginnt die erste Lektion. Achte auf Fehler, um sie nicht zu wiederholen. In dieser Lektion lernst du die Tasten a, s, d, k, l, ö",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "a",
+          "description": "Drücke die Taste 'a' mit dem kleinen Finger deiner linken Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "ö",
+          "description": "Vergiss nicht, deine Finger auf die Grundreihe und deine Daumen auf die Leertaste zu legen. Gewöhne dir an, in allen Übungen die richtige Haltung einzunehmen. Drücke die Taste 'ö' mit dem kleinen Finger deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "sl",
+          "description": "Schau auf den Bildschirm und nicht auf die Tastatur. Drücke die Taste 's' mit dem Ringfinger deiner linken Hand und die Taste 'l' mit der rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "aaa ööö aöa öaö",
+          "description": "Jetzt machen wir ein paar Übungen mit diesen 4 Buchstaben in der richtigen Reihenfolge. Wenn in einer Zeile ein Fehler ist, muss sie wiederholt werden. Sei nicht ungeduldig, wenn es beim ersten Mal nicht gut klappt. Denke daran, zwischen den Wörtern die Leertaste zu drücken",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "sss lll sls lsl",
+          "description": "Jetzt machen wir ein paar Übungen mit diesen 4 Buchstaben in der richtigen Reihenfolge. Wenn in einer Zeile ein Fehler ist, muss sie wiederholt werden. Sei nicht ungeduldig, wenn es beim ersten Mal nicht gut klappt. Denke daran, zwischen den Wörtern die Leertaste zu drücken",
+          "repetitions": 1
+        },
+        {
+          "id": 6,
+          "text": "aösl öals",
+          "description": "Jetzt machen wir ein paar Übungen mit diesen 4 Buchstaben in der richtigen Reihenfolge. Wenn in einer Zeile ein Fehler ist, muss sie wiederholt werden. Sei nicht ungeduldig, wenn es beim ersten Mal nicht gut klappt. Denke daran, zwischen den Wörtern die Leertaste zu drücken",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "slöa lsaö",
+          "description": "Jetzt machen wir ein paar Übungen mit diesen 4 Buchstaben in der richtigen Reihenfolge. Wenn in einer Zeile ein Fehler ist, muss sie wiederholt werden. Sei nicht ungeduldig, wenn es beim ersten Mal nicht gut klappt. Denke daran, zwischen den Wörtern die Leertaste zu drücken",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "dk",
+          "description": "Jetzt fügen wir zwei Tasten für die Mittelfinger hinzu; mit der linken Hand die Taste 'd' und mit der rechten die Taste 'k'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "ddd kkk dkd kdk",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "asd dsa klö ölk",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "adkö sdkl",
+          "description": "Die Finger sollten nach jedem Tastenanschlag in ihre Ausgangsposition zurückkehren",
+          "repetitions": 1
+        },
+        {
+          "id": 12,
+          "text": "daök dslk",
+          "description": "Die Finger sollten nach jedem Tastenanschlag in ihre Ausgangsposition zurückkehren",
+          "repetitions": 1
+        },
+        {
+          "id": 13,
+          "text": "adök dakö",
+          "description": "Die Finger sollten nach jedem Tastenanschlag in ihre Ausgangsposition zurückkehren",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "lksd klds",
+          "description": "Drücke die Tasten mit den richtigen Fingern, auch wenn es jetzt langsamer erscheint",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "aösldk öalskd",
+          "description": "Drücke die Tasten mit den richtigen Fingern, auch wenn es jetzt langsamer erscheint",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "asdköl ölkdsa",
+          "description": "Jetzt müssen die Übungen 2 Mal ohne Fehler wiederholt werden, um zur nächsten zu gelangen",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "aösldk kdlsöa",
+          "description": "Jetzt müssen die Übungen 2 Mal ohne Fehler wiederholt werden, um zur nächsten zu gelangen",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "dkslaö öalskd",
+          "description": "Sei nicht ungeduldig. Hetze nicht",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "",
+          "description": "Du hast die erste Lektion beendet und die ersten Übungen gemacht",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Grundreihe",
+      "description": "Lerne die Tasten der Grundreihe: A, S, D, F, G, H, J, K, L, Ö, Ä, #",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Hier beginnt die zweite Lektion. Wir lernen den Rest der Grundreihe und machen eine Reihe von Übungen damit. Denke daran, nicht auf die Tastatur zu schauen, sondern auf deinen Bildschirm",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "f",
+          "description": "Drücke die Taste 'f' mit dem Zeigefinger deiner linken Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "fj",
+          "description": "Drücke die Taste 'f' mit dem Zeigefinger deiner linken Hand und die Taste 'j' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "fff jjj fjf jfj",
+          "description": "Du musst jede Übung zweimal ohne Fehler ausführen, um zur nächsten Übung zu gelangen",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "asdf ölkj",
+          "description": "Du musst jede Übung zweimal ohne Fehler ausführen, um zur nächsten Übung zu gelangen",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "fdsa jklö",
+          "description": "Achte auf die Position deiner Finger am Ende jedes Anschlags",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "afjö ljsf fdjk",
+          "description": "Achte auf die Position deiner Finger am Ende jedes Anschlags",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "föja djkf jslf",
+          "description": "Drückst du die Leertaste mit dem passenden Daumen?",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "aösldkfj öalskdjf",
+          "description": "Drückst du die Leertaste mit dem passenden Daumen?",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "jfkdlsöa fjdkslaö",
+          "description": "Schau nicht auf die Tastatur, nur auf deinen Bildschirm",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "gh",
+          "description": "Zwei weitere Tasten für dieselben Finger. Mit dem Zeigefinger deiner linken Hand die Taste 'g' und mit deiner rechten Hand die Taste 'h'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "ggg hhh ghg hgh",
+          "description": "Denke daran, die richtige Haltung beizubehalten. Gerader Rücken, Hände auf der Grundreihe und Daumen auf der Leertaste. Weiter mit mehr Übungen...",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "gjfh hfjg gkhd dhkg",
+          "description": "Denke daran, die richtige Haltung beizubehalten. Gerader Rücken, Hände auf der Grundreihe und Daumen auf der Leertaste. Weiter mit mehr Übungen...",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "aösldkfjgh hgjfkdlsöa",
+          "description": "Bewege nur die Zeigefinger, nicht die ganze Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "ghfjdkslaö öalskdjfhg",
+          "description": "Bewege nur die Zeigefinger, nicht die ganze Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "ä",
+          "description": "Eine weitere Taste dieser Reihe 'ä'. Sie wird mit dem kleinen Finger deiner rechten Hand gedrückt, genau wie die Taste 'ö', aber denke daran, nicht die Hand zu bewegen, nur den Finger",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "aöä slä dkä fjä ghä",
+          "description": "Eine weitere Taste dieser Reihe 'ä'. Sie wird mit dem kleinen Finger deiner rechten Hand gedrückt, genau wie die Taste 'ö', aber denke daran, nicht die Hand zu bewegen, nur den Finger",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "öaä lsä kdä jfä hgä",
+          "description": "Eine weitere Taste dieser Reihe 'ä'. Sie wird mit dem kleinen Finger deiner rechten Hand gedrückt, genau wie die Taste 'ö', aber denke daran, nicht die Hand zu bewegen, nur den Finger",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "#",
+          "description": "Eine weitere Taste dieser Grundreihe wäre '#'. Sie wird mit dem kleinen Finger deiner rechten Hand gedrückt; du musst UMSCHALT drücken, wenn du sie als '\\'' tippen möchtest",
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "äaö äls# äkd äjf ähg",
+          "description": "Die Finger sollten nach jedem Tastenanschlag zur Grundreihe zurückkehren",
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "äaö äsl ädk äfj ägh#",
+          "description": "Die Finger sollten nach jedem Tastenanschlag zur Grundreihe zurückkehren",
+          "repetitions": 1
+        },
+        {
+          "id": 21,
+          "text": "as öl lö sa",
+          "description": "Und nun ein paar Wiederholungsübungen aus den ersten beiden Lektionen",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "adgjlä ökhfs",
+          "description": "Und nun ein paar Wiederholungsübungen aus den ersten beiden Lektionen",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "sfhkö äljgda",
+          "description": "Vergiss nicht all die Hinweise, die wir dir während der Lektion geben",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "slaö öasl aghö",
+          "description": "Vergiss nicht all die Hinweise, die wir dir während der Lektion geben",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "föjaä ajöfä gjhf",
+          "description": "Sind deine Daumen in Position?",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "asdfghjklöä# äölkjhgfdsa#",
+          "description": "Denke daran, deine Hände in einer entspannten Position zu halten",
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "asdsa äölklöä",
+          "description": "Denke daran, deine Hände in einer entspannten Position zu halten",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "",
+          "description": "Glückwunsch! Du hast die zweite Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Erster Teil der oberen Reihe",
+      "description": "Lerne die Tasten der oberen Reihe: Q, W, E, I, O, P",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Hier beginnt die dritte Lektion. Wir fangen mit der oberen Reihe an, so nennen wir die Reihe über der Grundreihe",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "qp",
+          "description": "Drücke die Taste 'q' mit dem kleinen Finger deiner linken Hand und die Taste 'p' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "qqq ppp qpq pqp",
+          "description": "Tippe zweimal korrekt",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "wo",
+          "description": "Drücke jetzt die Taste 'w' mit dem Ringfinger deiner linken Hand und die Taste 'o' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "www ooo wow owo",
+          "description": "Drücke jetzt die Taste 'w' mit dem Ringfinger deiner linken Hand und die Taste 'o' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "qwop powq",
+          "description": "Und nun ein paar Übungen mit den ersten vier Tasten dieser Reihe",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "qpwo pqow",
+          "description": "Und nun ein paar Übungen mit den ersten vier Tasten dieser Reihe",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "wopq qpow",
+          "description": "Du solltest inzwischen automatisch die richtige Haltung einnehmen",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "owqp pqwo",
+          "description": "Du solltest inzwischen automatisch die richtige Haltung einnehmen",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "ei",
+          "description": "Zwei weitere Tasten für die Mittelfinger. Mit dem linken die Taste 'e' und mit dem rechten die Taste 'i'",
+          "repetitions": 1
+        },
+        {
+          "id": 10,
+          "text": "eee iii eie iei",
+          "description": "Zwei weitere Tasten für die Mittelfinger. Mit dem linken die Taste 'e' und mit dem rechten die Taste 'i'",
+          "repetitions": 1
+        },
+        {
+          "id": 11,
+          "text": "qwe ewq iop poi",
+          "description": "Vergiss nicht die Position deiner Daumen auf der Leertaste und der übrigen Finger auf der Grundreihe",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "qpwoei ieowpq",
+          "description": "Vergiss nicht die Position deiner Daumen auf der Leertaste und der übrigen Finger auf der Grundreihe",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "qiepow wopeiq",
+          "description": "Bewege nicht die ganze Hand, nur die Finger, die drücken sollen",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "eiwoqp pqowie",
+          "description": "Bewege nicht die ganze Hand, nur die Finger, die drücken sollen",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "qw ew io po pq ow ie",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "ei wo qp op oi we wq",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "qiwoep epwoqi",
+          "description": "Schau nicht auf die Tastatur. Du solltest nur auf den Bildschirm schauen",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "peowiq iqowpe",
+          "description": "Schau nicht auf die Tastatur. Du solltest nur auf den Bildschirm schauen",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "qweiop poiewq",
+          "description": "Hetze nicht. Beeile dich nicht. Du wirst zur richtigen Zeit Geschwindigkeit erreichen. Konzentriere dich jetzt darauf, die Übungen gut zu machen",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "pq wo ie wo pq",
+          "description": "Hetze nicht. Beeile dich nicht. Du wirst zur richtigen Zeit Geschwindigkeit erreichen. Konzentriere dich jetzt darauf, die Übungen gut zu machen",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "",
+          "description": "Glückwunsch! Du hast die dritte Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Obere Reihe",
+      "description": "Lerne die Tasten der oberen Reihe: Q, W, E, R, T, Z, U, I, O, P, Ü, +",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "In dieser Lektion lernen wir den Rest der oberen Reihe und machen Übungen mit den beiden Reihen, die wir bereits kennen",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "ru",
+          "description": "Drücke die Taste 'r' mit dem Zeigefinger deiner linken Hand und die Taste 'u' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "rrr uuu rur uru",
+          "description": "Drücke die Taste 'r' mit dem Zeigefinger deiner linken Hand und die Taste 'u' mit deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "qpwoeiru",
+          "description": "Und nun mit den anderen Tasten dieser Reihe, die wir schon kennen",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "pqowieur",
+          "description": "Und nun mit den anderen Tasten dieser Reihe, die wir schon kennen",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "rq up rw uo re ui",
+          "description": "Und nun mit den anderen Tasten dieser Reihe, die wir schon kennen",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "iu er ou wr pu qr",
+          "description": "Achte darauf, mit den richtigen Fingern zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "t",
+          "description": "Drücke mit dem Zeigefinger deiner linken Hand die Taste 't'",
+          "repetitions": 1
+        },
+        {
+          "id": 8,
+          "text": "z",
+          "description": "Drücke mit dem Zeigefinger deiner rechten Hand die Taste 'z'",
+          "repetitions": 1
+        },
+        {
+          "id": 9,
+          "text": "qwertzuiop poiuztrewq",
+          "description": "Nun ein paar Übungen",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "qpwo eiru tzru",
+          "description": "Achte darauf, die Tasten mit den richtigen Fingern zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "ztur ieow pqow",
+          "description": "Vergiss nicht, nicht die Hände, sondern die Finger zu bewegen",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "ptqz orwu ieei",
+          "description": "Nach jedem Anschlag sollten deine Finger in ihre richtige Position zurückkehren",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "ü",
+          "description": "Drücke mit dem kleinen Finger deiner rechten Hand die Taste 'ü'",
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "+",
+          "description": "Drücke mit demselben Finger die Taste '+'",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "Ü",
+          "description": "Jetzt benutzen wir die UMSCHALT-Taste. Drücke UMSCHALT mit dem kleinen Finger deiner linken Hand und die Taste 'Ü' mit deinem rechten kleinen Finger",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": "*",
+          "description": "Denke daran, dass die UMSCHALT-Taste mit der Hand gedrückt wird, die der Haupttaste gegenüberliegt, und mit den kleinen Fingern. Drücke jetzt mit denselben Fingern und Händen die Taste '*'",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "ü+Ü*ü+ *+Ü* +*Ü",
+          "description": "Mache nach den vorherigen Anweisungen die folgenden Übungen",
+          "repetitions": 1
+        },
+        {
+          "id": 18,
+          "text": "qpü+ woü+ eiü+ü ru+ tz+",
+          "description": "Sei nicht ungeduldig. Diese Übung ist schwierig, wenn du sie schnell machen willst, und einfach, wenn du sie entspannt machst",
+          "repetitions": 1
+        },
+        {
+          "id": 19,
+          "text": "Ü* *Ü p*p p*p",
+          "description": "Sei nicht ungeduldig. Diese Übung ist schwierig, wenn du sie schnell machen willst, und einfach, wenn du sie entspannt machst",
+          "repetitions": 1
+        },
+        {
+          "id": 20,
+          "text": "qpqö öqpa q*Üa",
+          "description": "Jetzt kennst du zwei komplette Reihen. Die folgenden Übungen sollten als Wiederholung der vier bisher gemachten Lektionen betrachtet werden. Wir beginnen mit den kleinen Fingern",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "öapq* Üä aä qp*",
+          "description": "Jetzt kennst du zwei komplette Reihen. Die folgenden Übungen sollten als Wiederholung der vier bisher gemachten Lektionen betrachtet werden. Wir beginnen mit den kleinen Fingern",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "slwo owls swol",
+          "description": "Mit den Ringfingern",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "deki edik eidk",
+          "description": "Mit den Mittelfingern",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "frju rfuj rufj",
+          "description": "Mit den Zeigefingern",
+          "repetitions": 1
+        },
+        {
+          "id": 25,
+          "text": "frjugtzz hgjfurzt",
+          "description": "Mit den Zeigefingern",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "jfhgurzt fjghrutz",
+          "description": "Mit den Zeigefingern",
+          "repetitions": 3
+        },
+        {
+          "id": 27,
+          "text": "qwert poiuz",
+          "description": "Und mit allen...",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "trewq zuiop",
+          "description": "Und mit allen...",
+          "repetitions": 2
+        },
+        {
+          "id": 29,
+          "text": "aqwedsa",
+          "description": "Drücke jede Taste mit den richtigen Fingern",
+          "repetitions": 3
+        },
+        {
+          "id": 30,
+          "text": "ö+poiklö",
+          "description": "Drücke jede Taste mit den richtigen Fingern",
+          "repetitions": 3
+        },
+        {
+          "id": 31,
+          "text": "asdewqa",
+          "description": "Nach jedem Anschlag sollten deine Finger in ihre Position auf der Grundreihe zurückkehren",
+          "repetitions": 3
+        },
+        {
+          "id": 32,
+          "text": "ölkiopä+üö",
+          "description": "Nach jedem Anschlag sollten deine Finger in ihre Position auf der Grundreihe zurückkehren",
+          "repetitions": 3
+        },
+        {
+          "id": 33,
+          "text": "ölkiopö",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 3
+        },
+        {
+          "id": 34,
+          "text": "frtgf jhzuj",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 3
+        },
+        {
+          "id": 35,
+          "text": "fgtrf juzhj",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 3
+        },
+        {
+          "id": 36,
+          "text": "aqwertgfdsa",
+          "description": "Schau nicht auf die Tastatur",
+          "repetitions": 3
+        },
+        {
+          "id": 37,
+          "text": "+äpoiuzhjklö+",
+          "description": "Sei nicht in Eile",
+          "repetitions": 3
+        },
+        {
+          "id": 38,
+          "text": "asdfgtrewqa",
+          "description": "Sei nicht in Eile",
+          "repetitions": 3
+        },
+        {
+          "id": 39,
+          "text": "+ölkjhzuiop+",
+          "description": "Nimm eine korrekte Körperhaltung ein",
+          "repetitions": 2
+        },
+        {
+          "id": 40,
+          "text": "aqöp swlo deki frik",
+          "description": "Nimm eine korrekte Körperhaltung ein",
+          "repetitions": 2
+        },
+        {
+          "id": 41,
+          "text": "jtuztz aqöp",
+          "description": "Die Handflächen sollten nicht auf dem Tisch oder der Tastatur aufliegen",
+          "repetitions": 2
+        },
+        {
+          "id": 42,
+          "text": "heigwoö frt",
+          "description": "Die Handflächen sollten nicht auf dem Tisch oder der Tastatur aufliegen",
+          "repetitions": 2
+        },
+        {
+          "id": 43,
+          "text": "huij dert",
+          "description": "Schlage die Beine nicht übereinander; so vermeidest du ein Einschlafen der Gliedmaßen",
+          "repetitions": 2
+        },
+        {
+          "id": 44,
+          "text": "parade quader",
+          "description": "Jetzt bilden wir Wörter",
+          "repetitions": 2
+        },
+        {
+          "id": 45,
+          "text": "guerto plaque",
+          "description": "Jetzt bilden wir Wörter",
+          "repetitions": 2
+        },
+        {
+          "id": 46,
+          "text": "poetiz riot",
+          "description": "Denke daran, dass die Handhaltung gekrümmt ist und die Tasten der Grundreihe leicht berührt",
+          "repetitions": 2
+        },
+        {
+          "id": 47,
+          "text": "leopard proud",
+          "description": "Denke daran, dass die Handhaltung gekrümmt ist und die Tasten der Grundreihe leicht berührt",
+          "repetitions": 2
+        },
+        {
+          "id": 48,
+          "text": "polars store",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 2
+        },
+        {
+          "id": 49,
+          "text": "quorel",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 2
+        },
+        {
+          "id": 50,
+          "text": "depostu outpads",
+          "description": "Schau nicht auf die Tastatur",
+          "repetitions": 2
+        },
+        {
+          "id": 51,
+          "text": "isolaud houdas",
+          "description": "Schau nicht auf die Tastatur",
+          "repetitions": 2
+        },
+        {
+          "id": 52,
+          "text": "figures aguires",
+          "description": "An diesem Punkt des Kurses solltest du die richtigen Gewohnheiten haben. Falls nicht, wäre es ratsam, die Anfängerlektion zu wiederholen",
+          "repetitions": 2
+        },
+        {
+          "id": 53,
+          "text": "faquised quoised",
+          "description": "An diesem Punkt des Kurses solltest du die richtigen Gewohnheiten haben. Falls nicht, wäre es ratsam, die Anfängerlektion zu wiederholen",
+          "repetitions": 2
+        },
+        {
+          "id": 54,
+          "text": "",
+          "description": "Glückwunsch! Du hast die vierte Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Erster Teil der unteren Reihe",
+      "description": "Lerne einen Teil der unteren Reihe: Y, -, X, ., C, ,",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Wir beginnen mit der unteren Reihe. Du kennst die Methode bereits und diese fünfte Lektion wird sehr leicht für dich sein.",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "y-",
+          "description": "Drücke 'y' mit dem kleinen Finger deiner linken Hand und die Taste '-' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "yyy --- y-y -y-",
+          "description": "Drücke 'y' mit dem kleinen Finger deiner linken Hand und die Taste '-' mit deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "x.",
+          "description": "Drücke die Taste 'x' mit dem Ringfinger deiner linken Hand und die Taste '.' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 4,
+          "text": "xxx ... x.x .x.",
+          "description": "Drücke die Taste 'x' mit dem Ringfinger deiner linken Hand und die Taste '.' mit deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "yx.- -.xy",
+          "description": "Nach jedem Anschlag in der unteren Reihe sollten deine Finger zu ihrer Taste auf der Grundreihe zurückkehren",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "c,",
+          "description": "Drücke die Taste 'c' mit dem Mittelfinger deiner linken Hand und die Taste ',' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 7,
+          "text": "ccc ,,, c,c ,c,",
+          "description": "Drücke die Taste 'c' mit dem Mittelfinger deiner linken Hand und die Taste ',' mit deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "yxc cxy -., ,.-",
+          "description": "Deine Finger bewegen sich, nicht deine Hände",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "y-x.c, ,c.x-y",
+          "description": "Deine Finger bewegen sich, nicht deine Hände",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "yyxxcc ,,..--",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "--..,, ccxxyy",
+          "description": "Deine Daumen sollten auf der Leertaste liegen",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "y, .x c-",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": ",y x. -c",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "cc,, -- yy",
+          "description": "Bringst du deine Finger nach jedem Anschlag wieder in Position?",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "y x c , . -",
+          "description": "Bringst du deine Finger nach jedem Anschlag wieder in Position?",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "- . , c x y",
+          "description": "Lies alle Erklärungen und Tipps, die in den Lektionen erscheinen",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "",
+          "description": "Glückwunsch! Du hast die fünfte Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Untere Reihe",
+      "description": "Lerne die gesamte untere Reihe: Y, X, C, V, B, N, M, ',', '.', -",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Mit dieser Lektion vervollständigen wir die untere Reihe. Danach solltest du ein paar Übungen mit allen Tasten machen, die du kennst",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "v",
+          "description": "Drücke die Taste 'v' mit dem Zeigefinger deiner linken Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "m",
+          "description": "Drücke jetzt die Taste 'm' mit dem Zeigefinger deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 3,
+          "text": "vvv mmm vmv mvm",
+          "description": "Drücke jetzt die Taste 'm' mit dem Zeigefinger deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "bn",
+          "description": "Drücke jetzt mit denselben Fingern die Taste 'b' mit deiner linken Hand und die Taste 'n' mit deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 5,
+          "text": "bbb nnn bnb nbn",
+          "description": "Drücke jetzt mit denselben Fingern die Taste 'b' mit deiner linken Hand und die Taste 'n' mit deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "yxcvbnm,.-",
+          "description": "Ein paar Übungen mit der gesamten Reihe",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "-.,mnbvcxy",
+          "description": "Ein paar Übungen mit der gesamten Reihe",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "y- x. c, vm bn",
+          "description": "Vergiss nicht all die Gewohnheiten, die du in den vorherigen Lektionen erworben hast. Wir werden sie dich im Laufe dieser Lektion daran erinnern",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "-y .x ,c mv nb",
+          "description": "Vergiss nicht all die Gewohnheiten, die du in den vorherigen Lektionen erworben hast. Wir werden sie dich im Laufe dieser Lektion daran erinnern",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "bn vm c, x. y-",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "nb mv ,c .x -y",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "ynxmc,v.b-",
+          "description": "Dein Rücken sollte gerade und deine Beine nicht übereinandergeschlagen sein",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "-b.v,cmxny",
+          "description": "Dein Rücken sollte gerade und deine Beine nicht übereinandergeschlagen sein",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": ":",
+          "description": "Es fehlen nur noch ein paar Zeichen in dieser Reihe. Drücke UMSCHALT mit dem kleinen Finger deiner linken Hand. Drücke dann ':' mit dem Ringfinger deiner rechten Hand (UMSCHALT + '.')",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": "<_",
+          "description": "Drücke die Taste '<' mit dem kleinen Finger deiner linken Hand und, während du UMSCHALT hältst, das '_' mit dem kleinen Finger deiner rechten Hand (UMSCHALT + '-')",
+          "repetitions": 1
+        },
+        {
+          "id": 16,
+          "text": ":<_:_: __:<",
+          "description": "Drücke die Taste '<' mit dem kleinen Finger deiner linken Hand und, während du UMSCHALT hältst, das '_' mit dem kleinen Finger deiner rechten Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "yxcvb -.,mn",
+          "description": "Nun ein paar Wiederholungsübungen mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "bvcxy nm,.-",
+          "description": "Nun ein paar Wiederholungsübungen mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "ayxcvbv",
+          "description": "Das Drücken der Tasten in der unteren Reihe geschieht, indem du den entsprechenden Finger bewegst und ihn wieder in seine Position auf der Grundreihe zurückbringst",
+          "repetitions": 3
+        },
+        {
+          "id": 20,
+          "text": "ö-.,mnm",
+          "description": "Das Drücken der Tasten in der unteren Reihe geschieht, indem du den entsprechenden Finger bewegst und ihn wieder in seine Position auf der Grundreihe zurückbringst",
+          "repetitions": 3
+        },
+        {
+          "id": 21,
+          "text": "asdcxya",
+          "description": "Halte deine Daumen auf der Leertaste",
+          "repetitions": 3
+        },
+        {
+          "id": 22,
+          "text": "ölk,.-ö",
+          "description": "Halte deine Daumen auf der Leertaste",
+          "repetitions": 3
+        },
+        {
+          "id": 23,
+          "text": "ayxcvbv ö-.,mnm",
+          "description": "Deine Hände sollten die Tasten der Grundreihe leicht berühren",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "asdcxya ölk,.-ö",
+          "description": "Deine Hände sollten die Tasten der Grundreihe leicht berühren",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "bvcxya",
+          "description": "Sei nicht ungeduldig. Es macht nichts, wenn du es langsam machst. Wichtig ist, dass du es gut und korrekt machst. Die Geschwindigkeit kommt von allein",
+          "repetitions": 3
+        },
+        {
+          "id": 26,
+          "text": "nm,.-ö",
+          "description": "Sei nicht ungeduldig. Es macht nichts, wenn du es langsam machst. Wichtig ist, dass du es gut und korrekt machst. Die Geschwindigkeit kommt von allein",
+          "repetitions": 3
+        },
+        {
+          "id": 27,
+          "text": "ayxcvbgfdsa",
+          "description": "Sei nicht ungeduldig. Es macht nichts, wenn du es langsam machst. Wichtig ist, dass du es gut und korrekt machst. Die Geschwindigkeit kommt von allein",
+          "repetitions": 3
+        },
+        {
+          "id": 28,
+          "text": ":-.,mnhjklö:",
+          "description": "Sei nicht ungeduldig. Es macht nichts, wenn du es langsam machst. Wichtig ist, dass du es gut und korrekt machst. Die Geschwindigkeit kommt von allein",
+          "repetitions": 3
+        },
+        {
+          "id": 29,
+          "text": "ayxcvbgfdsa :-.,mnhjklö:",
+          "description": "Denke daran, dass jeder Anschlag mit dem entsprechenden Finger erfolgt",
+          "repetitions": 2
+        },
+        {
+          "id": 30,
+          "text": "ayqhnz sxwjmu dcek,i fvrl.o gbtö-p :ä",
+          "description": "Denke daran, dass jeder Anschlag mit dem entsprechenden Finger erfolgt",
+          "repetitions": 2
+        },
+        {
+          "id": 31,
+          "text": "qaywsx edcrfv tgbzhn ujmik, ol.pö-:ä",
+          "description": "Denke daran, dass jeder Anschlag mit dem entsprechenden Finger erfolgt",
+          "repetitions": 2
+        },
+        {
+          "id": 32,
+          "text": "mutig menschen",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 33,
+          "text": "schatz beginn",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 34,
+          "text": "wagen firma",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 35,
+          "text": "schnell neu",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 36,
+          "text": "eile schmal",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 37,
+          "text": "arten modell",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 38,
+          "text": "kreis quadrat",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 39,
+          "text": "immer rechnung",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 40,
+          "text": "front paket",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 41,
+          "text": "tastatur unser",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 42,
+          "text": "sänger punkte",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 43,
+          "text": "viel sanft",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 44,
+          "text": "vorteil vertrag",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 45,
+          "text": "notar freund",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 46,
+          "text": "lernen traurig",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 47,
+          "text": "klang leise",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 48,
+          "text": "computer einfach",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 49,
+          "text": "geneigt mann",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 50,
+          "text": "wolke berg",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 51,
+          "text": "anton wald",
+          "description": "Jetzt ein paar Wörter mit allen drei Reihen",
+          "repetitions": 2
+        },
+        {
+          "id": 52,
+          "text": "",
+          "description": "Glückwunsch! Du hast die sechste Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Zahlenreihe",
+      "description": "Lerne die Zahlenreihe",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "In dieser Lektion verwenden wir die Zahlenreihe.",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "12",
+          "repetitions": 1,
+          "description": "Mit der linken Hand drücken wir die ersten beiden Zahlen '1' und '2', die '1' mit dem kleinen Finger und die '2' mit dem Ringfinger"
+        },
+        {
+          "id": 2,
+          "text": "345",
+          "repetitions": 1,
+          "description": "Die '3' wird mit dem Mittelfinger gedrückt und die '4' und '5' mit dem Zeigefinger"
+        },
+        {
+          "id": 3,
+          "text": "12345",
+          "repetitions": 1,
+          "description": "Die '3' wird mit dem Mittelfinger gedrückt und die '4' und '5' mit dem Zeigefinger"
+        },
+        {
+          "id": 4,
+          "text": "54321",
+          "repetitions": 1,
+          "description": "Die '3' wird mit dem Mittelfinger gedrückt und die '4' und '5' mit dem Zeigefinger"
+        },
+        {
+          "id": 5,
+          "text": "12345 54321",
+          "repetitions": 2,
+          "description": "Die '3' wird mit dem Mittelfinger gedrückt und die '4' und '5' mit dem Zeigefinger"
+        },
+        {
+          "id": 6,
+          "text": "09",
+          "repetitions": 1,
+          "description": "Jetzt üben wir mit den Fingern der rechten Hand, wir drücken '0' und '9' mit dem kleinen Finger bzw. dem Ringfinger"
+        },
+        {
+          "id": 7,
+          "text": "876",
+          "repetitions": 1,
+          "description": "Wir drücken '8' mit dem Mittelfinger und '7' und '6' mit dem Zeigefinger"
+        },
+        {
+          "id": 8,
+          "text": "09876",
+          "repetitions": 1,
+          "description": "Wir drücken '8' mit dem Mittelfinger und '7' und '6' mit dem Zeigefinger"
+        },
+        {
+          "id": 9,
+          "text": "67890",
+          "repetitions": 1,
+          "description": "Wir drücken '8' mit dem Mittelfinger und '7' und '6' mit dem Zeigefinger"
+        },
+        {
+          "id": 10,
+          "text": "09876 67890",
+          "repetitions": 2,
+          "description": "Wir drücken '8' mit dem Mittelfinger und '7' und '6' mit dem Zeigefinger"
+        },
+        {
+          "id": 11,
+          "text": "1234567890",
+          "repetitions": 1,
+          "description": "Jetzt benutzen wir beide Hände und denken daran, dass jeder Zeigefinger für zwei Zahlen zuständig ist"
+        },
+        {
+          "id": 12,
+          "text": "0987654321",
+          "repetitions": 1,
+          "description": "Jetzt benutzen wir beide Hände und denken daran, dass jeder Zeigefinger für zwei Zahlen zuständig ist"
+        },
+        {
+          "id": 13,
+          "text": "1234567890",
+          "repetitions": 2,
+          "description": "Jetzt benutzen wir beide Hände und denken daran, dass jeder Zeigefinger für zwei Zahlen zuständig ist"
+        },
+        {
+          "id": 14,
+          "text": "0987654321",
+          "repetitions": 2,
+          "description": "Jetzt benutzen wir beide Hände und denken daran, dass jeder Zeigefinger für zwei Zahlen zuständig ist"
+        },
+        {
+          "id": 15,
+          "text": "135 680",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 16,
+          "text": "24 79",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 17,
+          "text": "135680",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 18,
+          "text": "103856",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 19,
+          "text": "258017",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 20,
+          "text": "5647382910",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 21,
+          "text": "0192837465",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 22,
+          "text": "6574839201",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 23,
+          "text": "1029384756",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 24,
+          "text": "35689247",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 25,
+          "text": "74298653",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 26,
+          "text": "1092387456",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 27,
+          "text": "6547832901",
+          "repetitions": 2,
+          "description": "Denke daran, dass die Fingerposition auf der Grundreihe sein sollte"
+        },
+        {
+          "id": 28,
+          "text": "a1s2d3f4g5",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 29,
+          "text": "ö0l9k8j7h6",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 30,
+          "text": "as123df45g öl098kj76h",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 31,
+          "text": "aö10sl29",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 32,
+          "text": "dk38 83kd",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 33,
+          "text": "jf47 hg65",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 34,
+          "text": "56gh 74fj",
+          "repetitions": 2,
+          "description": "Mischen wir Buchstaben mit Zahlen"
+        },
+        {
+          "id": 35,
+          "text": "1qay 0pö-",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir nur mit den kleinen Fingern"
+        },
+        {
+          "id": 36,
+          "text": "yaq1 -öp0",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir nur mit den kleinen Fingern"
+        },
+        {
+          "id": 37,
+          "text": "-yöapq01 01pqöa-y",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir nur mit den kleinen Fingern"
+        },
+        {
+          "id": 38,
+          "text": "0ypaöq-1 -1öqpa0y",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir nur mit den kleinen Fingern"
+        },
+        {
+          "id": 39,
+          "text": "2wsx 9ol.",
+          "repetitions": 2,
+          "description": "Jetzt mit den Ringfingern beider Hände"
+        },
+        {
+          "id": 40,
+          "text": ".lo9 xsw2",
+          "repetitions": 2,
+          "description": "Jetzt mit den Ringfingern beider Hände"
+        },
+        {
+          "id": 41,
+          "text": "9xoslw.2 2.wlsox9",
+          "repetitions": 2,
+          "description": "Jetzt mit den Ringfingern beider Hände"
+        },
+        {
+          "id": 42,
+          "text": ".xlsow92 29woslx.",
+          "repetitions": 2,
+          "description": "Jetzt mit den Ringfingern beider Hände"
+        },
+        {
+          "id": 43,
+          "text": "3edc 8ik,",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir mit den Mittelfingern beider Hände"
+        },
+        {
+          "id": 44,
+          "text": ",ki8 cde3",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir mit den Mittelfingern beider Hände"
+        },
+        {
+          "id": 45,
+          "text": "8cidke,3 3,ekdic8",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir mit den Mittelfingern beider Hände"
+        },
+        {
+          "id": 46,
+          "text": ",ckdie83 38eidkc,",
+          "repetitions": 2,
+          "description": "Jetzt drücken wir mit den Mittelfingern beider Hände"
+        },
+        {
+          "id": 47,
+          "text": "4rfv 7ujm",
+          "repetitions": 2,
+          "description": "Jetzt kommen die Zeigefinger ins Spiel"
+        },
+        {
+          "id": 48,
+          "text": "5tgb 6zhn",
+          "repetitions": 2,
+          "description": "Jetzt kommen die Zeigefinger ins Spiel"
+        },
+        {
+          "id": 49,
+          "text": "mju7 vfr4",
+          "repetitions": 2,
+          "description": "Jetzt kommen die Zeigefinger ins Spiel"
+        },
+        {
+          "id": 50,
+          "text": "nhz6 bgt5",
+          "repetitions": 2,
+          "description": "Jetzt kommen die Zeigefinger ins Spiel"
+        },
+        {
+          "id": 51,
+          "text": "7vufjrm4 m4jruf7v",
+          "repetitions": 2,
+          "description": "Schau nicht auf die Tastatur und behalte die richtige Position bei"
+        },
+        {
+          "id": 52,
+          "text": "mvjfur74 74urjfmv",
+          "repetitions": 2,
+          "description": "Schau nicht auf die Tastatur und behalte die richtige Position bei"
+        },
+        {
+          "id": 53,
+          "text": "6bzghtn5 n5htzg6b",
+          "repetitions": 2,
+          "description": "Schau nicht auf die Tastatur und behalte die richtige Position bei"
+        },
+        {
+          "id": 54,
+          "text": "nbhgzt65 56tzghbn",
+          "repetitions": 2,
+          "description": "Schau nicht auf die Tastatur und behalte die richtige Position bei"
+        },
+        {
+          "id": 55,
+          "text": "",
+          "description": "Glückwunsch! Du hast die siebte Lektion abgeschlossen",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Zeichen der Zahlenreihe",
+      "description": "Lerne die Zeichen der Zahlenreihe",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Jetzt lernen wir die Zeichen der Zahlenreihe, die du mit gedrückter UMSCHALT-Taste erreichst",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "!= != !=",
+          "description": "Halte UMSCHALT mit dem kleinen Finger deiner rechten Hand und drücke '!' mit dem kleinen Finger deiner linken Hand; und umgekehrt UMSCHALT links und '=' mit dem kleinen Finger deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "=! =! =!",
+          "description": "Halte UMSCHALT mit dem kleinen Finger deiner rechten Hand und drücke '!' mit dem kleinen Finger deiner linken Hand; und umgekehrt '='",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "\") \") \")",
+          "description": "Halte weiterhin UMSCHALT mit dem entsprechenden kleinen Finger und drücke '\"' mit dem Ringfinger deiner linken Hand und ')' mit dem Ringfinger deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "((((",
+          "description": "Als Nächstes drücke '(' mit dem Mittelfinger deiner rechten Hand. Vergiss nicht, die UMSCHALT-Taste mit deiner linken Hand zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "=\")(",
+          "description": "Als Nächstes drücke '(' mit dem Mittelfinger deiner rechten Hand. Vergiss nicht, die UMSCHALT-Taste mit deiner linken Hand zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "!$% &/(",
+          "description": "Jetzt üben wir die übrigen Zeichen; drücke '$' und '%' mit dem Zeigefinger deiner linken Hand und '&' und '/' mit dem Zeigefinger deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "!)($&%/",
+          "description": "Jetzt üben wir die übrigen Zeichen; drücke '$' und '%' mit dem Zeigefinger deiner linken Hand und '&' und '/' mit dem Zeigefinger deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "!% /)",
+          "description": "Jetzt üben wir die übrigen Zeichen; drücke '$' und '%' mit dem Zeigefinger deiner linken Hand und '&' und '/' mit dem Zeigefinger deiner rechten Hand",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "!/&($)%",
+          "description": "Denke daran, dass du die UMSCHALT-Tasten mit dem kleinen Finger der jeweils anderen Hand drücken musst",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": ")!(&$/%",
+          "description": "Denke daran, dass du die UMSCHALT-Tasten mit dem kleinen Finger der jeweils anderen Hand drücken musst",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "/%&$()!",
+          "description": "Denke daran, dass du die UMSCHALT-Tasten mit dem kleinen Finger der jeweils anderen Hand drücken musst",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "!/&$(%)",
+          "description": "Deine Finger sollten immer zur Grundreihe zurückkehren",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": ")%($&/!",
+          "description": "Deine Finger sollten immer zur Grundreihe zurückkehren",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "§",
+          "description": "Um '§' zu tippen, halte UMSCHALT und drücke die '3' mit dem Mittelfinger deiner linken Hand",
+          "repetitions": 1
+        },
+        {
+          "id": 15,
+          "text": ")(&%$\"!",
+          "description": "Vergiss nicht, UMSCHALT zu drücken, wenn es nötig ist",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "asd§f$g% h/j&kl(ö)",
+          "description": "Jetzt üben wir auch mit Buchstaben",
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "%w$ §rt",
+          "description": "Jetzt üben wir auch mit Buchstaben",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "z)u(i=o&p/",
+          "description": "Jetzt üben wir auch mit Buchstaben",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "y)x(c=v&b/ nm§.$%",
+          "description": "Jetzt üben wir auch mit Buchstaben",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "q/a&y( w)sx e§$c%",
+          "description": "Denke daran, dass du beim Tippen der Zeichen der Zahlenreihe gleichzeitig die UMSCHALT-Taste gedrückt halten musst",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "pö§ o$l%.- i%k$,=",
+          "description": "Denke daran, dass du beim Tippen der Zeichen der Zahlenreihe gleichzeitig die UMSCHALT-Taste gedrückt halten musst",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "r)f(v= ujm§ t$g%b/",
+          "description": "Denke daran, dass du beim Tippen der Zeichen der Zahlenreihe gleichzeitig die UMSCHALT-Taste gedrückt halten musst",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "y&h=n(m)",
+          "description": "Denke daran, dass du beim Tippen der Zeichen der Zahlenreihe gleichzeitig die UMSCHALT-Taste gedrückt halten musst",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "1)2(3=4&5/ 098§7$6%",
+          "description": "Als Nächstes üben wir alle Zeichen der Zahlenreihe",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "09§8$7%6 )1(2=3&4/5",
+          "description": "Als Nächstes üben wir alle Zeichen der Zahlenreihe",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "6)7(8=9&0/ 543§2$1%",
+          "description": "Als Nächstes üben wir alle Zeichen der Zahlenreihe",
+          "repetitions": 2
+        },
+        {
+          "id": 27,
+          "text": "yx§c )(.=, $v%b/n&m",
+          "description": "Sei nicht ungeduldig. Durch Übung wirst du Geschwindigkeit gewinnen. Wichtig ist, jederzeit zu wissen, welcher Finger zu welcher Taste gehört",
+          "repetitions": 2
+        },
+        {
+          "id": 28,
+          "text": "as§ )ö(l=k $f%g/h&j",
+          "description": "Sei nicht ungeduldig. Durch Übung wirst du Geschwindigkeit gewinnen. Wichtig ist, jederzeit zu wissen, welcher Finger zu welcher Taste gehört",
+          "repetitions": 2
+        },
+        {
+          "id": 29,
+          "text": "qw§e )p(o=i $r%t/z&u",
+          "description": "Sei nicht ungeduldig. Durch Übung wirst du Geschwindigkeit gewinnen. Wichtig ist, jederzeit zu wissen, welcher Finger zu welcher Taste gehört",
+          "repetitions": 2
+        },
+        {
+          "id": 30,
+          "text": "",
+          "description": "Glückwunsch! Du hast die achte Lektion abgeschlossen",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Sonderzeichen",
+      "description": "Lerne einige der Sonderzeichen",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "In dieser Lektion lernen wir weitere Tasten am rechten Rand der Tastatur sowie einige AltGr-Zeichen",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "ß? ?ß ßß",
+          "description": "Drücke die 'ß'-Taste mit dem kleinen Finger deiner rechten Hand; für '?' hältst du gleichzeitig UMSCHALT",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "ß?ß? ?ßß? ??ßß",
+          "description": "Drücke die 'ß'-Taste mit dem kleinen Finger deiner rechten Hand; für '?' hältst du gleichzeitig UMSCHALT",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "ßß?? ?ß?ß ß??ß",
+          "description": "Drücke die 'ß'-Taste mit dem kleinen Finger deiner rechten Hand; für '?' hältst du gleichzeitig UMSCHALT",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "+* *+ ++ **",
+          "description": "Drücke die '+'-Taste mit dem kleinen Finger deiner rechten Hand; für '*' hältst du UMSCHALT mit dem kleinen Finger deiner linken Hand",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "+*+ *+* ++* **+",
+          "description": "Drücke die '+'-Taste mit dem kleinen Finger deiner rechten Hand; für '*' hältst du UMSCHALT mit dem kleinen Finger deiner linken Hand",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "ß?+* *+?ß +?ß*",
+          "description": "Drücke die '+'-Taste mit dem kleinen Finger deiner rechten Hand; für '*' hältst du UMSCHALT mit dem kleinen Finger deiner linken Hand",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "+*ß? ?ß+* *ß?+",
+          "description": "Drücke die '+'-Taste mit dem kleinen Finger deiner rechten Hand; für '*' hältst du UMSCHALT mit dem kleinen Finger deiner linken Hand",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "<<>> ><><><<",
+          "description": "Drücke '<' mit dem kleinen Finger deiner linken Hand (die Taste links neben dem Y); für '>' drückst du dieselbe Taste, während du UMSCHALT mit dem kleinen Finger deiner rechten Hand hältst",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": ">><<><><>< >>",
+          "description": "Drücke '<' mit dem kleinen Finger deiner linken Hand; für '>' drückst du dieselbe Taste, während du UMSCHALT mit dem kleinen Finger deiner rechten Hand hältst",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "#' '# ##''",
+          "description": "Drücke '#' mit dem kleinen Finger deiner rechten Hand (rechts neben dem Ä); für ''' hältst du UMSCHALT",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "#'ß? +*<> #'+*",
+          "description": "Übe diese Zeichen abwechselnd mit beiden kleinen Fingern",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "><#' ß?+* <>#'",
+          "description": "Übe diese Zeichen abwechselnd mit beiden kleinen Fingern",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "´ ´´ ´ ´´",
+          "description": "Lerne die Akzenttaste zu benutzen: '´' drückst du mit dem kleinen Finger deiner rechten Hand (gefolgt von der Leertaste, da es eine tote Taste ist)",
+          "introduction": false,
+          "repetitions": 1
+        },
+        {
+          "id": 14,
+          "text": "` `` ` ``",
+          "description": "Für den Gravis '`' hältst du UMSCHALT und drückst dieselbe Taste mit dem kleinen Finger deiner rechten Hand (gefolgt von der Leertaste)",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "´ ` ´ `",
+          "description": "Für den Gravis '`' hältst du UMSCHALT und drückst dieselbe Taste mit dem kleinen Finger deiner rechten Hand",
+          "introduction": false,
+          "repetitions": 3
+        },
+        {
+          "id": 16,
+          "text": "<| |< <|",
+          "description": "Das Wichtigste ist, sich anzugewöhnen, mit allen Fingern zu tippen. Das '|' erhältst du, indem du AltGr mit der '<'-Taste kombinierst",
+          "introduction": false,
+          "repetitions": 1
+        },
+        {
+          "id": 17,
+          "text": "+#' '#+ ß?#",
+          "description": "Drücke die folgenden Tasten mit dem kleinen Finger deiner rechten Hand",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "-pß ßp- -ßp -pß",
+          "description": "Drücke die folgenden Tasten mit dem kleinen Finger deiner rechten Hand",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "<+ß1 <#'q <+ßa <#'y",
+          "description": "Jetzt mit den kleinen Fingern beider Hände",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "1q<~ ay+ 1y-",
+          "description": "Jetzt mit den kleinen Fingern beider Hände. Die Tilde '~' erhältst du mit AltGr und der '+'-Taste",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "p>q ä#a .?y",
+          "description": "Jetzt mit den kleinen Fingern beider Hände",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "@q1a<y €w2>x µe3d(c",
+          "description": "Üben wir diese Zeichen zusammen mit den zuvor gelernten. Das '@' erhältst du mit AltGr+Q, das '€' mit AltGr+E und das 'µ' mit AltGr+M",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "{r4f]v [t5g}b \\z6h?n",
+          "description": "Üben wir diese Zeichen zusammen mit den zuvor gelernten. Die Klammern und der Backslash liegen auf der AltGr-Ebene der Tasten 7, 8, 9, 0 und ß",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "@u7j<m }i8k>, *i9l#.",
+          "description": "Üben wir diese Zeichen zusammen mit den zuvor gelernten, ohne zu vergessen, bei Bedarf UMSCHALT oder AltGr zu drücken",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "(pßä]- -1=?+] 2<µ>3]",
+          "description": "Üben wir diese Zeichen zusammen mit den zuvor gelernten, ohne zu vergessen, bei Bedarf UMSCHALT oder AltGr zu drücken",
+          "introduction": false,
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "",
+          "description": "Glückwunsch! Du hast die neunte Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Allgemeine Wiederholung",
+      "description": "Allgemeine Wiederholung von Wörtern und Satzzeichen",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "In dieser Lektion wiederholen wir die meisten Zeichen",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "schnell braun springt über faul tippen übung tastatur",
+          "description": "Tippe die folgenden Wörter",
+          "repetitions": 1
+        },
+        {
+          "id": 2,
+          "text": "hallo welt computer bildschirm anzeige",
+          "description": "Tippe die folgenden Wörter",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "finger position richtig übung tippen",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "schüler lehrer lektion übung training",
+          "description": "Denke daran, deine Finger auf der Grundreihe zu lassen",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "morgen abend nachmittag mitternacht sonnenaufgang",
+          "description": "Denke daran, deine Finger auf der Grundreihe zu lassen",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "fenster straße monitor tastatur maus",
+          "description": "Denke daran, deine Finger auf der Grundreihe zu lassen",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "programm software hardware netzwerk system",
+          "description": "Denke daran, die Leertaste mit dem Daumen der gegenüberliegenden Hand zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "schüler lehrer lektion übung aufgabe",
+          "description": "Denke daran, die Leertaste mit dem Daumen der gegenüberliegenden Hand zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "Montag Dienstag Mittwoch Donnerstag Freitag",
+          "description": "Denke daran, die Leertaste mit dem Daumen der gegenüberliegenden Hand zu drücken",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "Januar, Februar, März, April",
+          "description": "Jetzt drücken wir auch das Komma zwischen jedem Wort, ohne zu vergessen, dass nach dem Komma ein Leerzeichen folgt",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "Sonntag, Montag, Dienstag, Mittwoch",
+          "description": "Jetzt drücken wir auch das Komma zwischen jedem Wort, ohne zu vergessen, dass nach dem Komma ein Leerzeichen folgt",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "Morgen, Nachmittag, Abend, Nacht",
+          "description": "Jetzt drücken wir auch das Komma zwischen jedem Wort, ohne zu vergessen, dass nach dem Komma ein Leerzeichen folgt",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "Tastatur, Maus, Bildschirm, Monitor",
+          "description": "Jetzt drücken wir auch das Komma zwischen jedem Wort, ohne zu vergessen, dass nach dem Komma ein Leerzeichen folgt",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "Schüler, Lehrer. Übung; \"Lektion\".",
+          "description": "Üben wir weitere Wörter, getrennt durch Punkt, Semikolon und Anführungszeichen",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "Computer; Tastatur, Monitor, \"System\".",
+          "description": "Üben wir weitere Wörter, getrennt durch Punkt, Semikolon und Anführungszeichen",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "Tippen. Übung; \"Praxis\", Training;",
+          "description": "Üben wir weitere Wörter, getrennt durch Punkt, Semikolon und Anführungszeichen",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "",
+          "description": "Glückwunsch! Du hast die zehnte Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Großbuchstaben",
+      "description": "Lerne die Großbuchstaben",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "In dieser Lektion üben wir die Großbuchstaben",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "ZeiTuNG GeiSeL GRieSS TRoMMeL",
+          "description": "Tippe die folgenden Wörter mit Großbuchstaben",
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "BlaSe VieLSeiTiG RHeiN PlöTZLiCH",
+          "description": "Tippe die folgenden Wörter mit Großbuchstaben",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "TaKTiK SPeRRe MaCHT PoeSie",
+          "description": "Tippe die folgenden Wörter mit Großbuchstaben",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "TeiLNeHMeR SeiTe MoRMoNe MiNiMuM",
+          "description": "Denke daran, die UMSCHALT-Tasten zu drücken, um Großbuchstaben zu tippen",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "KuRZSiCHTiG SCHLüSSeL LöWe ReGeN LiCHT",
+          "description": "Denke daran, die UMSCHALT-Tasten zu drücken, um Großbuchstaben zu tippen",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "HeLD, GoTiK; \"EtHiSCH\". EXPReSS;",
+          "description": "Jetzt drücken wir auch die Tasten Komma, Semikolon, Anführungszeichen und Punkt",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "HyBRiD. ÄtHeR; GeiST, \"FRaGe\".",
+          "description": "Jetzt drücken wir auch die Tasten Komma, Semikolon, Anführungszeichen und Punkt",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "KoLiBRi, \"CaDiZ\". GoLDeN; ANeKDoTe.",
+          "description": "Jetzt drücken wir auch die Tasten Komma, Semikolon, Anführungszeichen und Punkt",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "aKaDeMiSCH, AKuSTiK; ZiTHeR. \"AuToNoMie\".",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "HaaR; CHiRuRGie, ABGeLeNKT. FLuSS;",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "UNZWeiDeuTiG. \"LeXiKoN\"; MoND, KaRTe.",
+          "description": "Vergiss nicht, dass die Leertaste mit dem Daumen der Hand gedrückt wird, die der zuletzt gedrückten Taste gegenüberliegt",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "Berlin, MÜNCHEN und Hamburg, SiND Städte in DEUTSCHLAND",
+          "description": "Jetzt schreiben wir kurze Sätze mit gemischter Groß- und Kleinschreibung. Denke daran, dass du zum Großschreiben immer die UMSCHALT-Tasten drücken musst",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "Hans TaT FoLGeNDeS: Er wusch sich, aß und GiNG.",
+          "description": "Jetzt schreiben wir kurze Sätze mit gemischter Groß- und Kleinschreibung. Denke daran, dass du zum Großschreiben immer die UMSCHALT-Tasten drücken musst",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "BERLIN ist DIE Hauptstadt von DEUTSCHLAND.",
+          "description": "Jetzt schreiben wir kurze Sätze mit gemischter Groß- und Kleinschreibung. Denke daran, dass du zum Großschreiben immer die UMSCHALT-Tasten drücken musst",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "Hallo! Wie geht es dir? (Gut) [Danke] {Tschüss}",
+          "description": "Wir bauen außerdem einige Zeichen und Zahlen ein und schreiben weiterhin Wörter groß.",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "Preis: 100€ + 19% Steuer = 119€ gesamt.",
+          "description": "Wir bauen außerdem einige Zeichen und Zahlen ein und schreiben weiterhin Wörter groß.",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "E-Mail: Anna@Mail.de; Web: www.Beispiel.de",
+          "description": "Wir bauen außerdem einige Zeichen und Zahlen ein und schreiben weiterhin Wörter groß.",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "",
+          "description": "Glückwunsch! Du hast die elfte Lektion beendet",
+          "introduction": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Allgemeine Wiederholung",
+      "description": "Allgemeine Wiederholungslektion",
+      "steps": [
+        {
+          "id": 0,
+          "text": "",
+          "description": "Als Nächstes machen wir eine allgemeine Wiederholungslektion",
+          "introduction": true
+        },
+        {
+          "id": 1,
+          "text": "Wie steht es um die Armut? -fragte er-",
+          "description": "Tippe die folgenden Sätze und verwende alle Zeichen korrekt",
+          "repetitions": 2
+        },
+        {
+          "id": 2,
+          "text": "Herr Wirt, gibt es eine Unterkunft? Hier kommt der Gast.",
+          "description": "Tippe die folgenden Sätze und verwende alle Zeichen korrekt",
+          "repetitions": 2
+        },
+        {
+          "id": 3,
+          "text": "Die Vorstellung über die Befreiung der Prinzessin beginnt.",
+          "description": "Tippe die folgenden Sätze und verwende alle Zeichen korrekt",
+          "repetitions": 2
+        },
+        {
+          "id": 4,
+          "text": "4 - 2 = 2; (8 - 6) x 7 = 14;",
+          "description": "Jetzt probieren wir Zeichen und Zahlen. Das Minuszeichen wird mit dem Bindestrich geschrieben",
+          "repetitions": 2
+        },
+        {
+          "id": 5,
+          "text": "1€ = 100 Cent. 2€ = 200 Cent.",
+          "description": "Jetzt probieren wir Zeichen und Zahlen. Das Minuszeichen wird mit dem Bindestrich geschrieben",
+          "repetitions": 2
+        },
+        {
+          "id": 6,
+          "text": "6 x (3+2-1) = 24. (6-4+1) x 10 = 30.",
+          "description": "Jetzt probieren wir Zeichen und Zahlen. Das Minuszeichen wird mit dem Bindestrich geschrieben",
+          "repetitions": 2
+        },
+        {
+          "id": 7,
+          "text": "abcdefghijklmnopqrstuvwxyzäöü.,;",
+          "description": "Denke an die richtige Handhaltung",
+          "repetitions": 2
+        },
+        {
+          "id": 8,
+          "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ!?",
+          "description": "Denke an die richtige Handhaltung",
+          "repetitions": 2
+        },
+        {
+          "id": 9,
+          "text": "yxwvutsrqponMLKJIHGFEDCBA *%",
+          "description": "Denke an die richtige Handhaltung",
+          "repetitions": 2
+        },
+        {
+          "id": 10,
+          "text": "Sancho tat dies; was der Pfarrer wohl sah.",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 11,
+          "text": "Wer ist da? Welche Leute? Ist es etwa so?",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 12,
+          "text": "Tapferer Ritter!, erwiderte der aus dem Wald.",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 13,
+          "text": "ki, muj, decrvf. FVRCED; JUM. IK,",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 14,
+          "text": "Sprich in leiserem Ton -sagte der Kommissar-,",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 15,
+          "text": "n6umz t4vrb (r. n-kumz* t$vrbf)",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 16,
+          "text": "1-5; 3-6; 12. Februar 2026.",
+          "description": "Denke daran, nicht auf die Tastatur zu schauen. Achte auf die Anschläge",
+          "repetitions": 2
+        },
+        {
+          "id": 17,
+          "text": "\"10.725.845,97; > 8.945.432,56;\"",
+          "description": "Vergiss nicht, die UMSCHALT-Tasten für Großbuchstaben und Zeichen zu drücken, die es erfordern",
+          "repetitions": 2
+        },
+        {
+          "id": 18,
+          "text": "\"Es gibt kein so schlechtes Buch, das nicht etwas Gutes hätte.\"",
+          "description": "Vergiss nicht, die UMSCHALT-Tasten für Großbuchstaben und Zeichen zu drücken, die es erfordern",
+          "repetitions": 2
+        },
+        {
+          "id": 19,
+          "text": "HeRR GouVeRNeuR, SeHR GeRNe.",
+          "description": "Vergiss nicht, die UMSCHALT-Tasten für Großbuchstaben und Zeichen zu drücken, die es erfordern",
+          "repetitions": 2
+        },
+        {
+          "id": 20,
+          "text": "OMUNDIKJH WRBDFG",
+          "description": "Üben wir weiter Großbuchstaben und Symbole",
+          "repetitions": 2
+        },
+        {
+          "id": 21,
+          "text": "Ist ER Im ReCHT? WaS iST PaSSieRT? WiE eR eS SaGTe!",
+          "description": "Üben wir weiter Großbuchstaben und Symbole",
+          "repetitions": 2
+        },
+        {
+          "id": 22,
+          "text": "100% = 100; #3.567#, 1-6; 4 (3+5) = 32",
+          "description": "Üben wir weiter Großbuchstaben und Symbole",
+          "repetitions": 2
+        },
+        {
+          "id": 23,
+          "text": "\"Die GeSeTZe BLeiBeN HiNTeR DeM ZuRüCK, WaS Sie SiND.\"",
+          "description": "Üben wir weiter Großbuchstaben und Symbole",
+          "repetitions": 2
+        },
+        {
+          "id": 24,
+          "text": "HaT Sie KLaR GeaNTWoRTeT?; WiE LeiCHT!",
+          "description": "Üben wir weiter Großbuchstaben und Symbole",
+          "repetitions": 2
+        },
+        {
+          "id": 25,
+          "text": "ECASWX i, nlo. (EcAs)ä,;.",
+          "description": "Üben wir weiter Großbuchstaben und Symbole",
+          "repetitions": 2
+        },
+        {
+          "id": 26,
+          "text": "",
+          "description": "Glückwunsch! Du hast die zwölfte Lektion beendet. Von nun an empfehle ich dir, mit dem Geschwindigkeitstest zu üben",
+          "introduction": true
+        }
+      ]
+    }
+  ]
+}

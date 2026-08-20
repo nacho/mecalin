@@ -41,6 +41,7 @@ impl Course {
     pub fn new_with_language(language: &str) -> Result<Self, Box<dyn std::error::Error>> {
         let lessons_json = match language {
             "es" => include_str!("../data/lessons/es.json"),
+            "de" => include_str!("../data/lessons/de.json"),
             "fr" => include_str!("../data/lessons/fr.json"),
             "gl" => include_str!("../data/lessons/gl.json"),
             "it" => include_str!("../data/lessons/it.json"),
@@ -96,6 +97,12 @@ mod tests {
     #[test]
     fn test_new_with_language_it() {
         let course = Course::new_with_language("it").unwrap();
+        assert!(!course.get_lessons().is_empty());
+    }
+
+    #[test]
+    fn test_new_with_language_de() {
+        let course = Course::new_with_language("de").unwrap();
         assert!(!course.get_lessons().is_empty());
     }
 

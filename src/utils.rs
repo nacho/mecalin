@@ -6,6 +6,10 @@ pub fn language_from_locale() -> &'static str {
     let locale_lower = locale.to_lowercase();
     if locale_lower.starts_with("es") {
         "es"
+    } else if locale_lower.starts_with("de") && !locale_lower.starts_with("de_ch") {
+        // German (Germany/Austria). Swiss German (de_CH) uses a different layout
+        // and orthography, so it intentionally falls through to the default.
+        "de"
     } else if locale_lower.starts_with("fr") {
         "fr"
     } else if locale_lower.starts_with("gl") {
@@ -146,6 +150,27 @@ mod tests {
         let _lock = TEST_MUTEX.lock().unwrap();
         unsafe { std::env::set_var("LANG", "fr_FR.UTF-8") };
         assert_eq!(language_from_locale(), "fr");
+    }
+
+    #[test]
+    fn test_language_from_locale_german() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "de_DE.UTF-8") };
+        assert_eq!(language_from_locale(), "de");
+    }
+
+    #[test]
+    fn test_language_from_locale_austrian_german() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "de_AT.UTF-8") };
+        assert_eq!(language_from_locale(), "de");
+    }
+
+    #[test]
+    fn test_language_from_locale_swiss_german_fallback() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "de_CH.UTF-8") };
+        assert_eq!(language_from_locale(), "us");
     }
 
     #[test]
