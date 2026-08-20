@@ -176,6 +176,7 @@ impl KeyboardLayout {
         let json_data = match layout_code {
             "us" => include_str!("../data/keyboard_layouts/us.json"),
             "es" => include_str!("../data/keyboard_layouts/es.json"),
+            "de" => include_str!("../data/keyboard_layouts/de.json"),
             "fr" => include_str!("../data/keyboard_layouts/fr.json"),
             "gl" => include_str!("../data/keyboard_layouts/gl.json"),
             "it" => include_str!("../data/keyboard_layouts/it.json"),
@@ -320,6 +321,13 @@ mod tests {
     fn test_load_from_json_es() {
         let layout = KeyboardLayout::load_from_json("es").unwrap();
         assert_eq!(layout.name, "Spanish QWERTY");
+        assert!(!layout.keys.is_empty());
+    }
+
+    #[test]
+    fn test_load_from_json_de() {
+        let layout = KeyboardLayout::load_from_json("de").unwrap();
+        assert_eq!(layout.name, "German QWERTZ");
         assert!(!layout.keys.is_empty());
     }
 

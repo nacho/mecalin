@@ -1,0 +1,77 @@
+{
+  "name": "German QWERTZ",
+  "keys": [
+    [
+      {"base": "^", "shift": "°", "altgr": "", "finger": "left_pinky"},
+      {"base": "1", "shift": "!", "altgr": "", "finger": "left_pinky"},
+      {"base": "2", "shift": "\"", "altgr": "²", "finger": "left_ring"},
+      {"base": "3", "shift": "§", "altgr": "³", "finger": "left_middle"},
+      {"base": "4", "shift": "$", "altgr": "", "finger": "left_index"},
+      {"base": "5", "shift": "%", "altgr": "", "finger": "left_index"},
+      {"base": "6", "shift": "&", "altgr": "", "finger": "right_index"},
+      {"base": "7", "shift": "/", "altgr": "{", "finger": "right_index"},
+      {"base": "8", "shift": "(", "altgr": "[", "finger": "right_middle"},
+      {"base": "9", "shift": ")", "altgr": "]", "finger": "right_ring"},
+      {"base": "0", "shift": "=", "altgr": "}", "finger": "right_pinky"},
+      {"base": "ß", "shift": "?", "altgr": "\\", "finger": "right_pinky"},
+      {"base": "´", "shift": "`", "altgr": "", "finger": "right_pinky"}
+    ],
+    [
+      {"base": "q", "shift": "Q", "altgr": "@", "finger": "left_pinky"},
+      {"base": "w", "shift": "W", "altgr": "", "finger": "left_ring"},
+      {"base": "e", "shift": "E", "altgr": "€", "finger": "left_middle"},
+      {"base": "r", "shift": "R", "altgr": "", "finger": "left_index"},
+      {"base": "t", "shift": "T", "altgr": "", "finger": "left_index"},
+      {"base": "z", "shift": "Z", "altgr": "", "finger": "right_index"},
+      {"base": "u", "shift": "U", "altgr": "", "finger": "right_index"},
+      {"base": "i", "shift": "I", "altgr": "", "finger": "right_middle"},
+      {"base": "o", "shift": "O", "altgr": "", "finger": "right_ring"},
+      {"base": "p", "shift": "P", "altgr": "", "finger": "right_pinky"},
+      {"base": "ü", "shift": "Ü", "altgr": "", "finger": "right_pinky"},
+      {"base": "+", "shift": "*", "altgr": "~", "finger": "right_pinky"}
+    ],
+    [
+      {"base": "a", "shift": "A", "altgr": "", "finger": "left_pinky"},
+      {"base": "s", "shift": "S", "altgr": "", "finger": "left_ring"},
+      {"base": "d", "shift": "D", "altgr": "", "finger": "left_middle"},
+      {"base": "f", "shift": "F", "altgr": "", "finger": "left_index"},
+      {"base": "g", "shift": "G", "altgr": "", "finger": "left_index"},
+      {"base": "h", "shift": "H", "altgr": "", "finger": "right_index"},
+      {"base": "j", "shift": "J", "altgr": "", "finger": "right_index"},
+      {"base": "k", "shift": "K", "altgr": "", "finger": "right_middle"},
+      {"base": "l", "shift": "L", "altgr": "", "finger": "right_ring"},
+      {"base": "ö", "shift": "Ö", "altgr": "", "finger": "right_pinky"},
+      {"base": "ä", "shift": "Ä", "altgr": "", "finger": "right_pinky"},
+      {"base": "#", "shift": "'", "altgr": "", "finger": "right_pinky"}
+    ],
+    [
+      {"base": "<", "shift": ">", "altgr": "|", "finger": "left_pinky"},
+      {"base": "y", "shift": "Y", "altgr": "", "finger": "left_pinky"},
+      {"base": "x", "shift": "X", "altgr": "", "finger": "left_ring"},
+      {"base": "c", "shift": "C", "altgr": "", "finger": "left_middle"},
+      {"base": "v", "shift": "V", "altgr": "", "finger": "left_index"},
+      {"base": "b", "shift": "B", "altgr": "", "finger": "left_index"},
+      {"base": "n", "shift": "N", "altgr": "", "finger": "right_index"},
+      {"base": "m", "shift": "M", "altgr": "µ", "finger": "right_index"},
+      {"base": ",", "shift": ";", "altgr": "", "finger": "right_middle"},
+      {"base": ".", "shift": ":", "altgr": "", "finger": "right_ring"},
+      {"base": "-", "shift": "_", "altgr": "", "finger": "right_pinky"}
+    ]
+  ],
+  "space": {"base": " ", "label": "Leertaste", "finger": "both_thumbs"},
+  "modifiers": {
+    "tab": {"label": "Tab", "finger": "left_pinky"},
+    "caps_lock": {"label": "Feststell", "finger": "left_pinky"},
+    "shift_left": {"label": "Umschalt", "finger": "left_pinky"},
+    "shift_right": {"label": "Umschalt", "finger": "right_pinky"},
+    "ctrl_left": {"label": "Strg", "finger": "left_pinky"},
+    "ctrl_right": {"label": "Strg", "finger": "right_pinky"},
+    "super_left": {"label": "Super", "finger": "left_thumb"},
+    "super_right": {"label": "Super", "finger": "right_thumb"},
+    "menu": {"label": "Menü", "finger": "right_pinky"},
+    "alt_left": {"label": "Alt", "finger": "left_thumb"},
+    "alt_right": {"label": "Alt Gr", "finger": "right_thumb"},
+    "enter": {"label": "Eingabe", "finger": "right_pinky", "rows": [1, 2]},
+    "backspace": {"label": "Rücktaste", "finger": "right_pinky"}
+  }
+}
