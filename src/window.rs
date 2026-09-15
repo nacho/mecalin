@@ -4,6 +4,7 @@ use libadwaita as adw;
 use libadwaita::subclass::prelude::*;
 
 use crate::lesson_view::LessonView;
+use crate::lessons_view::LessonsView;
 use crate::typing_row::TypingRow;
 
 mod imp {
@@ -23,6 +24,7 @@ mod imp {
         type ParentType = adw::ApplicationWindow;
 
         fn class_init(klass: &mut Self::Class) {
+            LessonsView::ensure_type();
             LessonView::ensure_type();
             TypingRow::ensure_type();
             klass.bind_template();

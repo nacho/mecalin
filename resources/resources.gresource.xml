@@ -2,6 +2,7 @@
 <gresources>
   <gresource prefix="/io/github/nacho/mecalin">
     <file preprocess="xml-stripblanks">ui/window.ui</file>
+    <file preprocess="xml-stripblanks">ui/lessons_view.ui</file>
     <file preprocess="xml-stripblanks">ui/lesson_view.ui</file>
     <file preprocess="xml-stripblanks">ui/course_completion_view.ui</file>
     <file preprocess="xml-stripblanks">ui/typing_row.ui</file>

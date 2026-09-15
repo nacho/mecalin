@@ -7,6 +7,9 @@
     <property name="content">
       <object class="AdwNavigationView" id="navigation_view">
         <child>
+          <object class="MecalinLessonsView" id="lessons_view_widget"/>
+        </child>
+        <child>
           <object class="LessonView" id="lesson_view_widget"/>
         </child>
       </object>
