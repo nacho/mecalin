@@ -13,6 +13,10 @@ use std::collections::HashSet;
 use std::fmt;
 use std::str::FromStr;
 
+/// Corner radius (in px) for on-screen keyboard keys, matching the small
+/// rounding used across Adwaita widgets.
+const KEY_CORNER_RADIUS: f32 = 5.0;
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum Finger {
@@ -827,15 +831,10 @@ mod imp {
             finger_border_color: &gdk::RGBA,
         ) {
             let bounds = graphene::Rect::new(x, y, width, height);
-            let rounded = gsk::RoundedRect::new(
-                bounds,
-                graphene::Size::zero(),
-                graphene::Size::zero(),
-                graphene::Size::zero(),
-                graphene::Size::zero(),
-            );
+            let corner = graphene::Size::new(KEY_CORNER_RADIUS, KEY_CORNER_RADIUS);
+            let rounded = gsk::RoundedRect::new(bounds, corner, corner, corner, corner);
 
-            snapshot.save();
+            snapshot.push_rounded_clip(&rounded);
             snapshot.append_color(
                 if is_current {
                     key_current_color
@@ -844,7 +843,7 @@ mod imp {
                 },
                 &bounds,
             );
-            snapshot.restore();
+            snapshot.pop();
 
             let border_color = if is_current {
                 key_border_color
