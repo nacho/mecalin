@@ -1,8 +1,6 @@
 data/io.github.nacho.mecalin.desktop.in
-resources/ui/about_view.ui
 resources/ui/course_completion_view.ui
 resources/ui/lesson_view.ui
-resources/ui/preferences_view.ui
 resources/ui/window.ui
 src/lesson_view.rs
-src/preferences_view.rs
+src/preferences_dialog.rs

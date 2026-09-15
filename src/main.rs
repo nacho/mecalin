@@ -1,11 +1,10 @@
-mod about_view;
 mod application;
 mod course;
 mod course_completion_view;
 mod hand_widget;
 mod keyboard_widget;
 mod lesson_view;
-mod preferences_view;
+mod preferences_dialog;
 mod typing_row;
 
 mod config {

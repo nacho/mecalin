@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:17+0200\n"
+"POT-Creation-Date: 2026-09-15 17:30+0200\n"
 "PO-Revision-Date: 2026-08-20 13:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
@@ -26,42 +26,6 @@ msgstr "Tippen lernen"
 #: data/io.github.nacho.mecalin.desktop.in:10
 msgid "keyboard;touch type;touch typing;typing;typing tutor;"
 msgstr ""
-
-#: resources/ui/about_view.ui:5
-msgid "About"
-msgstr "Über"
-
-#: resources/ui/about_view.ui:32
-msgid "About Mecalin"
-msgstr "Über Mecalin"
-
-#: resources/ui/about_view.ui:40
-msgid "Developer"
-msgstr "Entwickler"
-
-#: resources/ui/about_view.ui:46
-msgid "Website"
-msgstr "Webseite"
-
-#: resources/ui/about_view.ui:54
-msgid "Report an Issue"
-msgstr "Ein Problem melden"
-
-#: resources/ui/about_view.ui:64
-msgid "Code by"
-msgstr "Code von"
-
-#: resources/ui/about_view.ui:74
-msgid "Legal"
-msgstr "Rechtliches"
-
-#: resources/ui/about_view.ui:77
-msgid "Copyright"
-msgstr "Urheberrecht"
-
-#: resources/ui/about_view.ui:83
-msgid "License"
-msgstr "Lizenz"
 
 #: resources/ui/course_completion_view.ui:4
 msgid "Course Completed"
@@ -94,46 +58,42 @@ msgstr "Hauptmenü"
 msgid "Continue"
 msgstr "Weiter"
 
-#: resources/ui/preferences_view.ui:5
-msgid "Preferences"
-msgstr "Einstellungen"
-
-#: resources/ui/preferences_view.ui:15
+#: src/preferences_dialog.rs:18
 msgid "Display"
 msgstr "Anzeige"
 
-#: resources/ui/preferences_view.ui:18
+#: src/preferences_dialog.rs:22
 msgid "Show Hand Widget"
 msgstr "Hand-Widget anzeigen"
 
-#: resources/ui/preferences_view.ui:19
+#: src/preferences_dialog.rs:23
 msgid "Display finger position guide"
 msgstr "Fingerpositionsanzeige einblenden"
 
-#: resources/ui/preferences_view.ui:24
+#: src/preferences_dialog.rs:26
 msgid "Show Keyboard Widget"
 msgstr "Tastatur-Widget anzeigen"
 
-#: resources/ui/preferences_view.ui:25
+#: src/preferences_dialog.rs:27
 msgid "Display keyboard layout"
 msgstr "Tastaturbelegung anzeigen"
 
-#: resources/ui/preferences_view.ui:30
+#: src/preferences_dialog.rs:30
 msgid "Use Finger Colors"
 msgstr "Fingerfarben verwenden"
 
-#: resources/ui/preferences_view.ui:31
+#: src/preferences_dialog.rs:31
 msgid "Color keyboard keys and hand by finger assignment"
 msgstr "Tasten und Hand nach Fingerzuordnung einfärben"
 
-#: resources/ui/preferences_view.ui:38
+#: src/preferences_dialog.rs:50
 msgid "Lesson Progress"
 msgstr "Lektionsfortschritt"
 
-#: resources/ui/preferences_view.ui:41
+#: src/preferences_dialog.rs:54
 msgid "Current Lesson"
 msgstr "Aktuelle Lektion"
 
-#: resources/ui/preferences_view.ui:42
+#: src/preferences_dialog.rs:55
 msgid "Select active lesson (resets step to beginning)"
 msgstr "Aktive Lektion auswählen (setzt den Schritt auf den Anfang zurück)"

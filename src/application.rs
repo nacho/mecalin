@@ -2,6 +2,7 @@ use gio::prelude::*;
 use gtk::prelude::*;
 use gtk::subclass::prelude::*;
 use libadwaita as adw;
+use libadwaita::prelude::*;
 use libadwaita::subclass::prelude::*;
 
 use crate::window::MecalinWindow;
@@ -75,20 +76,24 @@ impl MecalinApplication {
                 .build(),
             gio::ActionEntry::builder("preferences")
                 .activate(|app: &Self, _, _| {
-                    if let Some(window) = app.active_window()
-                        && let Ok(window) = window.downcast::<MecalinWindow>()
-                    {
-                        window.show_preferences();
-                    }
+                    let dialog = crate::preferences_dialog::build();
+                    dialog.present(app.active_window().as_ref());
                 })
                 .build(),
             gio::ActionEntry::builder("about")
                 .activate(|app: &Self, _, _| {
-                    if let Some(window) = app.active_window()
-                        && let Ok(window) = window.downcast::<MecalinWindow>()
-                    {
-                        window.show_about();
-                    }
+                    let dialog = adw::AboutDialog::builder()
+                        .application_name("Mecalin")
+                        .application_icon(crate::config::APPLICATION_ID)
+                        .version(crate::config::VERSION)
+                        .developer_name("Ignacio Casal Quinteiro")
+                        .developers(["Ignacio Casal Quinteiro"])
+                        .license_type(gtk::License::Gpl30)
+                        .website("https://github.com/nacho/mecalin")
+                        .issue_url("https://github.com/nacho/mecalin/issues")
+                        .copyright("© 2026 Ignacio Casal Quinteiro")
+                        .build();
+                    dialog.present(app.active_window().as_ref());
                 })
                 .build(),
         ]);

@@ -3,9 +3,7 @@ use gtk::subclass::prelude::*;
 use libadwaita as adw;
 use libadwaita::subclass::prelude::*;
 
-use crate::about_view::AboutView;
 use crate::lesson_view::LessonView;
-use crate::preferences_view::PreferencesView;
 use crate::typing_row::TypingRow;
 
 mod imp {
@@ -25,10 +23,8 @@ mod imp {
         type ParentType = adw::ApplicationWindow;
 
         fn class_init(klass: &mut Self::Class) {
-            AboutView::ensure_type();
             LessonView::ensure_type();
             TypingRow::ensure_type();
-            PreferencesView::ensure_type();
             klass.bind_template();
         }
 
@@ -54,16 +50,6 @@ glib::wrapper! {
 impl MecalinWindow {
     pub fn new(app: &adw::Application) -> Self {
         glib::Object::builder().property("application", app).build()
-    }
-
-    pub fn show_about(&self) {
-        let imp = self.imp();
-        imp.navigation_view.push_by_tag("about");
-    }
-
-    pub fn show_preferences(&self) {
-        let imp = self.imp();
-        imp.navigation_view.push_by_tag("preferences");
     }
 
     pub fn load_window_state(&self) {

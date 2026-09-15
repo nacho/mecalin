@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:17+0200\n"
+"POT-Creation-Date: 2026-09-15 17:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,42 +27,6 @@ msgstr ""
 
 #: data/io.github.nacho.mecalin.desktop.in:10
 msgid "keyboard;touch type;touch typing;typing;typing tutor;"
-msgstr ""
-
-#: resources/ui/about_view.ui:5
-msgid "About"
-msgstr ""
-
-#: resources/ui/about_view.ui:32
-msgid "About Mecalin"
-msgstr ""
-
-#: resources/ui/about_view.ui:40
-msgid "Developer"
-msgstr ""
-
-#: resources/ui/about_view.ui:46
-msgid "Website"
-msgstr ""
-
-#: resources/ui/about_view.ui:54
-msgid "Report an Issue"
-msgstr ""
-
-#: resources/ui/about_view.ui:64
-msgid "Code by"
-msgstr ""
-
-#: resources/ui/about_view.ui:74
-msgid "Legal"
-msgstr ""
-
-#: resources/ui/about_view.ui:77
-msgid "Copyright"
-msgstr ""
-
-#: resources/ui/about_view.ui:83
-msgid "License"
 msgstr ""
 
 #: resources/ui/course_completion_view.ui:4
@@ -94,46 +58,42 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:5
-msgid "Preferences"
-msgstr ""
-
-#: resources/ui/preferences_view.ui:15
+#: src/preferences_dialog.rs:18
 msgid "Display"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:18
+#: src/preferences_dialog.rs:22
 msgid "Show Hand Widget"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:19
+#: src/preferences_dialog.rs:23
 msgid "Display finger position guide"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:24
+#: src/preferences_dialog.rs:26
 msgid "Show Keyboard Widget"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:25
+#: src/preferences_dialog.rs:27
 msgid "Display keyboard layout"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:30
+#: src/preferences_dialog.rs:30
 msgid "Use Finger Colors"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:31
+#: src/preferences_dialog.rs:31
 msgid "Color keyboard keys and hand by finger assignment"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:38
+#: src/preferences_dialog.rs:50
 msgid "Lesson Progress"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:41
+#: src/preferences_dialog.rs:54
 msgid "Current Lesson"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:42
+#: src/preferences_dialog.rs:55
 msgid "Select active lesson (resets step to beginning)"
 msgstr ""

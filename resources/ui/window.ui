@@ -9,12 +9,6 @@
         <child>
           <object class="LessonView" id="lesson_view_widget"/>
         </child>
-        <child>
-          <object class="MecalinPreferencesView" id="preferences_view_widget"/>
-        </child>
-        <child>
-          <object class="MecalinAboutView" id="about_view_widget"/>
-        </child>
       </object>
     </property>
   </template>
