@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:10+0200\n"
+"POT-Creation-Date: 2026-09-15 18:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,44 +62,8 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
-#: src/lessons_view.rs:64
+#: src/lessons_view.rs:55
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
-msgstr ""
-
-#: src/lessons_view.rs:100
-msgid "Spanish"
-msgstr ""
-
-#: src/lessons_view.rs:101
-msgid "German"
-msgstr ""
-
-#: src/lessons_view.rs:102
-msgid "French"
-msgstr ""
-
-#: src/lessons_view.rs:103
-msgid "Galician"
-msgstr ""
-
-#: src/lessons_view.rs:104
-msgid "Italian"
-msgstr ""
-
-#: src/lessons_view.rs:105
-msgid "Polish"
-msgstr ""
-
-#: src/lessons_view.rs:106
-msgid "Brazilian Portuguese"
-msgstr ""
-
-#: src/lessons_view.rs:107
-msgid "Portuguese"
-msgstr ""
-
-#: src/lessons_view.rs:108
-msgid "US English"
 msgstr ""
 
 #: src/preferences_dialog.rs:15

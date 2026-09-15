@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:10+0200\n"
+"POT-Creation-Date: 2026-09-15 18:13+0200\n"
 "PO-Revision-Date: 2026-01-14 15:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -63,44 +63,8 @@ msgstr ""
 msgid "Main Menu"
 msgstr "Menú principal"
 
-#: src/lessons_view.rs:64
+#: src/lessons_view.rs:55
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
-msgstr ""
-
-#: src/lessons_view.rs:100
-msgid "Spanish"
-msgstr ""
-
-#: src/lessons_view.rs:101
-msgid "German"
-msgstr ""
-
-#: src/lessons_view.rs:102
-msgid "French"
-msgstr ""
-
-#: src/lessons_view.rs:103
-msgid "Galician"
-msgstr ""
-
-#: src/lessons_view.rs:104
-msgid "Italian"
-msgstr ""
-
-#: src/lessons_view.rs:105
-msgid "Polish"
-msgstr ""
-
-#: src/lessons_view.rs:106
-msgid "Brazilian Portuguese"
-msgstr ""
-
-#: src/lessons_view.rs:107
-msgid "Portuguese"
-msgstr ""
-
-#: src/lessons_view.rs:108
-msgid "US English"
 msgstr ""
 
 #: src/preferences_dialog.rs:15
