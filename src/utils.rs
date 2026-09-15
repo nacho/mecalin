@@ -27,6 +27,42 @@ pub fn language_from_locale() -> &'static str {
     }
 }
 
+/// Like [`language_from_locale`], but returns `None` when the system locale
+/// is not explicitly supported (i.e. it would silently fall back to US
+/// English). English locales are treated as supported (US layout).
+///
+/// This is used to inform the user when their system keyboard layout is not
+/// yet supported, without changing the fallback behaviour of
+/// [`language_from_locale`].
+// Wired up by the lessons welcome page; allow until then.
+#[allow(dead_code)]
+pub fn supported_language_from_locale() -> Option<&'static str> {
+    let locale = std::env::var("LANG").unwrap_or_else(|_| "en_US".to_string());
+    let locale_lower = locale.to_lowercase();
+    if locale_lower.starts_with("es") {
+        Some("es")
+    } else if locale_lower.starts_with("de") && !locale_lower.starts_with("de_ch") {
+        Some("de")
+    } else if locale_lower.starts_with("fr") {
+        Some("fr")
+    } else if locale_lower.starts_with("gl") {
+        Some("gl")
+    } else if locale_lower.starts_with("it") {
+        Some("it")
+    } else if locale_lower.starts_with("pl") {
+        Some("pl")
+    } else if locale_lower.starts_with("pt_br") {
+        Some("pt_br")
+    } else if locale_lower.starts_with("pt") {
+        Some("pt")
+    } else if locale_lower.starts_with("en") {
+        // English locales use the US layout, which is supported.
+        Some("us")
+    } else {
+        None
+    }
+}
+
 /// Decompose a character and map combining accent to spacing accent
 /// Returns (spacing_accent, base_char) for composed characters, None otherwise
 pub fn decompose_with_spacing_accent(ch: char) -> Option<(char, char)> {
@@ -227,5 +263,47 @@ mod tests {
         let _lock = TEST_MUTEX.lock().unwrap();
         unsafe { std::env::set_var("LANG", "es") };
         assert_eq!(language_from_locale(), "es");
+    }
+
+    #[test]
+    fn test_supported_language_spanish() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "es_ES.UTF-8") };
+        assert_eq!(supported_language_from_locale(), Some("es"));
+    }
+
+    #[test]
+    fn test_supported_language_brazilian_portuguese() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "pt_BR.UTF-8") };
+        assert_eq!(supported_language_from_locale(), Some("pt_br"));
+    }
+
+    #[test]
+    fn test_supported_language_english_is_supported() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "en_US.UTF-8") };
+        assert_eq!(supported_language_from_locale(), Some("us"));
+    }
+
+    #[test]
+    fn test_supported_language_unknown_is_none() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "xx_YY.UTF-8") };
+        assert_eq!(supported_language_from_locale(), None);
+    }
+
+    #[test]
+    fn test_supported_language_swiss_german_is_none() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "de_CH.UTF-8") };
+        assert_eq!(supported_language_from_locale(), None);
+    }
+
+    #[test]
+    fn test_supported_language_german_is_supported() {
+        let _lock = TEST_MUTEX.lock().unwrap();
+        unsafe { std::env::set_var("LANG", "de_DE.UTF-8") };
+        assert_eq!(supported_language_from_locale(), Some("de"));
     }
 }
