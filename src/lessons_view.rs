@@ -1,6 +1,8 @@
+use gettextrs::gettext;
 use gtk::prelude::*;
 use gtk::subclass::prelude::*;
 use gtk::{gio, glib};
+use i18n_format::i18n_format;
 use libadwaita as adw;
 use libadwaita::prelude::*;
 use libadwaita::subclass::prelude::*;
@@ -37,6 +39,7 @@ mod imp {
     impl ObjectImpl for LessonsView {
         fn constructed(&self) {
             self.parent_constructed();
+            self.setup_language_communication();
             self.populate_lessons();
         }
     }
@@ -45,6 +48,25 @@ mod imp {
     impl NavigationPageImpl for LessonsView {}
 
     impl LessonsView {
+        fn setup_language_communication(&self) {
+            let supported = crate::utils::supported_language_from_locale();
+            let active = crate::utils::language_from_locale();
+            let language_name = super::language_display_name(active);
+
+            // Always tell the user which keyboard layout is in use.
+            self.lessons_group
+                .set_description(Some(&i18n_format!("Keyboard layout: {}", language_name)));
+
+            // Warn when the system locale is not explicitly supported and we
+            // fell back to US English.
+            if supported.is_none() {
+                self.layout_banner.set_title(&gettext(
+                    "Your system keyboard layout isn’t supported yet — showing US English",
+                ));
+                self.layout_banner.set_revealed(true);
+            }
+        }
+
         fn populate_lessons(&self) {
             let language = crate::utils::language_from_locale();
             let Ok(course) = Course::new_with_language(language) else {
@@ -72,9 +94,23 @@ mod imp {
     }
 }
 
+/// Human-readable, translatable display name for a lessons language code.
+fn language_display_name(code: &str) -> String {
+    match code {
+        "es" => gettext("Spanish"),
+        "de" => gettext("German"),
+        "fr" => gettext("French"),
+        "gl" => gettext("Galician"),
+        "it" => gettext("Italian"),
+        "pl" => gettext("Polish"),
+        "pt_br" => gettext("Brazilian Portuguese"),
+        "pt" => gettext("Portuguese"),
+        _ => gettext("US English"),
+    }
+}
+
 glib::wrapper! {
-    pub struct LessonsView(ObjectSubclass<imp::LessonsView>)
-        @extends adw::NavigationPage, gtk::Widget,
+    pub struct LessonsView(ObjectSubclass<imp::LessonsView>)    @extends adw::NavigationPage, gtk::Widget,
         @implements gtk::Accessible, gtk::Buildable, gtk::ConstraintTarget;
 }
 

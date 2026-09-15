@@ -34,8 +34,6 @@ pub fn language_from_locale() -> &'static str {
 /// This is used to inform the user when their system keyboard layout is not
 /// yet supported, without changing the fallback behaviour of
 /// [`language_from_locale`].
-// Wired up by the lessons welcome page; allow until then.
-#[allow(dead_code)]
 pub fn supported_language_from_locale() -> Option<&'static str> {
     let locale = std::env::var("LANG").unwrap_or_else(|_| "en_US".to_string());
     let locale_lower = locale.to_lowercase();
