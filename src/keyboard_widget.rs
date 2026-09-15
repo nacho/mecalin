@@ -17,6 +17,9 @@ use std::str::FromStr;
 /// rounding used across Adwaita widgets.
 const KEY_CORNER_RADIUS: f32 = 5.0;
 
+/// Border width (in px) for on-screen keyboard keys.
+const KEY_BORDER_WIDTH: f32 = 1.0;
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum Finger {
@@ -850,13 +853,16 @@ mod imp {
             } else {
                 finger_border_color
             };
-            snapshot.save();
             snapshot.append_border(
                 &rounded,
-                &[1.0, 1.0, 1.0, 1.0],
+                &[
+                    KEY_BORDER_WIDTH,
+                    KEY_BORDER_WIDTH,
+                    KEY_BORDER_WIDTH,
+                    KEY_BORDER_WIDTH,
+                ],
                 &[*border_color, *border_color, *border_color, *border_color],
             );
-            snapshot.restore();
 
             if should_show_text {
                 let text_color = if is_current {
