@@ -798,6 +798,15 @@ mod imp {
             format!("finger-{}", finger.to_string().replace('_', "-"))
         }
 
+        /// Build a font description based on the widget's system font
+        /// (Adwaita Sans), overriding only the point size. This keeps the
+        /// keyboard's typography consistent with the rest of the app.
+        fn key_font(pango_context: &pango::Context, size_pt: f64) -> pango::FontDescription {
+            let mut font_desc = pango_context.font_description().unwrap_or_default();
+            font_desc.set_size((size_pt * f64::from(pango::SCALE)).round() as i32);
+            font_desc
+        }
+
         #[allow(clippy::too_many_arguments)]
         fn draw_single_key(
             snapshot: &gtk::Snapshot,
@@ -859,7 +868,7 @@ mod imp {
 
                 if let Some(label_text) = label {
                     let layout = pango::Layout::new(pango_context);
-                    let font_desc = pango::FontDescription::from_string("Sans 9");
+                    let font_desc = Self::key_font(pango_context, 9.0);
                     layout.set_font_description(Some(&font_desc));
                     layout.set_text(label_text);
                     let (_, logical_rect) = layout.pixel_extents();
@@ -883,7 +892,7 @@ mod imp {
                     let layout = pango::Layout::new(pango_context);
 
                     if is_alphabetic {
-                        let font_desc = pango::FontDescription::from_string("Sans 14");
+                        let font_desc = Self::key_font(pango_context, 14.0);
                         layout.set_font_description(Some(&font_desc));
                         layout.set_text(&base_text);
                         let (text_width, text_height) = layout.pixel_size();
@@ -895,7 +904,7 @@ mod imp {
                         snapshot.append_layout(&layout, text_color);
                         snapshot.restore();
                     } else {
-                        let font_desc = pango::FontDescription::from_string("Sans 14");
+                        let font_desc = Self::key_font(pango_context, 14.0);
                         layout.set_font_description(Some(&font_desc));
 
                         layout.set_text(&base_text);
