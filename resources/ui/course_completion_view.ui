@@ -11,7 +11,7 @@
           <object class="AdwStatusPage">
             <property name="icon-name">trophy-symbolic</property>
             <property name="title" translatable="yes">Congratulations!</property>
-            <property name="description" translatable="yes">You've completed all lessons! Keep practicing with the speed test to improve your typing skills.</property>
+            <property name="description" translatable="yes">You've completed all lessons! Keep practicing to improve your typing skills.</property>
           </object>
         </property>
       </object>

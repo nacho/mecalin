@@ -61,6 +61,14 @@ mod imp {
                 return;
             }
 
+            // Ensure colors are cached before drawing. The initial caching is
+            // scheduled on an idle callback in `constructed`, but the widget can
+            // be snapshotted before that callback runs (e.g. when the app opens
+            // directly on a page containing this widget), so cache on demand.
+            if self.cached_colors.borrow().is_none() {
+                self.cache_colors();
+            }
+
             Self::draw_hand(snapshot, &widget, &self.current_finger, &self.cached_colors);
         }
 

@@ -1,11 +1,5 @@
 /* Semantic color definitions for lookup_color */
 
-/* Game colors */
-@define-color game-lane-bg @view_bg_color;
-@define-color game-lane-active @accent_bg_color;
-@define-color game-lane-text @view_fg_color;
-@define-color game-falling-key-text @view_fg_color;
-
 /* Keyboard colors */
 @define-color keyboard-key-color @view_bg_color;
 @define-color keyboard-key-text-color @view_fg_color;
@@ -34,28 +28,6 @@
 @define-color finger-left-thumb-color @green_3;
 @define-color finger-right-thumb-color @green_3;
 @define-color finger-both-thumbs-color @green_3;
-
-/* Speed test text view styles (from Keypunch) */
-
-SpeedTestTextView {
-  transition: filter 200ms;
-}
-
-SpeedTestTextView.unfocused {
-  filter: blur(3px);
-}
-
-SpeedTestTextView > textview {
-  font-size: 1.5rem;
-  line-height: 50px;
-  background: none;
-  font-variant-ligatures: none;
-}
-
-SpeedTestResultsView .key-number {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
 
 .card.typing-error {
   background-color: alpha(@error_color, 0.2);

@@ -1,15 +1,11 @@
 use gtk::prelude::*;
 use gtk::subclass::prelude::*;
 use libadwaita as adw;
-use libadwaita::prelude::ActionRowExt;
 use libadwaita::subclass::prelude::*;
 
 use crate::about_view::AboutView;
-use crate::falling_keys_game::FallingKeysGame;
 use crate::lesson_view::LessonView;
 use crate::preferences_view::PreferencesView;
-use crate::scrolling_lanes_game::ScrollingLanesGame;
-use crate::speed_test_view::SpeedTestView;
 use crate::typing_row::TypingRow;
 
 mod imp {
@@ -19,23 +15,7 @@ mod imp {
     #[template(resource = "/io/github/nacho/mecalin/ui/window.ui")]
     pub struct MecalinWindow {
         #[template_child]
-        pub header_bar: TemplateChild<adw::HeaderBar>,
-        #[template_child]
-        pub window_title: TemplateChild<adw::WindowTitle>,
-        #[template_child]
         pub navigation_view: TemplateChild<adw::NavigationView>,
-        #[template_child]
-        pub lessons_row: TemplateChild<adw::ActionRow>,
-        #[template_child]
-        pub speed_test_row: TemplateChild<adw::ActionRow>,
-        #[template_child]
-        pub falling_keys_row: TemplateChild<adw::ActionRow>,
-        #[template_child]
-        pub scrolling_lanes_row: TemplateChild<adw::ActionRow>,
-        #[template_child]
-        pub preferences_row: TemplateChild<adw::ActionRow>,
-        #[template_child]
-        pub about_row: TemplateChild<adw::ActionRow>,
     }
 
     #[glib::object_subclass]
@@ -48,10 +28,7 @@ mod imp {
             AboutView::ensure_type();
             LessonView::ensure_type();
             TypingRow::ensure_type();
-            FallingKeysGame::ensure_type();
-            ScrollingLanesGame::ensure_type();
             PreferencesView::ensure_type();
-            SpeedTestView::ensure_type();
             klass.bind_template();
         }
 
@@ -60,12 +37,7 @@ mod imp {
         }
     }
 
-    impl ObjectImpl for MecalinWindow {
-        fn constructed(&self) {
-            self.parent_constructed();
-            self.setup_signals();
-        }
-    }
+    impl ObjectImpl for MecalinWindow {}
     impl WidgetImpl for MecalinWindow {}
     impl WindowImpl for MecalinWindow {}
     impl ApplicationWindowImpl for MecalinWindow {}
@@ -84,26 +56,6 @@ impl MecalinWindow {
         glib::Object::builder().property("application", app).build()
     }
 
-    pub fn show_lessons(&self) {
-        let imp = self.imp();
-        imp.navigation_view.push_by_tag("lessons");
-    }
-
-    pub fn show_game(&self) {
-        let imp = self.imp();
-        imp.navigation_view.push_by_tag("game");
-    }
-
-    pub fn show_lanes_game(&self) {
-        let imp = self.imp();
-        imp.navigation_view.push_by_tag("lanes_game");
-    }
-
-    pub fn show_speed_test(&self) {
-        let imp = self.imp();
-        imp.navigation_view.push_by_tag("speed_test");
-    }
-
     pub fn show_about(&self) {
         let imp = self.imp();
         imp.navigation_view.push_by_tag("about");
@@ -112,16 +64,6 @@ impl MecalinWindow {
     pub fn show_preferences(&self) {
         let imp = self.imp();
         imp.navigation_view.push_by_tag("preferences");
-    }
-
-    pub fn set_title(&self, title: &str) {
-        let imp = self.imp();
-        imp.window_title.set_title(title);
-    }
-
-    pub fn set_subtitle(&self, subtitle: &str) {
-        let imp = self.imp();
-        imp.window_title.set_subtitle(subtitle);
     }
 
     pub fn load_window_state(&self) {
@@ -154,52 +96,6 @@ impl MecalinWindow {
             if !window.is_maximized() {
                 let size = (window.default_width(), window.default_height());
                 settings.set("size", size).unwrap();
-            }
-        });
-    }
-}
-
-impl imp::MecalinWindow {
-    fn setup_signals(&self) {
-        let window = self.obj().downgrade();
-        self.lessons_row.connect_activated(move |_| {
-            if let Some(window) = window.upgrade() {
-                window.show_lessons();
-            }
-        });
-
-        let window = self.obj().downgrade();
-        self.falling_keys_row.connect_activated(move |_| {
-            if let Some(window) = window.upgrade() {
-                window.show_game();
-            }
-        });
-
-        let window = self.obj().downgrade();
-        self.scrolling_lanes_row.connect_activated(move |_| {
-            if let Some(window) = window.upgrade() {
-                window.show_lanes_game();
-            }
-        });
-
-        let window = self.obj().downgrade();
-        self.speed_test_row.connect_activated(move |_| {
-            if let Some(window) = window.upgrade() {
-                window.show_speed_test();
-            }
-        });
-
-        let window = self.obj().downgrade();
-        self.about_row.connect_activated(move |_| {
-            if let Some(window) = window.upgrade() {
-                window.show_about();
-            }
-        });
-
-        let window = self.obj().downgrade();
-        self.preferences_row.connect_activated(move |_| {
-            if let Some(window) = window.upgrade() {
-                window.show_preferences();
             }
         });
     }

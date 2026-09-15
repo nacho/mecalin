@@ -26,11 +26,6 @@
       <summary>Use finger colors</summary>
       <description>Whether to use colors for keyboard keys and hand widget based on finger assignment</description>
     </key>
-    <key name="speed-test-duration" type="u">
-      <default>1</default>
-      <summary>Speed test duration</summary>
-      <description>Selected duration for speed test (0=15s, 1=30s, 2=1min, 3=5min, 4=10min)</description>
-    </key>
 
     <child name="state" schema="io.github.nacho.mecalin.state"/>
   </schema>

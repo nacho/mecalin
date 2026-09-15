@@ -16,7 +16,7 @@
 ## Project Overview
 <!-- metadata: scope=identity -->
 
-Mecalin is a GTK4/Rust/Adwaita typing tutor for GNOME, inspired by [Mecawin](https://archive.org/details/mecawin). It provides structured lessons, timed speed tests, and two gamified practice modes (falling keys, scrolling lanes) with visual aids (on-screen keyboard, hand position guide). Distributed via [Flathub](https://flathub.org/apps/io.github.nacho.mecalin).
+Mecalin is a GTK4/Rust/Adwaita typing tutor for GNOME, inspired by [Mecawin](https://archive.org/details/mecawin). It provides structured typing lessons with visual aids (on-screen keyboard, hand position guide). Distributed via [Flathub](https://flathub.org/apps/io.github.nacho.mecalin).
 
 **Stack**: Rust (edition 2024), GTK4 ≥ 4.14, libadwaita ≥ 1.5, Meson (production) / Cargo (development), Flatpak (GNOME Platform 46).
 
@@ -24,38 +24,28 @@ Mecalin is a GTK4/Rust/Adwaita typing tutor for GNOME, inspired by [Mecawin](htt
 <!-- metadata: scope=navigation -->
 
 ```
-src/                        # Rust source (20 files)
+src/                        # Rust source
 ├── main.rs                 # Entry point → application.rs
-├── application.rs          # MecalinApplication (startup, CSS, shortcuts)
+├── application.rs          # MecalinApplication (startup, CSS, shortcuts, app actions)
 ├── window.rs               # MecalinWindow (NavigationView hub)
 ├── lesson_view.rs          # Structured lessons (most complex view)
 ├── course.rs               # Lesson data model, loads JSON by locale
-├── speed_test_view.rs      # Timed typing tests
-├── speed_test_text_view.rs # Rich text display with caret/colors/scrolling
-│   └── speed_test_text_view/  # Sub-modules: accessibility, caret, colors, input, scrolling
-├── falling_keys_game.rs    # Falling keys game
-├── scrolling_lanes_game.rs # Scrolling lanes game
 ├── keyboard_widget.rs      # Visual keyboard (largest file, custom rendering)
 ├── hand_widget.rs          # Hand position guide (custom rendering)
 ├── typing_row.rs           # Text input widget for lessons
-├── text_generation.rs      # Random text from embedded word lists
-├── text_utils.rs           # Validation, WPM, grapheme comparison, aliases
-├── typing_test_utils.rs    # Speed test config/summary types
 ├── utils.rs                # Locale detection, Unicode decomposition
-├── preferences_view.rs     # Settings UI
+├── preferences_view.rs     # Lesson settings UI
 ├── about_view.rs           # About page
 ├── course_completion_view.rs
-├── speed_test_results_view.rs
 └── config.rs.in            # Build-time template → config.rs
 resources/
-├── ui/                     # 11 GTK Builder XML templates
-├── style.css               # Semantic color definitions (finger colors, keyboard, games)
+├── ui/                     # GTK Builder XML templates
+├── style.css               # Semantic color definitions (finger colors, keyboard, hand)
 ├── icons/                  # SVG icons (app icon, symbolic actions)
 └── resources.gresource.xml # Resource manifest
 data/
-├── lessons/                # 7 lesson JSON files (es, fr, gl, it, pl, pt, us)
-├── keyboard_layouts/       # 7 keyboard layout JSONs
-├── word_lists/             # 40+ language word lists for text generation
+├── lessons/                # Lesson JSON files (de, es, fr, gl, it, pl, pt, pt_br, us)
+├── keyboard_layouts/       # Keyboard layout JSONs
 ├── io.github.nacho.mecalin.gschema.xml  # GSettings schema
 ├── io.github.nacho.mecalin.metainfo.xml # AppStream metadata + release history
 └── io.github.nacho.mecalin.desktop.in   # Desktop entry
@@ -68,7 +58,7 @@ build.rs                    # Config generation + GResource compilation
 
 **Pattern**: Every UI component is a GObject subclass with a private `imp` module, `#[derive(CompositeTemplate)]` binding to an XML template, and a public wrapper via `glib::wrapper!`. Initialization happens in `ObjectImpl::constructed()`.
 
-**Navigation**: `MecalinWindow` contains an `adw::NavigationView`. Each feature is an `adw::NavigationPage` pushed by tag (`lessons`, `speed_test`, `game`, `lanes_game`, `preferences`, `about`).
+**Navigation**: `MecalinWindow` contains an `adw::NavigationView` that opens directly on the Lessons page. Preferences and About are `adw::NavigationPage`s pushed by tag (`preferences`, `about`) from the primary menu.
 
 **State**: GSettings (`io.github.nacho.mecalin`) persists lesson progress and preferences. Window state uses a separate schema (`io.github.nacho.mecalin.state.window`). Runtime state lives in `Cell`/`RefCell` fields.
 
@@ -85,19 +75,16 @@ build.rs                    # Config generation + GResource compilation
 | Modify lesson behavior | `src/lesson_view.rs` (flow), `src/course.rs` (data), `src/typing_row.rs` (input) |
 | Change keyboard rendering | `src/keyboard_widget.rs`, `data/keyboard_layouts/*.json` |
 | Add a new language | `src/course.rs` (match arm), `src/utils.rs` (locale), `po/LINGUAS`, `data/lessons/`, `data/keyboard_layouts/` |
-| Modify speed test | `src/speed_test_view.rs`, `src/speed_test_text_view.rs`, `src/typing_test_utils.rs` |
-| Change visual styling | `resources/style.css` (semantic color vars for keyboard, hand, games, finger colors) |
+| Change visual styling | `resources/style.css` (semantic color vars for keyboard, hand, finger colors) |
 | Update settings | `data/io.github.nacho.mecalin.gschema.xml` + consuming component |
 
 ## Non-Obvious Patterns
 <!-- metadata: scope=gotchas -->
 
 - **Dual build systems**: Cargo for development (`cargo run`), Meson for production/Flatpak. `build.rs` generates `config.rs` from `config.rs.in` using env vars — in Cargo dev builds, defaults are used; Meson sets real paths.
-- **Text aliases**: `text_utils.rs` defines character aliases (æ→ae, œ→oe, guillemets→quotes, non-breaking spaces↔regular spaces) that affect typing validation. Adding new aliases requires updating the `ALIASES` array and potentially `ALIAS_MAX_SIZE`.
 - **Dead key handling**: Spans three files — `utils.rs` (`decompose_with_spacing_accent`), `keyboard_widget.rs` (sequence tracking with `advance_sequence`), `typing_row.rs` (detection via `dead-key-started` signal).
-- **Embedded data**: Lesson JSONs use `include_str!` (compile-time), word lists use `include_dir!` (compile-time). Adding a new lesson language requires a new match arm in `Course::new_with_language()`.
+- **Embedded data**: Lesson JSONs use `include_str!` (compile-time). Adding a new lesson language requires a new match arm in `Course::new_with_language()`.
 - **Color system**: `style.css` uses `@define-color` with Adwaita semantic colors and GNOME HIG palette colors for finger-based color coding. Colors are cached at runtime and refreshed on theme changes.
-- **Keypunch heritage**: `typing_test_utils.rs` and `speed_test_text_view.rs` are adapted from the Keypunch project (SPDX headers credit Brage Fuglseth). `TestConfig::from_settings()` references GSettings keys (`session-type`, `text-language`, `session-duration`) that may not be in the current schema.
 
 ## Tooling & Config
 <!-- metadata: scope=ci-hooks-build -->

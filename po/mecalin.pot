@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 10:44+0100\n"
+"POT-Creation-Date: 2026-09-15 17:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,11 @@ msgstr ""
 msgid "Learn how to type"
 msgstr ""
 
-#: resources/ui/about_view.ui:5 resources/ui/window.ui:65
+#: data/io.github.nacho.mecalin.desktop.in:10
+msgid "keyboard;touch type;touch typing;typing;typing tutor;"
+msgstr ""
+
+#: resources/ui/about_view.ui:5
 msgid "About"
 msgstr ""
 
@@ -49,19 +53,15 @@ msgstr ""
 msgid "Code by"
 msgstr ""
 
-#: resources/ui/about_view.ui:82
-msgid "Speed Test Orthography"
-msgstr ""
-
-#: resources/ui/about_view.ui:162
+#: resources/ui/about_view.ui:74
 msgid "Legal"
 msgstr ""
 
-#: resources/ui/about_view.ui:165
+#: resources/ui/about_view.ui:77
 msgid "Copyright"
 msgstr ""
 
-#: resources/ui/about_view.ui:172
+#: resources/ui/about_view.ui:83
 msgid "License"
 msgstr ""
 
@@ -75,32 +75,26 @@ msgstr ""
 
 #: resources/ui/course_completion_view.ui:14
 msgid ""
-"You've completed all lessons! Keep practicing with the speed test to improve "
-"your typing skills."
+"You've completed all lessons! Keep practicing to improve your typing skills."
 msgstr ""
 
-#: resources/ui/falling_keys_game.ui:5 resources/ui/window.ui:44
-msgid "Falling Keys"
+#: resources/ui/lesson_view.ui:6
+msgid "_Preferences"
 msgstr ""
 
-#: resources/ui/falling_keys_game.ui:65 resources/ui/scrolling_lanes_game.ui:66
-msgid "Score"
+#: resources/ui/lesson_view.ui:10
+msgid "_About Mecalin"
 msgstr ""
 
-#: resources/ui/falling_keys_game.ui:91 resources/ui/scrolling_lanes_game.ui:92
-msgid "Level Reached"
+#: resources/ui/lesson_view.ui:30
+msgid "Main Menu"
 msgstr ""
 
-#: resources/ui/falling_keys_game.ui:103
-#: resources/ui/scrolling_lanes_game.ui:104
-msgid "Play Again"
-msgstr ""
-
-#: resources/ui/lesson_view.ui:96
+#: resources/ui/lesson_view.ui:116
 msgid "Continue"
 msgstr ""
 
-#: resources/ui/preferences_view.ui:5 resources/ui/window.ui:58
+#: resources/ui/preferences_view.ui:5
 msgid "Preferences"
 msgstr ""
 
@@ -142,104 +136,4 @@ msgstr ""
 
 #: resources/ui/preferences_view.ui:42
 msgid "Select active lesson (resets step to beginning)"
-msgstr ""
-
-#: resources/ui/scrolling_lanes_game.ui:5 resources/ui/window.ui:51
-msgid "Scrolling Lanes"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:57
-msgid "New Personal Best for Configuration"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:73
-msgid "Words per Minute"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:97
-msgid "Accuracy"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:115
-msgid "Test Type"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:130
-msgid "Test Duration"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:145
-msgid "Text Language"
-msgstr ""
-
-#: resources/ui/speed_test_results_view.ui:160
-msgid "Retry"
-msgstr ""
-
-#: resources/ui/speed_test_text_view.ui:27
-msgid "Text View"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:5 resources/ui/window.ui:37
-msgid "Speed Test"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:17
-msgid "Speed Test:"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:32
-msgid "Simple"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:33
-msgid "Advanced"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:45
-msgid "15 seconds"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:46
-msgid "30 seconds"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:47
-msgid "1 minute"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:48
-msgid "5 minutes"
-msgstr ""
-
-#: resources/ui/speed_test_view.ui:49
-msgid "10 minutes"
-msgstr ""
-
-#: resources/ui/window.ui:30
-msgid "Lessons"
-msgstr ""
-
-#: resources/ui/window.ui:31
-msgid "Learn typing fundamentals"
-msgstr ""
-
-#: resources/ui/window.ui:38
-msgid "Test your typing speed"
-msgstr ""
-
-#: resources/ui/window.ui:45
-msgid "Practice with a fun game"
-msgstr ""
-
-#: resources/ui/window.ui:52
-msgid "Type fast in multiple lanes"
-msgstr ""
-
-#: resources/ui/window.ui:59
-msgid "Configure application settings"
-msgstr ""
-
-#: resources/ui/window.ui:66
-msgid "Application information"
 msgstr ""

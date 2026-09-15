@@ -1,14 +1,8 @@
 data/io.github.nacho.mecalin.desktop.in
 resources/ui/about_view.ui
 resources/ui/course_completion_view.ui
-resources/ui/falling_keys_game.ui
 resources/ui/lesson_view.ui
 resources/ui/preferences_view.ui
-resources/ui/scrolling_lanes_game.ui
-resources/ui/speed_test_results_view.ui
-resources/ui/speed_test_text_view.ui
-resources/ui/speed_test_view.ui
 resources/ui/window.ui
-src/falling_keys_game.rs
-src/scrolling_lanes_game.rs
-src/window.rs
+src/lesson_view.rs
+src/preferences_view.rs

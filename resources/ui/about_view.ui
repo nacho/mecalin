@@ -67,94 +67,6 @@
             <property name="title">Ignacio Casal Quinteiro</property>
           </object>
         </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Brage Fuglseth</property>
-            <property name="subtitle">https://bragefuglseth.dev</property>
-            <property name="activatable">true</property>
-            <signal name="activated" handler="open_uri" swapped="true"/>
-          </object>
-        </child>
-      </object>
-    </child>
-    <child>
-      <object class="AdwPreferencesGroup">
-        <property name="title" translatable="yes">Speed Test Orthography</property>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Angelo Verlain Shema</property>
-            <property name="subtitle">https://www.vixalien.com/</property>
-            <property name="activatable">true</property>
-            <signal name="activated" handler="open_uri" swapped="true"/>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Arnob Goswami</property>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Daniel Uhrinyi</property>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Fabio Lovato</property>
-            <property name="subtitle">https://loviuz.it/</property>
-            <property name="activatable">true</property>
-            <signal name="activated" handler="open_uri" swapped="true"/>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Gregor Niehl</property>
-            <property name="subtitle">https://gregorni.gitlab.io/</property>
-            <property name="activatable">true</property>
-            <signal name="activated" handler="open_uri" swapped="true"/>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Hadi Azarnasab</property>
-            <property name="subtitle">https://hadi7546.ir/</property>
-            <property name="activatable">true</property>
-            <signal name="activated" handler="open_uri" swapped="true"/>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Ibrahim Muhammad</property>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Kim Jimin</property>
-            <property name="subtitle">https://developomp.com</property>
-            <property name="activatable">true</property>
-            <signal name="activated" handler="open_uri" swapped="true"/>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Shellheim</property>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Tamazight teachers of Tizi Ouzou</property>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Urtsi Santsi</property>
-          </object>
-        </child>
-        <child>
-          <object class="AdwActionRow">
-            <property name="title">Yevhen Popok</property>
-          </object>
-        </child>
       </object>
     </child>
     <child>
@@ -163,8 +75,7 @@
         <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Copyright</property>
-            <property name="subtitle">© 2026 Ignacio Casal Quinteiro
-© 2024–2025 Brage Fuglseth</property>
+            <property name="subtitle">© 2026 Ignacio Casal Quinteiro</property>
           </object>
         </child>
         <child>

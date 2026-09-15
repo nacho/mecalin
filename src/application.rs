@@ -32,6 +32,7 @@ mod imp {
             // Set keyboard shortcuts
             app.set_accels_for_action("app.quit", &["<Ctrl>Q"]);
             app.set_accels_for_action("window.close", &["<Ctrl>W"]);
+            app.set_accels_for_action("app.preferences", &["<Ctrl>comma"]);
 
             // Load CSS
             let provider = gtk::CssProvider::new();
@@ -71,6 +72,24 @@ impl MecalinApplication {
         self.add_action_entries(vec![
             gio::ActionEntry::builder("quit")
                 .activate(|app: &Self, _, _| app.quit())
+                .build(),
+            gio::ActionEntry::builder("preferences")
+                .activate(|app: &Self, _, _| {
+                    if let Some(window) = app.active_window()
+                        && let Ok(window) = window.downcast::<MecalinWindow>()
+                    {
+                        window.show_preferences();
+                    }
+                })
+                .build(),
+            gio::ActionEntry::builder("about")
+                .activate(|app: &Self, _, _| {
+                    if let Some(window) = app.active_window()
+                        && let Ok(window) = window.downcast::<MecalinWindow>()
+                    {
+                        window.show_about();
+                    }
+                })
                 .build(),
         ]);
     }

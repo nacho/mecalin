@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 10:44+0100\n"
+"POT-Creation-Date: 2026-09-15 17:17+0200\n"
 "PO-Revision-Date: 2026-01-20 08:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
@@ -24,7 +24,11 @@ msgstr "Mecalin"
 msgid "Learn how to type"
 msgstr "Naucz się pisać"
 
-#: resources/ui/about_view.ui:5 resources/ui/window.ui:65
+#: data/io.github.nacho.mecalin.desktop.in:10
+msgid "keyboard;touch type;touch typing;typing;typing tutor;"
+msgstr ""
+
+#: resources/ui/about_view.ui:5
 msgid "About"
 msgstr "O programie"
 
@@ -48,19 +52,15 @@ msgstr "Zgłoś problem"
 msgid "Code by"
 msgstr "Kod autorstwa"
 
-#: resources/ui/about_view.ui:82
-msgid "Speed Test Orthography"
-msgstr "Ortografia testu prędkości"
-
-#: resources/ui/about_view.ui:162
+#: resources/ui/about_view.ui:74
 msgid "Legal"
 msgstr "Prawne"
 
-#: resources/ui/about_view.ui:165
+#: resources/ui/about_view.ui:77
 msgid "Copyright"
 msgstr "Prawa autorskie"
 
-#: resources/ui/about_view.ui:172
+#: resources/ui/about_view.ui:83
 msgid "License"
 msgstr "Licencja"
 
@@ -74,34 +74,28 @@ msgstr "Gratulacje!"
 
 #: resources/ui/course_completion_view.ui:14
 msgid ""
-"You've completed all lessons! Keep practicing with the speed test to improve "
-"your typing skills."
+"You've completed all lessons! Keep practicing to improve your typing skills."
 msgstr ""
-"Ukończyłeś wszystkie lekcje! Kontynuuj ćwiczenia z testem prędkości, aby "
-"poprawić swoje umiejętności pisania."
+"Ukończono wszystkie lekcje! Proszę ćwiczyć dalej, aby poprawić umiejętność "
+"pisania."
 
-#: resources/ui/falling_keys_game.ui:5 resources/ui/window.ui:44
-msgid "Falling Keys"
-msgstr "Spadające Klawisze"
+#: resources/ui/lesson_view.ui:6
+msgid "_Preferences"
+msgstr "_Preferencje"
 
-#: resources/ui/falling_keys_game.ui:65 resources/ui/scrolling_lanes_game.ui:66
-msgid "Score"
-msgstr "Wynik"
+#: resources/ui/lesson_view.ui:10
+msgid "_About Mecalin"
+msgstr "_O programie Mecalin"
 
-#: resources/ui/falling_keys_game.ui:91 resources/ui/scrolling_lanes_game.ui:92
-msgid "Level Reached"
-msgstr "Osiągnięty Poziom"
+#: resources/ui/lesson_view.ui:30
+msgid "Main Menu"
+msgstr "Menu główne"
 
-#: resources/ui/falling_keys_game.ui:103
-#: resources/ui/scrolling_lanes_game.ui:104
-msgid "Play Again"
-msgstr "Zagraj Ponownie"
-
-#: resources/ui/lesson_view.ui:96
+#: resources/ui/lesson_view.ui:116
 msgid "Continue"
 msgstr "Kontynuuj"
 
-#: resources/ui/preferences_view.ui:5 resources/ui/window.ui:58
+#: resources/ui/preferences_view.ui:5
 msgid "Preferences"
 msgstr "Preferencje"
 
@@ -144,133 +138,3 @@ msgstr "Bieżąca lekcja"
 #: resources/ui/preferences_view.ui:42
 msgid "Select active lesson (resets step to beginning)"
 msgstr "Wybierz aktywną lekcję (resetuje krok do początku)"
-
-#: resources/ui/scrolling_lanes_game.ui:5 resources/ui/window.ui:51
-msgid "Scrolling Lanes"
-msgstr "Przewijane Pasy"
-
-#: resources/ui/speed_test_results_view.ui:57
-msgid "New Personal Best for Configuration"
-msgstr "Nowy rekord osobisty dla tej konfiguracji"
-
-#: resources/ui/speed_test_results_view.ui:73
-msgid "Words per Minute"
-msgstr "Słów na minutę"
-
-#: resources/ui/speed_test_results_view.ui:97
-msgid "Accuracy"
-msgstr "Dokładność"
-
-#: resources/ui/speed_test_results_view.ui:115
-msgid "Test Type"
-msgstr "Typ testu"
-
-#: resources/ui/speed_test_results_view.ui:130
-msgid "Test Duration"
-msgstr "Czas trwania testu"
-
-#: resources/ui/speed_test_results_view.ui:145
-msgid "Text Language"
-msgstr "Język tekstu"
-
-#: resources/ui/speed_test_results_view.ui:160
-msgid "Retry"
-msgstr "Ponów"
-
-#: resources/ui/speed_test_text_view.ui:27
-msgid "Text View"
-msgstr "Widok tekstu"
-
-#: resources/ui/speed_test_view.ui:5 resources/ui/window.ui:37
-msgid "Speed Test"
-msgstr "Test prędkości"
-
-#: resources/ui/speed_test_view.ui:17
-msgid "Speed Test:"
-msgstr "Test prędkości:"
-
-#: resources/ui/speed_test_view.ui:32
-msgid "Simple"
-msgstr "Prosty"
-
-#: resources/ui/speed_test_view.ui:33
-msgid "Advanced"
-msgstr "Zaawansowany"
-
-#: resources/ui/speed_test_view.ui:45
-msgid "15 seconds"
-msgstr "15 sekund"
-
-#: resources/ui/speed_test_view.ui:46
-msgid "30 seconds"
-msgstr "30 sekund"
-
-#: resources/ui/speed_test_view.ui:47
-msgid "1 minute"
-msgstr "1 minuta"
-
-#: resources/ui/speed_test_view.ui:48
-msgid "5 minutes"
-msgstr "5 minut"
-
-#: resources/ui/speed_test_view.ui:49
-msgid "10 minutes"
-msgstr "10 minut"
-
-#: resources/ui/window.ui:30
-msgid "Lessons"
-msgstr "Lekcje"
-
-#: resources/ui/window.ui:31
-msgid "Learn typing fundamentals"
-msgstr "Naucz się podstaw pisania"
-
-#: resources/ui/window.ui:38
-msgid "Test your typing speed"
-msgstr "Przetestuj swoją prędkość pisania"
-
-#: resources/ui/window.ui:45
-msgid "Practice with a fun game"
-msgstr "Ćwicz z zabawną grą"
-
-#: resources/ui/window.ui:52
-msgid "Type fast in multiple lanes"
-msgstr "Pisz szybko na wielu pasach"
-
-#: resources/ui/window.ui:59
-msgid "Configure application settings"
-msgstr "Konfiguruj ustawienia aplikacji"
-
-#: resources/ui/window.ui:66
-msgid "Application information"
-msgstr "Informacje o aplikacji"
-
-#~ msgid "Score: {}"
-#~ msgstr "Wynik: {}"
-
-#~ msgid "Level: {}"
-#~ msgstr "Poziom: {}"
-
-#~ msgid "Lesson {}"
-#~ msgstr "Lekcja {}"
-
-#~ msgid "Lesson {}: Step {}/{}"
-#~ msgstr "Lekcja {}: Krok {}/{}"
-
-#~ msgid "{}/{} Good"
-#~ msgstr "{}/{} Dobrze"
-
-#~ msgid "Lesson completed! Well done!"
-#~ msgstr "Lekcja ukończona! Dobra robota!"
-
-#~ msgid "Lesson {}: {}"
-#~ msgstr "Lekcja {}: {}"
-
-#~ msgid "{}%"
-#~ msgstr "{}%"
-
-#~ msgid "Custom"
-#~ msgstr "Niestandardowy"
-
-#~ msgid "{}m {}s"
-#~ msgstr "{}m {}s"
