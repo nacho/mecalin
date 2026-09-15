@@ -626,6 +626,19 @@ mod imp {
                     }));
                 }
             ));
+
+            // Redraw when the finger-colors preference changes
+            let settings = gio::Settings::new("io.github.nacho.mecalin");
+            settings.connect_changed(
+                Some("use-finger-colors"),
+                glib::clone!(
+                    #[weak(rename_to = this)]
+                    self,
+                    move |_, _| {
+                        this.obj().queue_draw();
+                    }
+                ),
+            );
         }
     }
 
