@@ -15,6 +15,7 @@ mod imp {
     pub struct HandWidget {
         pub current_finger: RefCell<Option<Finger>>,
         pub cached_colors: RefCell<Option<HashMap<String, gdk::RGBA>>>,
+        pub settings: RefCell<Option<gtk::gio::Settings>>,
     }
 
     #[glib::object_subclass]
@@ -48,6 +49,21 @@ mod imp {
                     }));
                 }
             ));
+
+            // Redraw when the finger-colors preference changes
+            let settings = gtk::gio::Settings::new("io.github.nacho.mecalin");
+            settings.connect_changed(
+                Some("use-finger-colors"),
+                glib::clone!(
+                    #[weak(rename_to = this)]
+                    self,
+                    move |_, _| {
+                        this.obj().queue_draw();
+                    }
+                ),
+            );
+            // Keep the settings object alive so the signal stays connected.
+            self.settings.replace(Some(settings));
         }
     }
 
