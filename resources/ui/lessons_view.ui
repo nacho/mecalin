@@ -37,6 +37,9 @@
         <property name="content">
           <object class="AdwPreferencesPage">
             <child>
+              <object class="AdwPreferencesGroup" id="continue_group"/>
+            </child>
+            <child>
               <object class="AdwPreferencesGroup" id="lessons_group"/>
             </child>
           </object>
