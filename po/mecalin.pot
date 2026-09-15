@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:30+0200\n"
+"POT-Creation-Date: 2026-09-15 17:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,29 +71,21 @@ msgid "Display finger position guide"
 msgstr ""
 
 #: src/preferences_dialog.rs:26
-msgid "Show Keyboard Widget"
-msgstr ""
-
-#: src/preferences_dialog.rs:27
-msgid "Display keyboard layout"
-msgstr ""
-
-#: src/preferences_dialog.rs:30
 msgid "Use Finger Colors"
 msgstr ""
 
-#: src/preferences_dialog.rs:31
+#: src/preferences_dialog.rs:27
 msgid "Color keyboard keys and hand by finger assignment"
 msgstr ""
 
-#: src/preferences_dialog.rs:50
+#: src/preferences_dialog.rs:42
 msgid "Lesson Progress"
 msgstr ""
 
-#: src/preferences_dialog.rs:54
+#: src/preferences_dialog.rs:46
 msgid "Current Lesson"
 msgstr ""
 
-#: src/preferences_dialog.rs:55
+#: src/preferences_dialog.rs:47
 msgid "Select active lesson (resets step to beginning)"
 msgstr ""

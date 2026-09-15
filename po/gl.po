@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:30+0200\n"
+"POT-Creation-Date: 2026-09-15 17:35+0200\n"
 "PO-Revision-Date: 2026-01-21 09:22+0100\n"
 "Last-Translator: qignacio <qignacio@amazon.com>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -72,29 +72,21 @@ msgid "Display finger position guide"
 msgstr "Mostrar guía de posición dos dedos"
 
 #: src/preferences_dialog.rs:26
-msgid "Show Keyboard Widget"
-msgstr "Mostrar control do teclado"
-
-#: src/preferences_dialog.rs:27
-msgid "Display keyboard layout"
-msgstr "Mostrar distribución do teclado"
-
-#: src/preferences_dialog.rs:30
 msgid "Use Finger Colors"
 msgstr "Usar cores dos dedos"
 
-#: src/preferences_dialog.rs:31
+#: src/preferences_dialog.rs:27
 msgid "Color keyboard keys and hand by finger assignment"
 msgstr "Colorear as teclas do teclado e a man segundo a asignación dos dedos"
 
-#: src/preferences_dialog.rs:50
+#: src/preferences_dialog.rs:42
 msgid "Lesson Progress"
 msgstr "Progreso das leccións"
 
-#: src/preferences_dialog.rs:54
+#: src/preferences_dialog.rs:46
 msgid "Current Lesson"
 msgstr "Lección actual"
 
-#: src/preferences_dialog.rs:55
+#: src/preferences_dialog.rs:47
 msgid "Select active lesson (resets step to beginning)"
 msgstr "Seleccionar lección activa (reinicia o paso ao principio)"

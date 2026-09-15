@@ -22,24 +22,16 @@ pub fn build() -> adw::PreferencesDialog {
         .title(gettext("Show Hand Widget"))
         .subtitle(gettext("Display finger position guide"))
         .build();
-    let show_keyboard_switch = adw::SwitchRow::builder()
-        .title(gettext("Show Keyboard Widget"))
-        .subtitle(gettext("Display keyboard layout"))
-        .build();
     let use_finger_colors_switch = adw::SwitchRow::builder()
         .title(gettext("Use Finger Colors"))
         .subtitle(gettext("Color keyboard keys and hand by finger assignment"))
         .build();
 
     display_group.add(&show_hand_switch);
-    display_group.add(&show_keyboard_switch);
     display_group.add(&use_finger_colors_switch);
 
     settings
         .bind("show-hand-widget", &show_hand_switch, "active")
-        .build();
-    settings
-        .bind("show-keyboard-widget", &show_keyboard_switch, "active")
         .build();
     settings
         .bind("use-finger-colors", &use_finger_colors_switch, "active")
