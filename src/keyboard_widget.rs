@@ -590,6 +590,7 @@ mod imp {
         pub layout: RefCell<KeyboardLayout>,
         pub last_finger: RefCell<Option<Finger>>,
         pub cached_colors: RefCell<Option<HashMap<String, gdk::RGBA>>>,
+        pub settings: RefCell<Option<gio::Settings>>,
     }
 
     #[glib::object_subclass]
@@ -639,6 +640,8 @@ mod imp {
                     }
                 ),
             );
+            // Keep the settings object alive so the signal stays connected.
+            self.settings.replace(Some(settings));
         }
     }
 
