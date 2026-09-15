@@ -55,6 +55,10 @@
       Features include structured lessons, keyboard layout visualization, and progress tracking to help you
       become a more efficient typist.
     </p>
+    <p>
+      Lessons and keyboard layouts are available for US English, Spanish, German, French, Galician,
+      Italian, Polish, Portuguese, and Brazilian Portuguese. Other system layouts fall back to US English.
+    </p>
     <p xml:lang="es">
       Las características incluyen lecciones estructuradas, visualización del diseño del teclado y seguimiento del progreso para ayudarte
       a convertirte en un mecanógrafo más eficiente.
@@ -106,7 +110,10 @@
         <ul>
           <li>Focused Mecalin on typing lessons: removed the speed test and the falling keys and scrolling lanes games</li>
           <li>The app now opens directly into the lessons</li>
+          <li>Added a lessons welcome page to browse and pick a lesson</li>
+          <li>The welcome page shows the active keyboard layout and warns when the system layout isn't supported</li>
           <li>Moved Preferences and About into a primary menu, with standard keyboard shortcuts (Ctrl+, and F10)</li>
+          <li>Refreshed the on-screen keyboard styling to use the system font with rounded keys</li>
         </ul>
       </description>
     </release>
