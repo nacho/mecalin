@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:35+0200\n"
+"POT-Creation-Date: 2026-09-15 18:10+0200\n"
 "PO-Revision-Date: 2026-02-01 21:31+0200\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -43,51 +43,83 @@ msgstr ""
 "Hai completato tutte le lezioni! Continua a esercitarti per migliorare le "
 "tue abilità di digitazione."
 
-#: resources/ui/lesson_view.ui:6
-msgid "_Preferences"
-msgstr "_Preferenze"
-
-#: resources/ui/lesson_view.ui:10
-msgid "_About Mecalin"
-msgstr "_Informazioni su Mecalin"
-
-#: resources/ui/lesson_view.ui:30
-msgid "Main Menu"
-msgstr "Menù principale"
-
-#: resources/ui/lesson_view.ui:116
+#: resources/ui/lesson_view.ui:96
 msgid "Continue"
 msgstr "Continua"
 
-#: src/preferences_dialog.rs:18
+#: resources/ui/lessons_view.ui:6
+msgid "_Preferences"
+msgstr "_Preferenze"
+
+#: resources/ui/lessons_view.ui:10
+msgid "_About Mecalin"
+msgstr "_Informazioni su Mecalin"
+
+#: resources/ui/lessons_view.ui:17
+msgid "Lessons"
+msgstr ""
+
+#: resources/ui/lessons_view.ui:25
+msgid "Main Menu"
+msgstr "Menù principale"
+
+#: src/lessons_view.rs:64
+msgid "Your system keyboard layout isn’t supported yet — showing US English"
+msgstr ""
+
+#: src/lessons_view.rs:100
+msgid "Spanish"
+msgstr ""
+
+#: src/lessons_view.rs:101
+msgid "German"
+msgstr ""
+
+#: src/lessons_view.rs:102
+msgid "French"
+msgstr ""
+
+#: src/lessons_view.rs:103
+msgid "Galician"
+msgstr ""
+
+#: src/lessons_view.rs:104
+msgid "Italian"
+msgstr ""
+
+#: src/lessons_view.rs:105
+msgid "Polish"
+msgstr ""
+
+#: src/lessons_view.rs:106
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: src/lessons_view.rs:107
+msgid "Portuguese"
+msgstr ""
+
+#: src/lessons_view.rs:108
+msgid "US English"
+msgstr ""
+
+#: src/preferences_dialog.rs:15
 msgid "Display"
 msgstr "Visualizzazione"
 
-#: src/preferences_dialog.rs:22
+#: src/preferences_dialog.rs:19
 msgid "Show Hand Widget"
 msgstr "Mostra widget mani"
 
-#: src/preferences_dialog.rs:23
+#: src/preferences_dialog.rs:20
 msgid "Display finger position guide"
 msgstr "Mostra guida posizione dita"
 
-#: src/preferences_dialog.rs:26
+#: src/preferences_dialog.rs:23
 msgid "Use Finger Colors"
 msgstr "Usa i colori delle dita"
 
-#: src/preferences_dialog.rs:27
+#: src/preferences_dialog.rs:24
 msgid "Color keyboard keys and hand by finger assignment"
 msgstr ""
 "Colora i tasti della tastiera e la mano in base all'assegnazione delle dita"
-
-#: src/preferences_dialog.rs:42
-msgid "Lesson Progress"
-msgstr "Progresso lezioni"
-
-#: src/preferences_dialog.rs:46
-msgid "Current Lesson"
-msgstr "Lezione corrente"
-
-#: src/preferences_dialog.rs:47
-msgid "Select active lesson (resets step to beginning)"
-msgstr "Seleziona lezione attiva (riavvia il passo dall'inizio)"
