@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16px">
+  <!-- Keyboard glyph used as a fallback icon when the themed Keypunch app icon is unavailable. Uses the GNOME symbolic default color. -->
+  <path d="m 2 3 c -1.109375 0 -2 0.890625 -2 2 v 6 c 0 1.109375 0.890625 2 2 2 h 12 c 1.109375 0 2 -0.890625 2 -2 v -6 c 0 -1.109375 -0.890625 -2 -2 -2 z m 0 2 h 12 v 6 h -12 z m 0 0" fill="#2e3436"/>
+  <path d="m 3 6 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m -9 2 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m 2 0 h 1 v 1 h -1 z m -8 2 h 6 v 1 h -6 z m 0 0" fill="#2e3436"/>
+</svg>

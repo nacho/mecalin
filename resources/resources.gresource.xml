@@ -8,5 +8,6 @@
     <file preprocess="xml-stripblanks">ui/typing_row.ui</file>
     <file>style.css</file>
     <file>icons/scalable/actions/trophy-symbolic.svg</file>
+    <file>icons/scalable/actions/keypunch-fallback-symbolic.svg</file>
   </gresource>
 </gresources>

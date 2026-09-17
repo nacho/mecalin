@@ -12,6 +12,34 @@
             <property name="icon-name">trophy-symbolic</property>
             <property name="title" translatable="yes">Congratulations!</property>
             <property name="description" translatable="yes">You've completed all lessons! Keep practicing to improve your typing skills.</property>
+            <property name="child">
+              <object class="AdwPreferencesGroup">
+                <property name="halign">center</property>
+                <property name="width-request">300</property>
+                <child>
+                  <object class="AdwActionRow" id="keypunch_row">
+                    <property name="title" translatable="yes">Keypunch</property>
+                    <property name="subtitle" translatable="yes">Practice your typing speed</property>
+                    <property name="activatable">true</property>
+                    <child type="prefix">
+                      <object class="GtkImage" id="keypunch_icon">
+                        <property name="pixel-size">32</property>
+                        <property name="accessible-role">presentation</property>
+                        <style>
+                          <class name="lowres-icon"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child type="suffix">
+                      <object class="GtkImage">
+                        <property name="icon-name">go-next-symbolic</property>
+                        <property name="accessible-role">presentation</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </property>
           </object>
         </property>
       </object>
