@@ -26,7 +26,7 @@ msgstr "Impara a digitare"
 
 #: data/io.github.nacho.mecalin.desktop.in:10
 msgid "keyboard;touch type;touch typing;typing;typing tutor;"
-msgstr ""
+msgstr "tastiera;dattilografia;digitazione;tutor di dattilografia;"
 
 #: resources/ui/course_completion_view.ui:4
 msgid "Course Completed"
@@ -45,11 +45,11 @@ msgstr ""
 
 #: resources/ui/course_completion_view.ui:21
 msgid "Keypunch"
-msgstr ""
+msgstr "Keypunch"
 
 #: resources/ui/course_completion_view.ui:22
 msgid "Practice your typing speed"
-msgstr ""
+msgstr "Esercita la tua velocità di digitazione"
 
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
@@ -65,7 +65,7 @@ msgstr "_Informazioni su Mecalin"
 
 #: resources/ui/lessons_view.ui:17
 msgid "Lessons"
-msgstr ""
+msgstr "Lezioni"
 
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
@@ -123,10 +123,12 @@ msgstr "_Inizia"
 #: src/lessons_view.rs:69
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
 msgstr ""
+"La tua disposizione di tastiera non è ancora supportata: viene mostrato "
+"l’inglese americano"
 
 #: src/lessons_view.rs:138
 msgid "Current lesson"
-msgstr ""
+msgstr "Lezione attuale"
 
 #: src/preferences_dialog.rs:15
 msgid "Display"

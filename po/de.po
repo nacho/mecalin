@@ -25,7 +25,7 @@ msgstr "Tippen lernen"
 
 #: data/io.github.nacho.mecalin.desktop.in:10
 msgid "keyboard;touch type;touch typing;typing;typing tutor;"
-msgstr ""
+msgstr "Tastatur;Zehnfingersystem;tippen;Schreibtrainer;Tipptrainer;"
 
 #: resources/ui/course_completion_view.ui:4
 msgid "Course Completed"
@@ -44,11 +44,11 @@ msgstr ""
 
 #: resources/ui/course_completion_view.ui:21
 msgid "Keypunch"
-msgstr ""
+msgstr "Keypunch"
 
 #: resources/ui/course_completion_view.ui:22
 msgid "Practice your typing speed"
-msgstr ""
+msgstr "Übe deine Tippgeschwindigkeit"
 
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
@@ -64,7 +64,7 @@ msgstr "Über _Mecalin"
 
 #: resources/ui/lessons_view.ui:17
 msgid "Lessons"
-msgstr ""
+msgstr "Lektionen"
 
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
@@ -123,10 +123,12 @@ msgstr "_Loslegen"
 #: src/lessons_view.rs:69
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
 msgstr ""
+"Dein Tastaturlayout wird noch nicht unterstützt – es wird US-Englisch "
+"angezeigt"
 
 #: src/lessons_view.rs:138
 msgid "Current lesson"
-msgstr ""
+msgstr "Aktuelle Lektion"
 
 #: src/preferences_dialog.rs:15
 msgid "Display"
