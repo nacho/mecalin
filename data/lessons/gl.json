@@ -2,13 +2,6 @@
   "lessons": [
     {
       "id": 0,
-      "title": "¡Benvido a Mecalin",
-      "description": "¡Benvido a Mecalin, o teu titor para aprender a teclear! Este curso ensinarache a teclear paso a paso. Comezarás pola fila principal de teclas e irás aprendendo todas as teclas do teclado gradualmente. Toma o teu tempo, practica regularmente e converteráste rapidamente nun experto tecleando",
-      "steps": [],
-      "introduction": true
-    },
-    {
-      "id": 1,
       "title": "Primeira parte da fila base",
       "description": "Aprende parte da fila base: A, S, D, K, L, Ñ",
       "steps": [
@@ -135,7 +128,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Fila base",
       "description": "Aprende as teclas da fila base: A, S, D, F, G, H, J, K, L, Ñ",
       "steps": [
@@ -316,7 +309,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Primeira parte fila dominante",
       "description": "Aprende as teclas da fila dominante: Q, W, E, I, O, P",
       "steps": [
@@ -455,7 +448,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Fila dominante",
       "description": "Aprende as teclas da fila dominante: Q, W, E, R, T, Y, I, O, P",
       "steps": [
@@ -792,7 +785,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Primeira parte da fila inferior",
       "description": "Aprende parte da fila inferior: Z, -, X, ., C, ,",
       "steps": [
@@ -907,7 +900,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Fila inferior",
       "description": "Aprende toda a fila inferior: Z, -, X, ., C, ,, V, M, B, N",
       "steps": [
@@ -1256,7 +1249,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Fila de números",
       "description": "Aprende a fila de números",
       "steps": [
@@ -1599,7 +1592,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Caracteres na fila superior",
       "description": "Aprende os caracteres da fila superior",
       "steps": [
@@ -1792,7 +1785,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Caracteres especiais",
       "description": "Aprende algúns dos caracteres especiais",
       "steps": [
@@ -1986,7 +1979,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Repaso xeral",
       "description": "Repaso xeral de palabras",
       "steps": [
@@ -2101,7 +2094,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Letras maiúsculas",
       "description": "Aprender letras maiúsculas",
       "steps": [
@@ -2222,7 +2215,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Repaso xeral",
       "description": "Lección de repaso xeral",
       "steps": [

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:22+0200\n"
+"POT-Creation-Date: 2026-09-18 11:27+0200\n"
 "PO-Revision-Date: 2026-02-01 21:31+0200\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -43,6 +43,14 @@ msgstr ""
 "Hai completato tutte le lezioni! Continua a esercitarti per migliorare le "
 "tue abilità di digitazione."
 
+#: resources/ui/course_completion_view.ui:21
+msgid "Keypunch"
+msgstr ""
+
+#: resources/ui/course_completion_view.ui:22
+msgid "Practice your typing speed"
+msgstr ""
+
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
 msgstr "Continua"
@@ -62,6 +70,55 @@ msgstr ""
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
 msgstr "Menù principale"
+
+#: resources/ui/welcome_view.ui:5
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: resources/ui/welcome_view.ui:25
+msgid "Welcome to Mecalin"
+msgstr "Benvenuto in Mecalin"
+
+#: resources/ui/welcome_view.ui:26
+msgid ""
+"Your personal typing tutor. Learn to type quickly and accurately, one step "
+"at a time."
+msgstr ""
+"Il tuo tutor di dattilografia personale. Impara a digitare in modo rapido e "
+"preciso, un passo alla volta."
+
+#: resources/ui/welcome_view.ui:37
+msgid "Learn Touch Typing"
+msgstr "Impara la dattilografia"
+
+#: resources/ui/welcome_view.ui:38
+msgid ""
+"Structured lessons guide you from the home row to the whole keyboard. An on-"
+"screen keyboard and hand guide show you which finger to use for every key."
+msgstr ""
+"Le lezioni strutturate ti guidano dalla riga base fino a tutta la tastiera. "
+"Una tastiera a schermo e una guida per le mani ti mostrano quale dito usare "
+"per ogni tasto."
+
+#: resources/ui/welcome_view.ui:49
+msgid "Practice at Your Own Pace"
+msgstr "Esercitati al tuo ritmo"
+
+#: resources/ui/welcome_view.ui:50
+msgid ""
+"Take your time and practice regularly. Your progress is saved automatically, "
+"so you can always pick up where you left off."
+msgstr ""
+"Prenditi il tuo tempo ed esercitati con regolarità. I tuoi progressi vengono "
+"salvati automaticamente, così puoi sempre riprendere da dove avevi lasciato."
+
+#: resources/ui/welcome_view.ui:72
+msgid "_Continue"
+msgstr "_Continua"
+
+#: resources/ui/welcome_view.ui:82
+msgid "_Get Started"
+msgstr "_Inizia"
 
 #: src/lessons_view.rs:69
 msgid "Your system keyboard layout isn’t supported yet — showing US English"

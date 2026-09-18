@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:22+0200\n"
+"POT-Creation-Date: 2026-09-18 11:27+0200\n"
 "PO-Revision-Date: 2026-01-20 08:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
@@ -43,6 +43,14 @@ msgstr ""
 "Ukończono wszystkie lekcje! Proszę ćwiczyć dalej, aby poprawić umiejętność "
 "pisania."
 
+#: resources/ui/course_completion_view.ui:21
+msgid "Keypunch"
+msgstr ""
+
+#: resources/ui/course_completion_view.ui:22
+msgid "Practice your typing speed"
+msgstr ""
+
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
 msgstr "Kontynuuj"
@@ -62,6 +70,55 @@ msgstr ""
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
 msgstr "Menu główne"
+
+#: resources/ui/welcome_view.ui:5
+msgid "Welcome"
+msgstr "Witaj"
+
+#: resources/ui/welcome_view.ui:25
+msgid "Welcome to Mecalin"
+msgstr "Witaj w Mecalin"
+
+#: resources/ui/welcome_view.ui:26
+msgid ""
+"Your personal typing tutor. Learn to type quickly and accurately, one step "
+"at a time."
+msgstr ""
+"Twój osobisty instruktor pisania. Naucz się pisać szybko i dokładnie, krok "
+"po kroku."
+
+#: resources/ui/welcome_view.ui:37
+msgid "Learn Touch Typing"
+msgstr "Naucz się pisać bezwzrokowo"
+
+#: resources/ui/welcome_view.ui:38
+msgid ""
+"Structured lessons guide you from the home row to the whole keyboard. An on-"
+"screen keyboard and hand guide show you which finger to use for every key."
+msgstr ""
+"Uporządkowane lekcje prowadzą Cię od rzędu podstawowego po całą klawiaturę. "
+"Klawiatura ekranowa i przewodnik po dłoniach pokazują, którego palca użyć do "
+"każdego klawisza."
+
+#: resources/ui/welcome_view.ui:49
+msgid "Practice at Your Own Pace"
+msgstr "Ćwicz we własnym tempie"
+
+#: resources/ui/welcome_view.ui:50
+msgid ""
+"Take your time and practice regularly. Your progress is saved automatically, "
+"so you can always pick up where you left off."
+msgstr ""
+"Nie spiesz się i ćwicz regularnie. Twoje postępy są zapisywane "
+"automatycznie, więc zawsze możesz wznowić naukę tam, gdzie ją przerwałeś."
+
+#: resources/ui/welcome_view.ui:72
+msgid "_Continue"
+msgstr "_Kontynuuj"
+
+#: resources/ui/welcome_view.ui:82
+msgid "_Get Started"
+msgstr "_Rozpocznij"
 
 #: src/lessons_view.rs:69
 msgid "Your system keyboard layout isn’t supported yet — showing US English"

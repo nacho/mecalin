@@ -2,13 +2,6 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Bem-vindo ao Mecalin",
-      "description": "Bem-vindo ao Mecalin, o seu tutor para aprender a digitar! Este curso vai ensiná-lo a digitar passo a passo. Você começará pela fila principal de teclas e irá aprendendo todas as teclas do teclado gradualmente. Tome o seu tempo, pratique regularmente e rapidamente se tornará um especialista em digitação",
-      "steps": [],
-      "introduction": true
-    },
-    {
-      "id": 1,
       "title": "Primeira parte da fila base",
       "description": "Aprende parte da fila base: A, S, D, K, L, Ç",
       "steps": [
@@ -135,7 +128,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Linha base",
       "description": "Aprende as teclas da fila base: A, S, D, F, G, H, J, K, L, Ç",
       "steps": [
@@ -316,7 +309,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Primeira parte fila dominante",
       "description": "Aprende as teclas da fila dominante: Q, W, E, I, O, P",
       "steps": [
@@ -455,7 +448,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Linha dominante",
       "description": "Aprende as teclas da fila dominante: Q, W, E, R, T, Y, I, O, P",
       "steps": [
@@ -792,7 +785,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Primeira parte da fila inferior",
       "description": "Aprende parte da fila inferior: Z, ;, X, ., C, ,",
       "steps": [
@@ -907,7 +900,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Fila inferior",
       "description": "Aprende toda a fila inferior: Z, ;, X, ., C, ,, V, M, B, N",
       "steps": [
@@ -1256,7 +1249,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Linha de números",
       "description": "Aprenda fila de números",
       "steps": [
@@ -1599,7 +1592,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Caracteres na linha superior",
       "description": "Aprenda os caracteres da linha superior",
       "steps": [
@@ -1792,7 +1785,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Caracteres Especiais",
       "description": "Aprende alguns dos caracteres especiais",
       "steps": [
@@ -1913,7 +1906,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Revisão geral",
       "description": "Revisão geral de palavras",
       "steps": [
@@ -2028,7 +2021,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Letras maiúsculas",
       "description": "Aprender letras maiúsculas",
       "steps": [
@@ -2149,7 +2142,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Revisão geral",
       "description": "Lição de revisão geral",
       "steps": [

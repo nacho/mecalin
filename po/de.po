@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:22+0200\n"
+"POT-Creation-Date: 2026-09-18 11:27+0200\n"
 "PO-Revision-Date: 2026-08-20 13:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
@@ -42,6 +42,14 @@ msgstr ""
 "Du hast alle Lektionen abgeschlossen! Übe weiter, um deine Tippfähigkeiten "
 "zu verbessern."
 
+#: resources/ui/course_completion_view.ui:21
+msgid "Keypunch"
+msgstr ""
+
+#: resources/ui/course_completion_view.ui:22
+msgid "Practice your typing speed"
+msgstr ""
+
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
 msgstr "Weiter"
@@ -61,6 +69,56 @@ msgstr ""
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
 msgstr "Hauptmenü"
+
+#: resources/ui/welcome_view.ui:5
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: resources/ui/welcome_view.ui:25
+msgid "Welcome to Mecalin"
+msgstr "Willkommen bei Mecalin"
+
+#: resources/ui/welcome_view.ui:26
+msgid ""
+"Your personal typing tutor. Learn to type quickly and accurately, one step "
+"at a time."
+msgstr ""
+"Dein persönlicher Tipptrainer. Lerne Schritt für Schritt, schnell und genau "
+"zu tippen."
+
+#: resources/ui/welcome_view.ui:37
+msgid "Learn Touch Typing"
+msgstr "Das Zehnfingersystem lernen"
+
+#: resources/ui/welcome_view.ui:38
+msgid ""
+"Structured lessons guide you from the home row to the whole keyboard. An on-"
+"screen keyboard and hand guide show you which finger to use for every key."
+msgstr ""
+"Strukturierte Lektionen führen dich von der Grundreihe bis zur gesamten "
+"Tastatur. Eine Bildschirmtastatur und eine Handführung zeigen dir, welchen "
+"Finger du für jede Taste verwenden sollst."
+
+#: resources/ui/welcome_view.ui:49
+msgid "Practice at Your Own Pace"
+msgstr "Übe in deinem eigenen Tempo"
+
+#: resources/ui/welcome_view.ui:50
+msgid ""
+"Take your time and practice regularly. Your progress is saved automatically, "
+"so you can always pick up where you left off."
+msgstr ""
+"Lass dir Zeit und übe regelmäßig. Dein Fortschritt wird automatisch "
+"gespeichert, sodass du jederzeit dort weitermachen kannst, wo du aufgehört "
+"hast."
+
+#: resources/ui/welcome_view.ui:72
+msgid "_Continue"
+msgstr "_Weiter"
+
+#: resources/ui/welcome_view.ui:82
+msgid "_Get Started"
+msgstr "_Loslegen"
 
 #: src/lessons_view.rs:69
 msgid "Your system keyboard layout isn’t supported yet — showing US English"

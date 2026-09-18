@@ -33,3 +33,18 @@
   background-color: alpha(@error_color, 0.2);
   transition: background-color 100ms ease-out;
 }
+
+/* Welcome carousel slides: larger icon and title for a more spacious feel */
+.welcome-slide > .icon {
+  -gtk-icon-size: 160px;
+  margin-bottom: 24px;
+}
+
+.welcome-slide .title {
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+.welcome-slide .description {
+  font-size: 1.1em;
+}

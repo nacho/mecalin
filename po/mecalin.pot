@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:22+0200\n"
+"POT-Creation-Date: 2026-09-18 11:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,14 @@ msgid ""
 "You've completed all lessons! Keep practicing to improve your typing skills."
 msgstr ""
 
+#: resources/ui/course_completion_view.ui:21
+msgid "Keypunch"
+msgstr ""
+
+#: resources/ui/course_completion_view.ui:22
+msgid "Practice your typing speed"
+msgstr ""
+
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
 msgstr ""
@@ -60,6 +68,48 @@ msgstr ""
 
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
+msgstr ""
+
+#: resources/ui/welcome_view.ui:5
+msgid "Welcome"
+msgstr ""
+
+#: resources/ui/welcome_view.ui:25
+msgid "Welcome to Mecalin"
+msgstr ""
+
+#: resources/ui/welcome_view.ui:26
+msgid ""
+"Your personal typing tutor. Learn to type quickly and accurately, one step "
+"at a time."
+msgstr ""
+
+#: resources/ui/welcome_view.ui:37
+msgid "Learn Touch Typing"
+msgstr ""
+
+#: resources/ui/welcome_view.ui:38
+msgid ""
+"Structured lessons guide you from the home row to the whole keyboard. An on-"
+"screen keyboard and hand guide show you which finger to use for every key."
+msgstr ""
+
+#: resources/ui/welcome_view.ui:49
+msgid "Practice at Your Own Pace"
+msgstr ""
+
+#: resources/ui/welcome_view.ui:50
+msgid ""
+"Take your time and practice regularly. Your progress is saved automatically, "
+"so you can always pick up where you left off."
+msgstr ""
+
+#: resources/ui/welcome_view.ui:72
+msgid "_Continue"
+msgstr ""
+
+#: resources/ui/welcome_view.ui:82
+msgid "_Get Started"
 msgstr ""
 
 #: src/lessons_view.rs:69

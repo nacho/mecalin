@@ -2,13 +2,6 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Willkommen bei Mecalin",
-      "description": "Willkommen bei Mecalin, deinem Schreibtrainer! Dieser Kurs bringt dir das Zehnfingerschreiben Schritt für Schritt bei. Du beginnst mit den Tasten der Grundreihe und lernst nach und nach alle Tasten der Tastatur. Lass dir Zeit, übe regelmäßig, und du wirst im Handumdrehen flüssig tippen können!",
-      "steps": [],
-      "introduction": true
-    },
-    {
-      "id": 1,
       "title": "Erster Teil der Grundreihe",
       "description": "Lerne einen Teil der Grundreihe: A, S, D, K, L, Ö",
       "steps": [
@@ -135,7 +128,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Grundreihe",
       "description": "Lerne die Tasten der Grundreihe: A, S, D, F, G, H, J, K, L, Ö, Ä, #",
       "steps": [
@@ -316,7 +309,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Erster Teil der oberen Reihe",
       "description": "Lerne die Tasten der oberen Reihe: Q, W, E, I, O, P",
       "steps": [
@@ -455,7 +448,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Obere Reihe",
       "description": "Lerne die Tasten der oberen Reihe: Q, W, E, R, T, Z, U, I, O, P, Ü, +",
       "steps": [
@@ -792,7 +785,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Erster Teil der unteren Reihe",
       "description": "Lerne einen Teil der unteren Reihe: Y, -, X, ., C, ,",
       "steps": [
@@ -907,7 +900,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Untere Reihe",
       "description": "Lerne die gesamte untere Reihe: Y, X, C, V, B, N, M, ',', '.', -",
       "steps": [
@@ -1232,7 +1225,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Zahlenreihe",
       "description": "Lerne die Zahlenreihe",
       "steps": [
@@ -1575,7 +1568,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Zeichen der Zahlenreihe",
       "description": "Lerne die Zeichen der Zahlenreihe",
       "steps": [
@@ -1768,7 +1761,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Sonderzeichen",
       "description": "Lerne einige der Sonderzeichen",
       "steps": [
@@ -1962,7 +1955,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Allgemeine Wiederholung",
       "description": "Allgemeine Wiederholung von Wörtern und Satzzeichen",
       "steps": [
@@ -2076,7 +2069,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Großbuchstaben",
       "description": "Lerne die Großbuchstaben",
       "steps": [
@@ -2197,7 +2190,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Allgemeine Wiederholung",
       "description": "Allgemeine Wiederholungslektion",
       "steps": [

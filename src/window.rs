@@ -6,6 +6,22 @@ use libadwaita::subclass::prelude::*;
 use crate::lesson_view::LessonView;
 use crate::lessons_view::LessonsView;
 use crate::typing_row::TypingRow;
+use crate::welcome_view::WelcomeView;
+
+/// Navigation tag shown on first launch (the welcome carousel).
+const WELCOME_TAG: &str = "welcome";
+/// Navigation tag shown on subsequent launches (the lessons overview).
+const LESSONS_OVERVIEW_TAG: &str = "lessons-overview";
+
+/// Decide which navigation page should be visible at startup based on whether
+/// the first-run welcome screen has already been dismissed.
+fn initial_page_tag(welcome_seen: bool) -> &'static str {
+    if welcome_seen {
+        LESSONS_OVERVIEW_TAG
+    } else {
+        WELCOME_TAG
+    }
+}
 
 mod imp {
     use super::*;
@@ -24,6 +40,7 @@ mod imp {
         type ParentType = adw::ApplicationWindow;
 
         fn class_init(klass: &mut Self::Class) {
+            WelcomeView::ensure_type();
             LessonsView::ensure_type();
             LessonView::ensure_type();
             TypingRow::ensure_type();
@@ -35,7 +52,12 @@ mod imp {
         }
     }
 
-    impl ObjectImpl for MecalinWindow {}
+    impl ObjectImpl for MecalinWindow {
+        fn constructed(&self) {
+            self.parent_constructed();
+            self.obj().setup_initial_page();
+        }
+    }
     impl WidgetImpl for MecalinWindow {}
     impl WindowImpl for MecalinWindow {}
     impl ApplicationWindowImpl for MecalinWindow {}
@@ -52,6 +74,21 @@ glib::wrapper! {
 impl MecalinWindow {
     pub fn new(app: &adw::Application) -> Self {
         glib::Object::builder().property("application", app).build()
+    }
+
+    /// Choose the startup page. The welcome carousel is the first declared
+    /// child of the `AdwNavigationView`, so it is shown by default on first
+    /// launch. Once the welcome screen has been seen, replace the stack with
+    /// the lessons overview instead.
+    fn setup_initial_page(&self) {
+        let settings = gio::Settings::new("io.github.nacho.mecalin");
+        let welcome_seen = settings.boolean("welcome-seen");
+
+        if initial_page_tag(welcome_seen) == LESSONS_OVERVIEW_TAG {
+            self.imp()
+                .navigation_view
+                .replace_with_tags(&[LESSONS_OVERVIEW_TAG]);
+        }
     }
 
     pub fn load_window_state(&self) {
@@ -86,5 +123,20 @@ impl MecalinWindow {
                 settings.set("size", size).unwrap();
             }
         });
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_initial_page_tag_first_launch() {
+        assert_eq!(initial_page_tag(false), "welcome");
+    }
+
+    #[test]
+    fn test_initial_page_tag_welcome_already_seen() {
+        assert_eq!(initial_page_tag(true), "lessons-overview");
     }
 }

@@ -2,13 +2,6 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Bienvenue à Mecalin",
-      "description": "Bienvenue à Mecalin, votre tuteur pour apprendre à taper ! Ce cours vous apprendra à taper étape par étape. Vous commencerez par la rangée principale de touches et apprendrez progressivement toutes les touches du clavier. Prenez votre temps, pratiquez régulièrement et vous deviendrez rapidement un expert en dactylographie",
-      "steps": [],
-      "introduction": true
-    },
-    {
-      "id": 1,
       "title": "Première partie de la rangée de base",
       "description": "Apprenez une partie de la rangée de base : Q, S, D, K, L, M",
       "steps": [
@@ -135,7 +128,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Rangée de base",
       "description": "Apprenez les touches de la rangée de base : Q, S, D, F, G, H, J, K, L, M",
       "steps": [
@@ -316,7 +309,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Première partie de la rangée dominante",
       "description": "Apprenez les touches de la rangée dominante : A, Z, E, I, O, P",
       "steps": [
@@ -455,7 +448,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Rangée dominante",
       "description": "Apprenez les touches de la rangée dominante : A, Z, E, R, T, Y, I, O, P",
       "steps": [
@@ -792,7 +785,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Première partie de la rangée inférieure",
       "description": "Apprenez une partie de la rangée inférieure : W, :, X, ;, C, ;",
       "steps": [
@@ -907,7 +900,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Rangée inférieure",
       "description": "Apprenez toute la rangée inférieure : W, :, X, ;, C, ;, V, ,, B, N",
       "steps": [
@@ -1256,7 +1249,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Rangée de chiffres",
       "description": "Apprenez la rangée de chiffres",
       "steps": [
@@ -1599,7 +1592,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Caractères dans la rangée supérieure",
       "description": "Apprenez les caractères de la rangée supérieure",
       "steps": [
@@ -1792,7 +1785,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Caractères spéciaux",
       "description": "Apprenez quelques caractères spéciaux",
       "steps": [
@@ -1961,7 +1954,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Révision générale",
       "description": "Révision générale des mots",
       "steps": [
@@ -2076,7 +2069,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Lettres majuscules",
       "description": "Apprendre les lettres majuscules",
       "steps": [
@@ -2197,7 +2190,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Révision générale",
       "description": "Leçon de révision générale",
       "steps": [

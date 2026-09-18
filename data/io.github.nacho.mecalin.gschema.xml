@@ -26,6 +26,11 @@
       <summary>Use finger colors</summary>
       <description>Whether to use colors for keyboard keys and hand widget based on finger assignment</description>
     </key>
+    <key name="welcome-seen" type="b">
+      <default>false</default>
+      <summary>Welcome seen</summary>
+      <description>Whether the first-run welcome screen has been shown and dismissed</description>
+    </key>
 
     <child name="state" schema="io.github.nacho.mecalin.state"/>
   </schema>

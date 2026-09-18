@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="WelcomeView" parent="AdwNavigationPage">
+    <property name="tag">welcome</property>
+    <property name="title" translatable="yes">Welcome</property>
+    <property name="child">
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar">
+            <property name="show-title">false</property>
+          </object>
+        </child>
+        <property name="content">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="AdwCarousel" id="carousel">
+                <property name="vexpand">true</property>
+                <property name="hexpand">true</property>
+                <child>
+                  <object class="AdwStatusPage">
+                    <property name="vexpand">true</property>
+                    <property name="hexpand">true</property>
+                    <property name="icon-name">io.github.nacho.mecalin</property>
+                    <property name="title" translatable="yes">Welcome to Mecalin</property>
+                    <property name="description" translatable="yes">Your personal typing tutor. Learn to type quickly and accurately, one step at a time.</property>
+                    <style>
+                      <class name="welcome-slide"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwStatusPage">
+                    <property name="vexpand">true</property>
+                    <property name="hexpand">true</property>
+                    <property name="icon-name">input-keyboard-symbolic</property>
+                    <property name="title" translatable="yes">Learn Touch Typing</property>
+                    <property name="description" translatable="yes">Structured lessons guide you from the home row to the whole keyboard. An on-screen keyboard and hand guide show you which finger to use for every key.</property>
+                    <style>
+                      <class name="welcome-slide"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwStatusPage">
+                    <property name="vexpand">true</property>
+                    <property name="hexpand">true</property>
+                    <property name="icon-name">emblem-ok-symbolic</property>
+                    <property name="title" translatable="yes">Practice at Your Own Pace</property>
+                    <property name="description" translatable="yes">Take your time and practice regularly. Your progress is saved automatically, so you can always pick up where you left off.</property>
+                    <style>
+                      <class name="welcome-slide"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwCarouselIndicatorDots">
+                <property name="carousel">carousel</property>
+                <property name="margin-top">6</property>
+                <property name="margin-bottom">6</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="halign">center</property>
+                <property name="margin-top">12</property>
+                <property name="margin-bottom">36</property>
+                <child>
+                  <object class="GtkButton" id="continue_button">
+                    <property name="label" translatable="yes">_Continue</property>
+                    <property name="halign">center</property>
+                    <property name="use-underline">true</property>
+                    <style>
+                      <class name="pill"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton" id="get_started_button">
+                    <property name="label" translatable="yes">_Get Started</property>
+                    <property name="halign">center</property>
+                    <property name="use-underline">true</property>
+                    <property name="visible">false</property>
+                    <style>
+                      <class name="suggested-action"/>
+                      <class name="pill"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </property>
+  </template>
+</interface>

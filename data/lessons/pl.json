@@ -2,13 +2,6 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Witaj w Mecalin",
-      "description": "Witaj w Mecalin, Twoim tutorze nauki pisania! Ten kurs nauczy Cię pisać krok po kroku. Zaczniesz od głównego rzędu klawiszy i stopniowo nauczysz się wszystkich klawiszy na klawiaturze. Nie spiesz się, ćwicz regularnie, a szybko staniesz się ekspertem w pisaniu",
-      "steps": [],
-      "introduction": true
-    },
-    {
-      "id": 1,
       "title": "Pierwsza część rzędu podstawowego",
       "description": "Naucz się części rzędu podstawowego: A, S, D, K, L, ;",
       "steps": [
@@ -135,7 +128,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Rząd podstawowy",
       "description": "Naucz się klawiszy rzędu podstawowego: A, S, D, F, G, H, J, K, L, ;",
       "steps": [
@@ -316,7 +309,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Pierwsza część rzędu górnego",
       "description": "Naucz się klawiszy rzędu górnego: Q, W, E, I, O, P",
       "steps": [
@@ -455,7 +448,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Rząd górny",
       "description": "Naucz się klawiszy rzędu górnego: Q, W, E, R, T, Y, U, I, O, P",
       "steps": [
@@ -672,7 +665,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Pierwsza część rzędu dolnego",
       "description": "Naucz się części rzędu dolnego: Z, /, X, ., C, ,",
       "steps": [
@@ -787,7 +780,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Rząd dolny",
       "description": "Naucz się całego rzędu dolnego: Z, /, X, ., C, ,, V, M, B, N",
       "steps": [
@@ -1112,7 +1105,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Rząd cyfr",
       "description": "Naucz się rzędu cyfr",
       "steps": [
@@ -1455,7 +1448,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Znaki w górnym rzędzie",
       "description": "Naucz się znaków z górnego rzędu",
       "steps": [
@@ -1648,7 +1641,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Znaki specjalne",
       "description": "Naucz się niektórych znaków specjalnych",
       "steps": [
@@ -1842,7 +1835,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Przegląd ogólny",
       "description": "Ogólny przegląd słów",
       "steps": [
@@ -1957,7 +1950,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Wielkie litery",
       "description": "Nauka wielkich liter",
       "steps": [
@@ -2078,7 +2071,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Powtórka ogólna",
       "description": "Lekcja powtórki ogólnej",
       "steps": [

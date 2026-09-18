@@ -2,13 +2,6 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Welcome to Mecalin",
-      "description": "Welcome to Mecalin, your typing tutor! This course will teach you touch typing step by step. You'll start with the home row keys and gradually learn all the keys on the keyboard. Take your time, practice regularly, and you'll become a proficient typist in no time!",
-      "steps": [],
-      "introduction": true
-    },
-    {
-      "id": 1,
       "title": "First part of the home row",
       "description": "Learn part of the home row: A, S, D, K, L, ;",
       "steps": [
@@ -135,7 +128,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Home row",
       "description": "Learn the home row keys: A, S, D, F, G, H, J, K, L, ;",
       "steps": [
@@ -316,7 +309,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "First part of top row",
       "description": "Learn the top row keys: Q, W, E, I, O, P",
       "steps": [
@@ -455,7 +448,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Top row",
       "description": "Learn the top row keys: Q, W, E, R, T, Y, U, I, O, P",
       "steps": [
@@ -792,7 +785,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "First part of bottom row",
       "description": "Learn part of the bottom row: Z, /, X, ., C, ,",
       "steps": [
@@ -907,7 +900,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Bottom row",
       "description": "Learn the entire bottom row: Z, /, X, ., C, ,, V, M, B, N",
       "steps": [
@@ -1232,7 +1225,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Number row",
       "description": "Learn the number row",
       "steps": [
@@ -1575,7 +1568,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Characters in the Top Row",
       "description": "Learn the characters in the top row",
       "steps": [
@@ -1768,7 +1761,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Special Characters",
       "description": "Learn some of the special characters",
       "steps": [
@@ -1962,7 +1955,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "General Review",
       "description": "General review of words and punctuation",
       "steps": [
@@ -2076,7 +2069,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Capital Letters",
       "description": "Learn capital letters",
       "steps": [
@@ -2197,7 +2190,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "General Review",
       "description": "General review lesson",
       "steps": [

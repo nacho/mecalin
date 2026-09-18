@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 18:22+0200\n"
+"POT-Creation-Date: 2026-09-18 11:27+0200\n"
 "PO-Revision-Date: 2026-02-02 09:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
@@ -43,6 +43,14 @@ msgstr ""
 "Vous avez terminé toutes les leçons ! Continuez à vous entraîner pour "
 "améliorer votre frappe."
 
+#: resources/ui/course_completion_view.ui:21
+msgid "Keypunch"
+msgstr ""
+
+#: resources/ui/course_completion_view.ui:22
+msgid "Practice your typing speed"
+msgstr ""
+
 #: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
 msgid "Continue"
 msgstr "Continuer"
@@ -62,6 +70,56 @@ msgstr ""
 #: resources/ui/lessons_view.ui:25
 msgid "Main Menu"
 msgstr "Menu principal"
+
+#: resources/ui/welcome_view.ui:5
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: resources/ui/welcome_view.ui:25
+msgid "Welcome to Mecalin"
+msgstr "Bienvenue à Mecalin"
+
+#: resources/ui/welcome_view.ui:26
+msgid ""
+"Your personal typing tutor. Learn to type quickly and accurately, one step "
+"at a time."
+msgstr ""
+"Votre tuteur de dactylographie personnel. Apprenez à taper rapidement et "
+"avec précision, une étape à la fois."
+
+#: resources/ui/welcome_view.ui:37
+msgid "Learn Touch Typing"
+msgstr "Apprendre la dactylographie"
+
+#: resources/ui/welcome_view.ui:38
+msgid ""
+"Structured lessons guide you from the home row to the whole keyboard. An on-"
+"screen keyboard and hand guide show you which finger to use for every key."
+msgstr ""
+"Des leçons structurées vous guident de la rangée de base jusqu’à tout le "
+"clavier. Un clavier à l’écran et un guide des mains vous montrent quel doigt "
+"utiliser pour chaque touche."
+
+#: resources/ui/welcome_view.ui:49
+msgid "Practice at Your Own Pace"
+msgstr "Pratiquez à votre rythme"
+
+#: resources/ui/welcome_view.ui:50
+msgid ""
+"Take your time and practice regularly. Your progress is saved automatically, "
+"so you can always pick up where you left off."
+msgstr ""
+"Prenez votre temps et pratiquez régulièrement. Votre progression est "
+"enregistrée automatiquement, vous pouvez donc toujours reprendre là où vous "
+"vous êtes arrêté."
+
+#: resources/ui/welcome_view.ui:72
+msgid "_Continue"
+msgstr "_Continuer"
+
+#: resources/ui/welcome_view.ui:82
+msgid "_Get Started"
+msgstr "_Commencer"
 
 #: src/lessons_view.rs:69
 msgid "Your system keyboard layout isn’t supported yet — showing US English"

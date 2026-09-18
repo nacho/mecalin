@@ -240,20 +240,15 @@ impl LessonView {
             if let Ok(lesson) = lesson_boxed.try_borrow::<Lesson>() {
                 imp.window_title.set_title(&lesson.title);
 
-                if lesson.introduction {
-                    let subtitle = i18n_format!("Lesson {}", lesson.id);
-                    imp.window_title.set_subtitle(&subtitle);
-                } else {
-                    let current_step = self.current_step_index() as usize;
-                    let total_steps = lesson.steps.len();
-                    let subtitle = i18n_format!(
-                        "Lesson {}: Step {}/{}",
-                        lesson.id,
-                        current_step + 1,
-                        total_steps
-                    );
-                    imp.window_title.set_subtitle(&subtitle);
-                }
+                let current_step = self.current_step_index() as usize;
+                let total_steps = lesson.steps.len();
+                let subtitle = i18n_format!(
+                    "Lesson {}: Step {}/{}",
+                    lesson.id,
+                    current_step + 1,
+                    total_steps
+                );
+                imp.window_title.set_subtitle(&subtitle);
             }
         } else {
             imp.window_title.set_title("Lessons");
@@ -303,45 +298,38 @@ impl LessonView {
         self.set_current_step_index(0);
         imp.current_repetition.set(0);
 
-        if lesson.introduction {
-            // Introduction lesson - show description and continue button, hide everything else
-            imp.step_description.set_visible(false);
-            imp.continue_button.set_visible(true);
-            imp.text_container.set_visible(false);
-        } else {
-            // Regular lesson - handle first step
-            // Set the first step's text as target text
-            if let Some(first_step) = lesson.steps.first() {
-                if first_step.introduction {
+        // Handle first step
+        // Set the first step's text as target text
+        if let Some(first_step) = lesson.steps.first() {
+            if first_step.introduction {
+                imp.step_description.set_visible(true);
+                imp.step_description.set_text(
+                    first_step
+                        .description
+                        .as_deref()
+                        .unwrap_or(&first_step.text),
+                );
+                imp.continue_button.set_visible(true);
+                imp.text_container.set_visible(false);
+            } else {
+                imp.step_description.set_visible(false);
+                imp.continue_button.set_visible(false);
+                imp.text_container.set_visible(true);
+                imp.typing_row.set_target_text(&first_step.text);
+
+                // Show step description if available
+                if let Some(description) = &first_step.description {
                     imp.step_description.set_visible(true);
-                    imp.step_description.set_text(
-                        first_step
-                            .description
-                            .as_deref()
-                            .unwrap_or(&first_step.text),
-                    );
-                    imp.continue_button.set_visible(true);
-                    imp.text_container.set_visible(false);
-                } else {
-                    imp.step_description.set_visible(false);
-                    imp.continue_button.set_visible(false);
-                    imp.text_container.set_visible(true);
-                    imp.typing_row.set_target_text(&first_step.text);
-
-                    // Show step description if available
-                    if let Some(description) = &first_step.description {
-                        imp.step_description.set_visible(true);
-                        imp.step_description.set_text(description);
-                    }
-
-                    self.update_repetition_label();
-
-                    // Focus the text view for immediate typing
-                    imp.typing_row.grab_focus();
+                    imp.step_description.set_text(description);
                 }
 
-                self.update_keyboard_keys(&first_step.text);
+                self.update_repetition_label();
+
+                // Focus the text view for immediate typing
+                imp.typing_row.grab_focus();
             }
+
+            self.update_keyboard_keys(&first_step.text);
         }
 
         imp.typing_row.clear();
@@ -493,52 +481,6 @@ impl LessonView {
 
     fn advance_to_next_step(&self) {
         let imp = self.imp();
-
-        // Check if this is an introduction lesson
-        let is_introduction_lesson = {
-            let current_lesson_boxed = imp.current_lesson.borrow();
-            if let Some(boxed) = current_lesson_boxed.as_ref() {
-                if let Ok(lesson) = boxed.try_borrow::<Lesson>() {
-                    lesson.introduction
-                } else {
-                    false
-                }
-            } else {
-                false
-            }
-        };
-
-        if is_introduction_lesson {
-            // Introduction lesson completed - try to load next lesson
-            let current_lesson_id = {
-                let current_lesson_boxed = imp.current_lesson.borrow();
-                if let Some(boxed) = current_lesson_boxed.as_ref() {
-                    if let Ok(lesson) = boxed.try_borrow::<Lesson>() {
-                        lesson.id
-                    } else {
-                        return;
-                    }
-                } else {
-                    return;
-                }
-            };
-
-            let next_lesson_option = {
-                let course = imp.course.borrow();
-                course
-                    .as_ref()
-                    .and_then(|c| c.get_lesson(current_lesson_id + 1).cloned())
-            };
-
-            if let Some(next_lesson) = next_lesson_option {
-                // Load next lesson
-                self.set_lesson(&next_lesson);
-            } else {
-                // All lessons completed - show completion view
-                self.show_completion_view();
-            }
-            return;
-        }
 
         // Get the current lesson info without borrowing
         let (current_lesson_id, current_step, total_steps) = {

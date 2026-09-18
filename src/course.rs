@@ -22,8 +22,6 @@ pub struct Lesson {
     pub title: String,
     pub description: String,
     pub steps: Vec<LessonStep>,
-    #[serde(default)]
-    pub introduction: bool,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -115,9 +113,15 @@ mod tests {
     #[test]
     fn test_get_lesson_existing() {
         let course = Course::new_with_language("us").unwrap();
-        let lesson = course.get_lesson(1);
+        // Lessons are now base-0: the first real lesson has id 0.
+        let lesson = course.get_lesson(0);
         assert!(lesson.is_some());
-        assert_eq!(lesson.unwrap().id, 1);
+        let lesson = lesson.unwrap();
+        assert_eq!(lesson.id, 0);
+        assert!(
+            !lesson.steps.is_empty(),
+            "first lesson must be a real lesson with steps"
+        );
     }
 
     #[test]
@@ -130,10 +134,33 @@ mod tests {
     #[test]
     fn test_get_next_lesson() {
         let course = Course::new_with_language("us").unwrap();
-        let first_lesson = course.get_lesson(1).unwrap();
+        let first_lesson = course.get_lesson(0).unwrap();
         let next_lesson = course.get_next_lesson(first_lesson.id);
         assert!(next_lesson.is_some());
-        assert_eq!(next_lesson.unwrap().id, 2);
+        assert_eq!(next_lesson.unwrap().id, 1);
+    }
+
+    /// All supported languages must have lessons numbered contiguously from 0,
+    /// with no empty (welcome-style) lessons remaining.
+    #[test]
+    fn test_all_languages_base_zero_contiguous_no_empty() {
+        for lang in ["us", "es", "de", "fr", "gl", "it", "pl", "pt", "pt_br"] {
+            let course = Course::new_with_language(lang).unwrap();
+            let lessons = course.get_lessons();
+            assert!(!lessons.is_empty(), "{lang}: no lessons loaded");
+            for (index, lesson) in lessons.iter().enumerate() {
+                assert_eq!(
+                    lesson.id, index as u32,
+                    "{lang}: lesson at position {index} has id {}",
+                    lesson.id
+                );
+                assert!(
+                    !lesson.steps.is_empty(),
+                    "{lang}: lesson {} has no steps",
+                    lesson.id
+                );
+            }
+        }
     }
 
     #[test]

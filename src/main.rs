@@ -7,6 +7,7 @@ mod lesson_view;
 mod lessons_view;
 mod preferences_dialog;
 mod typing_row;
+mod welcome_view;
 
 mod config {
     include!(concat!(env!("OUT_DIR"), "/config.rs"));
