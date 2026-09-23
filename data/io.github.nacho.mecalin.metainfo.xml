@@ -105,15 +105,22 @@
   </screenshots>
   
   <releases>
-    <release version="1.4.0" date="2026-09-15">
+    <release version="2.0.0" date="2026-09-23">
       <description>
         <ul>
           <li>Focused Mecalin on typing lessons: removed the speed test and the falling keys and scrolling lanes games</li>
           <li>The app now opens directly into the lessons</li>
-          <li>Added a lessons welcome page to browse and pick a lesson</li>
+          <li>Added a lessons welcome page to browse, pick, and resume the current lesson</li>
+          <li>Added a first-run welcome carousel and restructured the lessons</li>
           <li>The welcome page shows the active keyboard layout and warns when the system layout isn't supported</li>
+          <li>Listed the supported languages in the app metadata</li>
+          <li>Added a link to the Keypunch app from the course completion view</li>
           <li>Moved Preferences and About into a primary menu, with standard keyboard shortcuts (Ctrl+, and F10)</li>
-          <li>Refreshed the on-screen keyboard styling to use the system font with rounded keys</li>
+          <li>Moved lesson selection out of preferences and onto the welcome page</li>
+          <li>Switched to Adwaita AboutDialog and PreferencesDialog</li>
+          <li>Refreshed the on-screen keyboard styling to use the system font with rounded keys and refined borders</li>
+          <li>Completed the UI translations across all supported languages</li>
+          <li>Fixed the keyboard and hand widgets not redrawing when the finger-colors setting changes</li>
         </ul>
       </description>
     </release>
