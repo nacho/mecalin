@@ -160,3 +160,22 @@ Full documentation is in `.agents/summary/`. Start with `index.md` for a guided 
 - Focus on GNOME HIG compliance for UI suggestions
 - Keep code concise and maintainable
 - Always remind about running `cargo fmt` before commits
+
+### GNOME Circle Review Notes (iteration 1)
+
+- **No Preferences dialog**: `src/preferences_dialog.rs` was removed. The `use-finger-colors`
+  setting is now toggled from a `view-more-symbolic` menu ("Highlight Finger Mapping") in the
+  lesson view header (`lesson.use-finger-colors` action, wired in `lesson_view.rs`). The primary
+  menu (lessons overview) now only contains About; there is no `app.preferences` action or
+  `Ctrl+,` accelerator.
+- **Hand/keyboard always visible**: the `show-hand-widget` and `show-keyboard-widget` GSettings
+  keys and their bindings in `lesson_view.rs` are intentionally KEPT (both default `true`) so they
+  remain adjustable via the command line (`gsettings set io.github.nacho.mecalin show-hand-widget
+  false`), but there is no in-app UI for them.
+- **Desktop-only**: `metainfo.xml` declares `<requires><display_length compare="ge">1000</…>` and
+  `<recommends><control>keyboard/pointing</…>`; the window has a 1000x900 minimum size.
+- **Devel Flatpak manifest**: `build-aux/io.github.nacho.mecalin.Devel.json` builds the local tree
+  (`type: dir, path: ..`) for GNOME Builder, modeled on Keypunch's convention.
+- **Known follow-up**: lesson 7/8 practice `text` bodies still use ISO/Spanish-layout shifted
+  symbols in several languages and need a layout-correct rewrite (verified per keyboard layout).
+  The lesson list titles/subtitles are correct; only the practice bodies remain.
