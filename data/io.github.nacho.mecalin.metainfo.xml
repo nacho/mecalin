@@ -97,6 +97,15 @@
   
   <content_rating type="oars-1.1" />
   
+  <requires>
+    <display_length compare="ge">1000</display_length>
+  </requires>
+  
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+  
   <screenshots>
     <screenshot type="default">
       <caption>Typing lesson</caption>
