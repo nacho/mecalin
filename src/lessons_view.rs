@@ -109,7 +109,7 @@ impl LessonsView {
         if let Some(lesson) = course.get_lesson(current_lesson) {
             let row = adw::ActionRow::builder()
                 .title(gettext("Continue"))
-                .subtitle(&lesson.title)
+                .subtitle(glib::markup_escape_text(&lesson.title))
                 .activatable(true)
                 .build();
             row.add_suffix(&gtk::Image::from_icon_name("go-next-symbolic"));
@@ -128,8 +128,8 @@ impl LessonsView {
         // Full lesson list, with the current lesson marked.
         for lesson in course.get_lessons() {
             let row = adw::ActionRow::builder()
-                .title(&lesson.title)
-                .subtitle(&lesson.description)
+                .title(glib::markup_escape_text(&lesson.title))
+                .subtitle(glib::markup_escape_text(&lesson.description))
                 .activatable(true)
                 .build();
 
