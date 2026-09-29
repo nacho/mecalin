@@ -2,8 +2,8 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Primera parte de la fila base",
-      "description": "Aprende parte de la fila base: A, S, D, K, L, Ñ",
+      "title": "Fila base 1",
+      "description": "A S D K L Ñ",
       "steps": [
         {
           "id": 0,
@@ -129,8 +129,8 @@
     },
     {
       "id": 1,
-      "title": "Fila base",
-      "description": "Aprende las teclas de la fila base: A, S, D, F, G, H, J, K, L, Ñ",
+      "title": "Fila base 2",
+      "description": "A S D F G H J K L Ñ",
       "steps": [
         {
           "id": 0,
@@ -310,8 +310,8 @@
     },
     {
       "id": 2,
-      "title": "Primera parte de la fila dominante",
-      "description": "Aprende las teclas de la fila dominante: Q, W, E, I, O, P",
+      "title": "Fila dominante 1",
+      "description": "Q W E I O P",
       "steps": [
         {
           "id": 0,
@@ -449,8 +449,8 @@
     },
     {
       "id": 3,
-      "title": "Fila dominante",
-      "description": "Aprende las teclas de la fila dominante: Q, W, E, R, T, Y, I, O, P",
+      "title": "Fila dominante 2",
+      "description": "Q W E R T Y I O P",
       "steps": [
         {
           "id": 0,
@@ -786,8 +786,8 @@
     },
     {
       "id": 4,
-      "title": "Primera parte de la fila inferior",
-      "description": "Aprende parte de la fila inferior: Z, -, X, ., C, ,",
+      "title": "Fila inferior 1",
+      "description": "Z - X . C ,",
       "steps": [
         {
           "id": 0,
@@ -901,8 +901,8 @@
     },
     {
       "id": 5,
-      "title": "Fila inferior",
-      "description": "Aprende toda la fila inferior: Z, -, X, ., C, ,, V, M, B, N",
+      "title": "Fila inferior 2",
+      "description": "Z - X . C , V M B N",
       "steps": [
         {
           "id": 0,
@@ -1251,7 +1251,7 @@
     {
       "id": 6,
       "title": "Fila de números",
-      "description": "Aprende la fila de números",
+      "description": "1 2 3 4 5 6 7 8 9 0",
       "steps": [
         {
           "id": 0,
@@ -1594,7 +1594,7 @@
     {
       "id": 7,
       "title": "Caracteres en la fila superior",
-      "description": "Aprende los caracteres de la fila superior",
+      "description": "! \" · $ % & / ( ) =",
       "steps": [
         {
           "id": 0,
@@ -1787,7 +1787,7 @@
     {
       "id": 8,
       "title": "Caracteres especiales",
-      "description": "Aprende algunos de los caracteres especiales",
+      "description": "¡ ¿ ' ? < > º ª",
       "steps": [
         {
           "id": 0,
@@ -1955,8 +1955,8 @@
     },
     {
       "id": 9,
-      "title": "Repaso general",
-      "description": "Repaso general de palabras",
+      "title": "Repaso general 1",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2071,7 +2071,7 @@
     {
       "id": 10,
       "title": "Letras mayúsculas",
-      "description": "Aprender letras mayúsculas",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2191,8 +2191,8 @@
     },
     {
       "id": 11,
-      "title": "Repaso general",
-      "description": "Lección de repaso general",
+      "title": "Repaso general 2",
+      "description": "",
       "steps": [
         {
           "id": 0,

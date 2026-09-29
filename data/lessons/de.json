@@ -2,8 +2,8 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Erster Teil der Grundreihe",
-      "description": "Lerne einen Teil der Grundreihe: A, S, D, K, L, Ö",
+      "title": "Grundreihe 1",
+      "description": "A S D K L Ö",
       "steps": [
         {
           "id": 0,
@@ -129,8 +129,8 @@
     },
     {
       "id": 1,
-      "title": "Grundreihe",
-      "description": "Lerne die Tasten der Grundreihe: A, S, D, F, G, H, J, K, L, Ö, Ä, #",
+      "title": "Grundreihe 2",
+      "description": "A S D F G H J K L Ö Ä #",
       "steps": [
         {
           "id": 0,
@@ -310,8 +310,8 @@
     },
     {
       "id": 2,
-      "title": "Erster Teil der oberen Reihe",
-      "description": "Lerne die Tasten der oberen Reihe: Q, W, E, I, O, P",
+      "title": "Obere Reihe 1",
+      "description": "Q W E I O P",
       "steps": [
         {
           "id": 0,
@@ -449,8 +449,8 @@
     },
     {
       "id": 3,
-      "title": "Obere Reihe",
-      "description": "Lerne die Tasten der oberen Reihe: Q, W, E, R, T, Z, U, I, O, P, Ü, +",
+      "title": "Obere Reihe 2",
+      "description": "Q W E R T Z U I O P Ü +",
       "steps": [
         {
           "id": 0,
@@ -786,8 +786,8 @@
     },
     {
       "id": 4,
-      "title": "Erster Teil der unteren Reihe",
-      "description": "Lerne einen Teil der unteren Reihe: Y, -, X, ., C, ,",
+      "title": "Untere Reihe 1",
+      "description": "Y - X . C ,",
       "steps": [
         {
           "id": 0,
@@ -901,8 +901,8 @@
     },
     {
       "id": 5,
-      "title": "Untere Reihe",
-      "description": "Lerne die gesamte untere Reihe: Y, X, C, V, B, N, M, ',', '.', -",
+      "title": "Untere Reihe 2",
+      "description": "Y X C V B N M , . -",
       "steps": [
         {
           "id": 0,
@@ -1227,7 +1227,7 @@
     {
       "id": 6,
       "title": "Zahlenreihe",
-      "description": "Lerne die Zahlenreihe",
+      "description": "1 2 3 4 5 6 7 8 9 0",
       "steps": [
         {
           "id": 0,
@@ -1570,7 +1570,7 @@
     {
       "id": 7,
       "title": "Zeichen der Zahlenreihe",
-      "description": "Lerne die Zeichen der Zahlenreihe",
+      "description": "! \" § $ % & / ( ) =",
       "steps": [
         {
           "id": 0,
@@ -1763,7 +1763,7 @@
     {
       "id": 8,
       "title": "Sonderzeichen",
-      "description": "Lerne einige der Sonderzeichen",
+      "description": "ß ? + * < > # ' ´ `",
       "steps": [
         {
           "id": 0,
@@ -1956,8 +1956,8 @@
     },
     {
       "id": 9,
-      "title": "Allgemeine Wiederholung",
-      "description": "Allgemeine Wiederholung von Wörtern und Satzzeichen",
+      "title": "Allgemeine Wiederholung 1",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2071,7 +2071,7 @@
     {
       "id": 10,
       "title": "Großbuchstaben",
-      "description": "Lerne die Großbuchstaben",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2191,8 +2191,8 @@
     },
     {
       "id": 11,
-      "title": "Allgemeine Wiederholung",
-      "description": "Allgemeine Wiederholungslektion",
+      "title": "Allgemeine Wiederholung 2",
+      "description": "",
       "steps": [
         {
           "id": 0,

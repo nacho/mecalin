@@ -2,8 +2,8 @@
   "lessons": [
     {
       "id": 0,
-      "title": "First part of the home row",
-      "description": "Learn part of the home row: A, S, D, K, L, ;",
+      "title": "Home Row 1",
+      "description": "A S D K L ;",
       "steps": [
         {
           "id": 0,
@@ -129,8 +129,8 @@
     },
     {
       "id": 1,
-      "title": "Home row",
-      "description": "Learn the home row keys: A, S, D, F, G, H, J, K, L, ;",
+      "title": "Home Row 2",
+      "description": "A S D F G H J K L ;",
       "steps": [
         {
           "id": 0,
@@ -310,8 +310,8 @@
     },
     {
       "id": 2,
-      "title": "First part of top row",
-      "description": "Learn the top row keys: Q, W, E, I, O, P",
+      "title": "Top Row 1",
+      "description": "Q W E I O P",
       "steps": [
         {
           "id": 0,
@@ -449,8 +449,8 @@
     },
     {
       "id": 3,
-      "title": "Top row",
-      "description": "Learn the top row keys: Q, W, E, R, T, Y, U, I, O, P",
+      "title": "Top Row 2",
+      "description": "Q W E R T Y U I O P",
       "steps": [
         {
           "id": 0,
@@ -786,8 +786,8 @@
     },
     {
       "id": 4,
-      "title": "First part of bottom row",
-      "description": "Learn part of the bottom row: Z, /, X, ., C, ,",
+      "title": "Bottom Row 1",
+      "description": "Z X C , . /",
       "steps": [
         {
           "id": 0,
@@ -901,8 +901,8 @@
     },
     {
       "id": 5,
-      "title": "Bottom row",
-      "description": "Learn the entire bottom row: Z, /, X, ., C, ,, V, M, B, N",
+      "title": "Bottom Row 2",
+      "description": "Z X C V B N M , . /",
       "steps": [
         {
           "id": 0,
@@ -1226,8 +1226,8 @@
     },
     {
       "id": 6,
-      "title": "Number row",
-      "description": "Learn the number row",
+      "title": "Number Row",
+      "description": "1 2 3 4 5 6 7 8 9 0",
       "steps": [
         {
           "id": 0,
@@ -1569,8 +1569,8 @@
     },
     {
       "id": 7,
-      "title": "Characters in the Top Row",
-      "description": "Learn the characters in the top row",
+      "title": "Top Row Characters",
+      "description": "! @ # $ % ^ & * ( )",
       "steps": [
         {
           "id": 0,
@@ -1763,7 +1763,7 @@
     {
       "id": 8,
       "title": "Special Characters",
-      "description": "Learn some of the special characters",
+      "description": "- _ = + ` ~ [ ] < >",
       "steps": [
         {
           "id": 0,
@@ -1956,8 +1956,8 @@
     },
     {
       "id": 9,
-      "title": "General Review",
-      "description": "General review of words and punctuation",
+      "title": "General Review 1",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2071,7 +2071,7 @@
     {
       "id": 10,
       "title": "Capital Letters",
-      "description": "Learn capital letters",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2191,8 +2191,8 @@
     },
     {
       "id": 11,
-      "title": "General Review",
-      "description": "General review lesson",
+      "title": "General Review 2",
+      "description": "",
       "steps": [
         {
           "id": 0,

@@ -2,8 +2,8 @@
   "lessons": [
     {
       "id": 0,
-      "title": "Prima parte della riga base",
-      "description": "Impara parte della riga base: A, S, D, K, L, Ò",
+      "title": "Riga base 1",
+      "description": "A S D K L Ò",
       "steps": [
         {
           "id": 0,
@@ -129,8 +129,8 @@
     },
     {
       "id": 1,
-      "title": "Riga base",
-      "description": "Impara i tasti della riga base: A, S, D, F, G, H, J, K, L, Ò",
+      "title": "Riga base 2",
+      "description": "A S D F G H J K L Ò",
       "steps": [
         {
           "id": 0,
@@ -310,8 +310,8 @@
     },
     {
       "id": 2,
-      "title": "Prima parte riga superiore",
-      "description": "Impara i tasti della riga superiore: Q, W, E, I, O, P",
+      "title": "Riga superiore 1",
+      "description": "Q W E I O P",
       "steps": [
         {
           "id": 0,
@@ -449,8 +449,8 @@
     },
     {
       "id": 3,
-      "title": "Riga superiore",
-      "description": "Impara i tasti della riga superiore: Q, W, E, R, T, Y, U, I, O, P",
+      "title": "Riga superiore 2",
+      "description": "Q W E R T Y U I O P",
       "steps": [
         {
           "id": 0,
@@ -786,8 +786,8 @@
     },
     {
       "id": 4,
-      "title": "Prima parte della riga inferiore",
-      "description": "Impara parte della riga inferiore: Z, -, X, ., C, ,",
+      "title": "Riga inferiore 1",
+      "description": "Z - X . C ,",
       "steps": [
         {
           "id": 0,
@@ -901,8 +901,8 @@
     },
     {
       "id": 5,
-      "title": "Riga inferiore",
-      "description": "Impara tutta la riga inferiore: Z, -, X, ., C, ,, V, M, B, N",
+      "title": "Riga inferiore 2",
+      "description": "Z - X . C , V M B N",
       "steps": [
         {
           "id": 0,
@@ -1227,7 +1227,7 @@
     {
       "id": 6,
       "title": "Riga dei numeri",
-      "description": "Impara la riga dei numeri",
+      "description": "1 2 3 4 5 6 7 8 9 0",
       "steps": [
         {
           "id": 0,
@@ -1570,7 +1570,7 @@
     {
       "id": 7,
       "title": "Caratteri nella riga superiore",
-      "description": "Impara i caratteri della riga superiore",
+      "description": "! \" £ $ % & / ( ) =",
       "steps": [
         {
           "id": 0,
@@ -1763,7 +1763,7 @@
     {
       "id": 8,
       "title": "Caratteri Speciali",
-      "description": "Impara alcuni dei caratteri speciali",
+      "description": "' ì ? ^ < > | \\",
       "steps": [
         {
           "id": 0,
@@ -1956,8 +1956,8 @@
     },
     {
       "id": 9,
-      "title": "Ripasso generale",
-      "description": "Ripasso generale delle parole",
+      "title": "Ripasso generale 1",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2072,7 +2072,7 @@
     {
       "id": 10,
       "title": "Lettere maiuscole",
-      "description": "Imparare le lettere maiuscole",
+      "description": "",
       "steps": [
         {
           "id": 0,
@@ -2192,8 +2192,8 @@
     },
     {
       "id": 11,
-      "title": "Ripasso generale",
-      "description": "Lezione di ripasso generale",
+      "title": "Ripasso generale 2",
+      "description": "",
       "steps": [
         {
           "id": 0,
