@@ -1460,97 +1460,97 @@
         },
         {
           "id": 1,
-          "text": "!= != !=",
-          "description": "Wciskając małym palcem prawej ręki SHIFT naciśnij lewym małym palcem '!' i odwrotnie '='",
+          "text": "!) !) !)",
+          "description": "Wciskając małym palcem prawej ręki SHIFT naciśnij lewym małym palcem '!' i prawym małym palcem ')'",
           "repetitions": 2
         },
         {
           "id": 2,
-          "text": "=! =! =!",
-          "description": "Wciskając małym palcem prawej ręki SHIFT naciśnij lewym małym palcem '!' i odwrotnie '='",
+          "text": ")! )! )!",
+          "description": "Wciskając małym palcem prawej ręki SHIFT naciśnij lewym małym palcem '!' i prawym małym palcem ')'",
           "repetitions": 2
         },
         {
           "id": 3,
-          "text": "\") \") \")",
-          "description": "Kontynuuj naciskanie odpowiednim małym palcem klawisza SHIFT i palcem serdecznym lewej ręki klawisza '\"' oraz palcem serdecznym prawej ręki ')'",
+          "text": "@( @( @(",
+          "description": "Kontynuuj naciskanie odpowiednim małym palcem klawisza SHIFT i palcem serdecznym lewej ręki klawisza '@' oraz palcem serdecznym prawej ręki '('",
           "repetitions": 2
         },
         {
           "id": 4,
-          "text": "((((",
-          "description": "Następnie naciśnij palcem środkowym prawej ręki '('. Nie zapomnij nacisnąć klawisza SHIFT lewą ręką",
+          "text": "#*#*",
+          "description": "Następnie naciśnij palcem środkowym lewej ręki '#' i palcem środkowym prawej ręki '*'. Nie zapomnij nacisnąć klawisza SHIFT przeciwną ręką",
           "repetitions": 2
         },
         {
           "id": 5,
-          "text": "=\")(",
-          "description": "Następnie naciśnij palcem środkowym prawej ręki '('. Nie zapomnij nacisnąć klawisza SHIFT lewą ręką",
+          "text": "@(#*",
+          "description": "Następnie naciśnij palcem środkowym lewej ręki '#' i palcem środkowym prawej ręki '*'. Nie zapomnij nacisnąć klawisza SHIFT przeciwną ręką",
           "repetitions": 2
         },
         {
           "id": 6,
-          "text": "!$% /&()",
-          "description": "Teraz przećwiczymy pozostałe znaki; naciśnij palcem wskazującym lewej ręki '$' i '%', oraz palcem wskazującym prawej ręki '/' i '&'",
+          "text": "!$% ^&()",
+          "description": "Teraz przećwiczymy pozostałe znaki; naciśnij palcem wskazującym lewej ręki '$' i '%', oraz palcem wskazującym prawej ręki '^' i '&'",
           "repetitions": 2
         },
         {
           "id": 7,
-          "text": "!)($&%/",
-          "description": "Teraz przećwiczymy pozostałe znaki; naciśnij palcem wskazującym lewej ręki '$' i '%', oraz palcem wskazującym prawej ręki '/' i '&'",
+          "text": "!)(@&%^",
+          "description": "Teraz przećwiczymy pozostałe znaki; naciśnij palcem wskazującym lewej ręki '$' i '%', oraz palcem wskazującym prawej ręki '^' i '&'",
           "repetitions": 2
         },
         {
           "id": 8,
-          "text": "!% /)",
-          "description": "Teraz przećwiczymy pozostałe znaki; naciśnij palcem wskazującym lewej ręki '$' i '%', oraz palcem wskazującym prawej ręki '/' i '&'",
+          "text": "!% ^)",
+          "description": "Teraz przećwiczymy pozostałe znaki; naciśnij palcem wskazującym lewej ręki '$' i '%', oraz palcem wskazującym prawej ręki '^' i '&'",
           "repetitions": 2
         },
         {
           "id": 9,
-          "text": "!/&($)%",
+          "text": "!^&(@)%",
           "description": "Pamiętaj, że musisz naciskać klawisze SHIFT odpowiednim małym palcem każdej ręki",
           "repetitions": 2
         },
         {
           "id": 10,
-          "text": ")!(&$/%",
+          "text": ")!(&@^%",
           "description": "Pamiętaj, że musisz naciskać klawisze SHIFT odpowiednim małym palcem każdej ręki",
           "repetitions": 2
         },
         {
           "id": 11,
-          "text": "/%&$()!",
+          "text": "^%&$()!",
           "description": "Pamiętaj, że musisz naciskać klawisze SHIFT odpowiednim małym palcem każdej ręki",
           "repetitions": 2
         },
         {
           "id": 12,
-          "text": "!/&$(%)",
+          "text": "!^&$(%)",
           "description": "Palce zawsze powinny wracać do linii bazowej",
           "repetitions": 2
         },
         {
           "id": 13,
-          "text": ")%($&/!",
+          "text": ")%(@&^!",
           "description": "Palce zawsze powinny wracać do linii bazowej",
           "repetitions": 2
         },
         {
           "id": 14,
           "text": "#",
-          "description": "Aby użyć '#' musimy nacisnąć ten klawisz palcem środkowym lewej ręki i nacisnąć ALTGR palcem środkowym prawej ręki",
+          "description": "Aby użyć '#' naciskamy ten klawisz palcem środkowym lewej ręki, trzymając SHIFT małym palcem prawej ręki",
           "repetitions": 1
         },
         {
           "id": 15,
-          "text": ")(&%$\"!",
+          "text": ")(&%$@!",
           "description": "Nie zapomnij nacisnąć SHIFT gdy to konieczne",
           "repetitions": 2
         },
         {
           "id": 16,
-          "text": "asd#f$g% h/j&kl(ñ)",
+          "text": "asd#f$g% h^j&kl(;)",
           "description": "Teraz będziemy ćwiczyć również z literami",
           "repetitions": 1
         },
@@ -1562,31 +1562,31 @@
         },
         {
           "id": 18,
-          "text": "y)u(i*o&p/",
+          "text": "y)u(i*o&p^",
           "description": "Teraz będziemy ćwiczyć również z literami",
           "repetitions": 2
         },
         {
           "id": 19,
-          "text": "z)x(c*v&b/ nm#.$´%",
+          "text": "z)x(c*v&b^ nm#.$?%",
           "description": "Teraz będziemy ćwiczyć również z literami",
           "repetitions": 2
         },
         {
           "id": 20,
-          "text": "q/a&z( w)sx e#$c%",
+          "text": "q^a&z( w)sx e#$c%",
           "description": "Pamiętaj, że aby nacisnąć znaki z linii cyfr musisz przytrzymać klawisz SHIFT jednocześnie",
           "repetitions": 2
         },
         {
           "id": 21,
-          "text": "pñ´# o$l%./ i%k$,*",
+          "text": "p;?# o$l%./ i%k$,*",
           "description": "Pamiętaj, że aby nacisnąć znaki z linii cyfr musisz przytrzymać klawisz SHIFT jednocześnie",
           "repetitions": 2
         },
         {
           "id": 22,
-          "text": "r)f(v* ujm# t$g%b/",
+          "text": "r)f(v* ujm# t$g%b^",
           "description": "Pamiętaj, że aby nacisnąć znaki z linii cyfr musisz przytrzymać klawisz SHIFT jednocześnie",
           "repetitions": 2
         },
@@ -1598,37 +1598,37 @@
         },
         {
           "id": 24,
-          "text": "1)2(3=4&5/ 098#7$6%",
+          "text": "1)2(3*4&5^ 098#7$6%",
           "description": "Następnie przećwiczymy wszystkie znaki z górnej linii",
           "repetitions": 2
         },
         {
           "id": 25,
-          "text": "09#8$7%6 )1(2=3&4/5",
+          "text": "09#8$7%6 )1(2*3&4^5",
           "description": "Następnie przećwiczymy wszystkie znaki z górnej linii",
           "repetitions": 2
         },
         {
           "id": 26,
-          "text": "6)7(8=9&0/ 543#2$1%",
+          "text": "6)7(8*9&0^ 543#2$1%",
           "description": "Następnie przećwiczymy wszystkie znaki z górnej linii",
           "repetitions": 2
         },
         {
           "id": 27,
-          "text": "zx#c )´(.*, $v%b/n&m",
+          "text": "zx#c )?(.*, $v%b^n&m",
           "description": "Nie bądź niecierpliwy. Szybkość nabędziesz poprzez praktykę. Ważne jest, aby w każdym momencie wiedzieć, który palec odpowiada któremu klawiszowi",
           "repetitions": 2
         },
         {
           "id": 28,
-          "text": "as# )ñ(l=k $f%g/h&j",
+          "text": "as# );(l*k $f%g^h&j",
           "description": "Nie bądź niecierpliwy. Szybkość nabędziesz poprzez praktykę. Ważne jest, aby w każdym momencie wiedzieć, który palec odpowiada któremu klawiszowi",
           "repetitions": 2
         },
         {
           "id": 29,
-          "text": "qw#e )p(o=i $r%t/y&u",
+          "text": "qw#e )p(o*i $r%t^y&u",
           "description": "Nie bądź niecierpliwy. Szybkość nabędziesz poprzez praktykę. Ważne jest, aby w każdym momencie wiedzieć, który palec odpowiada któremu klawiszowi",
           "repetitions": 2
         },
