@@ -2,8 +2,10 @@
 <interface>
   <template class="MecalinWindow" parent="AdwApplicationWindow">
     <property name="title">Mecalin</property>
-    <property name="default-width">800</property>
-    <property name="default-height">600</property>
+    <property name="width-request">1000</property>
+    <property name="height-request">900</property>
+    <property name="default-width">1000</property>
+    <property name="default-height">900</property>
     <property name="content">
       <object class="AdwNavigationView" id="navigation_view">
         <child>
