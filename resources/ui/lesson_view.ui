@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
+  <menu id="lesson_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Highlight Finger Mapping</attribute>
+        <attribute name="action">lesson.use-finger-colors</attribute>
+      </item>
+    </section>
+  </menu>
   <template class="LessonView" parent="AdwNavigationPage">
     <property name="tag">lessons</property>
     <property name="title">Lessons</property>
@@ -12,6 +20,13 @@
                 <property name="title">Lessons</property>
               </object>
             </property>
+            <child type="end">
+              <object class="GtkMenuButton" id="lesson_menu_button">
+                <property name="icon-name">view-more-symbolic</property>
+                <property name="tooltip-text" translatable="yes">View Options</property>
+                <property name="menu-model">lesson_menu</property>
+              </object>
+            </child>
           </object>
         </child>
         <property name="content">

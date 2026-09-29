@@ -5,7 +5,6 @@ mod hand_widget;
 mod keyboard_widget;
 mod lesson_view;
 mod lessons_view;
-mod preferences_dialog;
 mod typing_row;
 mod welcome_view;
 
