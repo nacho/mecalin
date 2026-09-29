@@ -1594,7 +1594,7 @@
     {
       "id": 7,
       "title": "Caractères dans la rangée supérieure",
-      "description": "! @ # $ % ^ & * ( )",
+      "description": "& é \" ' ( - è _ ç à",
       "steps": [
         {
           "id": 0,
@@ -1787,7 +1787,7 @@
     {
       "id": 8,
       "title": "Caractères spéciaux",
-      "description": "- _ = + ` ~ [ ] < >",
+      "description": ") ° ^ ; : $ ² *",
       "steps": [
         {
           "id": 0,
