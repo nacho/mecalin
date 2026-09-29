@@ -27,7 +27,7 @@ mod imp {
         #[template_child]
         pub step_description: TemplateChild<gtk::Label>,
         #[template_child]
-        pub continue_button: TemplateChild<gtk::Button>,
+        pub start_lesson_button: TemplateChild<gtk::Button>,
         #[template_child]
         pub text_container: TemplateChild<gtk::Box>,
         #[template_child]
@@ -92,9 +92,9 @@ mod imp {
 
 impl imp::LessonView {
     fn setup_signals(&self) {
-        // Setup continue button for introduction steps
+        // The Start Lesson button advances past introduction steps.
         let lesson_view_weak = self.obj().downgrade();
-        self.continue_button.connect_clicked(move |_| {
+        self.start_lesson_button.connect_clicked(move |_| {
             if let Some(lesson_view) = lesson_view_weak.upgrade() {
                 lesson_view.advance_to_next_step();
             }
@@ -315,11 +315,11 @@ impl LessonView {
                         .as_deref()
                         .unwrap_or(&first_step.text),
                 );
-                imp.continue_button.set_visible(true);
+                imp.start_lesson_button.set_visible(true);
                 imp.text_container.set_visible(false);
             } else {
                 imp.step_description.set_visible(false);
-                imp.continue_button.set_visible(false);
+                imp.start_lesson_button.set_visible(false);
                 imp.text_container.set_visible(true);
                 imp.typing_row.set_target_text(&first_step.text);
 
@@ -386,7 +386,7 @@ impl LessonView {
                 imp.step_description.set_visible(true);
                 imp.step_description
                     .set_text(step.description.as_deref().unwrap_or(&step.text));
-                imp.continue_button.set_visible(true);
+                imp.start_lesson_button.set_visible(true);
                 imp.text_container.set_visible(false);
             } else {
                 // Regular step - show description if available, show text views
@@ -396,7 +396,7 @@ impl LessonView {
                 } else {
                     imp.step_description.set_visible(false);
                 }
-                imp.continue_button.set_visible(false);
+                imp.start_lesson_button.set_visible(false);
                 imp.text_container.set_visible(true);
                 imp.typing_row.set_target_text(&step.text);
                 imp.typing_row.clear();
