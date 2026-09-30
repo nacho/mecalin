@@ -1,5 +1,5 @@
-project('mecalin', 'rust',
-  version: '2.0.0',
+project('teclazo', 'rust',
+  version: '2.1.0',
   meson_version: '>= 0.59.0',
 )
 
@@ -15,7 +15,7 @@ adwaita_dep = dependency('libadwaita-1', version: '>= 1.5')
 gettext_package = meson.project_name()
 localedir = get_option('prefix') / get_option('localedir')
 datadir = get_option('prefix') / get_option('datadir')
-application_id = 'io.github.nacho.mecalin'
+application_id = 'io.github.nacho.teclazo'
 
 conf = configuration_data()
 conf.set('LOCALEDIR', localedir)

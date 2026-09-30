@@ -1,4 +1,4 @@
-# Mecalin
+# Teclazo
 
 A typing tutor application built with GTK4, Rust, and Adwaita.
 
@@ -6,7 +6,7 @@ Based on [Mecawin](https://archive.org/details/mecawin), a classic typing tutor 
 
 ## Installation
 
-Available on [Flathub](https://flathub.org/apps/io.github.nacho.mecalin)
+Available on [Flathub](https://flathub.org/apps/io.github.nacho.teclazo)
 
 ### Building from Source
 
@@ -17,7 +17,7 @@ cargo run
 # Production build
 meson setup builddir
 meson compile -C builddir
-./builddir/mecalin
+./builddir/teclazo
 ```
 
 ## Dependencies

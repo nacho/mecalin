@@ -16,7 +16,7 @@
 ### ⚠️ Minor Notes
 
 - **SpeedTestTextView parent type**: `components.md` lists parent as `adw::Bin` but the actual code uses a composite template on a custom widget. The parent type should be verified — the `imp` struct derives `CompositeTemplate` and `Properties` but the actual parent type in the `glib::wrapper!` macro was not fully read. This is a low-risk documentation uncertainty.
-- **TestConfig settings keys**: `typing_test_utils.rs` references `session-type`, `text-language`, and `session-duration` GSettings keys that are not present in the documented GSettings schema (`io.github.nacho.mecalin.gschema.xml`). This code appears to be adapted from another project (Keypunch, based on SPDX headers) and these settings keys may not be actively used, or may be defined elsewhere. This warrants verification.
+- **TestConfig settings keys**: `typing_test_utils.rs` references `session-type`, `text-language`, and `session-duration` GSettings keys that are not present in the documented GSettings schema (`io.github.nacho.teclazo.gschema.xml`). This code appears to be adapted from another project (Keypunch, based on SPDX headers) and these settings keys may not be actively used, or may be defined elsewhere. This warrants verification.
 
 ## Completeness Check
 
@@ -43,7 +43,7 @@
 
 5. **Accessibility**: `SpeedTestTextView` has an `accessibility.rs` sub-module with `update_accessible_state()`. The accessibility implementation details are not documented.
 
-6. **Metainfo/AppStream**: `data/io.github.nacho.mecalin.metainfo.xml` contains release history and app metadata for Flathub/GNOME Software. Its structure and role in the release process could be more detailed.
+6. **Metainfo/AppStream**: `data/io.github.nacho.teclazo.metainfo.xml` contains release history and app metadata for Flathub/GNOME Software. Its structure and role in the release process could be more detailed.
 
 7. **LOCALEDIR handling**: The `config.rs.in` template and Meson's `DATADIR`/`LOCALEDIR` configuration affect runtime locale file discovery. The interaction between Cargo dev builds (which use defaults) and Meson production builds (which set real paths) is not explicitly documented.
 

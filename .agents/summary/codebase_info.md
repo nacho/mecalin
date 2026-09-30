@@ -3,12 +3,12 @@
 
 ## Project Identity
 
-- **Name**: Mecalin
-- **Application ID**: `io.github.nacho.mecalin`
+- **Name**: Teclazo
+- **Application ID**: `io.github.nacho.teclazo`
 - **Version**: 1.0.2
 - **License**: GPL-3.0-or-later
 - **Category**: Education (Typing Tutor)
-- **Distribution**: [Flathub](https://flathub.org/apps/io.github.nacho.mecalin)
+- **Distribution**: [Flathub](https://flathub.org/apps/io.github.nacho.teclazo)
 - **Heritage**: Based on [Mecawin](https://archive.org/details/mecawin), a classic Windows typing tutor
 
 ## Technology Stack

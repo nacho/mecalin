@@ -55,7 +55,7 @@ Signals are the primary inter-component communication mechanism in this GTK4 app
 
 ## GSettings Schema
 
-Schema ID: `io.github.nacho.mecalin`
+Schema ID: `io.github.nacho.teclazo`
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
@@ -66,7 +66,7 @@ Schema ID: `io.github.nacho.mecalin`
 | `use-finger-colors` | `b` | false | Color-code keys by finger |
 | `speed-test-duration` | `u` | 1 | Speed test duration index |
 
-Schema ID: `io.github.nacho.mecalin.state.window`
+Schema ID: `io.github.nacho.teclazo.state.window`
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|

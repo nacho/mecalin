@@ -16,8 +16,8 @@ fn generate_config() {
             let var_name = &captures[1];
             env::var(var_name).unwrap_or_else(|_| match var_name {
                 "VERSION" => "0.3.0".to_string(),
-                "APPLICATION_ID" => "io.github.nacho.mecalin".to_string(),
-                "GETTEXT_PACKAGE" => "mecalin".to_string(),
+                "APPLICATION_ID" => "io.github.nacho.teclazo".to_string(),
+                "GETTEXT_PACKAGE" => "teclazo".to_string(),
                 "DATADIR" => "/usr/share".to_string(),
                 _ => String::new(),
             })

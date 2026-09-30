@@ -1,13 +1,13 @@
-# Spanish translations for mecalin package.
-# Copyright (C) 2024 THE mecalin'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mecalin package.
+# Spanish translations for teclazo package.
+# Copyright (C) 2024 THE teclazo'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the teclazo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mecalin 0.1.0\n"
+"Project-Id-Version: teclazo 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 11:27+0200\n"
+"POT-Creation-Date: 2026-09-30 09:39+0200\n"
 "PO-Revision-Date: 2026-01-14 15:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/io.github.nacho.mecalin.desktop.in:3
-msgid "Mecalin"
-msgstr "Mecalin"
+#: data/io.github.nacho.teclazo.desktop.in:3
+msgid "Teclazo"
+msgstr ""
 
-#: data/io.github.nacho.mecalin.desktop.in:4
+#: data/io.github.nacho.teclazo.desktop.in:4
 msgid "Learn how to type"
 msgstr "Aprende a escribir"
 
-#: data/io.github.nacho.mecalin.desktop.in:10
+#: data/io.github.nacho.teclazo.desktop.in:10
 msgid "keyboard;touch type;touch typing;typing;typing tutor;"
 msgstr "teclado;mecanografía;escribir;tutor de mecanografía;"
 
@@ -51,23 +51,29 @@ msgstr "Keypunch"
 msgid "Practice your typing speed"
 msgstr "Practica tu velocidad de tecleo"
 
-#: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
-msgid "Continue"
-msgstr "Continuar"
+#: resources/ui/lesson_view.ui:6
+msgid "_Highlight Finger Mapping"
+msgstr ""
+
+#: resources/ui/lesson_view.ui:26
+msgid "View Options"
+msgstr ""
+
+#: resources/ui/lesson_view.ui:65
+#, fuzzy
+msgid "Start Lesson"
+msgstr "Lecciones"
 
 #: resources/ui/lessons_view.ui:6
-msgid "_Preferences"
-msgstr "_Preferencias"
+#, fuzzy
+msgid "_About Teclazo"
+msgstr "_Acerca de Teclazo"
 
-#: resources/ui/lessons_view.ui:10
-msgid "_About Mecalin"
-msgstr "_Acerca de Mecalin"
-
-#: resources/ui/lessons_view.ui:17
+#: resources/ui/lessons_view.ui:13
 msgid "Lessons"
 msgstr "Lecciones"
 
-#: resources/ui/lessons_view.ui:25
+#: resources/ui/lessons_view.ui:21
 msgid "Main Menu"
 msgstr "Menú principal"
 
@@ -76,8 +82,9 @@ msgid "Welcome"
 msgstr "Bienvenido"
 
 #: resources/ui/welcome_view.ui:25
-msgid "Welcome to Mecalin"
-msgstr "Bienvenido a Mecalin"
+#, fuzzy
+msgid "Welcome to Teclazo"
+msgstr "Bienvenido a Teclazo"
 
 #: resources/ui/welcome_view.ui:26
 msgid ""
@@ -125,26 +132,11 @@ msgid "Your system keyboard layout isn’t supported yet — showing US English"
 msgstr ""
 "Tu distribución de teclado aún no es compatible: se muestra inglés de EE. UU."
 
+#: src/lessons_view.rs:111
+msgid "Continue"
+msgstr "Continuar"
+
 #: src/lessons_view.rs:138
 msgid "Current lesson"
 msgstr "Lección actual"
 
-#: src/preferences_dialog.rs:15
-msgid "Display"
-msgstr "Visualización"
-
-#: src/preferences_dialog.rs:19
-msgid "Show Hand Widget"
-msgstr "Mostrar control de manos"
-
-#: src/preferences_dialog.rs:20
-msgid "Display finger position guide"
-msgstr "Mostrar guía de posición de dedos"
-
-#: src/preferences_dialog.rs:23
-msgid "Use Finger Colors"
-msgstr "Usar colores de dedos"
-
-#: src/preferences_dialog.rs:24
-msgid "Color keyboard keys and hand by finger assignment"
-msgstr "Colorear las teclas del teclado y la mano según la asignación de dedos"

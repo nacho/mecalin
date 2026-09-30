@@ -3,7 +3,7 @@
 
 ## Overview
 
-Mecalin follows the standard GNOME application architecture using GTK4 with the Adwaita design system. It uses the GTK subclassing pattern where each UI component is a GObject subclass with a corresponding XML composite template.
+Teclazo follows the standard GNOME application architecture using GTK4 with the Adwaita design system. It uses the GTK subclassing pattern where each UI component is a GObject subclass with a corresponding XML composite template.
 
 ## High-Level Architecture
 
@@ -11,11 +11,11 @@ Mecalin follows the standard GNOME application architecture using GTK4 with the 
 graph TB
     subgraph Entry["Application Entry"]
         main["main.rs"]
-        app["MecalinApplication"]
+        app["TeclazoApplication"]
     end
 
     subgraph Navigation["Navigation Layer"]
-        window["MecalinWindow<br/>(NavigationView hub)"]
+        window["TeclazoWindow<br/>(NavigationView hub)"]
     end
 
     subgraph Views["Feature Views"]
@@ -107,7 +107,7 @@ Each component:
 
 ### Navigation Architecture
 
-`MecalinWindow` uses `adw::NavigationView` as a stack-based navigation hub. Each feature is an `adw::NavigationPage` pushed by tag:
+`TeclazoWindow` uses `adw::NavigationView` as a stack-based navigation hub. Each feature is an `adw::NavigationPage` pushed by tag:
 
 ```mermaid
 graph LR
@@ -121,8 +121,8 @@ graph LR
 
 ### State Management
 
-- **GSettings** (`io.github.nacho.mecalin`): Persists user preferences (current lesson/step, widget visibility, finger colors, test duration)
-- **Window state** (`io.github.nacho.mecalin.state.window`): Persists window size and maximized state
+- **GSettings** (`io.github.nacho.teclazo`): Persists user preferences (current lesson/step, widget visibility, finger colors, test duration)
+- **Window state** (`io.github.nacho.teclazo.state.window`): Persists window size and maximized state
 - **In-memory state**: Component-local `Cell`/`RefCell` fields in `imp` structs
 
 ### Resource Embedding

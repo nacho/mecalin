@@ -21,8 +21,8 @@
                   <object class="AdwStatusPage">
                     <property name="vexpand">true</property>
                     <property name="hexpand">true</property>
-                    <property name="icon-name">io.github.nacho.mecalin</property>
-                    <property name="title" translatable="yes">Welcome to Mecalin</property>
+                    <property name="icon-name">io.github.nacho.teclazo</property>
+                    <property name="title" translatable="yes">Welcome to Teclazo</property>
                     <property name="description" translatable="yes">Your personal typing tutor. Learn to type quickly and accurately, one step at a time.</property>
                     <style>
                       <class name="welcome-slide"/>

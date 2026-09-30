@@ -5,27 +5,27 @@ use libadwaita as adw;
 use libadwaita::prelude::*;
 use libadwaita::subclass::prelude::*;
 
-use crate::window::MecalinWindow;
+use crate::window::TeclazoWindow;
 
 mod imp {
     use super::*;
 
     #[derive(Default)]
-    pub struct MecalinApplication;
+    pub struct TeclazoApplication;
 
     #[glib::object_subclass]
-    impl ObjectSubclass for MecalinApplication {
-        const NAME: &'static str = "MecalinApplication";
-        type Type = super::MecalinApplication;
+    impl ObjectSubclass for TeclazoApplication {
+        const NAME: &'static str = "TeclazoApplication";
+        type Type = super::TeclazoApplication;
         type ParentType = adw::Application;
     }
 
-    impl ObjectImpl for MecalinApplication {}
-    impl ApplicationImpl for MecalinApplication {
+    impl ObjectImpl for TeclazoApplication {}
+    impl ApplicationImpl for TeclazoApplication {
         fn startup(&self) {
             self.parent_startup();
             let app = self.obj();
-            app.set_resource_base_path(Some("/io/github/nacho/mecalin"));
+            app.set_resource_base_path(Some("/io/github/nacho/teclazo"));
 
             // Setup actions
             app.setup_actions();
@@ -36,7 +36,7 @@ mod imp {
 
             // Load CSS
             let provider = gtk::CssProvider::new();
-            provider.load_from_resource("/io/github/nacho/mecalin/style.css");
+            provider.load_from_resource("/io/github/nacho/teclazo/style.css");
             gtk::style_context_add_provider_for_display(
                 &gtk::gdk::Display::default().expect("Could not connect to a display"),
                 &provider,
@@ -46,25 +46,25 @@ mod imp {
 
         fn activate(&self) {
             let app = self.obj();
-            let window = MecalinWindow::new(app.upcast_ref());
+            let window = TeclazoWindow::new(app.upcast_ref());
             window.load_window_state();
             window.present();
         }
     }
-    impl GtkApplicationImpl for MecalinApplication {}
-    impl AdwApplicationImpl for MecalinApplication {}
+    impl GtkApplicationImpl for TeclazoApplication {}
+    impl AdwApplicationImpl for TeclazoApplication {}
 }
 
 glib::wrapper! {
-    pub struct MecalinApplication(ObjectSubclass<imp::MecalinApplication>)
+    pub struct TeclazoApplication(ObjectSubclass<imp::TeclazoApplication>)
         @extends adw::Application, gtk::Application, gio::Application,
         @implements gio::ActionGroup, gio::ActionMap;
 }
 
-impl MecalinApplication {
+impl TeclazoApplication {
     pub fn new() -> Self {
         glib::Object::builder()
-            .property("application-id", "io.github.nacho.mecalin")
+            .property("application-id", "io.github.nacho.teclazo")
             .build()
     }
 
@@ -76,14 +76,14 @@ impl MecalinApplication {
             gio::ActionEntry::builder("about")
                 .activate(|app: &Self, _, _| {
                     let dialog = adw::AboutDialog::builder()
-                        .application_name("Mecalin")
+                        .application_name("Teclazo")
                         .application_icon(crate::config::APPLICATION_ID)
                         .version(crate::config::VERSION)
                         .developer_name("Ignacio Casal Quinteiro")
                         .developers(["Ignacio Casal Quinteiro"])
                         .license_type(gtk::License::Gpl30)
-                        .website("https://github.com/nacho/mecalin")
-                        .issue_url("https://github.com/nacho/mecalin/issues")
+                        .website("https://github.com/nacho/teclazo")
+                        .issue_url("https://github.com/nacho/teclazo/issues")
                         .copyright("© 2026 Ignacio Casal Quinteiro")
                         .build();
                     dialog.present(app.active_window().as_ref());

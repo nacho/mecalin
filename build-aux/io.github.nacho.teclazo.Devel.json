@@ -1,12 +1,12 @@
 {
-    "id" : "io.github.nacho.mecalin",
+    "id" : "io.github.nacho.teclazo",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "51",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command" : "mecalin",
+    "command" : "teclazo",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -22,7 +22,7 @@
         ],
         "env" : {
             "RUST_BACKTRACE" : "1",
-            "RUST_LOG" : "mecalin=debug"
+            "RUST_LOG" : "teclazo=debug"
         }
     },
     "cleanup" : [
@@ -38,7 +38,7 @@
     ],
     "modules" : [
         {
-            "name" : "mecalin",
+            "name" : "teclazo",
             "builddir" : true,
             "buildsystem" : "meson",
             "run-tests" : true,

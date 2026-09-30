@@ -19,7 +19,7 @@ use gettextrs::{LocaleCategory, bind_textdomain_codeset, bindtextdomain, setloca
 use gio::prelude::*;
 use std::path::PathBuf;
 
-use application::MecalinApplication;
+use application::TeclazoApplication;
 
 fn run_application() -> Result<()> {
     // SAFETY: Called at program start before any threads are spawned.
@@ -32,7 +32,7 @@ fn run_application() -> Result<()> {
 
     gio::resources_register_include!("resources.gresource")?;
 
-    let app = MecalinApplication::new();
+    let app = TeclazoApplication::new();
     app.run();
 
     Ok(())

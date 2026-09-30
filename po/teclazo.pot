@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mecalin package.
+# This file is distributed under the same license as the teclazo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mecalin\n"
+"Project-Id-Version: teclazo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 11:27+0200\n"
+"POT-Creation-Date: 2026-09-30 09:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/io.github.nacho.mecalin.desktop.in:3
-msgid "Mecalin"
+#: data/io.github.nacho.teclazo.desktop.in:3
+msgid "Teclazo"
 msgstr ""
 
-#: data/io.github.nacho.mecalin.desktop.in:4
+#: data/io.github.nacho.teclazo.desktop.in:4
 msgid "Learn how to type"
 msgstr ""
 
-#: data/io.github.nacho.mecalin.desktop.in:10
+#: data/io.github.nacho.teclazo.desktop.in:10
 msgid "keyboard;touch type;touch typing;typing;typing tutor;"
 msgstr ""
 
@@ -50,23 +50,27 @@ msgstr ""
 msgid "Practice your typing speed"
 msgstr ""
 
-#: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
-msgid "Continue"
+#: resources/ui/lesson_view.ui:6
+msgid "_Highlight Finger Mapping"
+msgstr ""
+
+#: resources/ui/lesson_view.ui:26
+msgid "View Options"
+msgstr ""
+
+#: resources/ui/lesson_view.ui:65
+msgid "Start Lesson"
 msgstr ""
 
 #: resources/ui/lessons_view.ui:6
-msgid "_Preferences"
+msgid "_About Teclazo"
 msgstr ""
 
-#: resources/ui/lessons_view.ui:10
-msgid "_About Mecalin"
-msgstr ""
-
-#: resources/ui/lessons_view.ui:17
+#: resources/ui/lessons_view.ui:13
 msgid "Lessons"
 msgstr ""
 
-#: resources/ui/lessons_view.ui:25
+#: resources/ui/lessons_view.ui:21
 msgid "Main Menu"
 msgstr ""
 
@@ -75,7 +79,7 @@ msgid "Welcome"
 msgstr ""
 
 #: resources/ui/welcome_view.ui:25
-msgid "Welcome to Mecalin"
+msgid "Welcome to Teclazo"
 msgstr ""
 
 #: resources/ui/welcome_view.ui:26
@@ -116,26 +120,10 @@ msgstr ""
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
 msgstr ""
 
+#: src/lessons_view.rs:111
+msgid "Continue"
+msgstr ""
+
 #: src/lessons_view.rs:138
 msgid "Current lesson"
-msgstr ""
-
-#: src/preferences_dialog.rs:15
-msgid "Display"
-msgstr ""
-
-#: src/preferences_dialog.rs:19
-msgid "Show Hand Widget"
-msgstr ""
-
-#: src/preferences_dialog.rs:20
-msgid "Display finger position guide"
-msgstr ""
-
-#: src/preferences_dialog.rs:23
-msgid "Use Finger Colors"
-msgstr ""
-
-#: src/preferences_dialog.rs:24
-msgid "Color keyboard keys and hand by finger assignment"
 msgstr ""

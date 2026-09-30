@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.nacho.mecalin</id>
+  <id>io.github.nacho.teclazo</id>
   
-  <name>Mecalin</name>
+  <provides>
+    <id>io.github.nacho.mecalin</id>
+    <id>io.github.nacho.mecalin.desktop</id>
+  </provides>
+  
+  <replaces>
+    <id>io.github.nacho.mecalin</id>
+  </replaces>
+  
+  <name>Teclazo</name>
   
   <summary>Learn touch typing</summary>
   <summary xml:lang="es">Aprende mecanografía</summary>
@@ -24,31 +33,31 @@
   
   <description>
     <p>
-      Mecalin is a modern typing tutor application that helps you learn and improve your touch typing skills
+      Teclazo is a modern typing tutor application that helps you learn and improve your touch typing skills
       through structured lessons. It provides a clean and intuitive interface for practicing typing.
     </p>
     <p xml:lang="es">
-      Mecalin es una aplicación moderna para aprender mecanografía que te ayuda a aprender y mejorar tus habilidades de escritura táctil.
+      Teclazo es una aplicación moderna para aprender mecanografía que te ayuda a aprender y mejorar tus habilidades de escritura táctil.
       Proporciona una interfaz limpia e intuitiva para practicar mecanografía.
     </p>
     <p xml:lang="fr">
-      Mecalin est une application moderne d'apprentissage de la dactylographie qui vous aide à apprendre et améliorer vos compétences de frappe au toucher.
+      Teclazo est une application moderne d'apprentissage de la dactylographie qui vous aide à apprendre et améliorer vos compétences de frappe au toucher.
       Elle offre une interface claire et intuitive pour pratiquer la dactylographie.
     </p>
     <p xml:lang="gl">
-      Mecalin é unha aplicación moderna para aprender mecanografía que che axuda a aprender e mellorar as túas habilidades de escritura táctil.
+      Teclazo é unha aplicación moderna para aprender mecanografía que che axuda a aprender e mellorar as túas habilidades de escritura táctil.
       Proporciona unha interface limpa e intuitiva para practicar mecanografía.
     </p>
     <p xml:lang="it">
-      Mecalin è un'applicazione moderna per imparare a digitare che ti aiuta ad apprendere e migliorare le tue abilità di dattilografia.
+      Teclazo è un'applicazione moderna per imparare a digitare che ti aiuta ad apprendere e migliorare le tue abilità di dattilografia.
       Fornisce un'interfaccia pulita e intuitiva per esercitarsi nella digitazione.
     </p>
     <p xml:lang="pl">
-      Mecalin to nowoczesna aplikacja do nauki pisania, która pomaga nauczyć się i poprawić umiejętności pisania bezwzrokowego.
+      Teclazo to nowoczesna aplikacja do nauki pisania, która pomaga nauczyć się i poprawić umiejętności pisania bezwzrokowego.
       Zapewnia przejrzysty i intuicyjny interfejs do ćwiczenia pisania.
     </p>
     <p xml:lang="pt">
-      Mecalin é uma aplicação moderna de aprendizagem de mecanografia que o ajuda a aprender e melhorar as suas capacidades de escrita táctil.
+      Teclazo é uma aplicação moderna de aprendizagem de mecanografia que o ajuda a aprender e melhorar as suas capacidades de escrita táctil.
       Fornece uma interface limpa e intuitiva para praticar mecanografia.
     </p>
     <p>
@@ -85,10 +94,10 @@
     </p>
   </description>
   
-  <launchable type="desktop-id">io.github.nacho.mecalin.desktop</launchable>
+  <launchable type="desktop-id">io.github.nacho.teclazo.desktop</launchable>
   
-  <url type="homepage">https://github.com/nacho/mecalin</url>
-  <url type="vcs-browser">https://github.com/nacho/mecalin</url>
+  <url type="homepage">https://github.com/nacho/teclazo</url>
+  <url type="vcs-browser">https://github.com/nacho/teclazo</url>
   
   <categories>
     <category>Education</category>
@@ -109,15 +118,27 @@
   <screenshots>
     <screenshot type="default">
       <caption>Typing lesson</caption>
-      <image>https://raw.githubusercontent.com/nacho/mecalin/main/data/screenshots/1-lesson-view.png</image>
+      <image>https://raw.githubusercontent.com/nacho/teclazo/main/data/screenshots/1-lesson-view.png</image>
     </screenshot>
   </screenshots>
   
   <releases>
+    <release version="2.1.0" date="2026-09-30">
+      <description>
+        <ul>
+          <li>Renamed the application from Mecalin to Teclazo</li>
+          <li>Shortened and clarified the lesson titles and subtitles</li>
+          <li>The hand and keyboard are now always shown; finger-mapping highlight moved to an in-view menu</li>
+          <li>Replaced the lesson intro button with a "Start Lesson" pill</li>
+          <li>Set a minimum window size and marked the app as desktop-only</li>
+          <li>Fixed the top-row character lesson for US-style keyboard layouts</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.0" date="2026-09-23">
       <description>
         <ul>
-          <li>Focused Mecalin on typing lessons: removed the speed test and the falling keys and scrolling lanes games</li>
+          <li>Focused Teclazo on typing lessons: removed the speed test and the falling keys and scrolling lanes games</li>
           <li>The app now opens directly into the lessons</li>
           <li>Added a lessons welcome page to browse, pick, and resume the current lesson</li>
           <li>Added a first-run welcome carousel and restructured the lessons</li>

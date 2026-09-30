@@ -219,11 +219,11 @@ Persisted user state (not a Rust struct, but a runtime data model):
 
 | Schema | Key | Type | Purpose |
 |--------|-----|------|---------|
-| `io.github.nacho.mecalin` | `current-lesson` | u32 | Lesson progress |
-| `io.github.nacho.mecalin` | `current-step` | u32 | Step progress |
-| `io.github.nacho.mecalin` | `show-hand-widget` | bool | Preference |
-| `io.github.nacho.mecalin` | `show-keyboard-widget` | bool | Preference |
-| `io.github.nacho.mecalin` | `use-finger-colors` | bool | Preference |
-| `io.github.nacho.mecalin` | `speed-test-duration` | u32 | Preference |
-| `io.github.nacho.mecalin.state.window` | `maximized` | bool | Window state |
-| `io.github.nacho.mecalin.state.window` | `size` | (i32, i32) | Window state |
+| `io.github.nacho.teclazo` | `current-lesson` | u32 | Lesson progress |
+| `io.github.nacho.teclazo` | `current-step` | u32 | Step progress |
+| `io.github.nacho.teclazo` | `show-hand-widget` | bool | Preference |
+| `io.github.nacho.teclazo` | `show-keyboard-widget` | bool | Preference |
+| `io.github.nacho.teclazo` | `use-finger-colors` | bool | Preference |
+| `io.github.nacho.teclazo` | `speed-test-duration` | u32 | Preference |
+| `io.github.nacho.teclazo.state.window` | `maximized` | bool | Window state |
+| `io.github.nacho.teclazo.state.window` | `size` | (i32, i32) | Window state |

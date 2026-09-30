@@ -27,16 +27,16 @@ mod imp {
     use super::*;
 
     #[derive(Default, gtk::CompositeTemplate)]
-    #[template(resource = "/io/github/nacho/mecalin/ui/window.ui")]
-    pub struct MecalinWindow {
+    #[template(resource = "/io/github/nacho/teclazo/ui/window.ui")]
+    pub struct TeclazoWindow {
         #[template_child]
         pub navigation_view: TemplateChild<adw::NavigationView>,
     }
 
     #[glib::object_subclass]
-    impl ObjectSubclass for MecalinWindow {
-        const NAME: &'static str = "MecalinWindow";
-        type Type = super::MecalinWindow;
+    impl ObjectSubclass for TeclazoWindow {
+        const NAME: &'static str = "TeclazoWindow";
+        type Type = super::TeclazoWindow;
         type ParentType = adw::ApplicationWindow;
 
         fn class_init(klass: &mut Self::Class) {
@@ -52,26 +52,26 @@ mod imp {
         }
     }
 
-    impl ObjectImpl for MecalinWindow {
+    impl ObjectImpl for TeclazoWindow {
         fn constructed(&self) {
             self.parent_constructed();
             self.obj().setup_initial_page();
         }
     }
-    impl WidgetImpl for MecalinWindow {}
-    impl WindowImpl for MecalinWindow {}
-    impl ApplicationWindowImpl for MecalinWindow {}
-    impl AdwApplicationWindowImpl for MecalinWindow {}
+    impl WidgetImpl for TeclazoWindow {}
+    impl WindowImpl for TeclazoWindow {}
+    impl ApplicationWindowImpl for TeclazoWindow {}
+    impl AdwApplicationWindowImpl for TeclazoWindow {}
 }
 
 glib::wrapper! {
-    pub struct MecalinWindow(ObjectSubclass<imp::MecalinWindow>)
+    pub struct TeclazoWindow(ObjectSubclass<imp::TeclazoWindow>)
         @extends adw::ApplicationWindow, gtk::ApplicationWindow, gtk::Window, gtk::Widget,
         @implements gio::ActionGroup, gio::ActionMap, gtk::Accessible, gtk::Buildable,
                     gtk::ConstraintTarget, gtk::Native, gtk::Root, gtk::ShortcutManager;
 }
 
-impl MecalinWindow {
+impl TeclazoWindow {
     pub fn new(app: &adw::Application) -> Self {
         glib::Object::builder().property("application", app).build()
     }
@@ -81,7 +81,7 @@ impl MecalinWindow {
     /// launch. Once the welcome screen has been seen, replace the stack with
     /// the lessons overview instead.
     fn setup_initial_page(&self) {
-        let settings = gio::Settings::new("io.github.nacho.mecalin");
+        let settings = gio::Settings::new("io.github.nacho.teclazo");
         let welcome_seen = settings.boolean("welcome-seen");
 
         if initial_page_tag(welcome_seen) == LESSONS_OVERVIEW_TAG {
@@ -92,7 +92,7 @@ impl MecalinWindow {
     }
 
     pub fn load_window_state(&self) {
-        let settings = gio::Settings::new("io.github.nacho.mecalin.state.window");
+        let settings = gio::Settings::new("io.github.nacho.teclazo.state.window");
 
         let (width, height) = settings.get::<(i32, i32)>("size");
         self.set_default_size(width, height);
@@ -102,14 +102,14 @@ impl MecalinWindow {
         }
 
         self.connect_notify_local(Some("maximized"), move |window, _| {
-            let settings = gio::Settings::new("io.github.nacho.mecalin.state.window");
+            let settings = gio::Settings::new("io.github.nacho.teclazo.state.window");
             settings
                 .set_boolean("maximized", window.is_maximized())
                 .unwrap();
         });
 
         self.connect_notify_local(Some("default-width"), move |window, _| {
-            let settings = gio::Settings::new("io.github.nacho.mecalin.state.window");
+            let settings = gio::Settings::new("io.github.nacho.teclazo.state.window");
             if !window.is_maximized() {
                 let size = (window.default_width(), window.default_height());
                 settings.set("size", size).unwrap();
@@ -117,7 +117,7 @@ impl MecalinWindow {
         });
 
         self.connect_notify_local(Some("default-height"), move |window, _| {
-            let settings = gio::Settings::new("io.github.nacho.mecalin.state.window");
+            let settings = gio::Settings::new("io.github.nacho.teclazo.state.window");
             if !window.is_maximized() {
                 let size = (window.default_width(), window.default_height());
                 settings.set("size", size).unwrap();

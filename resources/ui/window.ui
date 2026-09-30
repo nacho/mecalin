@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
-  <template class="MecalinWindow" parent="AdwApplicationWindow">
-    <property name="title">Mecalin</property>
+  <template class="TeclazoWindow" parent="AdwApplicationWindow">
+    <property name="title">Teclazo</property>
     <property name="width-request">1000</property>
     <property name="height-request">900</property>
     <property name="default-width">1000</property>
@@ -12,7 +12,7 @@
           <object class="WelcomeView" id="welcome_view_widget"/>
         </child>
         <child>
-          <object class="MecalinLessonsView" id="lessons_view_widget"/>
+          <object class="TeclazoLessonsView" id="lessons_view_widget"/>
         </child>
         <child>
           <object class="LessonView" id="lesson_view_widget"/>

@@ -4,7 +4,7 @@ use libadwaita as adw;
 use libadwaita::subclass::prelude::*;
 
 /// GSettings schema that stores the first-run `welcome-seen` flag.
-const SETTINGS_SCHEMA: &str = "io.github.nacho.mecalin";
+const SETTINGS_SCHEMA: &str = "io.github.nacho.teclazo";
 /// Key that records whether the welcome screen has been dismissed.
 const WELCOME_SEEN_KEY: &str = "welcome-seen";
 /// Navigation tag of the lessons overview page (kept beneath the lesson so
@@ -27,7 +27,7 @@ mod imp {
     use super::*;
 
     #[derive(Default, gtk::CompositeTemplate)]
-    #[template(resource = "/io/github/nacho/mecalin/ui/welcome_view.ui")]
+    #[template(resource = "/io/github/nacho/teclazo/ui/welcome_view.ui")]
     pub struct WelcomeView {
         #[template_child]
         pub carousel: TemplateChild<adw::Carousel>,
@@ -135,7 +135,7 @@ impl WelcomeView {
     fn finish_welcome(&self) {
         let settings = gio::Settings::new(SETTINGS_SCHEMA);
         if let Err(error) = settings.set_boolean(WELCOME_SEEN_KEY, true) {
-            glib::g_warning!("mecalin", "Failed to set {WELCOME_SEEN_KEY}: {error}");
+            glib::g_warning!("teclazo", "Failed to set {WELCOME_SEEN_KEY}: {error}");
         }
 
         // Start the first lesson from its beginning.
@@ -166,7 +166,7 @@ mod tests {
 
     #[test]
     fn test_settings_constants() {
-        assert_eq!(SETTINGS_SCHEMA, "io.github.nacho.mecalin");
+        assert_eq!(SETTINGS_SCHEMA, "io.github.nacho.teclazo");
         assert_eq!(WELCOME_SEEN_KEY, "welcome-seen");
     }
 

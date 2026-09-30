@@ -1,11 +1,11 @@
-# Mecalin Documentation Index
+# Teclazo Documentation Index
 <!-- metadata: type=index, audience=ai-agents, scope=knowledge-base-root -->
 
-> **For AI Assistants**: This file is the primary entry point for understanding the Mecalin codebase. Read this file first to determine which detailed documentation files to consult for specific questions.
+> **For AI Assistants**: This file is the primary entry point for understanding the Teclazo codebase. Read this file first to determine which detailed documentation files to consult for specific questions.
 
 ## Project Summary
 
-Mecalin is a GTK4/Rust/Adwaita typing tutor application for GNOME. It provides structured lessons, timed speed tests, and two gamified practice modes (falling keys and scrolling lanes). It supports multiple languages for both UI and lesson content, with visual aids including an on-screen keyboard and hand position guide.
+Teclazo is a GTK4/Rust/Adwaita typing tutor application for GNOME. It provides structured lessons, timed speed tests, and two gamified practice modes (falling keys and scrolling lanes). It supports multiple languages for both UI and lesson content, with visual aids including an on-screen keyboard and hand position guide.
 
 ## Documentation Map
 
@@ -34,7 +34,7 @@ Mecalin is a GTK4/Rust/Adwaita typing tutor application for GNOME. It provides s
 | Text validation | `src/text_utils.rs` |
 | Text generation | `src/text_generation.rs` |
 | Keyboard rendering | `src/keyboard_widget.rs` |
-| Settings | `data/io.github.nacho.mecalin.gschema.xml` |
+| Settings | `data/io.github.nacho.teclazo.gschema.xml` |
 | Build config | `build.rs`, `Cargo.toml`, `meson.build` |
 
 ### Architecture at a Glance
@@ -56,7 +56,7 @@ Mecalin is a GTK4/Rust/Adwaita typing tutor application for GNOME. It provides s
 | Add a new language | `src/course.rs`, `src/utils.rs`, `src/text_generation.rs`, `po/LINGUAS`, see [workflows.md](workflows.md) |
 | Modify speed test | `src/speed_test_view.rs`, `src/speed_test_text_view.rs`, `src/typing_test_utils.rs` |
 | Change styling | `resources/style.css` |
-| Update settings | `data/io.github.nacho.mecalin.gschema.xml`, consuming component |
+| Update settings | `data/io.github.nacho.teclazo.gschema.xml`, consuming component |
 | Modify build | `build.rs`, `Cargo.toml`, `meson.build` |
 
 ## Cross-References

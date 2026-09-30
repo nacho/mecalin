@@ -13,7 +13,7 @@ mod imp {
     use super::*;
 
     #[derive(Default, gtk::CompositeTemplate)]
-    #[template(resource = "/io/github/nacho/mecalin/ui/lessons_view.ui")]
+    #[template(resource = "/io/github/nacho/teclazo/ui/lessons_view.ui")]
     pub struct LessonsView {
         #[template_child]
         pub continue_group: TemplateChild<adw::PreferencesGroup>,
@@ -30,7 +30,7 @@ mod imp {
 
     #[glib::object_subclass]
     impl ObjectSubclass for LessonsView {
-        const NAME: &'static str = "MecalinLessonsView";
+        const NAME: &'static str = "TeclazoLessonsView";
         type Type = super::LessonsView;
         type ParentType = adw::NavigationPage;
 
@@ -94,7 +94,7 @@ impl LessonsView {
             return;
         };
 
-        let settings = gio::Settings::new("io.github.nacho.mecalin");
+        let settings = gio::Settings::new("io.github.nacho.teclazo");
         let current_lesson = settings.uint("current-lesson");
 
         // Clear any previously added rows.
@@ -154,7 +154,7 @@ impl LessonsView {
 
     /// Start a lesson from the list: select it and restart from the beginning.
     fn start_lesson(&self, lesson_id: u32) {
-        let settings = gio::Settings::new("io.github.nacho.mecalin");
+        let settings = gio::Settings::new("io.github.nacho.teclazo");
         settings.set_uint("current-lesson", lesson_id).ok();
         settings.set_uint("current-step", 0).ok();
         self.push_lesson();

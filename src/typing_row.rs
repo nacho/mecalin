@@ -9,7 +9,7 @@ mod imp {
     use super::*;
 
     #[derive(Default, gtk::CompositeTemplate)]
-    #[template(resource = "/io/github/nacho/mecalin/ui/typing_row.ui")]
+    #[template(resource = "/io/github/nacho/teclazo/ui/typing_row.ui")]
     pub struct TypingRow {
         #[template_child]
         pub target_label: TemplateChild<gtk::Label>,
@@ -22,7 +22,7 @@ mod imp {
 
     #[glib::object_subclass]
     impl ObjectSubclass for TypingRow {
-        const NAME: &'static str = "MecalinTypingRow";
+        const NAME: &'static str = "TeclazoTypingRow";
         type Type = super::TypingRow;
         type ParentType = adw::PreferencesRow;
 

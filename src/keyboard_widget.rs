@@ -595,7 +595,7 @@ mod imp {
 
     #[glib::object_subclass]
     impl ObjectSubclass for KeyboardWidget {
-        const NAME: &'static str = "MecalinKeyboardWidget";
+        const NAME: &'static str = "TeclazoKeyboardWidget";
         type Type = super::KeyboardWidget;
         type ParentType = gtk::Widget;
     }
@@ -629,7 +629,7 @@ mod imp {
             ));
 
             // Redraw when the finger-colors preference changes
-            let settings = gio::Settings::new("io.github.nacho.mecalin");
+            let settings = gio::Settings::new("io.github.nacho.teclazo");
             settings.connect_changed(
                 Some("use-finger-colors"),
                 glib::clone!(
@@ -993,7 +993,7 @@ mod imp {
             let key_current_color = colors["keyboard-key-current"];
             let key_border_color = colors["keyboard-border"];
 
-            let settings = gio::Settings::new("io.github.nacho.mecalin");
+            let settings = gio::Settings::new("io.github.nacho.teclazo");
             let use_finger_colors = settings.boolean("use-finger-colors");
 
             let get_finger_color = |finger: &Finger| -> gdk::RGBA {

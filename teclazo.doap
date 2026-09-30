@@ -5,13 +5,13 @@
          xmlns:gnome="http://api.gnome.org/doap-extensions#"
          xmlns="http://usefulinc.com/ns/doap#">
 
-  <name>Mecalin</name>
+  <name>Teclazo</name>
   <shortdesc xml:lang="en">Learn touch typing</shortdesc>
-  <description xml:lang="en">Mecalin is a modern typing tutor application that helps you learn and improve your touch typing skills. It provides a clean and intuitive interface for practicing typing.</description>
+  <description xml:lang="en">Teclazo is a modern typing tutor application that helps you learn and improve your touch typing skills. It provides a clean and intuitive interface for practicing typing.</description>
 
-  <homepage rdf:resource="https://github.com/nacho/mecalin"/>
-  <bug-database rdf:resource="https://github.com/nacho/mecalin/issues"/>
-  <download-page rdf:resource="https://flathub.org/apps/io.github.nacho.mecalin"/>
+  <homepage rdf:resource="https://github.com/nacho/teclazo"/>
+  <bug-database rdf:resource="https://github.com/nacho/teclazo/issues"/>
+  <download-page rdf:resource="https://flathub.org/apps/io.github.nacho.teclazo"/>
 
   <programming-language>Rust</programming-language>
 

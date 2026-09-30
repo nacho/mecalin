@@ -3,12 +3,12 @@
 
 ## Application Core
 
-### MecalinApplication (`src/application.rs`)
+### TeclazoApplication (`src/application.rs`)
 - **Parent**: `adw::Application`
 - **Role**: Application entry point. Registers GResource base path, loads CSS, sets keyboard shortcuts (`Ctrl+Q` quit, `Ctrl+W` close), creates the main window on activation.
-- **Key behavior**: `startup()` loads global CSS provider; `activate()` creates and presents `MecalinWindow`.
+- **Key behavior**: `startup()` loads global CSS provider; `activate()` creates and presents `TeclazoWindow`.
 
-### MecalinWindow (`src/window.rs`)
+### TeclazoWindow (`src/window.rs`)
 - **Parent**: `adw::ApplicationWindow`
 - **Role**: Main window and navigation hub. Contains `adw::NavigationView` with `ActionRow` entries for each feature.
 - **Template children**: `header_bar`, `window_title`, `navigation_view`, plus rows for lessons, speed test, falling keys, scrolling lanes, preferences, about.

@@ -17,7 +17,7 @@ mod imp {
     use super::*;
 
     #[derive(Default, gtk::CompositeTemplate, glib::Properties)]
-    #[template(resource = "/io/github/nacho/mecalin/ui/lesson_view.ui")]
+    #[template(resource = "/io/github/nacho/teclazo/ui/lesson_view.ui")]
     #[properties(wrapper_type = super::LessonView)]
     pub struct LessonView {
         #[template_child]
@@ -178,7 +178,7 @@ impl imp::LessonView {
 
     fn setup_settings(&self) {
         let obj = self.obj();
-        let settings = gio::Settings::new("io.github.nacho.mecalin");
+        let settings = gio::Settings::new("io.github.nacho.teclazo");
 
         // Bind widget visibility to settings
         settings
@@ -278,7 +278,7 @@ impl LessonView {
         let course = imp.course.borrow();
 
         if let Some(course) = course.as_ref() {
-            let settings = gio::Settings::new("io.github.nacho.mecalin");
+            let settings = gio::Settings::new("io.github.nacho.teclazo");
             let current_lesson = settings.uint("current-lesson");
             let current_step = settings.uint("current-step");
 
@@ -344,7 +344,7 @@ impl LessonView {
 
     fn set_lesson(&self, lesson: &Lesson) {
         // Save current lesson to settings
-        let settings = gio::Settings::new("io.github.nacho.mecalin");
+        let settings = gio::Settings::new("io.github.nacho.teclazo");
         settings.set_uint("current-lesson", lesson.id).unwrap();
 
         // Apply the lesson (this will be called again by the settings change handler,
