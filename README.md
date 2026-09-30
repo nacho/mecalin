@@ -12,7 +12,10 @@ Available on [Flathub](https://flathub.org/apps/io.github.nacho.teclazo)
 
 ```bash
 # Development
-cargo run
+# The GSettings schema must be compiled and made discoverable first.
+# (data/gschemas.compiled is generated locally and not committed.)
+glib-compile-schemas data/
+GSETTINGS_SCHEMA_DIR=data cargo run
 
 # Production build
 meson setup builddir

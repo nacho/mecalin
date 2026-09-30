@@ -92,7 +92,7 @@ build.rs                    # Config generation + GResource compilation
 - **Pre-commit hook** (`.git/hooks/pre-commit`): Runs `cargo fmt --check`; if formatting fails, runs `cargo fmt` and aborts the commit.
 - **CI** (`.github/workflows/ci.yml`): On push/PR to `main` — `cargo fmt --check` → `cargo clippy -- -D warnings` → `cargo build` → `cargo test` → `meson setup + compile`.
 - **Flatpak dev manifest** (`io.github.nacho.teclazo-devel.yml`): Uses GNOME Platform 46, `org.freedesktop.Sdk.Extension.rust-stable`.
-- **GSettings compiled schema** (`data/gschemas.compiled`): Pre-compiled schema checked into the repo for `cargo run` development (avoids needing `glib-compile-schemas` during dev).
+- **GSettings schema in development**: `data/gschemas.compiled` is generated locally and **not** committed (it is git-ignored). For a Cargo dev build, compile it and point GLib at it: `glib-compile-schemas data/` then `GSETTINGS_SCHEMA_DIR=data cargo run`. The Meson/Flatpak build compiles and installs the schema itself via `gnome.post_install`.
 
 ## Detailed Documentation
 <!-- metadata: scope=reference -->
