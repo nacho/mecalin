@@ -237,8 +237,8 @@ mod imp {
                     (c, c)
                 } else if use_finger_colors {
                     let class_name = Self::get_finger_css_class(&finger_enum);
-                    let c = colors.get(&class_name).copied().unwrap_or(default_border);
-                    (default_color, c)
+                    let c = colors.get(&class_name).copied().unwrap_or(default_color);
+                    (c, default_border)
                 } else {
                     (default_color, default_border)
                 };
@@ -268,8 +268,8 @@ mod imp {
                     (c, c)
                 } else if use_finger_colors {
                     let class_name = Self::get_finger_css_class(&thumb_enum);
-                    let c = colors.get(&class_name).copied().unwrap_or(default_border);
-                    (default_color, c)
+                    let c = colors.get(&class_name).copied().unwrap_or(default_color);
+                    (c, default_border)
                 } else {
                     (default_color, default_border)
                 };

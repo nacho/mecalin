@@ -842,12 +842,11 @@ mod imp {
             label: Option<&str>,
             is_current: bool,
             should_show_text: bool,
-            key_color: &gdk::RGBA,
             key_current_color: &gdk::RGBA,
             key_text_color: &gdk::RGBA,
             key_current_text_color: &gdk::RGBA,
             key_border_color: &gdk::RGBA,
-            finger_border_color: &gdk::RGBA,
+            finger_fill_color: &gdk::RGBA,
         ) {
             let bounds = graphene::Rect::new(x, y, width, height);
             let corner = graphene::Size::new(KEY_CORNER_RADIUS, KEY_CORNER_RADIUS);
@@ -858,17 +857,13 @@ mod imp {
                 if is_current {
                     key_current_color
                 } else {
-                    key_color
+                    finger_fill_color
                 },
                 &bounds,
             );
             snapshot.pop();
 
-            let border_color = if is_current {
-                key_border_color
-            } else {
-                finger_border_color
-            };
+            let border_color = key_border_color;
             snapshot.append_border(
                 &rounded,
                 &[
@@ -999,9 +994,9 @@ mod imp {
             let get_finger_color = |finger: &Finger| -> gdk::RGBA {
                 if use_finger_colors {
                     let class_name = Self::get_finger_css_class(finger);
-                    colors.get(&class_name).copied().unwrap_or(key_border_color)
+                    colors.get(&class_name).copied().unwrap_or(key_color)
                 } else {
-                    key_border_color
+                    key_color
                 }
             };
 
@@ -1082,7 +1077,6 @@ mod imp {
                         None,
                         is_key_current(key_info),
                         should_show_key(key_info),
-                        &key_color,
                         &key_current_color,
                         &key_text_color,
                         &key_current_text_color,
@@ -1103,7 +1097,6 @@ mod imp {
                         Some(&backspace.label),
                         false,
                         true,
-                        &modifier_color,
                         &key_current_color,
                         &modifier_text_color,
                         &key_current_text_color,
@@ -1128,12 +1121,11 @@ mod imp {
                     Some(&tab.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.5 + key_spacing;
             }
@@ -1150,7 +1142,6 @@ mod imp {
                         None,
                         is_key_current(key_info),
                         should_show_key(key_info),
-                        &key_color,
                         &key_current_color,
                         &key_text_color,
                         &key_current_text_color,
@@ -1175,12 +1166,11 @@ mod imp {
                     Some(&enter.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
             }
 
@@ -1199,12 +1189,11 @@ mod imp {
                     Some(&caps.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.75 + key_spacing;
             }
@@ -1221,7 +1210,6 @@ mod imp {
                         None,
                         is_key_current(key_info),
                         should_show_key(key_info),
-                        &key_color,
                         &key_current_color,
                         &key_text_color,
                         &key_current_text_color,
@@ -1252,12 +1240,11 @@ mod imp {
                     Some(&enter.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
             }
 
@@ -1276,12 +1263,11 @@ mod imp {
                     Some(&shift_l.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.25 + key_spacing;
             }
@@ -1298,7 +1284,6 @@ mod imp {
                         None,
                         is_key_current(key_info),
                         should_show_key(key_info),
-                        &key_color,
                         &key_current_color,
                         &key_text_color,
                         &key_current_text_color,
@@ -1320,12 +1305,11 @@ mod imp {
                     Some(&shift_r.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
             }
 
@@ -1344,12 +1328,11 @@ mod imp {
                     Some(&ctrl_l.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.5 + key_spacing;
             }
@@ -1365,12 +1348,11 @@ mod imp {
                     Some(&super_l.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.2 + key_spacing;
             }
@@ -1386,12 +1368,11 @@ mod imp {
                     Some(&alt_l.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.3 + key_spacing;
             }
@@ -1408,7 +1389,6 @@ mod imp {
                 Some(space_label),
                 is_space_current,
                 should_show_char(' '),
-                &key_color,
                 &key_current_color,
                 &key_text_color,
                 &key_current_text_color,
@@ -1428,12 +1408,11 @@ mod imp {
                     Some(&alt_r.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.3 + key_spacing;
             }
@@ -1449,12 +1428,11 @@ mod imp {
                     Some(&super_r.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.2 + key_spacing;
             }
@@ -1470,12 +1448,11 @@ mod imp {
                     Some(&menu.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
                 x += key_width * 1.2 + key_spacing;
             }
@@ -1491,12 +1468,11 @@ mod imp {
                     Some(&ctrl_r.label),
                     false,
                     true,
-                    &modifier_color,
                     &key_current_color,
                     &modifier_text_color,
                     &key_current_text_color,
                     &key_border_color,
-                    &key_border_color,
+                    &modifier_color,
                 );
             }
         }
