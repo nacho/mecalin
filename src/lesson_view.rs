@@ -209,12 +209,6 @@ impl imp::LessonView {
             ),
         );
 
-        // Expose the finger-mapping highlight toggle as an action so it can be
-        // driven from the "view more" menu in the lesson view header.
-        let action_group = gio::SimpleActionGroup::new();
-        action_group.add_action(&settings.create_action("use-finger-colors"));
-        obj.insert_action_group("lesson", Some(&action_group));
-
         self.settings.replace(Some(settings));
     }
 }
