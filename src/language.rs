@@ -185,17 +185,28 @@ pub fn resolve_languages_for_display(display: &gdk::Display) -> (Language, Langu
     resolve_languages(layout_name.as_deref(), language_from_locale())
 }
 
-/// Whether the active layout / locale maps to supported content (else the
-/// "unsupported layout" banner is shown).
-pub fn layout_is_supported_for_display(display: &gdk::Display) -> bool {
-    if active_layout_name(display)
-        .as_deref()
-        .and_then(language_from_layout_name)
-        .is_some()
-    {
-        return true;
+/// Whether the current layout maps to supported content (else the "unsupported
+/// layout" banner is shown).
+///
+/// If an active layout name is present, support depends solely on whether we
+/// recognize it: an unrecognized active layout (e.g. Czech) is *not* supported,
+/// even if the locale happens to be, because the user is typing on a keyboard
+/// the app does not model. Only when no layout name can be read do we fall back
+/// to the locale.
+pub fn layout_is_supported(layout_name: Option<&str>, locale_supported: bool) -> bool {
+    match layout_name {
+        Some(name) => language_from_layout_name(name).is_some(),
+        None => locale_supported,
     }
-    supported_language_from_locale().is_some()
+}
+
+/// Whether the active layout / locale maps to supported content (else the
+/// "unsupported layout" banner is shown). See [`layout_is_supported`].
+pub fn layout_is_supported_for_display(display: &gdk::Display) -> bool {
+    layout_is_supported(
+        active_layout_name(display).as_deref(),
+        supported_language_from_locale().is_some(),
+    )
 }
 
 #[cfg(test)]
@@ -440,5 +451,18 @@ mod tests {
             resolve_languages(Some("French"), Language::Gl),
             (Language::Fr, Language::Fr)
         );
+    }
+
+    #[test]
+    fn test_layout_is_supported() {
+        // Recognized active layout → supported, regardless of locale.
+        assert!(layout_is_supported(Some("Spanish"), false));
+        // Unrecognized active layout (e.g. Czech) → NOT supported, even when
+        // the locale is supported. This is the banner case.
+        assert!(!layout_is_supported(Some("Czech"), true));
+        assert!(!layout_is_supported(Some("Japanese"), true));
+        // No readable layout → fall back to the locale.
+        assert!(layout_is_supported(None, true));
+        assert!(!layout_is_supported(None, false));
     }
 }
