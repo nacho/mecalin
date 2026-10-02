@@ -23,7 +23,7 @@ meson compile -C builddir
 ## Dependencies
 
 - GTK4 4.18+
-- libadwaita 1.5+
+- libadwaita 1.7+
 - Rust toolchain
 - Meson build system
 

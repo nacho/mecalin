@@ -1,3 +1,4 @@
+use gettextrs::gettext;
 use gio::prelude::*;
 use gtk::prelude::*;
 use gtk::subclass::prelude::*;
@@ -86,6 +87,12 @@ impl MecalinApplication {
                         .issue_url("https://github.com/nacho/mecalin/issues")
                         .copyright("© 2026 Ignacio Casal Quinteiro")
                         .build();
+                    // Link to other apps by the same developer.
+                    dialog.add_other_app(
+                        "io.github.nacho.mundi",
+                        "Mundi",
+                        &gettext("Learn geography"),
+                    );
                     dialog.present(app.active_window().as_ref());
                 })
                 .build(),

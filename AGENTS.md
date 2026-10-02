@@ -18,7 +18,7 @@
 
 Mecalin is a GTK4/Rust/Adwaita typing tutor for GNOME, inspired by [Mecawin](https://archive.org/details/mecawin). It provides structured typing lessons with visual aids (on-screen keyboard, hand position guide). Distributed via [Flathub](https://flathub.org/apps/io.github.nacho.mecalin).
 
-**Stack**: Rust (edition 2024), GTK4 ≥ 4.18, libadwaita ≥ 1.5, Meson (production) / Cargo (development), Flatpak (GNOME Platform 51).
+**Stack**: Rust (edition 2024), GTK4 ≥ 4.18, libadwaita ≥ 1.7, Meson (production) / Cargo (development), Flatpak (GNOME Platform 51).
 
 ## Directory Map
 <!-- metadata: scope=navigation -->

@@ -10,7 +10,7 @@ cargo = find_program('cargo')
 rustc = find_program('rustc')
 
 gtk4_dep = dependency('gtk4', version: '>= 4.18')
-adwaita_dep = dependency('libadwaita-1', version: '>= 1.5')
+adwaita_dep = dependency('libadwaita-1', version: '>= 1.7')
 
 gettext_package = meson.project_name()
 localedir = get_option('prefix') / get_option('localedir')
