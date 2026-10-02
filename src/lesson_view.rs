@@ -48,12 +48,12 @@ mod imp {
         pub course: RefCell<Option<crate::course::Course>>,
         pub has_mistake: Cell<bool>,
 
-        /// Lesson-content language code (e.g. "us", "es", "gl"), set by the window.
-        #[property(get, set = Self::set_lesson_code_prop)]
-        pub lesson_code: RefCell<String>,
-        /// Keyboard-layout code, set by the window; forwarded to the keyboard widget.
-        #[property(get, set = Self::set_layout_code_prop)]
-        pub layout_code: RefCell<String>,
+        /// Lesson-content language, set by the window.
+        #[property(get, set = Self::set_lesson_language_prop, builder(crate::language::Language::default()))]
+        pub lesson_language: Cell<crate::language::Language>,
+        /// Keyboard-layout language, set by the window; forwarded to the keyboard widget.
+        #[property(get, set = Self::set_layout_language_prop, builder(crate::language::Language::default()))]
+        pub layout_language: Cell<crate::language::Language>,
     }
 
     #[glib::object_subclass]
@@ -88,8 +88,11 @@ mod imp {
             self.parent_constructed();
             self.setup_settings();
             self.setup_signals();
-            // Initial load so content exists; the window pushes the resolved
-            // language via the `lesson-code`/`layout-code` properties.
+            // Seed from the locale so initial content is sensible; the window
+            // pushes the resolved `lesson`/`layout` languages on its realize.
+            let locale = crate::language::language_from_locale();
+            self.lesson_language.set(locale);
+            self.layout_language.set(locale);
             self.obj().load_course_and_lesson();
             self.obj().setup_title_updates();
         }
@@ -100,16 +103,16 @@ mod imp {
 }
 
 impl imp::LessonView {
-    /// `lesson-code` setter: reload the course and current lesson/step.
-    fn set_lesson_code_prop(&self, code: String) {
-        self.lesson_code.replace(code);
+    /// `lesson-language` setter: reload the course and current lesson/step.
+    fn set_lesson_language_prop(&self, language: crate::language::Language) {
+        self.lesson_language.set(language);
         self.obj().load_course_and_lesson();
     }
 
-    /// `layout-code` setter: forward to the child keyboard widget.
-    fn set_layout_code_prop(&self, code: String) {
-        self.layout_code.replace(code.clone());
-        self.keyboard_widget.set_layout_code(code);
+    /// `layout-language` setter: forward to the child keyboard widget.
+    fn set_layout_language_prop(&self, language: crate::language::Language) {
+        self.layout_language.set(language);
+        self.keyboard_widget.set_layout_language(language);
     }
 
     fn setup_signals(&self) {
@@ -278,12 +281,7 @@ impl LessonView {
     }
 
     fn load_course(&self) {
-        let imp = self.imp();
-        let stored = imp.lesson_code.borrow().clone();
-        // The property is a string at the boundary; fall back to the locale
-        // (and then US) when unset or unrecognized.
-        let language = crate::language::Language::from_code(&stored)
-            .unwrap_or_else(crate::language::language_from_locale);
+        let language = self.imp().lesson_language.get();
         let course = crate::course::Course::new_with_language(language).unwrap_or_default();
         self.set_course(course);
     }

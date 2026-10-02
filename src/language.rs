@@ -7,11 +7,11 @@ const G_LOG_DOMAIN: &str = "mecalin";
 
 /// A supported content/layout language.
 ///
-/// This replaces stringly-typed language codes throughout the app. Lesson JSON
-/// and keyboard-layout JSON are keyed by [`Language::as_code`]; conversions
-/// to/from the string codes happen only at the GObject-property and
-/// JSON-loading boundaries.
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
+/// Replaces stringly-typed language codes throughout the app: lesson JSON and
+/// keyboard-layout JSON are selected by matching on the variant. Registered as
+/// a glib enum type so it can be passed directly as a GObject property.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default, glib::Enum)]
+#[enum_type(name = "MecalinLanguage")]
 pub enum Language {
     #[default]
     Us,
@@ -23,39 +23,6 @@ pub enum Language {
     Pl,
     Pt,
     PtBr,
-}
-
-impl Language {
-    /// The short code used for lesson/keyboard JSON lookup and GObject props.
-    pub fn as_code(self) -> &'static str {
-        match self {
-            Language::Us => "us",
-            Language::Es => "es",
-            Language::De => "de",
-            Language::Fr => "fr",
-            Language::Gl => "gl",
-            Language::It => "it",
-            Language::Pl => "pl",
-            Language::Pt => "pt",
-            Language::PtBr => "pt_br",
-        }
-    }
-
-    /// Parse a short code into a [`Language`], or `None` if unrecognized.
-    pub fn from_code(code: &str) -> Option<Language> {
-        match code {
-            "us" => Some(Language::Us),
-            "es" => Some(Language::Es),
-            "de" => Some(Language::De),
-            "fr" => Some(Language::Fr),
-            "gl" => Some(Language::Gl),
-            "it" => Some(Language::It),
-            "pl" => Some(Language::Pl),
-            "pt" => Some(Language::Pt),
-            "pt_br" => Some(Language::PtBr),
-            _ => None,
-        }
-    }
 }
 
 /// The language for the system locale (`LANG`), falling back to US English.

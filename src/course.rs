@@ -109,8 +109,7 @@ mod tests {
     }
 
     #[test]
-    fn test_from_code_invalid_is_none_and_default_course_loads() {
-        assert_eq!(Language::from_code("invalid"), None);
+    fn test_default_course_loads() {
         // The fallback (US) course still loads lessons.
         let course = Course::new_with_language(Language::default()).unwrap();
         assert!(!course.get_lessons().is_empty());

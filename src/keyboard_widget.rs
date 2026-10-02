@@ -7,7 +7,7 @@ use gtk::subclass::prelude::*;
 use gtk::{graphene, gsk};
 use libadwaita as adw;
 use serde::{Deserialize, Serialize};
-use std::cell::RefCell;
+use std::cell::{Cell, RefCell};
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::fmt;
@@ -356,11 +356,6 @@ mod tests {
     }
 
     #[test]
-    fn test_from_code_invalid_is_none() {
-        assert_eq!(crate::language::Language::from_code("invalid"), None);
-    }
-
-    #[test]
     fn test_contains_character_spanish() {
         let layout = KeyboardLayout::load_from_json(crate::language::Language::Es).unwrap();
 
@@ -594,9 +589,9 @@ mod imp {
         pub last_finger: RefCell<Option<Finger>>,
         pub cached_colors: RefCell<Option<HashMap<String, gdk::RGBA>>>,
         pub settings: RefCell<Option<gio::Settings>>,
-        /// Keyboard-layout language code (e.g. "us", "es"), set by the window.
-        #[property(get, set = Self::set_layout_code_prop)]
-        pub layout_code: RefCell<String>,
+        /// Keyboard-layout language, set by the window.
+        #[property(get, set = Self::set_layout_language_prop, builder(crate::language::Language::default()))]
+        pub layout_language: Cell<crate::language::Language>,
     }
 
     #[glib::object_subclass]
@@ -690,13 +685,11 @@ mod imp {
     }
 
     impl KeyboardWidget {
-        /// `layout-code` setter: parse the code and load the matching layout
-        /// JSON (fallback US). The property stays a string for GObject.
-        fn set_layout_code_prop(&self, code: String) {
-            let language = crate::language::Language::from_code(&code).unwrap_or_default();
+        /// `layout-language` setter: load the matching layout JSON directly.
+        fn set_layout_language_prop(&self, language: crate::language::Language) {
             let layout = KeyboardLayout::load_from_json(language).unwrap_or_default();
             *self.layout.borrow_mut() = layout;
-            self.layout_code.replace(code);
+            self.layout_language.set(language);
             let obj = self.obj();
             obj.queue_resize();
             obj.queue_draw();

@@ -133,12 +133,11 @@ impl MecalinWindow {
         let (layout, lesson) = crate::language::resolve_languages_for_display(&display);
         let layout_supported = crate::language::layout_is_supported_for_display(&display);
 
-        // Properties are strings at the GObject boundary; convert via as_code().
-        imp.lessons_view.set_lesson_code(lesson.as_code());
+        imp.lessons_view.set_lesson_language(lesson);
         imp.lessons_view.set_layout_supported(layout_supported);
 
-        imp.lesson_view.set_lesson_code(lesson.as_code());
-        imp.lesson_view.set_layout_code(layout.as_code());
+        imp.lesson_view.set_lesson_language(lesson);
+        imp.lesson_view.set_layout_language(layout);
     }
 
     pub fn load_window_state(&self) {

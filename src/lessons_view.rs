@@ -28,9 +28,9 @@ mod imp {
         pub continue_rows: RefCell<Vec<adw::ActionRow>>,
         pub lesson_rows: RefCell<Vec<adw::ActionRow>>,
 
-        /// Lesson-content language code (e.g. "us", "es", "gl"), set by the window.
-        #[property(get, set = Self::set_lesson_code_prop)]
-        pub lesson_code: RefCell<String>,
+        /// Lesson-content language, set by the window.
+        #[property(get, set = Self::set_lesson_language_prop, builder(crate::language::Language::default()))]
+        pub lesson_language: Cell<crate::language::Language>,
         /// Whether the resolved layout maps to supported content; drives the banner.
         #[property(get, set = Self::set_layout_supported_prop)]
         pub layout_supported: Cell<bool>,
@@ -56,8 +56,11 @@ mod imp {
         fn constructed(&self) {
             self.parent_constructed();
             // Default to supported so the banner stays hidden until the window
-            // sets the resolved state.
+            // sets the resolved state. Seed the lesson language from the locale
+            // until the window pushes the resolved value.
             self.layout_supported.set(true);
+            self.lesson_language
+                .set(crate::language::language_from_locale());
             self.obj().refresh();
 
             // Keep the current-lesson marker and Continue row up to date after
@@ -72,9 +75,9 @@ mod imp {
     impl NavigationPageImpl for LessonsView {}
 
     impl LessonsView {
-        /// `lesson-code` setter: rebuild the list.
-        fn set_lesson_code_prop(&self, code: String) {
-            self.lesson_code.replace(code);
+        /// `lesson-language` setter: rebuild the list.
+        fn set_lesson_language_prop(&self, language: crate::language::Language) {
+            self.lesson_language.set(language);
             self.obj().refresh();
         }
 
@@ -113,10 +116,7 @@ impl LessonsView {
     /// lesson. Safe to call repeatedly (clears previous rows first).
     fn refresh(&self) {
         let imp = self.imp();
-        // Fall back to the locale until the window sets `lesson-code`.
-        let stored = imp.lesson_code.borrow().clone();
-        let language = crate::language::Language::from_code(&stored)
-            .unwrap_or_else(crate::language::language_from_locale);
+        let language = imp.lesson_language.get();
         let Ok(course) = Course::new_with_language(language) else {
             return;
         };
