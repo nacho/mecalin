@@ -16,18 +16,18 @@
 @define-color hand-finger-border-color @borders;
 @define-color hand-finger-current-color @accent_bg_color;
 
-/* Finger colors - GNOME HIG palette */
-@define-color finger-left-pinky-color @red_3;
-@define-color finger-right-pinky-color @red_3;
-@define-color finger-left-ring-color @orange_3;
-@define-color finger-right-ring-color @orange_3;
-@define-color finger-left-middle-color @yellow_3;
-@define-color finger-right-middle-color @yellow_3;
-@define-color finger-left-index-color @blue_3;
-@define-color finger-right-index-color @blue_3;
-@define-color finger-left-thumb-color @green_3;
-@define-color finger-right-thumb-color @green_3;
-@define-color finger-both-thumbs-color @green_3;
+/* Finger colors - GNOME HIG palette, softened via OKLab */
+@define-color finger-left-pinky-color color-mix(in srgb, oklab(from @red_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-right-pinky-color color-mix(in srgb, oklab(from @red_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-left-ring-color color-mix(in srgb, oklab(from @orange_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-right-ring-color color-mix(in srgb, oklab(from @orange_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-left-middle-color color-mix(in srgb, oklab(from @yellow_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-right-middle-color color-mix(in srgb, oklab(from @yellow_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-left-index-color color-mix(in srgb, oklab(from @blue_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-right-index-color color-mix(in srgb, oklab(from @blue_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-left-thumb-color color-mix(in srgb, oklab(from @green_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-right-thumb-color color-mix(in srgb, oklab(from @green_3 0.6 a b) 25%, @view_bg_color);
+@define-color finger-both-thumbs-color color-mix(in srgb, oklab(from @green_3 0.6 a b) 25%, @view_bg_color);
 
 .card.typing-error {
   background-color: alpha(@error_color, 0.2);
