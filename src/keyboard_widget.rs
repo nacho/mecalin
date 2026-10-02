@@ -1112,7 +1112,7 @@ mod imp {
                         &modifier_text_color,
                         &key_current_text_color,
                         &key_border_color,
-                        &key_border_color,
+                        &modifier_color,
                     );
                 }
             }
