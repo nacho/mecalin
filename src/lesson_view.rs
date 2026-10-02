@@ -282,8 +282,8 @@ impl LessonView {
         let stored = imp.lesson_code.borrow().clone();
         // The property is a string at the boundary; fall back to the locale
         // (and then US) when unset or unrecognized.
-        let language = crate::utils::Language::from_code(&stored)
-            .unwrap_or_else(crate::utils::language_from_locale);
+        let language = crate::language::Language::from_code(&stored)
+            .unwrap_or_else(crate::language::language_from_locale);
         let course = crate::course::Course::new_with_language(language).unwrap_or_default();
         self.set_course(course);
     }

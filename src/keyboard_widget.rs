@@ -180,9 +180,9 @@ pub struct KeyboardLayout {
 
 impl KeyboardLayout {
     pub fn load_from_json(
-        layout: crate::utils::Language,
+        layout: crate::language::Language,
     ) -> Result<Self, Box<dyn std::error::Error>> {
-        use crate::utils::Language;
+        use crate::language::Language;
         let json_data = match layout {
             Language::Us => include_str!("../data/keyboard_layouts/us.json"),
             Language::Es => include_str!("../data/keyboard_layouts/es.json"),
@@ -279,7 +279,7 @@ impl KeyboardLayout {
 
 impl Default for KeyboardLayout {
     fn default() -> Self {
-        Self::load_from_json(crate::utils::Language::Us).unwrap_or_else(|_| Self {
+        Self::load_from_json(crate::language::Language::Us).unwrap_or_else(|_| Self {
             name: "US".to_string(),
             keys: vec![vec![
                 KeyInfo {
@@ -322,47 +322,47 @@ mod tests {
 
     #[test]
     fn test_load_from_json_us() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Us).unwrap();
         assert_eq!(layout.name, "US QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_es() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Es).unwrap();
         assert_eq!(layout.name, "Spanish QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_de() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::De).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::De).unwrap();
         assert_eq!(layout.name, "German QWERTZ");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_it() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::It).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::It).unwrap();
         assert_eq!(layout.name, "Italian QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_pl() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Pl).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Pl).unwrap();
         assert_eq!(layout.name, "Polish QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_from_code_invalid_is_none() {
-        assert_eq!(crate::utils::Language::from_code("invalid"), None);
+        assert_eq!(crate::language::Language::from_code("invalid"), None);
     }
 
     #[test]
     fn test_contains_character_spanish() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Es).unwrap();
 
         // Test base characters (lowercase comparison)
         assert!(layout.contains_character('ñ'));
@@ -388,7 +388,7 @@ mod tests {
 
     #[test]
     fn test_contains_character_us() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Us).unwrap();
 
         // Test base characters
         assert!(layout.contains_character('a'));
@@ -408,7 +408,7 @@ mod tests {
 
     #[test]
     fn test_get_finger_for_char_us() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Us).unwrap();
 
         // Test base characters
         assert_eq!(layout.get_finger_for_char('a'), Some(Finger::LeftPinky));
@@ -430,7 +430,7 @@ mod tests {
 
     #[test]
     fn test_get_finger_for_char_es() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Es).unwrap();
 
         // Test Spanish-specific characters
         assert_eq!(layout.get_finger_for_char('ñ'), Some(Finger::RightPinky));
@@ -563,7 +563,7 @@ mod tests {
 
     #[test]
     fn test_us_layout_enter_rows() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Us).unwrap();
         let enter = layout.modifiers.get("enter").unwrap();
         assert_eq!(enter.rows, Some(vec![2]));
         assert!(!enter.spans_row(1));
@@ -572,7 +572,7 @@ mod tests {
 
     #[test]
     fn test_es_layout_enter_rows() {
-        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::language::Language::Es).unwrap();
         let enter = layout.modifiers.get("enter").unwrap();
         assert_eq!(enter.rows, Some(vec![1, 2]));
         assert!(enter.spans_row(1));
@@ -693,7 +693,7 @@ mod imp {
         /// `layout-code` setter: parse the code and load the matching layout
         /// JSON (fallback US). The property stays a string for GObject.
         fn set_layout_code_prop(&self, code: String) {
-            let language = crate::utils::Language::from_code(&code).unwrap_or_default();
+            let language = crate::language::Language::from_code(&code).unwrap_or_default();
             let layout = KeyboardLayout::load_from_json(language).unwrap_or_default();
             *self.layout.borrow_mut() = layout;
             self.layout_code.replace(code);

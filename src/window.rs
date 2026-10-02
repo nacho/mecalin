@@ -130,8 +130,8 @@ impl MecalinWindow {
     fn distribute_languages(&self) {
         let imp = self.imp();
         let display = WidgetExt::display(self);
-        let (layout, lesson) = crate::utils::resolve_languages_for_display(&display);
-        let layout_supported = crate::utils::layout_is_supported_for_display(&display);
+        let (layout, lesson) = crate::language::resolve_languages_for_display(&display);
+        let layout_supported = crate::language::layout_is_supported_for_display(&display);
 
         // Properties are strings at the GObject boundary; convert via as_code().
         imp.lessons_view.set_lesson_code(lesson.as_code());

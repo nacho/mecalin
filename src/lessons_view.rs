@@ -115,8 +115,8 @@ impl LessonsView {
         let imp = self.imp();
         // Fall back to the locale until the window sets `lesson-code`.
         let stored = imp.lesson_code.borrow().clone();
-        let language = crate::utils::Language::from_code(&stored)
-            .unwrap_or_else(crate::utils::language_from_locale);
+        let language = crate::language::Language::from_code(&stored)
+            .unwrap_or_else(crate::language::language_from_locale);
         let Ok(course) = Course::new_with_language(language) else {
             return;
         };

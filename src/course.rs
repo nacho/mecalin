@@ -37,9 +37,9 @@ pub struct Course {
 
 impl Course {
     pub fn new_with_language(
-        language: crate::utils::Language,
+        language: crate::language::Language,
     ) -> Result<Self, Box<dyn std::error::Error>> {
-        use crate::utils::Language;
+        use crate::language::Language;
         let lessons_json = match language {
             Language::Es => include_str!("../data/lessons/es.json"),
             Language::De => include_str!("../data/lessons/de.json"),
@@ -74,7 +74,7 @@ impl Course {
 
 impl Default for Course {
     fn default() -> Self {
-        let language = crate::utils::language_from_locale();
+        let language = crate::language::language_from_locale();
         Self::new_with_language(language).unwrap_or_else(|_| Self { lessons: vec![] })
     }
 }
@@ -82,7 +82,7 @@ impl Default for Course {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::utils::Language;
+    use crate::language::Language;
 
     #[test]
     fn test_new_with_language_us() {
