@@ -85,9 +85,18 @@
                     <property name="hexpand">true</property>
                     <property name="valign">start</property>
                     <child>
-                      <object class="MecalinTypingRow" id="typing_row">
+                      <object class="GtkListBox">
                         <property name="halign">center</property>
-                        <property name="width-request">400</property>
+                        <property name="selection-mode">none</property>
+                        <style>
+                          <class name="boxed-list"/>
+                        </style>
+                        <child>
+                          <object class="MecalinTypingRow" id="typing_row">
+                            <property name="halign">center</property>
+                            <property name="width-request">400</property>
+                          </object>
+                        </child>
                       </object>
                     </child>
                   </object>
