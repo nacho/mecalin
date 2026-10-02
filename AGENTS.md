@@ -18,7 +18,7 @@
 
 Mecalin is a GTK4/Rust/Adwaita typing tutor for GNOME, inspired by [Mecawin](https://archive.org/details/mecawin). It provides structured typing lessons with visual aids (on-screen keyboard, hand position guide). Distributed via [Flathub](https://flathub.org/apps/io.github.nacho.mecalin).
 
-**Stack**: Rust (edition 2024), GTK4 ≥ 4.16, libadwaita ≥ 1.5, Meson (production) / Cargo (development), Flatpak (GNOME Platform 51).
+**Stack**: Rust (edition 2024), GTK4 ≥ 4.18, libadwaita ≥ 1.5, Meson (production) / Cargo (development), Flatpak (GNOME Platform 51).
 
 ## Directory Map
 <!-- metadata: scope=navigation -->
@@ -64,7 +64,7 @@ build.rs                    # Config generation + GResource compilation
 
 **Resources**: UI templates, CSS, and icons are compiled into the binary via GResource. Lesson JSONs and word lists are embedded via `include_str!` / `include_dir!` at compile time.
 
-**i18n**: gettext for UI strings (6 languages). Lesson content and keyboard layouts are separate JSON files per language, selected by `utils::language_from_locale()` which reads the `LANG` environment variable.
+**i18n**: gettext for UI strings (6 languages). Lesson content and keyboard layouts are separate JSON files per language. The language is selected from the system's **active keyboard layout** via the GDK 4.18 API (`gdk::Device::layout-names` + `active-layout-index`, read in `utils::resolve_languages_for_display`), falling back to the system locale (`utils::language_from_locale`, which reads `LANG`) and then to US English. The resolver returns a `(layout_code, lesson_code)` pair: these are normally equal, but a Spanish layout combined with a Galician (`gl`) locale yields the Spanish keyboard with Galician lessons (there is no Galician keyboard layout). This requires GTK ≥ 4.18 because the layout API is only available since 4.18.
 
 ## Key Entry Points
 <!-- metadata: scope=navigation -->
@@ -74,7 +74,7 @@ build.rs                    # Config generation + GResource compilation
 | Add a new view/page | `src/window.rs` + `resources/ui/window.ui`, then model after `src/about_view.rs` |
 | Modify lesson behavior | `src/lesson_view.rs` (flow), `src/course.rs` (data), `src/typing_row.rs` (input) |
 | Change keyboard rendering | `src/keyboard_widget.rs`, `data/keyboard_layouts/*.json` |
-| Add a new language | `src/course.rs` (match arm), `src/utils.rs` (locale), `po/LINGUAS`, `data/lessons/`, `data/keyboard_layouts/` |
+| Add a new language | `src/utils.rs` (`Language` enum variant + `as_code`/`from_code` + `language_from_locale`/`language_from_layout_name` mapping), `src/course.rs` + `src/keyboard_widget.rs` (match arms), `po/LINGUAS`, `data/lessons/`, `data/keyboard_layouts/` |
 | Change visual styling | `resources/style.css` (semantic color vars for keyboard, hand, finger colors) |
 | Update settings | `data/io.github.nacho.mecalin.gschema.xml` + consuming component |
 
@@ -83,7 +83,7 @@ build.rs                    # Config generation + GResource compilation
 
 - **Dual build systems**: Cargo for development (`cargo run`), Meson for production/Flatpak. `build.rs` generates `config.rs` from `config.rs.in` using env vars — in Cargo dev builds, defaults are used; Meson sets real paths.
 - **Dead key handling**: Spans three files — `utils.rs` (`decompose_with_spacing_accent`), `keyboard_widget.rs` (sequence tracking with `advance_sequence`), `typing_row.rs` (detection via `dead-key-started` signal).
-- **Embedded data**: Lesson JSONs use `include_str!` (compile-time). Adding a new lesson language requires a new match arm in `Course::new_with_language()`.
+- **Embedded data**: Lesson JSONs use `include_str!` (compile-time). Adding a new lesson language requires a new `Language` enum variant (`src/utils.rs`) and match arms in `Course::new_with_language()` and `KeyboardLayout::load_from_json()`.
 - **Color system**: `style.css` uses `@define-color` with Adwaita semantic colors and GNOME HIG palette colors for finger-based color coding. Colors are cached at runtime and refreshed on theme changes.
 
 ## Tooling & Config
@@ -179,3 +179,14 @@ Full documentation is in `.agents/summary/`. Start with `index.md` for a guided 
 - **Known follow-up**: lesson 7/8 practice `text` bodies still use ISO/Spanish-layout shifted
   symbols in several languages and need a layout-correct rewrite (verified per keyboard layout).
   The lesson list titles/subtitles are correct; only the practice bodies remain.
+- **Keyboard-layout language selection**: lesson/keyboard language is chosen from the system's
+  active keyboard layout via the GDK 4.18 API (`gdk::Device::layout-names` +
+  `active-layout-index`), not the UI locale. The portable API returns a backend-dependent,
+  human-readable layout *name* (e.g. "English (US)", "Spanish") — there is no portable GDK API
+  for the short xkb code — so `utils::language_from_layout_name` does case-insensitive,
+  keyword/substring matching. `utils::resolve_languages` returns a `(layout_code, lesson_code)`
+  pair (Spanish layout + Galician locale → `es` keyboard, `gl` lessons). Live updates are wired
+  via `notify::active-layout-index`/`layout-names` on the seat keyboard device in the
+  `KeyboardWidget` and `LessonsView` `realize` overrides. `resolve_languages_for_display` logs
+  the raw layout name (`glib::debug!`, domain `mecalin`) to help tune the keyword table against
+  real-world strings. Requires GTK ≥ 4.18.

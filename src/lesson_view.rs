@@ -47,6 +47,13 @@ mod imp {
         pub current_repetition: Cell<u32>,
         pub course: RefCell<Option<crate::course::Course>>,
         pub has_mistake: Cell<bool>,
+
+        /// Lesson-content language code (e.g. "us", "es", "gl"), set by the window.
+        #[property(get, set = Self::set_lesson_code_prop)]
+        pub lesson_code: RefCell<String>,
+        /// Keyboard-layout code, set by the window; forwarded to the keyboard widget.
+        #[property(get, set = Self::set_layout_code_prop)]
+        pub layout_code: RefCell<String>,
     }
 
     #[glib::object_subclass]
@@ -81,6 +88,8 @@ mod imp {
             self.parent_constructed();
             self.setup_settings();
             self.setup_signals();
+            // Initial load so content exists; the window pushes the resolved
+            // language via the `lesson-code`/`layout-code` properties.
             self.obj().load_course_and_lesson();
             self.obj().setup_title_updates();
         }
@@ -91,6 +100,18 @@ mod imp {
 }
 
 impl imp::LessonView {
+    /// `lesson-code` setter: reload the course and current lesson/step.
+    fn set_lesson_code_prop(&self, code: String) {
+        self.lesson_code.replace(code);
+        self.obj().load_course_and_lesson();
+    }
+
+    /// `layout-code` setter: forward to the child keyboard widget.
+    fn set_layout_code_prop(&self, code: String) {
+        self.layout_code.replace(code.clone());
+        self.keyboard_widget.set_layout_code(code);
+    }
+
     fn setup_signals(&self) {
         // The Start Lesson button advances past introduction steps.
         let lesson_view_weak = self.obj().downgrade();
@@ -257,7 +278,12 @@ impl LessonView {
     }
 
     fn load_course(&self) {
-        let language = crate::utils::language_from_locale();
+        let imp = self.imp();
+        let stored = imp.lesson_code.borrow().clone();
+        // The property is a string at the boundary; fall back to the locale
+        // (and then US) when unset or unrecognized.
+        let language = crate::utils::Language::from_code(&stored)
+            .unwrap_or_else(crate::utils::language_from_locale);
         let course = crate::course::Course::new_with_language(language).unwrap_or_default();
         self.set_course(course);
     }

@@ -5,15 +5,16 @@ use gtk::{gio, glib};
 use libadwaita as adw;
 use libadwaita::prelude::*;
 use libadwaita::subclass::prelude::*;
-use std::cell::RefCell;
+use std::cell::{Cell, RefCell};
 
 use crate::course::Course;
 
 mod imp {
     use super::*;
 
-    #[derive(Default, gtk::CompositeTemplate)]
+    #[derive(Default, gtk::CompositeTemplate, glib::Properties)]
     #[template(resource = "/io/github/nacho/mecalin/ui/lessons_view.ui")]
+    #[properties(wrapper_type = super::LessonsView)]
     pub struct LessonsView {
         #[template_child]
         pub continue_group: TemplateChild<adw::PreferencesGroup>,
@@ -26,6 +27,13 @@ mod imp {
         // rebuilding on refresh (avoids accumulating duplicates).
         pub continue_rows: RefCell<Vec<adw::ActionRow>>,
         pub lesson_rows: RefCell<Vec<adw::ActionRow>>,
+
+        /// Lesson-content language code (e.g. "us", "es", "gl"), set by the window.
+        #[property(get, set = Self::set_lesson_code_prop)]
+        pub lesson_code: RefCell<String>,
+        /// Whether the resolved layout maps to supported content; drives the banner.
+        #[property(get, set = Self::set_layout_supported_prop)]
+        pub layout_supported: Cell<bool>,
     }
 
     #[glib::object_subclass]
@@ -43,10 +51,13 @@ mod imp {
         }
     }
 
+    #[glib::derived_properties]
     impl ObjectImpl for LessonsView {
         fn constructed(&self) {
             self.parent_constructed();
-            self.setup_language_communication();
+            // Default to supported so the banner stays hidden until the window
+            // sets the resolved state.
+            self.layout_supported.set(true);
             self.obj().refresh();
 
             // Keep the current-lesson marker and Continue row up to date after
@@ -61,10 +72,23 @@ mod imp {
     impl NavigationPageImpl for LessonsView {}
 
     impl LessonsView {
-        fn setup_language_communication(&self) {
-            // Warn when the system locale is not explicitly supported and we
-            // fell back to US English.
-            if crate::utils::supported_language_from_locale().is_none() {
+        /// `lesson-code` setter: rebuild the list.
+        fn set_lesson_code_prop(&self, code: String) {
+            self.lesson_code.replace(code);
+            self.obj().refresh();
+        }
+
+        /// `layout-supported` setter: update the banner.
+        fn set_layout_supported_prop(&self, supported: bool) {
+            self.layout_supported.set(supported);
+            self.update_layout_banner();
+        }
+
+        /// Reveal the "unsupported layout" banner unless the layout is supported.
+        fn update_layout_banner(&self) {
+            if self.layout_supported.get() {
+                self.layout_banner.set_revealed(false);
+            } else {
                 self.layout_banner.set_title(&gettext(
                     "Your system keyboard layout isn’t supported yet — showing US English",
                 ));
@@ -89,7 +113,10 @@ impl LessonsView {
     /// lesson. Safe to call repeatedly (clears previous rows first).
     fn refresh(&self) {
         let imp = self.imp();
-        let language = crate::utils::language_from_locale();
+        // Fall back to the locale until the window sets `lesson-code`.
+        let stored = imp.lesson_code.borrow().clone();
+        let language = crate::utils::Language::from_code(&stored)
+            .unwrap_or_else(crate::utils::language_from_locale);
         let Ok(course) = Course::new_with_language(language) else {
             return;
         };

@@ -36,17 +36,20 @@ pub struct Course {
 }
 
 impl Course {
-    pub fn new_with_language(language: &str) -> Result<Self, Box<dyn std::error::Error>> {
+    pub fn new_with_language(
+        language: crate::utils::Language,
+    ) -> Result<Self, Box<dyn std::error::Error>> {
+        use crate::utils::Language;
         let lessons_json = match language {
-            "es" => include_str!("../data/lessons/es.json"),
-            "de" => include_str!("../data/lessons/de.json"),
-            "fr" => include_str!("../data/lessons/fr.json"),
-            "gl" => include_str!("../data/lessons/gl.json"),
-            "it" => include_str!("../data/lessons/it.json"),
-            "pl" => include_str!("../data/lessons/pl.json"),
-            "pt" => include_str!("../data/lessons/pt.json"),
-            "pt_br" => include_str!("../data/lessons/pt_br.json"),
-            _ => include_str!("../data/lessons/us.json"),
+            Language::Es => include_str!("../data/lessons/es.json"),
+            Language::De => include_str!("../data/lessons/de.json"),
+            Language::Fr => include_str!("../data/lessons/fr.json"),
+            Language::Gl => include_str!("../data/lessons/gl.json"),
+            Language::It => include_str!("../data/lessons/it.json"),
+            Language::Pl => include_str!("../data/lessons/pl.json"),
+            Language::Pt => include_str!("../data/lessons/pt.json"),
+            Language::PtBr => include_str!("../data/lessons/pt_br.json"),
+            Language::Us => include_str!("../data/lessons/us.json"),
         };
         let lessons_data: LessonsData = serde_json::from_str(lessons_json)?;
         Ok(Self {
@@ -79,40 +82,43 @@ impl Default for Course {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::utils::Language;
 
     #[test]
     fn test_new_with_language_us() {
-        let course = Course::new_with_language("us").unwrap();
+        let course = Course::new_with_language(Language::Us).unwrap();
         assert!(!course.get_lessons().is_empty());
     }
 
     #[test]
     fn test_new_with_language_es() {
-        let course = Course::new_with_language("es").unwrap();
+        let course = Course::new_with_language(Language::Es).unwrap();
         assert!(!course.get_lessons().is_empty());
     }
 
     #[test]
     fn test_new_with_language_it() {
-        let course = Course::new_with_language("it").unwrap();
+        let course = Course::new_with_language(Language::It).unwrap();
         assert!(!course.get_lessons().is_empty());
     }
 
     #[test]
     fn test_new_with_language_de() {
-        let course = Course::new_with_language("de").unwrap();
+        let course = Course::new_with_language(Language::De).unwrap();
         assert!(!course.get_lessons().is_empty());
     }
 
     #[test]
-    fn test_new_with_language_invalid_defaults_to_us() {
-        let course = Course::new_with_language("invalid").unwrap();
+    fn test_from_code_invalid_is_none_and_default_course_loads() {
+        assert_eq!(Language::from_code("invalid"), None);
+        // The fallback (US) course still loads lessons.
+        let course = Course::new_with_language(Language::default()).unwrap();
         assert!(!course.get_lessons().is_empty());
     }
 
     #[test]
     fn test_get_lesson_existing() {
-        let course = Course::new_with_language("us").unwrap();
+        let course = Course::new_with_language(Language::Us).unwrap();
         // Lessons are now base-0: the first real lesson has id 0.
         let lesson = course.get_lesson(0);
         assert!(lesson.is_some());
@@ -126,14 +132,14 @@ mod tests {
 
     #[test]
     fn test_get_lesson_non_existing() {
-        let course = Course::new_with_language("us").unwrap();
+        let course = Course::new_with_language(Language::Us).unwrap();
         let lesson = course.get_lesson(9999);
         assert!(lesson.is_none());
     }
 
     #[test]
     fn test_get_next_lesson() {
-        let course = Course::new_with_language("us").unwrap();
+        let course = Course::new_with_language(Language::Us).unwrap();
         let first_lesson = course.get_lesson(0).unwrap();
         let next_lesson = course.get_next_lesson(first_lesson.id);
         assert!(next_lesson.is_some());
@@ -144,19 +150,29 @@ mod tests {
     /// with no empty (welcome-style) lessons remaining.
     #[test]
     fn test_all_languages_base_zero_contiguous_no_empty() {
-        for lang in ["us", "es", "de", "fr", "gl", "it", "pl", "pt", "pt_br"] {
+        for lang in [
+            Language::Us,
+            Language::Es,
+            Language::De,
+            Language::Fr,
+            Language::Gl,
+            Language::It,
+            Language::Pl,
+            Language::Pt,
+            Language::PtBr,
+        ] {
             let course = Course::new_with_language(lang).unwrap();
             let lessons = course.get_lessons();
-            assert!(!lessons.is_empty(), "{lang}: no lessons loaded");
+            assert!(!lessons.is_empty(), "{lang:?}: no lessons loaded");
             for (index, lesson) in lessons.iter().enumerate() {
                 assert_eq!(
                     lesson.id, index as u32,
-                    "{lang}: lesson at position {index} has id {}",
+                    "{lang:?}: lesson at position {index} has id {}",
                     lesson.id
                 );
                 assert!(
                     !lesson.steps.is_empty(),
-                    "{lang}: lesson {} has no steps",
+                    "{lang:?}: lesson {} has no steps",
                     lesson.id
                 );
             }
@@ -165,7 +181,7 @@ mod tests {
 
     #[test]
     fn test_get_next_lesson_last() {
-        let course = Course::new_with_language("us").unwrap();
+        let course = Course::new_with_language(Language::Us).unwrap();
         let lessons = course.get_lessons();
         let last_id = lessons.last().unwrap().id;
         let next_lesson = course.get_next_lesson(last_id);
@@ -174,7 +190,7 @@ mod tests {
 
     #[test]
     fn test_get_next_lesson_non_existing() {
-        let course = Course::new_with_language("us").unwrap();
+        let course = Course::new_with_language(Language::Us).unwrap();
         let next_lesson = course.get_next_lesson(9999);
         assert!(next_lesson.is_none());
     }

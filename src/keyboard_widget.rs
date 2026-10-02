@@ -179,18 +179,21 @@ pub struct KeyboardLayout {
 }
 
 impl KeyboardLayout {
-    pub fn load_from_json(layout_code: &str) -> Result<Self, Box<dyn std::error::Error>> {
-        let json_data = match layout_code {
-            "us" => include_str!("../data/keyboard_layouts/us.json"),
-            "es" => include_str!("../data/keyboard_layouts/es.json"),
-            "de" => include_str!("../data/keyboard_layouts/de.json"),
-            "fr" => include_str!("../data/keyboard_layouts/fr.json"),
-            "gl" => include_str!("../data/keyboard_layouts/gl.json"),
-            "it" => include_str!("../data/keyboard_layouts/it.json"),
-            "pl" => include_str!("../data/keyboard_layouts/pl.json"),
-            "pt" => include_str!("../data/keyboard_layouts/pt.json"),
-            "pt_br" => include_str!("../data/keyboard_layouts/pt_br.json"),
-            _ => return Err(format!("Unsupported layout: {}", layout_code).into()),
+    pub fn load_from_json(
+        layout: crate::utils::Language,
+    ) -> Result<Self, Box<dyn std::error::Error>> {
+        use crate::utils::Language;
+        let json_data = match layout {
+            Language::Us => include_str!("../data/keyboard_layouts/us.json"),
+            Language::Es => include_str!("../data/keyboard_layouts/es.json"),
+            Language::De => include_str!("../data/keyboard_layouts/de.json"),
+            Language::Fr => include_str!("../data/keyboard_layouts/fr.json"),
+            // Galician shares the Spanish keyboard layout.
+            Language::Gl => include_str!("../data/keyboard_layouts/gl.json"),
+            Language::It => include_str!("../data/keyboard_layouts/it.json"),
+            Language::Pl => include_str!("../data/keyboard_layouts/pl.json"),
+            Language::Pt => include_str!("../data/keyboard_layouts/pt.json"),
+            Language::PtBr => include_str!("../data/keyboard_layouts/pt_br.json"),
         };
         Ok(serde_json::from_str(json_data)?)
     }
@@ -276,7 +279,7 @@ impl KeyboardLayout {
 
 impl Default for KeyboardLayout {
     fn default() -> Self {
-        Self::load_from_json("us").unwrap_or_else(|_| Self {
+        Self::load_from_json(crate::utils::Language::Us).unwrap_or_else(|_| Self {
             name: "US".to_string(),
             keys: vec![vec![
                 KeyInfo {
@@ -319,48 +322,47 @@ mod tests {
 
     #[test]
     fn test_load_from_json_us() {
-        let layout = KeyboardLayout::load_from_json("us").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
         assert_eq!(layout.name, "US QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_es() {
-        let layout = KeyboardLayout::load_from_json("es").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
         assert_eq!(layout.name, "Spanish QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_de() {
-        let layout = KeyboardLayout::load_from_json("de").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::De).unwrap();
         assert_eq!(layout.name, "German QWERTZ");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_it() {
-        let layout = KeyboardLayout::load_from_json("it").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::It).unwrap();
         assert_eq!(layout.name, "Italian QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
     fn test_load_from_json_pl() {
-        let layout = KeyboardLayout::load_from_json("pl").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Pl).unwrap();
         assert_eq!(layout.name, "Polish QWERTY");
         assert!(!layout.keys.is_empty());
     }
 
     #[test]
-    fn test_load_from_json_invalid() {
-        let result = KeyboardLayout::load_from_json("invalid");
-        assert!(result.is_err());
+    fn test_from_code_invalid_is_none() {
+        assert_eq!(crate::utils::Language::from_code("invalid"), None);
     }
 
     #[test]
     fn test_contains_character_spanish() {
-        let layout = KeyboardLayout::load_from_json("es").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
 
         // Test base characters (lowercase comparison)
         assert!(layout.contains_character('ñ'));
@@ -386,7 +388,7 @@ mod tests {
 
     #[test]
     fn test_contains_character_us() {
-        let layout = KeyboardLayout::load_from_json("us").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
 
         // Test base characters
         assert!(layout.contains_character('a'));
@@ -406,7 +408,7 @@ mod tests {
 
     #[test]
     fn test_get_finger_for_char_us() {
-        let layout = KeyboardLayout::load_from_json("us").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
 
         // Test base characters
         assert_eq!(layout.get_finger_for_char('a'), Some(Finger::LeftPinky));
@@ -428,7 +430,7 @@ mod tests {
 
     #[test]
     fn test_get_finger_for_char_es() {
-        let layout = KeyboardLayout::load_from_json("es").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
 
         // Test Spanish-specific characters
         assert_eq!(layout.get_finger_for_char('ñ'), Some(Finger::RightPinky));
@@ -561,7 +563,7 @@ mod tests {
 
     #[test]
     fn test_us_layout_enter_rows() {
-        let layout = KeyboardLayout::load_from_json("us").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Us).unwrap();
         let enter = layout.modifiers.get("enter").unwrap();
         assert_eq!(enter.rows, Some(vec![2]));
         assert!(!enter.spans_row(1));
@@ -570,7 +572,7 @@ mod tests {
 
     #[test]
     fn test_es_layout_enter_rows() {
-        let layout = KeyboardLayout::load_from_json("es").unwrap();
+        let layout = KeyboardLayout::load_from_json(crate::utils::Language::Es).unwrap();
         let enter = layout.modifiers.get("enter").unwrap();
         assert_eq!(enter.rows, Some(vec![1, 2]));
         assert!(enter.spans_row(1));
@@ -581,7 +583,8 @@ mod tests {
 mod imp {
     use super::*;
 
-    #[derive(Default)]
+    #[derive(Default, glib::Properties)]
+    #[properties(wrapper_type = super::KeyboardWidget)]
     pub struct KeyboardWidget {
         pub current_key: RefCell<Option<char>>,
         pub visible_keys: RefCell<Option<HashSet<char>>>,
@@ -591,6 +594,9 @@ mod imp {
         pub last_finger: RefCell<Option<Finger>>,
         pub cached_colors: RefCell<Option<HashMap<String, gdk::RGBA>>>,
         pub settings: RefCell<Option<gio::Settings>>,
+        /// Keyboard-layout language code (e.g. "us", "es"), set by the window.
+        #[property(get, set = Self::set_layout_code_prop)]
+        pub layout_code: RefCell<String>,
     }
 
     #[glib::object_subclass]
@@ -600,12 +606,12 @@ mod imp {
         type ParentType = gtk::Widget;
     }
 
+    #[glib::derived_properties]
     impl ObjectImpl for KeyboardWidget {
         fn constructed(&self) {
             self.parent_constructed();
-            let layout_code = crate::utils::language_from_locale();
-            *self.layout.borrow_mut() =
-                KeyboardLayout::load_from_json(layout_code).unwrap_or_default();
+            // Safe default; the window sets the real layout via `layout-code`.
+            *self.layout.borrow_mut() = KeyboardLayout::default();
 
             glib::idle_add_local_once(glib::clone!(
                 #[weak(rename_to = this)]
@@ -684,6 +690,18 @@ mod imp {
     }
 
     impl KeyboardWidget {
+        /// `layout-code` setter: parse the code and load the matching layout
+        /// JSON (fallback US). The property stays a string for GObject.
+        fn set_layout_code_prop(&self, code: String) {
+            let language = crate::utils::Language::from_code(&code).unwrap_or_default();
+            let layout = KeyboardLayout::load_from_json(language).unwrap_or_default();
+            *self.layout.borrow_mut() = layout;
+            self.layout_code.replace(code);
+            let obj = self.obj();
+            obj.queue_resize();
+            obj.queue_draw();
+        }
+
         fn cache_colors(&self) {
             let widget = self.obj();
             #[allow(deprecated)]

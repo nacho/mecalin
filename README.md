@@ -22,7 +22,7 @@ meson compile -C builddir
 
 ## Dependencies
 
-- GTK4 4.16+
+- GTK4 4.18+
 - libadwaita 1.5+
 - Rust toolchain
 - Meson build system
@@ -60,4 +60,10 @@ The application uses standard gettext for UI translation. To add a new language:
    - Key positions and labels
    - Finger mapping for proper touch typing guidance
 
-The application automatically detects the system language and loads the appropriate lesson content and keyboard layout. If your language files don't exist, it falls back to the US English versions.
+The application automatically detects the system's **active keyboard layout**
+and loads the matching keyboard layout and lesson content. If the layout can't
+be determined or isn't supported, it falls back to the system locale, and then
+to US English. Note that there is no separate Galician keyboard layout —
+Galician uses the Spanish layout, so a Galician user with a Spanish keyboard
+sees the Spanish on-screen keyboard with Galician lesson text. If your language
+files don't exist, the US English versions are used.

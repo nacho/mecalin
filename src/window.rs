@@ -31,6 +31,10 @@ mod imp {
     pub struct MecalinWindow {
         #[template_child]
         pub navigation_view: TemplateChild<adw::NavigationView>,
+        #[template_child(id = "lessons_view_widget")]
+        pub lessons_view: TemplateChild<LessonsView>,
+        #[template_child(id = "lesson_view_widget")]
+        pub lesson_view: TemplateChild<LessonView>,
     }
 
     #[glib::object_subclass]
@@ -58,7 +62,35 @@ mod imp {
             self.obj().setup_initial_page();
         }
     }
-    impl WidgetImpl for MecalinWindow {}
+    impl WidgetImpl for MecalinWindow {
+        fn realize(&self) {
+            self.parent_realize();
+            let obj = self.obj();
+
+            // The display is available now: resolve the keyboard-layout and
+            // lesson-content codes once and distribute them to the views.
+            obj.distribute_languages();
+
+            // Subscribe once to keyboard-layout changes and re-distribute.
+            if let Some(keyboard) = WidgetExt::display(&*obj)
+                .default_seat()
+                .and_then(|seat| seat.keyboard())
+            {
+                for prop in ["active-layout-index", "layout-names"] {
+                    keyboard.connect_notify_local(
+                        Some(prop),
+                        glib::clone!(
+                            #[weak]
+                            obj,
+                            move |_, _| {
+                                obj.distribute_languages();
+                            }
+                        ),
+                    );
+                }
+            }
+        }
+    }
     impl WindowImpl for MecalinWindow {}
     impl ApplicationWindowImpl for MecalinWindow {}
     impl AdwApplicationWindowImpl for MecalinWindow {}
@@ -89,6 +121,24 @@ impl MecalinWindow {
                 .navigation_view
                 .replace_with_tags(&[LESSONS_OVERVIEW_TAG]);
         }
+    }
+
+    /// Resolve the keyboard-layout and lesson-content language codes from the
+    /// active keyboard layout (with locale/US fallback) and push them to the
+    /// child views via their GObject properties. Called once when the window
+    /// is realized and again whenever the active keyboard layout changes.
+    fn distribute_languages(&self) {
+        let imp = self.imp();
+        let display = WidgetExt::display(self);
+        let (layout, lesson) = crate::utils::resolve_languages_for_display(&display);
+        let layout_supported = crate::utils::layout_is_supported_for_display(&display);
+
+        // Properties are strings at the GObject boundary; convert via as_code().
+        imp.lessons_view.set_lesson_code(lesson.as_code());
+        imp.lessons_view.set_layout_supported(layout_supported);
+
+        imp.lesson_view.set_lesson_code(lesson.as_code());
+        imp.lesson_view.set_layout_code(layout.as_code());
     }
 
     pub fn load_window_state(&self) {
