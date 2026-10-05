@@ -52,10 +52,8 @@ msgid "Practice your typing speed"
 msgstr "Practica tu velocidad de tecleo"
 
 #: resources/ui/lesson_view.ui:55
-#, fuzzy
-#| msgid "Lessons"
 msgid "Start Lesson"
-msgstr "Lecciones"
+msgstr "Comenzar lección"
 
 #: resources/ui/lessons_view.ui:6
 msgid "_About Mecalin"
@@ -124,7 +122,7 @@ msgstr ""
 
 #: src/application.rs:92
 msgid "Learn geography"
-msgstr ""
+msgstr "Aprender geografía"
 
 #: src/lessons_view.rs:96
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
