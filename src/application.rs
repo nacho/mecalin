@@ -83,6 +83,7 @@ impl MecalinApplication {
                         .website("https://github.com/nacho/mecalin")
                         .issue_url("https://github.com/nacho/mecalin/issues")
                         .copyright("© 2026 Ignacio Casal Quinteiro")
+                        .translator_credits(gettext("translator-credits"))
                         .build();
                     // Link to other apps by the same developer.
                     dialog.add_other_app(

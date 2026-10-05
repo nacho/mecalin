@@ -4,5 +4,6 @@ resources/ui/lesson_view.ui
 resources/ui/lessons_view.ui
 resources/ui/welcome_view.ui
 resources/ui/window.ui
+src/application.rs
 src/lesson_view.rs
 src/lessons_view.rs
