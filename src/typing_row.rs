@@ -124,10 +124,8 @@ impl imp::TypingRow {
 
                     // Check if the new text would match target text
                     if !target_str.starts_with(typed_str) && !typed_str.is_empty() {
-                        // Show error animation
                         typing_row.show_error();
 
-                        // Remove the last character that caused the error
                         let mut chars: Vec<char> = typed_str.chars().collect();
                         chars.pop();
                         let text_without_last = chars.iter().collect::<String>();
@@ -171,7 +169,6 @@ impl imp::TypingRow {
                         return;
                     }
 
-                    // Emit next char changed
                     let next_char = target_str.chars().nth(cursor_pos as usize);
                     if let Some(ch) = next_char {
                         typing_row.emit_by_name::<()>("next-char-changed", &[&ch.to_string()]);

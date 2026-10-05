@@ -322,8 +322,6 @@ impl LessonView {
         self.set_current_step_index(0);
         imp.current_repetition.set(0);
 
-        // Handle first step
-        // Set the first step's text as target text
         if let Some(first_step) = lesson.steps.first() {
             if first_step.introduction {
                 imp.step_description.set_visible(true);
@@ -365,8 +363,8 @@ impl LessonView {
         let settings = gio::Settings::new("io.github.nacho.mecalin");
         settings.set_uint("current-lesson", lesson.id).unwrap();
 
-        // Apply the lesson (this will be called again by the settings change handler,
-        // but that's okay - it's idempotent)
+        // apply_lesson is called again by the settings change handler, but it's
+        // idempotent so the duplicate call is harmless.
         self.apply_lesson(lesson);
     }
 
@@ -495,8 +493,6 @@ impl LessonView {
                 } else {
                     // Need more repetitions, clear text for next attempt
                     imp.typing_row.clear();
-
-                    // Focus the text view for next repetition
                     imp.typing_row.grab_focus();
                 }
             }
@@ -527,7 +523,6 @@ impl LessonView {
         let next_step = current_step + 1;
 
         if next_step < total_steps {
-            // Move to next step within current lesson
             self.load_step(next_step as u32);
         } else {
             // Current lesson completed - try to load next lesson
@@ -539,7 +534,6 @@ impl LessonView {
             };
 
             if let Some(next_lesson) = next_lesson_option {
-                // Load next lesson
                 self.set_lesson(&next_lesson);
             } else {
                 // All lessons completed - show completion view
