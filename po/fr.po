@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 11:27+0200\n"
+"POT-Creation-Date: 2026-10-05 11:01+0200\n"
 "PO-Revision-Date: 2026-02-02 09:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
@@ -51,23 +51,21 @@ msgstr "Keypunch"
 msgid "Practice your typing speed"
 msgstr "Entraînez votre vitesse de frappe"
 
-#: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
-msgid "Continue"
-msgstr "Continuer"
+#: resources/ui/lesson_view.ui:55
+#, fuzzy
+#| msgid "Lessons"
+msgid "Start Lesson"
+msgstr "Leçons"
 
 #: resources/ui/lessons_view.ui:6
-msgid "_Preferences"
-msgstr "_Préférences"
-
-#: resources/ui/lessons_view.ui:10
 msgid "_About Mecalin"
 msgstr "À _propos de Mecalin"
 
-#: resources/ui/lessons_view.ui:17
+#: resources/ui/lessons_view.ui:13
 msgid "Lessons"
 msgstr "Leçons"
 
-#: resources/ui/lessons_view.ui:25
+#: resources/ui/lessons_view.ui:21
 msgid "Main Menu"
 msgstr "Menu principal"
 
@@ -121,33 +119,24 @@ msgstr "_Continuer"
 msgid "_Get Started"
 msgstr "_Commencer"
 
-#: src/lessons_view.rs:69
+#: src/application.rs:86
+msgid "translator-credits"
+msgstr ""
+
+#: src/application.rs:92
+msgid "Learn geography"
+msgstr ""
+
+#: src/lessons_view.rs:96
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
 msgstr ""
 "Votre disposition de clavier n’est pas encore prise en charge — affichage en "
 "anglais américain"
 
 #: src/lessons_view.rs:138
+msgid "Continue"
+msgstr "Continuer"
+
+#: src/lessons_view.rs:165
 msgid "Current lesson"
 msgstr "Leçon actuelle"
-
-#: src/preferences_dialog.rs:15
-msgid "Display"
-msgstr "Affichage"
-
-#: src/preferences_dialog.rs:19
-msgid "Show Hand Widget"
-msgstr "Afficher le widget des mains"
-
-#: src/preferences_dialog.rs:20
-msgid "Display finger position guide"
-msgstr "Afficher le guide de position des doigts"
-
-#: src/preferences_dialog.rs:23
-msgid "Use Finger Colors"
-msgstr "Utiliser les couleurs des doigts"
-
-#: src/preferences_dialog.rs:24
-msgid "Color keyboard keys and hand by finger assignment"
-msgstr ""
-"Colorer les touches du clavier et la main selon l'attribution des doigts"

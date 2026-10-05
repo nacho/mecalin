@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mecalin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 11:27+0200\n"
+"POT-Creation-Date: 2026-10-05 11:01+0200\n"
 "PO-Revision-Date: 2026-01-14 15:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -51,23 +51,21 @@ msgstr "Keypunch"
 msgid "Practice your typing speed"
 msgstr "Practica tu velocidad de tecleo"
 
-#: resources/ui/lesson_view.ui:96 src/lessons_view.rs:111
-msgid "Continue"
-msgstr "Continuar"
+#: resources/ui/lesson_view.ui:55
+#, fuzzy
+#| msgid "Lessons"
+msgid "Start Lesson"
+msgstr "Lecciones"
 
 #: resources/ui/lessons_view.ui:6
-msgid "_Preferences"
-msgstr "_Preferencias"
-
-#: resources/ui/lessons_view.ui:10
 msgid "_About Mecalin"
 msgstr "_Acerca de Mecalin"
 
-#: resources/ui/lessons_view.ui:17
+#: resources/ui/lessons_view.ui:13
 msgid "Lessons"
 msgstr "Lecciones"
 
-#: resources/ui/lessons_view.ui:25
+#: resources/ui/lessons_view.ui:21
 msgid "Main Menu"
 msgstr "Menú principal"
 
@@ -120,31 +118,23 @@ msgstr "_Continuar"
 msgid "_Get Started"
 msgstr "_Empezar"
 
-#: src/lessons_view.rs:69
+#: src/application.rs:86
+msgid "translator-credits"
+msgstr ""
+
+#: src/application.rs:92
+msgid "Learn geography"
+msgstr ""
+
+#: src/lessons_view.rs:96
 msgid "Your system keyboard layout isn’t supported yet — showing US English"
 msgstr ""
 "Tu distribución de teclado aún no es compatible: se muestra inglés de EE. UU."
 
 #: src/lessons_view.rs:138
+msgid "Continue"
+msgstr "Continuar"
+
+#: src/lessons_view.rs:165
 msgid "Current lesson"
 msgstr "Lección actual"
-
-#: src/preferences_dialog.rs:15
-msgid "Display"
-msgstr "Visualización"
-
-#: src/preferences_dialog.rs:19
-msgid "Show Hand Widget"
-msgstr "Mostrar control de manos"
-
-#: src/preferences_dialog.rs:20
-msgid "Display finger position guide"
-msgstr "Mostrar guía de posición de dedos"
-
-#: src/preferences_dialog.rs:23
-msgid "Use Finger Colors"
-msgstr "Usar colores de dedos"
-
-#: src/preferences_dialog.rs:24
-msgid "Color keyboard keys and hand by finger assignment"
-msgstr "Colorear las teclas del teclado y la mano según la asignación de dedos"
